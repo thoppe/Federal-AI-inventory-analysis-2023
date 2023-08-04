@@ -1,21 +1,21 @@
-Department,Homepage,Projects,Report type,Machine Readable
-Interior,https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fdoi.gov%2Fsites%2Fdoi.gov%2Ffiles%2F2021-agency-inventory-of-ai-user-case-doi-20220318-submission-to-omb-max_0.xlsx&wdOrigin=BROWSELINK,65,Excel,Yes
-Commerce,https://www.commerce.gov/sites/default/files/2022-09/DOC_AI_Use_Case_Inventory.pdf,50,PDF,No
-HHS,https://www.hhs.gov/about/agencies/asa/ocio/ai/use-cases/index.html,50,PDF,No
-Energy,https://www.energy.gov/sites/default/files/2022-07/DOE_Agency_Inventory_of_AI_Use_Cases.pdf,45,PDF,No
-VA,https://www.research.va.gov/naii/ai-inventory.cfm,41,Web,Yes
-Homeland Security,https://www.dhs.gov/data/AI_inventory,41,Excel,Yes
-Agriculture,https://www.usda.gov/data/AI_Inventory,39,CSV,Yes
-State,https://www.state.gov/data-strategy/ai_inventory/,37,Web,Yes
-Labor,https://www.dol.gov/agencies/odg/ai-inventory,18,Web,Yes
-USAID,https://www.usaid.gov/data/AI_Inventory,14,Excel,Yes
-SSA,https://www.ssa.gov/data/SSA-AI-Inv.csv,14,CSV,Yes
-Transportation,https://data.transportation.gov/Administrative/Department-of-Transportation-Inventory-of-Artifici/anj8-k6f5/explore,13,CSV,Yes
-GSA,https://tech.gsa.gov/ai-inventory/,12,Web / CSV,Yes
-Treasury,https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory_August-2022.pdf,12,PDF,No
-Justice,https://www.justice.gov/open/page/file/1517316/download,4,PDF,No
-EPA,https://www.epa.gov/data/epa-artificial-intelligence-inventory,3,Web,Yes
-Education,https://www2.ed.gov/about/offices/list/ocio/technology/ai-inventory/index.html,1,Web / Excel,Yes
-NIST (Commerce),https://www.nist.gov/artificial-intelligence/EO13960,0,None,N/A
-Housing and Urban Development,https://www.hud.gov/data/AI_inventory,0,None,N/A
-NSF,https://www.nsf.gov/data/AI_Inventory/,0,None,N/A
+Department,Homepage,Projects,Report type,Machine Readable,
+Interior,https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fdoi.gov%2Fsites%2Fdoi.gov%2Ffiles%2F2021-agency-inventory-of-ai-user-case-doi-20220318-submission-to-omb-max_0.xlsx&wdOrigin=BROWSELINK,65,Excel,Yes,
+Commerce,https://www.commerce.gov/sites/default/files/2022-09/DOC_AI_Use_Case_Inventory.pdf,49,PDF,No,
+HHS,https://www.hhs.gov/about/agencies/asa/ocio/ai/use-cases/index.html,50,PDF,No,
+Energy,https://www.energy.gov/sites/default/files/2022-07/DOE_Agency_Inventory_of_AI_Use_Cases.pdf,45,PDF,No,?
+VA,https://www.research.va.gov/naii/ai-inventory.cfm,40,Web,Yes,
+Homeland Security,https://www.dhs.gov/data/AI_inventory,41,Excel,Yes,
+Agriculture,https://www.usda.gov/data/AI_Inventory,39,CSV,Yes,
+State,https://www.state.gov/data-strategy/ai_inventory/,37,Web,Yes,
+Labor,https://www.dol.gov/agencies/odg/ai-inventory,18,Web,Yes,
+USAID,https://www.usaid.gov/data/AI_Inventory,14,Excel,Yes,
+SSA,https://www.ssa.gov/data/SSA-AI-Inv.csv,14,CSV,Yes,
+Transportation,https://data.transportation.gov/Administrative/Department-of-Transportation-Inventory-of-Artifici/anj8-k6f5/explore,14,CSV,Yes,
+GSA,https://tech.gsa.gov/ai-inventory/,12,Web / CSV,Yes,
+Treasury,https://home.treasury.gov/system/files/136/Treasury-AI-Use-Case-Inventory_August-2022.pdf,12,PDF,No,
+Justice,https://www.justice.gov/open/page/file/1517316/download,4,PDF,No,
+EPA,https://www.epa.gov/data/epa-artificial-intelligence-inventory,3,Web,Yes,
+Education,https://www2.ed.gov/about/offices/list/ocio/technology/ai-inventory/index.html,1,Web / Excel,Yes,
+NIST (Commerce),https://www.nist.gov/artificial-intelligence/EO13960,0,None,N/A,
+Housing and Urban Development,https://www.hud.gov/data/AI_inventory,0,None,N/A,
+NSF,https://www.nsf.gov/data/AI_Inventory/,0,None,N/A,
