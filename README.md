@@ -1,5 +1,5 @@
-# Federal AI inventory analysis 2023
-Analysis of the projects reported on the Federal inventory for EO 13960
+# Federal AI inventory analysis 2022
+Analysis of the projects reported on the Federal inventory in 2022
 
 ## Data collection
 
@@ -7,9 +7,7 @@ Projects were downloaded from the [AGENCY INVENTORIES OF AI USE CASES](https://w
 
 > Consistent with this principle of transparency, EO 13960 directed agencies to conduct an annual inventory of their AI use cases, and to publish them to the extent possible. As specified by EO 13960, agencies' inventories are not required to include AI use cases that are classified, sensitive, used in defense or national security systems, used by the Department of Defense or Intelligence Community, embedded within common commercial products, or used for AI research and development activities.
 
-Each inventory was downloaded and saved to:
-
-...
+Each inventory was downloaded and saved to [data/department_org_src/](data/department_org_src).
 
 ## Data processing
 
