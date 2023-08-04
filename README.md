@@ -13,6 +13,15 @@ Basic stats, information, and links can be found [here](data/high_level_stats_fr
 
 ## Data processing
 
-Most Departments provided some form of machine readable table or easily parsed web version. Some only provided PDFs (HHS, Commerce, Energy, Treasury, Justice) and these required considerable human parsing along with a custom script using
+Most Departments provided some form of machine readable table or easily parsed web version. Some only provided PDFs (HHS, Commerce, Energy, Treasury, Justice) and these required considerable human parsing along with a [custom script](P0_parse_pdf2table.py) using [Camelot](https://github.com/camelot-dev/camelot).
 
-...
+After manual parsing and cleanup the record level data was saved to [data/record_level_information_FedAI_2022.csv](data/record_level_information_FedAI_2022.csv)
+
++ `Department` (or indenpendent agency name)
++ `Agency` (or bureau as appropriate)
++ `Office` (or center / division as appropriate)
++ `Title`
++ `Summary`
++ `Lifecycle` (optional, returned as provided)
++ `Contact Name` (optional, returned as provided)
++ `Contact Email` (optional, returned as provided)
