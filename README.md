@@ -50,3 +50,7 @@ Using the summerized response, we iteratively ask for a set of high level topics
 + Predictive maintenance and infrastructure monitoring (infrastructure)
 + Machine learning in various domains (dropped, generic)
 + Fraud Prevention System Prioritization (fraud)
+
+## Viz
+
+![Viz of Federal Grants](results/streamlit_demo.jpg)
