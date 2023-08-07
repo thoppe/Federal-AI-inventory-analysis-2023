@@ -253,6 +253,8 @@ matches = [[x.strip('"') for x in z] for z in matches]
 keywords = GPT.multiASK(schema["keyword_themes"], theme=themes, desc=desc)
 keywords = [x.strip(" .").title() for x in keywords]
 
+print(keywords)
+
 # Get an emoji for each theme
 emoji = GPT.multiASK(schema["emoji_themes"], theme=themes, desc=desc)
 print(emoji)
