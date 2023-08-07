@@ -34,7 +34,6 @@ def plot_data_bokeh(df, hover_columns=None, tooltips=None):
         alpha="alpha",
     )
 
-    
     # Add the hovering options
     hover = HoverTool()
     hover.tooltips = []
@@ -50,8 +49,7 @@ def plot_data_bokeh(df, hover_columns=None, tooltips=None):
                 continue
 
             hover.tooltips.append((column, f"@{column}"))
-    
-    
+
     '''
     if tooltips is not None:
                 

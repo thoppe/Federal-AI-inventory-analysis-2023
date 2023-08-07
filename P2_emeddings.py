@@ -5,7 +5,7 @@ import json
 from src import ChatGPT
 
 f_json = "data/GPT_automated_analysis.json"
-f_npy  = "data/GPT_embedding.npy"
+f_npy = "data/GPT_embedding.npy"
 
 with open(f_json) as FIN:
     js = json.load(FIN)
@@ -20,7 +20,7 @@ V = np.array(V)
 
 np.save(f_npy, V)
 
-'''
+"""
 import umap
 
 clf = umap.UMAP(n_neighbors=5, random_state=42, min_dist=0.025)
@@ -35,4 +35,4 @@ import pylab as plt
 plt.scatter(embedding.T[0], embedding.T[1])
 plt.show()
 print(embedding)
-'''
+"""
