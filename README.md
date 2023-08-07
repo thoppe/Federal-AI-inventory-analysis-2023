@@ -26,6 +26,7 @@ After manual parsing and cleanup the record level data was saved to [data/record
 + `Contact Name` (optional, returned as provided)
 + `Contact Email` (optional, returned as provided)
 
+Three records from the State Dept were dropped due to exact duplication in the both the project Title and Summary. 
 
 ## NLP
 
@@ -34,3 +35,18 @@ A high powered LLM (in this case Chat GPT: gpt-3.5-turbo) is used to summarize e
 > **Projected Contract Award Date Web App** Projected contract award dates are generated with a machine learning  model that statistically predicts when procurement requests will become  signed contracts. Input data includes funding information, date / time of  year, and individual Contract Specialist workload. The model outputs  projected contract award timeframes for specific procurement requests.   'When will a contract be signed?' is a key question for the IRS and  generally for the federal government. This tool gives insight about when  each request is likely to turn into a contract. The tool provides a technique  other federal agencies can implement, potentially affecting $600 billion in  government contracts. Weblink: https://www.irs.gov/newsroom/irs- announces-use-of-projected-contract-award-date-web-app-that-predicts- when-contracts-will-be-signed.
 
 > The IRS has developed a web app that uses a machine learning model to predict when procurement requests will become signed contracts. The tool provides valuable insight for the IRS and other federal agencies on when contracts are likely to be signed, potentially impacting $600 billion in government contracts.
+
+Using the summerized response, we iteratively ask for a set of high level topics. The topics are human refined (human edits in parentheis)
+
++ Artificial Intelligence in Healthcare (healthcare)
++ Data-driven approach using regional data and machine learning models (spatial)
++ Machine learning for wildfire damage assessment (wildfire)
++ Autonomous Maritime Awareness system (maritime)
++ Cyber Threat Intelligence Feed Correlation (cyber intelligence)
++ Security Operations with AI (security)
++ Environmental Monitoring with AI (environmental)
++ Prototype System for Global Audience Segmentation (customer service or engagemen)
++ Power system resilience and grid operation (power systems)
++ Predictive maintenance and infrastructure monitoring (infrastructure)
++ Machine learning in various domains (dropped, generic)
++ Fraud Prevention System Prioritization (fraud)

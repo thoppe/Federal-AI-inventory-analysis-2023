@@ -12,7 +12,7 @@ prompt : 'Given the following response, summarize the main ideas in two or three
 
 ---
 key: major_modality
-prompt : Determine the following machine learning or AI modalities in sample. Return the results in a markdown list only with the name of the each modality and no description. Do not use any special punctuation. \n{response}
+prompt : Determine modalities used in the projects. Possible answer could include text, audio, satellite, etc. Return the results in a markdown list only with the name of the each modality and no description. Do not use any special punctuation. \n{multi_response_chunk}
 
 ---
 key: major_themes
@@ -25,11 +25,15 @@ prompt : Simplify the given te listed, getting rid of specific details. Reduce t
 
 ---
 key: explain_score
-prompt: 'Quote the exact subset text that explains how the theme "{theme}". Only return the quote. Return an None and do not quote if there are no matching sections. This is the text:\n {response}'
+prompt: 'Explain how the theme "{theme}" is relevant in text below. If the text is not relevant, print None and explain why it is not relevant. This is the text:\n {response}'
+
+---
+key: group_themes_12
+prompt : Combine and reduce the following list into no more than 12 items. Order by importance. Return the results in a bulleted list with only a descriptive name and no description. Do not use any special punctuation. \n{themes}
 
 ---
 key: group_themes
-prompt : Combine and reduce the following list into no more than 12 items. Order by importance. Return the results in a bulleted list with only a descriptive name and no description. Do not use any special punctuation. \n{themes}
+prompt : Combine and reduce the following list. Order by importance. Return the results in a bulleted list with only a descriptive name and no description. Do not use any special punctuation. \n{themes}
 
 ---
 key: measure_themes
@@ -45,7 +49,7 @@ prompt : 'Using one word, restate the theme: {theme}. The description of the the
 
 ---
 key: executive_summary
-prompt : 'Provide a short one or two sentence executive summary of the following obervations from the survey. Only provide the executive summary and no other text. \n{all_theme_desc}'
+prompt : 'Provide a short one or two sentence executive summary of the following observations from the survey. Only provide the executive summary and no other text. Describe how they all interrelate. \n{all_theme_desc}'
 
 ---
 key: actionable_steps
