@@ -41,7 +41,7 @@ prompt : 'For the survey response "{response}" evaluate the following themes. Us
 
 ---
 key: describe_theme
-prompt : 'Describe "{theme}" using only a few sentences. As context, use the following survey responses: {responses}'
+prompt : 'Summarize how AI is used in the list of projects in a one or two sentence executive summary. Be succinct and clear. Do not return a list. The projects are:\n{responses}'
 
 ---
 key: keyword_themes

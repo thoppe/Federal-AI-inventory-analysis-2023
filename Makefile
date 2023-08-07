@@ -1,4 +1,4 @@
-all:
+streamlit:
 	streamlit run streamlit_demo.py 
 
 lint:

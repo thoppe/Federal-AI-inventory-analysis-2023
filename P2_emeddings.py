@@ -19,20 +19,3 @@ V = [GPT.embed(text) for text in tqdm(df["LLM_summary_text"])]
 V = np.array(V)
 
 np.save(f_npy, V)
-
-"""
-import umap
-
-clf = umap.UMAP(n_neighbors=5, random_state=42, min_dist=0.025)
-X = clf.fit(V)
-
-embedding = clf.embedding_.copy()
-embedding -= embedding.mean(axis=0)
-embedding /= embedding.std(axis=0)
-
-
-import pylab as plt
-plt.scatter(embedding.T[0], embedding.T[1])
-plt.show()
-print(embedding)
-"""

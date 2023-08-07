@@ -179,13 +179,13 @@ sf = pd.json_normalize(scores, meta=themes, errors="raise")
 top_themes = sf.describe().T["mean"].sort_values(ascending=False)
 print(top_themes)
 
-
 ms = sf.copy()
 ms = ms.replace(to_replace=ms.values, value="")
 
 for theme in sf.columns:
     # Gather the subset that match the theme
     idx = sf[theme] == True
+
     text_subset = np.array(text)[idx]
     matching_text = GPT.multiASK(
         schema["explain_score"],
@@ -199,8 +199,15 @@ for theme in sf.columns:
     ms.loc[idx, theme] = matching_text
     ms.loc[~idx, theme] = "None"
 
-    # print(ms)
-# exit()
+idx = (
+    ms.applymap(lambda x: "None" in x)
+    | ms.applymap(lambda x: "not relevant" in x.lower())
+    | ms.applymap(lambda x: "not mention" in x.lower())
+)
+
+# Revise the scores so we only keep those that have been found "relevant"
+sf[:] = (~idx).astype(int)
+top_themes = sf.describe().T["mean"].sort_values(ascending=False)
 
 
 top_themes = top_themes.index.values
@@ -267,7 +274,7 @@ data = dx.to_json(orient="records", indent=2)
 df["LLM_summary_text"] = text.tolist()
 
 # print(data)
-print(dx[["theme", "positive_observations"]])
+print(dx.set_index("emoji")[["theme", "positive_observations"]])
 
 # Save the usage statistics
 js = {
