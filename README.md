@@ -6,9 +6,7 @@ The analysis includes data collection from published AI use case inventories, da
 
 **Disclaimer**: This project extensively utilized multiple Language Models (LLMs). While the results are valuable, they offer a broad overview of each project, theme, and the Federal AI portfolio. This analysis exclusively covers publicly released projects.
 
-**Reports**:
-
-The methodology outlined in the following sections has been utilized to create the subsequent reports:
+**Reports**: The methodology documented below has been utilized to create the following reports:
 
 + [AI Themes throughout the Federal Government](results/AI_themes.md)
 + [Complete Text of AI Projects by Agencies](results/AI_projects_full_text_by_Department.md)
@@ -18,7 +16,7 @@ The methodology outlined in the following sections has been utilized to create t
 
 ## Data collection
 
-Projects were downloaded from the [AGENCY INVENTORIES OF AI USE CASES](https://www.ai.gov/ai-use-case-inventories/)
+Projects were downloaded from [AGENCY INVENTORIES OF AI USE CASES](https://www.ai.gov/ai-use-case-inventories/), provided by the National AI Initiative Office (NAIIO).
 
 > Consistent with this principle of transparency, EO 13960 directed agencies to conduct an annual inventory of their AI use cases, and to publish them to the extent possible. As specified by EO 13960, agencies' inventories are not required to include AI use cases that are classified, sensitive, used in defense or national security systems, used by the Department of Defense or Intelligence Community, embedded within common commercial products, or used for AI research and development activities.
 
