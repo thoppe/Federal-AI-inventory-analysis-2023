@@ -67,9 +67,44 @@ for dept, dx in df.groupby("Department", sort=False):
         affil = ' | '.join(affil)
 
         title = ' '.join(row.Title.split())
-        doc.append(f"**{title}**")        
+        doc.append(f"**{title}**")
+        doc.append(f"")
         doc.append(f"_{affil}_")
         text = ' '.join(row.Summary.split())
+        doc.append(f"> {text}")
+        doc.append(f"")
+
+markdown = "\n".join(doc)
+print(markdown)
+
+with open(f_markdown, "w") as FOUT:
+    FOUT.write(markdown)
+
+
+###########################################################################
+
+f_markdown = "results/AI_projects_summary_text_by_Department.md"
+
+df = preload(f_json, "record_content")
+
+doc = []
+doc.append("# AI projects across Departments")
+doc.append("")
+
+for dept, dx in df.groupby("Department", sort=False):
+    dx = dx.sort_values(["Agency", "Office"])
+    doc.append(f"## {dept}")
+    doc.append(f"")
+
+    for _, row in dx.iterrows():
+        affil = [x for x in [dept, row.Agency, row.Office] if x]
+        affil = ' | '.join(affil)
+
+        title = ' '.join(row.Title.split())
+        doc.append(f"**{title}**")
+        doc.append(f"")
+        doc.append(f"_{affil}_")
+        text = ' '.join(row.LLM_summary_text.split())
         doc.append(f"> {text}")
         doc.append(f"")
 
