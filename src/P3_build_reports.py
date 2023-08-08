@@ -31,14 +31,14 @@ f_markdown = "results/AI_highlights_by_Department.md"
 df = preload(f_json, "department_content")
 
 doc = []
-doc.append("# AI highlights across Departments")
+doc.append("# Prominent AI Highlights across Departments")
 doc.append("")
 
 for dept, dx in df.groupby("Department", sort=False):
     doc.append(f"- [{dept} ({len(dx)})](#{dept})")
-
-
 doc.append("")
+
+
 for dept, dx in df.groupby("Department", sort=False):
     doc.append(f"## {dept}")
     for line in dx["highlight"]:
@@ -59,7 +59,11 @@ f_markdown = "results/AI_projects_full_text_by_Department.md"
 df = preload(f_json, "record_content")
 
 doc = []
-doc.append("# AI projects across Departments")
+doc.append("# Complete Text of AI Projects by Department / Agencies")
+doc.append("")
+
+for dept, dx in df.groupby("Department", sort=False):
+    doc.append(f"- [{dept} ({len(dx)})](#{dept})")
 doc.append("")
 
 for dept, dx in df.groupby("Department", sort=False):
@@ -91,7 +95,11 @@ f_markdown = "results/AI_projects_summary_text_by_Department.md"
 df = preload(f_json, "record_content")
 
 doc = []
-doc.append("# AI projects across Departments")
+doc.append("# Summarized GPT Text for Project Descriptions")
+doc.append("")
+
+for dept, dx in df.groupby("Department", sort=False):
+    doc.append(f"- [{dept} ({len(dx)})](#{dept})")
 doc.append("")
 
 for dept, dx in df.groupby("Department", sort=False):
@@ -123,7 +131,7 @@ f_markdown = "results/AI_themes.md"
 df = preload(f_json, "theme_content", None)
 
 doc = []
-doc.append("# AI project themes across the Federal government")
+doc.append("# AI Themes throughout the Federal Government")
 doc.append("")
 
 

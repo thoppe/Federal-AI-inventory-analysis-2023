@@ -1,4 +1,4 @@
-# AI project themes across the Federal government
+# AI Themes throughout the Federal Government
 
 ## 🔒 Security (90)
 

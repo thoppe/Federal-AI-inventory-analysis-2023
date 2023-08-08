@@ -1,4 +1,4 @@
-# AI highlights across Departments
+# Prominent AI Highlights across Departments
 
 - [HHS (81)](#HHS)
 - [Energy (76)](#Energy)

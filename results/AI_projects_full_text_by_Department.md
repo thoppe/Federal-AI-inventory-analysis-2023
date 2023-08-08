@@ -1,4 +1,22 @@
-# AI projects across Departments
+# Complete Text of AI Projects by Department / Agencies
+
+- [Interior (65)](#Interior)
+- [HHS (50)](#HHS)
+- [Commerce (49)](#Commerce)
+- [Energy (45)](#Energy)
+- [Homeland_Security (41)](#Homeland_Security)
+- [VA (40)](#VA)
+- [Agriculture (39)](#Agriculture)
+- [State (34)](#State)
+- [Labor (18)](#Labor)
+- [USAID (14)](#USAID)
+- [Transportation (14)](#Transportation)
+- [SSA (14)](#SSA)
+- [Treasury (12)](#Treasury)
+- [GSA (12)](#GSA)
+- [Justice (4)](#Justice)
+- [EPA (3)](#EPA)
+- [Education (1)](#Education)
 
 ## Interior
 
