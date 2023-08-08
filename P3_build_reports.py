@@ -8,6 +8,7 @@ with open(f_json) as FIN:
     js = json.load(FIN)
 
 df = pd.DataFrame(js["department_content"])
+df["Department"] = df["Department"].apply(lambda x:x.replace(' ', '_'))
 
 # Sort by most counted
 idx = df["Department"].value_counts()
@@ -21,16 +22,20 @@ doc.append("# AI topics across Departments")
 doc.append("")
 
 for dept, dx in df.groupby("Department"):
+    
     doc.append(f"- [{dept} ({len(dx)})](#{dept})")
 
+'''
 doc.append("")
 for dept, dx in df.groupby("Department"):
     doc.append(f"## {dept}")
     for line in dx["highlight"]:
         doc.append(f"- {line}")
     doc.append("")
-
+'''
 markdown = "\n".join(doc)
+print(markdown)
+exit()
 
 with open(f_markdown, "w") as FOUT:
     FOUT.write(markdown)
