@@ -1,6 +1,6 @@
 # Federal AI inventory analysis 2022
 
-Analysis of the projects reported on the Federal inventory in 2022. 
+This project focuses on analyzing the projects reported in the Federal inventory for the year 2022. Due to the variation in reporting formats and the inclusion of non-machine-readable reports from different Departments and independent agencies, this initiative aims to gather all the reports and conduct straightforward analysis on them.
 
 ## Data collection
 
