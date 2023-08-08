@@ -128,10 +128,10 @@ doc.append("")
 
 
 for _, row in df.iterrows():
-
-    doc.append(f"## {row.emoji} {row.theme.title()}")
+    doc.append(f"## {row.emoji} {row.theme.title()} ({row.positive_observations})")
     doc.append(f"")
     doc.append(f"{row.description}")
+    doc.append(f"")
 
 markdown = "\n".join(doc)
 print(markdown)
