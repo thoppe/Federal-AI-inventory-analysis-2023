@@ -6,6 +6,16 @@ The analysis includes data collection from published AI use case inventories, da
 
 **Disclaimer**: This project extensively utilized multiple Language Models (LLMs). While the results are valuable, they offer a broad overview of each project, theme, and the Federal AI portfolio. This analysis exclusively covers publicly released projects.
 
+**Reports**:
+
+The methodology outlined in the following sections has been utilized to create the subsequent reports:
+
++ [AI Themes throughout the Federal Government](results/AI_themes.md)
++ [Complete Text of AI Projects by Agencies](results/AI_projects_full_text_by_Department.md)
++ [Summarized GPT Text for Project Descriptions](results/AI_projects_summary_text_by_Department.md)
++ [Prominent AI Highlights across Departments](results/AI_highlights_by_Department.md)
+
+
 ## Data collection
 
 Projects were downloaded from the [AGENCY INVENTORIES OF AI USE CASES](https://www.ai.gov/ai-use-case-inventories/)
@@ -15,15 +25,6 @@ Projects were downloaded from the [AGENCY INVENTORIES OF AI USE CASES](https://w
 Each inventory was downloaded and saved to [data/department_org_src](data/department_org_src).
 All data were collected on Aug 3rd, 2023 and may not reflect any updates on ai.gov.
 Basic stats, information, and links can be found [here](data/high_level_stats_from_AI_gov.csv).
-
-## Reports
-
-The methodology outlined in the following sections has been utilized to create the subsequent reports:
-
-+ [AI Themes throughout the Federal Government](results/AI_themes.md)
-+ [Complete Text of AI Projects by Agencies](results/AI_projects_full_text_by_Department.md)
-+ [Summarized GPT Text for Project Descriptions](results/AI_projects_summary_text_by_Department.md)
-+ [Prominent AI Highlights across Departments](results/AI_highlights_by_Department.md)
 
 ### Data preparation
 
