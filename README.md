@@ -1,5 +1,5 @@
 # Federal AI inventory analysis 2022
-Analysis of the projects reported on the Federal inventory in 2022
+Analysis of the projects reported on the Federal inventory in 2022.
 
 ## Data collection
 
@@ -82,7 +82,7 @@ To get a sense of the general clustering, each of the summarized projects were e
 
 ![Visualization of Federal AI Projects](results/streamlit_demo.jpg)
 
-## Costs calculation
+## Costs calculation and data integrity 
 
 Costs were calculated from a final run of the program, intermediate API calls during the exploration phase were not recorded.
 
@@ -91,3 +91,5 @@ Cost   : $0.79
 Tokens : 393,474
 Calls  : 1658
 ```
+
+Each day, a github action is called to check the hash of the ai.gov source website. If the hash has not changed, then the data is up-to-date. If the hash has changed, some aspect of the website has been updated (though it may not reflect a change in the data). The daily hash is stored [here](data/ai_gov_md5hash.csv).
