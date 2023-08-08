@@ -1,6 +1,13 @@
 name: Check hash of ai.gov/ai-use-case-inventories
 
 on:
+  push:
+  workflow_dispatch:
+    inputs:
+      logMessage:
+        description: 'Log message'
+        required: true
+        default: 'Test automation'
   schedule:
     - cron: "0 2 * * *"
 

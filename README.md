@@ -92,4 +92,7 @@ Tokens : 393,474
 Calls  : 1658
 ```
 
-Each day, a github action is called to check the hash of the ai.gov source website. If the hash has not changed, then the data is up-to-date. If the hash has changed, some aspect of the website has been updated (though it may not reflect a change in the data). The daily hash is stored [here](data/ai_gov_md5hash.csv).
+Each day, a github action is called to check the hash of the ai.gov source website. If the latest hash has not changed from `ac4984917f9a2195c37c6cd008d56ab1` then the data is up-to-date. If the hash has changed, some aspect of the website has been updated though it may not reflect a change in the data.
+
++ [Log of the daily hash](data/ai_gov_md5hash.csv)
++ [Github action](.github/workflows/md5_website_check.yml)
