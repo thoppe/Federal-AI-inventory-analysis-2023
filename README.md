@@ -1,6 +1,10 @@
 # Federal AI inventory analysis 2022
 
-This project focuses on analyzing the projects reported in the Federal inventory for the year 2022. Due to the variation in reporting formats and the inclusion of non-machine-readable reports from different Departments and independent agencies, this initiative aims to gather all the reports and conduct straightforward analysis on them.
+**Abstract**: The Federal AI Inventory Analysis project for 2022 is a comprehensive examination of the AI projects reported in the federal inventory during that year. The complexity of this task is due to the variation in reporting formats and the inclusion of non-machine-readable reports from different Departments and independent agencies.
+
+The analysis includes data collection from published AI use case inventories, data preparation, which required a blend of manual parsing and automated processing, and the use of a high-powered language model (LLM) for summarizing the collected data. Themes were then extracted from these summaries to categorize projects into specific domains like security, infrastructure, and healthcare. Visualization was employed to understand the general clustering of projects, using OpenAI’s text-embedding model. The project also included a mechanism for daily data integrity checks and provided transparent cost calculations for API usage. The outcomes include detailed and summarized reports of AI projects, interactive visualizations, and insights into prominent AI themes across various federal Departments and agencies, thereby contributing to a transparent understanding of AI's role within the federal government.
+
+**Disclaimer**: This project extensively utilized multiple Language Models (LLMs). While the results are valuable, they offer a broad overview of each project, theme, and the Federal AI portfolio. This analysis exclusively covers publicly released projects.
 
 ## Data collection
 
