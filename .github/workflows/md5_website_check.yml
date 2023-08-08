@@ -1,0 +1,34 @@
+name: Check hash of ai.gov/ai-use-case-inventories
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+
+jobs:
+  run_script:
+    name: Run MD5 job
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.x # Choose the desired Python version
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run Python script using Make
+        run: make record_website_hash
+
+      - name: Commit the results to the repo
+        run: |
+         git config user.name github-actions
+         git config user.email github-actions@github.com
+         git add -f data/ai_gov_md5hash.csv
+         git commit --allow-empty -m "GH Action: Update MD5 hash on ai.gov"
+         git push
