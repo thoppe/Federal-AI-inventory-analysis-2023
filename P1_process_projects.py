@@ -50,6 +50,7 @@ df = df[~duplicated_idx]
 org_text = df[text_col_key].str.strip().dropna()
 org_text = org_text.str.replace("\n", " ").unique()
 
+
 # For now, keep only a limited subset if requested
 # if n_sample is not None:
 #    org_text = org_text[:n_sample]
@@ -74,7 +75,6 @@ assert all(len(x) < max_string_length for x in org_text)
 print(f"Evaluating {len(org_text)} responses")
 text = org_text
 
-
 ################################################################################
 # Clean the strings with AI
 
@@ -88,6 +88,9 @@ text = org_text
 
 # Shorten the text by summary if needed
 text = GPT.multiASK(schema["summarize_response"], response=text)
+
+assert len(df) == len(org_text)
+df["summary_text"] = text
 
 ################################################################################
 # Process the themes in stages
@@ -118,6 +121,41 @@ def chunked_list_response(text, major_query, minor_query):
     # Clean themes to remove trailing punc
     themes = [x.rstrip(".?!") for x in themes]
     return themes
+
+
+# Get a description for Department's efforts
+dept_df = []
+
+for dept, dx in df.groupby("Department"):
+
+    subset = dx["summary_text"].values
+
+    # This doesn't work as well, better if we mush them all together!
+    """
+    department = [dept,]*len(subset)
+    resp = GPT.multiASK(
+        schema["describe_dept"],
+        "list",
+        department=department,
+        responses=subset,
+    )
+    """
+
+    text_chunks = tokenized_sampler(subset, query_tokens)
+    department = [
+        dept,
+    ] * len(text_chunks)
+
+    # print(dept, len(text_chunks))
+    resp = GPT.multiASK(
+        schema["describe_dept"], "list", department=department, responses=text_chunks
+    )
+    bullets = [item for sublist in resp for item in sublist]
+
+    # print(dept, len(resp), len(text_chunks), len(bullets))
+    for bullet in bullets:
+        dept_df.append({"Department": dept, "highlight": bullet})
+dept_df = pd.DataFrame(dept_df)
 
 
 ################################################################################
@@ -282,6 +320,7 @@ print(dx.set_index("emoji")[["theme", "positive_observations"]])
 js = {
     "theme_content": json.loads(data),
     "record_content": json.loads(df.to_json()),
+    "department_content": json.loads(dept_df.to_json()),
 }
 
 js["meta"] = {

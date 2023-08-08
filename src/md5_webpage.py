@@ -4,7 +4,7 @@ import sys
 import datetime
 
 
-# Record the date/time in ISO 8601 
+# Record the date/time in ISO 8601
 current_datetime = datetime.datetime.now()
 formatted_datetime = current_datetime.isoformat()
 
@@ -18,6 +18,7 @@ def calculate_md5(content):
     md5_hash = hashlib.md5()
     md5_hash.update(content.encode("utf-8"))
     return md5_hash.hexdigest()
+
 
 # Get URL from command line arguments
 url = sys.argv[1]

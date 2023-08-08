@@ -40,8 +40,16 @@ key: measure_themes
 prompt : 'For the survey response "{response}" evaluate the following themes. Use 0 if the theme is not represented or there is insufficent information, or 1 if the theme is strongly represented. Only return 0, 1 for each theme. Return the results as a JSON. Do not explain the result. The themes are: \n{themes}'
 
 ---
+key: describe_dept
+prompt : 'Summarize how AI is used in the projects for the Federal department {department}. Return a list. Be succinct and clear. The projects are:\n{responses}'
+---
+key: clean_dept_response
+prompt : 'Rewrite for clarity. Avoid long sentences.\n{responses}'
+
+
+---
 key: describe_theme
-prompt : 'Summarize how AI is used in the list of projects in a one or two sentence executive summary. Be succinct and clear. Do not return a list. The projects are:\n{responses}'
+prompt : 'Describe how AI is used in a one or two sentence executive summary. Be succinct and clear. Do not return a list. The projects are:\n{responses}'
 
 ---
 key: keyword_themes
