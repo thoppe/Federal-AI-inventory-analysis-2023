@@ -2,23 +2,31 @@ import pandas as pd
 import json
 
 f_json = "data/GPT_automated_analysis.json"
-f_markdown = "results/AI_topics_by_Department.md"
 
-with open(f_json) as FIN:
-    js = json.load(FIN)
+def preload(f_json, key):
+    with open(f_json) as FIN:
+        js = json.load(FIN)
 
-df = pd.DataFrame(js["department_content"])
-df["Department"] = df["Department"].apply(lambda x:x.replace(' ', '_'))
+    df = pd.DataFrame(js[key])
+    df["Department"] = df["Department"].apply(lambda x:x.replace(' ', '_'))
+    
+    # Sort by most counted
+    sort_idx = df["Department"].value_counts()
+    df = df.set_index("Department")  # [idx]
+    df["dcount"] = sort_idx
+    df = df.sort_values(["dcount", "Department"], ascending=False)
+    del df["dcount"]
 
-# Sort by most counted
-idx = df["Department"].value_counts()
-df = df.set_index("Department")  # [idx]
-df["dcount"] = idx
-df = df.sort_values(["dcount", "Department"], ascending=False)
-del df["dcount"]
+    return df
+    
+
+###########################################################################
+
+f_markdown = "results/AI_highlights_by_Department.md"
+df = preload(f_json, "department_content")
 
 doc = []
-doc.append("# AI topics across Departments")
+doc.append("# AI highlights across Departments")
 doc.append("")
 
 for dept, dx in df.groupby("Department", sort=False):   
@@ -38,3 +46,36 @@ print(markdown)
 with open(f_markdown, "w") as FOUT:
     FOUT.write(markdown)
 print(f"Output written to {f_markdown}")
+
+###########################################################################
+
+f_markdown = "results/AI_projects_full_text_by_Department.md"
+
+df = preload(f_json, "record_content")
+
+doc = []
+doc.append("# AI projects across Departments")
+doc.append("")
+
+for dept, dx in df.groupby("Department", sort=False):
+    dx = dx.sort_values(["Agency", "Office"])
+    doc.append(f"## {dept}")
+    doc.append(f"")
+
+    for _, row in dx.iterrows():
+        affil = [x for x in [dept, row.Agency, row.Office] if x]
+        affil = ' | '.join(affil)
+
+        title = ' '.join(row.Title.split())
+        doc.append(f"**{title}**")        
+        doc.append(f"_{affil}_")
+        text = ' '.join(row.Summary.split())
+        doc.append(f"> {text}")
+        doc.append(f"")
+
+markdown = "\n".join(doc)
+print(markdown)
+
+with open(f_markdown, "w") as FOUT:
+    FOUT.write(markdown)
+
