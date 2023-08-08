@@ -1,4 +1,4 @@
-from .utils import query, embed, recover_list_from_response
+from utils import query, embed, recover_list_from_response
 from dspipe import Pipe
 from wasabi import msg as MSG
 from diskcache import Cache

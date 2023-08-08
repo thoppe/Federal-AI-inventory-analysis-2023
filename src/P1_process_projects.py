@@ -3,7 +3,9 @@ import numpy as np
 import textwrap
 import json
 import argparse
-from src import ChatGPT, Schema, tokenized_sampler
+from cache_GPT import ChatGPT
+from schema import Schema
+from utils import tokenized_sampler
 
 f_schema = "schema.yaml"
 f_csv = "data/record_level_information_FedAI_2022.csv"

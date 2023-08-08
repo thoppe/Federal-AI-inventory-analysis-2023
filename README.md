@@ -1,5 +1,6 @@
 # Federal AI inventory analysis 2022
-Analysis of the projects reported on the Federal inventory in 2022.
+
+Analysis of the projects reported on the Federal inventory in 2022. 
 
 ## Data collection
 
@@ -20,7 +21,7 @@ The methodology outlined in the following sections has been utilized to create t
 + [Summarized GPT Text for Project Descriptions](results/AI_projects_summary_text_by_Department.md)
 + [Prominent AI Highlights across Departments](results/AI_highlights_by_Department.md)
 
-## Data preparation
+### Data preparation
 
 Most Departments provided some form of machine readable table or easily parsed web version. Some only provided PDFs (HHS, Commerce, Energy, Treasury, Justice) and these required considerable human parsing along with a [custom script](P0_parse_pdf2table.py) using [Camelot](https://github.com/camelot-dev/camelot).
 
@@ -37,7 +38,7 @@ After manual parsing and cleanup the record level data was saved to [data/record
 
 Three records from the State Dept were dropped due to exact duplication across project Title and Summary.
 
-## Natural Language Processing
+### Natural Language Processing
 
 A high powered LLM (in this case Chat GPT: gpt-3.5-turbo) is used to summarize each response as the quality of the summaries provided by the agencies is variable. For example, consider the response from the IRS and the associated summary:
 
@@ -83,15 +84,13 @@ Each project was scored across the themes holistically by asking the LLM to retu
 | 🕵️‍♂️       | fraud                           | 11    |
 | 🔥         | wildfire                        | 1     |
 
-The final results from the
-
 ## Visualization
 
 To get a sense of the general clustering, each of the summarized projects were embedded through the latest OpenAI model (text-embedding-ada-002) and projected onto two dimensions using UMAP. A numpy array containing the embeddings is saved [here](data/GPT_embedding.npy). To interactively visualize the embeddings run `make streamlit`
 
 ![Visualization of Federal AI Projects](results/streamlit_demo.jpg)
 
-## Costs calculation and data integrity 
+### Costs calculation and data integrity 
 
 Costs were calculated from a final run of the program, intermediate API calls during the exploration phase were not recorded.
 
