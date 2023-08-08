@@ -11,6 +11,15 @@ Each inventory was downloaded and saved to [data/department_org_src](data/depart
 All data were collected on Aug 3rd, 2023 and may not reflect any updates on ai.gov.
 Basic stats, information, and links can be found [here](data/high_level_stats_from_AI_gov.csv).
 
+## Reports
+
+The methodology outlined in the following sections has been utilized to create the subsequent reports:
+
++ [AI Themes throughout the Federal Government](results/AI_themes.md)
++ [Complete Text of AI Projects by Agencies](results/AI_projects_full_text_by_Department.md)
++ [Summarized GPT Text for Project Descriptions](results/AI_projects_summary_text_by_Department.md)
++ [Prominent AI Highlights across Departments](results/AI_highlights_by_Department.md)
+
 ## Data preparation
 
 Most Departments provided some form of machine readable table or easily parsed web version. Some only provided PDFs (HHS, Commerce, Energy, Treasury, Justice) and these required considerable human parsing along with a [custom script](P0_parse_pdf2table.py) using [Camelot](https://github.com/camelot-dev/camelot).
