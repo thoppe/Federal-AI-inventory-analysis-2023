@@ -1,0 +1,44 @@
+Agency,Title,Summary,Development Stage
+Drug Enforcement Administration,Drug Signature Program Algorithms,"DEA's Special Testing and Research 
+Laboratory utilizes AI/ML techniques and 
+has developed a robust statistical 
+methodology including multi-variate 
+statistical analysis tools to automatically 
+classify the geographical region of origin 
+of samples selected for DEA's Heroin and 
+Cocaine signature programs. The system 
+provides for detection of anomalies and 
+low confidence results.",In production: more than 1 year
+Federal Bureau of Investigation,Complaint Lead Value Probability,"Threat Intake Processing System (TIPS) 
+database uses artificial intelligence (AI) 
+algorithms to accurately identify, 
+prioritize, and process actionable tips 
+in a timely manner. The AI used in this 
+case helps to triage immediate threats 
+in order to help FBI field offices and 
+law enforcement respond to the most 
+serious threats first.  Based on the 
+algorithm score, highest priority tips 
+are first in the queue for human 
+review.",In production: more than 1 year
+Justice Management Division,Intelligent Records Consolidation Tool,"The Office of Records Management Policy 
+uses an AI and Natural Language Processing 
+(NLP) tool to assess the similarity of records 
+schedules across all Department records 
+schedules. The tool provides clusters of 
+similar items to significantly reduce the time 
+that the Records Manager spends manually 
+reviewing schedules for possible 
+consolidation. An AI powered dashboard 
+provides recommendations for schedule 
+consolidation and review, while also 
+providing the Records Manager with the 
+ability to review by cluster or by individual 
+record. The solution's technical approach 
+has applicability with other domains that 
+require text similarity analysis.",In production: more than 1 year
+Tax Division,Privileged Material Identification,"The application scans documents and 
+looks for attorney/client privileged 
+information. It does this based on 
+keyword input by the system 
+operator.",In production: less than 6 months

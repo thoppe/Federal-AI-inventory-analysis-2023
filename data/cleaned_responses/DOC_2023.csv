@@ -1,0 +1,409 @@
+Agency,Title,Summary,Development Stage
+"International Trade 
+Administration (ITA)",B2B Matchmaking,"The system's algorithms and AI technology qualifies data and makes B2B matches with 
+event participants according to their specific needs and available opportunities.  The 
+systems inputs are data related to event participants and the outputs are suggested B2B 
+matches between participants and a match strength scorecard.",
+"International Trade 
+Administration (ITA)",Chatbot Pilot,"Chatbot embedded into trade.gov to assist ITA clients with FAQs, locating information and 
+content, suggesting events and services.  ITA clients would enter input into the chatbot in 
+the form of questions or responses to prompts.  The chatbot would scan ITA content 
+libraries and input from ITA staff and return answers and suggestions based on client 
+persona (exporter, foreign buyer, investor).",
+"International Trade 
+Administration (ITA)",Consolidated Screening List,"The Consolidated Screening List (CSL) is a list of parties for which the United States 
+Government maintains restrictions on certain exports, reexports, or transfers of items. It 
+consists of the consolidation of 13 export screening lists of the Departments of 
+Commerce, State, and Treasury.  The CSL search engine has “Fuzzy Name Search” 
+capabilities, allowing a search without knowing the exact spelling of an entity’s name. In 
+Fuzzy Name mode, the CSL returns a “score” for results that exactly or nearly match the 
+searched name. This is particularly helpful when searching on CSL for names that have 
+been translated into English from non-Latin alphabet languages.",
+"International Trade 
+Administration (ITA)",AD/CVD Self Initiation,"The ADCVD program investigates allegations of dumping and/or countervailing of duties.  
+Investigations are initiated when a harmed US entity files a petition identifying the alleged 
+offence and the specific harm inflicted.  Self-Initiation will allow ITA to monitor trade 
+patterns for this activity and preemptively initiate investigations by identifying harmed US 
+entities, often before these entities are aware of the harm.",
+"International Trade 
+Administration (ITA)",Market Diversification Toolkit,"The Market Diversification Tool identifies potential new export markets using current 
+trade patterns. A user enters what products they make and the markets they currently 
+export to.  The Market Diversification Tool applies a ML algorithm to identify and compare 
+markets that should be considered.  The tool brings together product-specific trade and 
+tariff data and economy-level macroeconomic and governance data to provide a picture 
+of which markets make sense for further market research. Users can limit the markets in 
+the results to only the ones they want to consider and modify how each of the eleven 
+indicators in the tool contributes to a country’s overall score. Users can export all the data 
+to a spreadsheet for further analysis.",
+"Minority Business Development 
+Administration (MBDA)",Azure Chatbot,"Azure Chatbot is being leveraged to automate and streamline the user response to 
+potential questions for MBDA users while interacting with the external facing MBDA 
+website. The solution leverages AI based chatbot response coupled with Machine 
+Learning and Natural Language Processing capabilities.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Fisheries Electronic Monitoring 
+Image Library","The Fisheries Electronic Monitoring Library (FEML) will be the central repository for 
+electronic monitoring (EM) data related to marine life.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Passive acoustic analysis using ML 
+in Cook Inlet, AK","Passive acoustic data is analyzed for detection of beluga whales and classification of the 
+different signals emitted by these species. Detection and classification are done with an 
+ensemble of 4 CNN models and weighted scoring developed in collaboration with 
+Microsoft. Results are being used to inform seasonal distribution, habitat use, and impact 
+from anthropogenic disturbance within Cook Inlet beluga critical habitat. The project is 
+aimed to expand to other cetacean species as well as anthropogenic noise.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","AI-based automation of acoustic 
+detection of marine mammals","Timely processing of these data is critical for adapting mitigation measures as climate 
+change continues to impact Arctic marine mammals.  Infrastructure for Noise and 
+Soundscape Tolerant Investigation of Nonspecific Call Types (INSTINCT) is command line 
+software which was developed in-house for model training, evaluation, and deployment 
+of machine learning models for the purpose of marine mammal detection in passive 
+acoustic data. It also includes annotation workflows for labeling and validation. INSTINCT 
+has been successfully deployed in several analyses, and further development of detectors 
+within INSTINCT is desired for future novel studies and automation. Continued integration 
+of AI methods into existing processes of the CAEP acoustics group requires a skilled 
+operator familiar with INSTINCT, machine learning, and acoustic repertoire of Alaska 
+region marine mammals.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Developing automation to 
+determine species and count 
+using optical survey data in the 
+Gulf of Mexico","VIAME - This project focuses on optical survey collected in the Gulf of Mexico: 1) develop 
+an image library of landed catch, 2) develop of automated image processing (ML/DL) to 
+identify and enumerate species from underwater imagery and 3) develop automated 
+algorithms to process imagery in near real time and download information to central 
+database.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Fast tracking the use of VIAME for 
+automated identification of reef 
+fish","We've been compiling image libraries for use in creating automated detection and 
+classification models for use in automating the annotation process for the SEAMAP Reef 
+Fish Video survey of the Gulf of Mexico. This work is being conducted in VIAME but we're 
+looking at several other paths forward in the project to identify best performing models. 
+Current status is that models are performing well enough that we will incorporate 
+automated analysis in video reads this spring as part of a supervised annotation-qa/qc 
+process.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","A Hybrid Statistical-Dynamical 
+System for the Seamless 
+Prediction of Daily Extremes and 
+Subseasonal to Seasonal Climate 
+Variability","Demonstrate the skill and suitability for operations of a statistical- dynamical prediction 
+system that yields seamless probabilistic forecasts of daily extremes and sub seasonal-to-
+seasonal temperature and precipitation. We recently demonstrated a Bayesian statistical 
+method for post-processing seasonal forecasts of mean temperature and precipitation 
+from the North American Multi-Model Ensemble (NMME). We now seek to test the utility 
+of an updated hybrid statistical-dynamical prediction system that facilitates seamless sub 
+seasonal and seasonal forecasting. Importantly, this method allows for the representation 
+of daily extremes consistent with climate conditions. This project explores the use of 
+machine learning.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)",FathomNet,"FathomNet provides much-needed training data (e.g., annotated, and localized imagery) 
+for developing machine learning algorithms that will enable fast, sophisticated analysis of 
+visual data. We've utilized interns and college class curriculums to localize annotations on 
+NOAA video data for inclusion in FathomNet and to begin training our own algorithms.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","ANN to improve CFS T and P 
+outlooks","Fan Y., Krasnopolsky, V., van den Dool H., Wu, C. , and Gottschalck J. (2021). Using 
+Artificial Neural Networks to Improve CFS Week 3-4 Precipitation and Temperature 
+Forecasts.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Drought outlooks by using ML 
+techniques","Drought outlooks by using ML techniques with NCEP models. Simple NN and Deep 
+Learning techniques used for GEFSv12 to predict Week 1-5 Prcp & T2m over CONUS",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","EcoCast: A dynamic ocean 
+management tool to reduce 
+bycatch and support sustainable 
+fisheries","Operational tool that uses boosted regression trees to model the distribution of swordfish 
+and bycatch species in the California Current",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Coastal Change Analysis Program 
+(C-CAP)","Beginning in 2015, C-CAP embarked on operational high resolution land cover 
+development effort that utilized geographic object-based image analysis and ML 
+algorithms such as Random Forest to classify coastal land cover from 1m multispectral 
+imagery. More recently, C-CAP has been relying on a CNN approach for the deriving the 
+impervious surface component of their land cover products. The majority of the work is 
+accomplished through external contracts. Prior to the high-res effort, C-CAP focused on 
+developing Landsat based moderate resolution multi-date land cover for the coastal U.S. 
+In 2002, C-CAP adopted a methodology that employed Classification and Regression Trees 
+for land cover data development.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Deep learning algorithms to 
+automate right whale photo id","AI for right whale photo id began with a Kaggle competition and has since expanded to 
+include several algorithms to match right whales from different viewpoints (aerial, lateral) 
+and body part (head, fluke, peduncle). The system is now live and operational on the 
+Flukebook platform for both North Atlantic and southern right whales. We have a paper in 
+review at Mammalian Biology.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)",NN Radiation,"Developing fast and accurate NN LW- and SW radiations for GFS and GEFS.  NN LW- and 
+SW radiations have been successfully developed for previous version of GFS, see: doi: 
+10.1175/2009MWR3149.1 and the stability and robustness of the approach used was 
+demonstrated, see:  https://arxiv.org/ftp/arxiv/papers/2103/2103.07024.pdf  NN LW- and 
+SW radiations will be developed for the current versions of for GFS and GEFS.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","NN training software for the new 
+generation of NCEP models","Optimize NCEP EMC Training and Validation System for efficient handling of high spatial 
+resolution model data produced by the new generation of NCEP's operational models",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)",Coral Reef Watch,"For more than 20 years, NOAA Coral Reef Watch (CRW) has been using remote sensing, 
+modeled, and in situ data to operate a Decision Support System (DSS) to help resource 
+managers (our target audience), researchers, decision makers, and other stakeholders 
+around the world prepare for and respond to coral reef ecosystem stressors, 
+predominantly resulting from climate change and warming of the Earth's oceans. Offering 
+the world's only global early-warning system of coral reef ecosystem physical 
+environmental changes, CRW remotely monitors conditions that can cause coral 
+bleaching, disease, and death; delivers information and early warnings in near real-time to 
+our user community; and uses operational climate forecasts to provide outlooks of 
+stressful environmental conditions at targeted reef locations worldwide. CRW products 
+are primarily sea surface temperature (SST)-based but also incorporate light and ocean 
+color, among other variables.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Robotic microscopes and machine 
+learning algorithms remotely and 
+autonomously track lower trophic 
+levels for improved ecosystem 
+monitoring and assessment","Phytoplankton are the foundation of marine food webs supporting fisheries and coastal 
+communities. They respond rapidly to physical and chemical oceanography, and changes 
+in phytoplankton communities can impact the structure and functioning of food webs. We 
+use a robotic microscope called an Imaging Flow Cytobot (IFCB) to continuously collect 
+images of phytoplankton from seawater. Automated taxonomic identification of imaged 
+phytoplankton uses a supervised machine learning approach (random forest algorithm). 
+We deploy the IFCB on fixed (docks) and roving (aboard survey ships) platforms to 
+autonomously monitor phytoplankton communities in aquaculture areas in Puget Sound 
+and in the California Current System. We map the distribution and abundance of 
+phytoplankton functional groups and their relative food value to support fisheries and 
+aquaculture and describe their changes in relation to ocean and climate variability and 
+change.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Edge AI survey payload 
+development","Continued support of multispectral aerial imaging payload running detection model 
+pipelines in real-time. This is a nine camera (color, infrared, ultraviolet) payload controlled 
+by dedicated on-board computers with GPUs. YOLO detection models run at a rate faster 
+than image collection, allowing real-time processing of imagery as it comes off the 
+cameras. Goals of effort are to reduce overall data burden (by TBs) and reduce the data 
+processing timeline, expediting analysis and population assessment for arctic mammals.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Ice seal detection and species 
+classification in multispectral 
+aerial imagery","Refine and improve detection and classification pipelines with the goal of reducing false 
+positive rates (to < 50%) while maintaining > 90% accuracy and significantly reducing or 
+eliminating the labor intensive, post survey review process.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","First Guess Excessive Rainfall 
+Outlook","Machine Learning Product that is a first guess for the WPC Excessive Rainfall Outlook - It is 
+learned from the ERO with atmospheric variables. It is for the Day 4-7 products",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","First Guess Excessive Rainfall 
+Outlook","Machine Learning Product that is a first guess for the WPC Excessive Rainfall Outlook - It is 
+learned from the ERO with atmospheric variables. It is for the Day 1, 2, 3 products",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","CoralNet: Ongoing operational 
+use, improvement, and 
+development, of machine vision 
+point classification","CoralNet is our operational point annotation software for benthic photo quadrat 
+annotation. Our development of our classifiers has allowed us to significantly reduce our 
+human annotation, and we continue to co-develop (and co-fund) new developments in 
+CoralNet,",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Automated detection of 
+hazardous low clouds in support 
+of safe and efficient 
+transportation","This is a maintenance and sustainment project for the operational GOES-R fog/low stratus 
+(FLS) products. The FLS products are derived from the combination of GOES-R satellite 
+imagery and NWP data using machine learning. The FLS products, which are available in 
+AWIPS, are routinely used by the NWS Aviation Weather Center and Weather Forecast 
+Offices.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","The Development of ProbSevere 
+v3 - An improved nowcasting 
+model in support of severe 
+weather warning operations","ProbSevere is a ML model that utilizes NWP, satellite, radar, and lightning data to nowcast 
+severe wind, severe hail, and tornadoes. ProbSevere, which was transitioned to NWS 
+operations in October 2020, is a proven tool that enhances operational severe weather 
+warnings. This project aims to develop the next version of ProbSevere, ProbSevere v3. 
+ProbSevere v3 utilizes additional data sets and improved machine learning techniques to 
+improve upon the operational version of ProbSevere. ProbSevere v3 was successfully 
+demonstrated in the 2021 Hazardous Weather Testbed and a JTTI proposal was recently 
+submitted to facilitate an operational update. The development is funded by GOES-R.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","The VOLcanic Cloud Analysis 
+Toolkit (VOLCAT): An application 
+system for detecting, tracking, 
+characterizing, and forecasting 
+hazardous volcanic events","Volcanic ash is a major aviation hazard. The VOLcanic Cloud Analysis Toolkit (VOLCAT) 
+consists of several AI powered satellite applications including: eruption detection, 
+alerting, and volcanic cloud tracking. These applications are routinely utilized by Volcanic 
+Ash Advisory Centers to issue volcanic ash advisories. Under this project, the VOLCAT 
+products will be further developed, and subsequently transitioned to the NESDIS Common 
+Cloud Framework, to help ensure adherence to new International Civil Aviation 
+Organization requirements.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)",SUVI Thematic Maps,"The GOES-16 Solar Ultraviolet Imager (SUVI) is NOAA's operational solar extreme-
+ultraviolet imager. The SUVI Level 2 Thematic Map files in these directories are produced 
+by NOAA's National Centers for Environmental Information in Boulder, Colorado. These 
+data have been processed from Level 2 High Dynamic Range (HDR) composite SUVI 
+images. The FITS file headers are populated with metadata to facilitate interpretation by 
+users of these observations. Please note that these files are considered to be 
+experimental and thus will be improved in future releases. Users requiring assistance with 
+these files can contact the NCEI SUVI team by emailing goesr.suvi@noaa.gov. The SUVI 
+Thematic Maps product is a Level 2 data product that (presently) uses a machine learning 
+classifier to generate a pixel-by-pixel map of important solar features digested from all six 
+SUVI spectral channels.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","BANTER, a machine learning 
+acoustic event classifier",A supervised machine learning acoustic event classifier using hierarchical random forests,
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","ProbSR (probability of subfreezing 
+roads",A machine-learned algorithm that provides a 0-100% probability roads are subfreezing,
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","VIAME: Video and Image Analysis 
+for the Marine Environment 
+Software Toolkit","The Video and Image Analysis for the Marine Environment Software Toolkit, commonly 
+known as VIAME, is an open-source, modular software toolkit that allows users to employ 
+high-level, deep-learning algorithms for automated annotation of imagery using a low 
+code/no code graphical user interface. VIAME is available free of charge to all NOAA 
+users.  The NOAA Fisheries Office of Science and Technology supports an annual 
+maintenance contract covering technical and customer support by the developer, routine 
+software updates, bug fixes, and development efforts that support broad, cross center 
+application needs.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","ENSO Outlooks using 
+observed/analyzed fields","LSTM model that uses ocean and atmospheric predictors throughout the tropical Pacific 
+to forecast ONI values up to 1 year in advance. An extension of this was submitted to the 
+cloud portfolio with the intent of adding a CNN layer that that uses reforecast data to 
+improve the ONI forecasts.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Using community-sourced 
+underwater photography and 
+image recognition software to 
+study green sea turtle distribution 
+and ecology in southern California","The goal of this project is to study green turtles in and around La Jolla Cove in the San 
+Diego Region-a highly populated site with ecotourism-by engaging with local 
+photographers to collect green turtle underwater images.  The project uses publicly 
+available facial recognition software (HotSpotter) to identify individual turtles, from which 
+we determine population size, residency patterns, and foraging ecology",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","An Interactive Machine Learning Signals in Passive Acoustic  Recordings
+Toolkit for Classifying Species 
+Identity of Cetacean Echolocation","Develop robust automated machine learning detection and classification tools for acoustic 
+species identification of toothed whale and dolphin echolocation clicks for up to 20 
+species found in the Gulf of Mexico. Tool development project funded from June 2018 to May 2021. Tool will be used for automated analyses of long-term recordings from Gulf- wide passive acoustic moored instruments deployed from 2010-2025 to look at  environmental processes driving trends in marine mammal density and distribution.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Steller sea lion automated count 
+program","NOAA Fisheries Alaska Fisheries Science Center's Marine Mammal Laboratory (MML) is 
+mandated to monitor the endangered western Steller sea lion population in Alaska. MML 
+conducts annual aerial surveys of known Steller sea lion sites across the southern 
+Alaska coastline to capture visual imagery. It requires two full-time, independent counters 
+to process overlapping imagery manually (to avoid double counting sea lions in multiple 
+frames), and count and classify individuals by age and sex class. These counts are vital 
+for population and ecosystem-based modeling to better understand the species and 
+ecosystem, to inform sustainable fishery management decisions, and are eagerly 
+anticipated by stakeholders like the NOAA Alaska Regional Office, industry, and 
+environmental groups. MML worked with Kitware to develop detection and image 
+registration pipelines with VIAME (updates to the DIVE program to support updated 
+interface needs). MML is now working to assess the algorithms efficacy and develop a 
+workflow to augment the traditional counting method (to RL 9).",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)",Steller sea lion brand sighting,"Detection and identification of branded steller sea lions from remote camera images in 
+the western Aleutian Islands, AK. The goal is to help streamline photo processing to 
+reduce the effort required to review images.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Replacing unstructured WW3 in 
+the Great Lakes with a Recurrent 
+neural network and a boosted 
+ensemble decision tree","Investigated replacing unstructured WW3 in the Great Lakes with (i) a Recurrent Neural 
+Network (RNN, especially an LSTM) developed by EMC and (ii) a boosted ensemble 
+decision tree (XGBoost) developed by GLERL. These two AI models were trained on two 
+decades of wave observations in Lake Erie and compared to the operational Great Lakes 
+unstructured WW3.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)","Using k-means clustering to 
+identify spatially and temporally 
+consistent wave systems","Postprocessing that uses k-means clustering to identify spatially and temporally consistent 
+wave systems from the output of NWPS v1.3. Has been successfully evaluated in the field 
+by NWS marine forecasters nationwide and has been implemented into operations on 
+February 3, 2021.",
+"National Oceanic and 
+Atmospheric Administration 
+(NOAA)",Picky,"Using CNN to pick out objects of a particular size from sides scan imagery.  Presents users 
+with a probability that allows for automation of contact picking in the field.  Side scan 
+imagery is simple one channel intensity image which lends itself well to basic CNN 
+techniques.",
+"National Telecommunications and 
+Information Administration (NTIA)",Data Science: Clutter,"NTIA’s Institute for Telecommunication Sciences (ITS) is investigating the use of AI to 
+automatically identify and classify clutter obstructed radio frequency propagation paths. 
+Clutter is vegetation, buildings, and other structures that cause radio signal loss through 
+dispersion, reflection, and diffraction. It does not include terrain effects. The classifier is a 
+convolutional neural network (CNN) trained using lidar data coinciding with radio 
+frequency propagation measurements made by ITS. This trained CNN can be fed new 
+radio path lidar data and a clutter classification label is predicted.",
+"National Telecommunications and 
+Information Administration (NTIA)",WAWENETS,"The algorithm produces estimates of telecommunications speech quality and speech 
+intelligibility.  The input is a recording of speech from a telecommunications system in 
+digital file format.  The output is a single number that indicates speech quality (typically 
+on a 1 to 5 scale) or speech intelligibility (typically on a 0 to 1 scale).",
+"United States Patent and Trade 
+Office (USPTO)",AI retrieval for patent search,"Augmentation for next generation patent search tool to assist examiners identify relevant 
+documents and additional areas to search.  System takes input from published or 
+unpublished applications and provides recommendations on further prior art areas to 
+search, giving the user the ability to sort by similarity to concepts of their choosing.",
+"United States Patent and Trade 
+Office (USPTO)",AI use for CPC classification,"System that classifies incoming patent application based on the cooperative patent 
+classification scheme for operational assignment of work and symbol recommendation for 
+aI search.  Backoffice processing system that uses incoming patent applications as input 
+and outputs the resulting classification symbols.",
+"United States Patent and Trade 
+Office (USPTO)","AI retrieval for TM design coding 
+and Image search","Clarivate COTS solution to assist examiner identification of similar trademark images, to 
+suggest the correct assignment of mark image design codes, and to determine the 
+potential acceptability of the identifications of goods and services.  System is anticipated 
+to use both incoming trademark images and registered trademark images and output 
+design codes and/or other related images.",
+"United States Patent and Trade 
+Office (USPTO)",Enriched Citation,"Data dissemination system that identifies which references, or prior art, were cited in 
+specific patent application office actions, including: bibliographic information of the 
+reference, the claims that the prior art was cited against, and the relevant sections that 
+the examiner relied upon.  System extracts information from unstructured office actions 
+and provides the information through a structured public facing API.",
+"United States Patent and Trade 
+Office (USPTO)",Inventor Search Assistant (iSAT),"Service to help inventors ""get started"" identifying relevant documents, figures, and 
+classification codes used to conduct a novelty search.  System takes a user entered short 
+description of invention and provides a user selectable set of recommended documents, 
+figures, and classification areas.",
