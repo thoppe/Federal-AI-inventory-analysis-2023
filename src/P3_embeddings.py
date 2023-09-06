@@ -2,7 +2,7 @@ import numpy as np
 from tqdm import tqdm
 import pandas as pd
 import json
-from src import ChatGPT
+from cache_GPT import ChatGPT
 
 f_json = "data/GPT_automated_analysis.json"
 f_npy = "data/GPT_embedding.npy"

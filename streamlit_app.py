@@ -5,7 +5,7 @@ import numpy as np
 from pathlib import Path
 import umap
 from sklearn.cluster import DBSCAN, MiniBatchKMeans
-import viz_interface as interface
+import src.viz_interface as interface
 from bokeh.models import Label
 import yake
 import datetime

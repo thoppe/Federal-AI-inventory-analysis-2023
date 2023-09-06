@@ -53,7 +53,6 @@ org_text = org_text.str.replace("\n", " ").unique()
 
 assert len(df) == len(org_text)
 
-
 # For now, keep only a limited subset if requested
 # if n_sample is not None:
 #    org_text = org_text[:n_sample]
@@ -90,8 +89,6 @@ text = org_text
 
 # Shorten the text by summary if needed
 text = GPT.multiASK(schema["summarize_response"], response=text)
-
-
 df["summary_text"] = text
 
 ################################################################################
@@ -111,9 +108,12 @@ def chunked_list_response(text, major_query, minor_query):
 
     # Repeat the theme reduction until we get a single list
     while len(tokenized_sampler(themes, query_tokens)) > 1:
-        raise ValueError("Untested!")
-        theme_chunks = tokenized_sampler(themes, query_tokens)
-        themes = GPT.multiASK(major_query, "list", themes=theme_chunks)
+        #raise ValueError("Untested!")
+        print(f"Untested reducing theme count {len(themes)}")
+        theme_chunks = tokenized_sampler(themes, query_tokens-800)
+        themes = GPT.multiASK(major_query, "list", multi_response_chunk=theme_chunks, flatten=True)
+        themes = [x for x in themes if x.strip()]
+
 
         # Combine the themes if we have more than one text chunk
     if len(text_chunks) > 1:
@@ -158,38 +158,36 @@ for dept, dx in df.groupby("Department"):
 dept_df = pd.DataFrame(dept_df)
 
 print(dept_df)
-exit()
 
 ################################################################################
 
-"""
+
 # Determine the specific AI modalities
 modalities = chunked_list_response(
     text,
     schema["major_modality"],
     schema["group_themes"])
 
-#modalities = list(set(modalities))
-print(modalities)
-"""
+modalities = list(set(modalities))
+
 ################################################################################
 
 
-themes = chunked_list_response(text, schema["major_themes"], schema["group_themes_12"])
-print(themes)
+#themes = chunked_list_response(text, schema["major_themes"], schema["group_themes_12"])
+#print(themes)
 
 human_themes = [
     "healthcare",
-    "spatial",
-    "wildfire",
-    "maritime",
-    "cyber intelligence",
-    "security",
+    "scientific research",
+    "language services",
+    "geospatial",
+    "wearables",
     "environmental",
     "customer service or engagement",
-    "power systems",
     "infrastructure",
     "fraud",
+    "cyber intelligence",
+    "threat intelligence",
 ]
 
 themes = human_themes
@@ -218,6 +216,7 @@ while not successful_run:
 sf = pd.json_normalize(scores, meta=themes, errors="raise")
 top_themes = sf.describe().T["mean"].sort_values(ascending=False)
 print(top_themes)
+
 
 ms = sf.copy()
 ms = ms.replace(to_replace=ms.values, value="")
