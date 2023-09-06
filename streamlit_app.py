@@ -116,32 +116,53 @@ dept_opt = df.groupby("Department").size().sort_values(ascending=False).index.to
 dept_opt = ["None"] + dept_opt
 highlight_department = st.sidebar.selectbox("Highlight Dept/Agency", dept_opt)
 
+highlight_text = st.sidebar.text_input("Word search")
+if highlight_text:
+    highlight_text = highlight_text.lower()
+else:
+    highlight_text = "DO NOT MATCH TO ANYTHING"
+text_highlight_idx = df["project_title_text"].str.lower().str.find(highlight_text) > -1
+
+
+viz_text_column = st.sidebar.selectbox(
+    "Summary or full text on overlay",
+    [
+        "summary_text",
+        "project_title_text",
+    ],
+)
+
+
 df["line_width"] = 0
 df["color"] = "#3288bd"
 df["fill_color"] = df["color"]
 df["no_focus"] = 1
 
 colors = ["#05baae", "#b4ef86", "#e47474", "#e4749c"] * 1000
-expand = 2.0
-point_size = 0.04
+expand = 1.25
+point_size = 0.025
 
 df["size"] = point_size
-df["alpha"] = 0.35
+df["alpha"] = 0.4
+
 
 # Custom coloring
 idx = df["Department"] == highlight_department
-if idx.sum():
-    st.write(f"Highlighting {idx.sum()} projects from {highlight_department}")
+if text_highlight_idx.sum():
+    st.write(f"Highlighting {text_highlight_idx.sum()} projects from {highlight_text}")
 
-df.loc[idx, "fill_color"] = colors[2]
-df.loc[idx, "size"] = point_size * expand
-df.loc[idx, "line_width"] = 5
+df.loc[text_highlight_idx, "fill_color"] = colors[4]
+df.loc[text_highlight_idx, "size"] = point_size * expand
+df.loc[text_highlight_idx, "line_width"] = 2
+df.loc[text_highlight_idx, "alpha"] = 0.8
+
+dual_highlight = idx & text_highlight_idx
+df.loc[dual_highlight, "fill_color"] = colors[3]
 
 viz_cols = [
     "Title",
     "Department",
-    # "LLM_summary_text",
-    "Summary",
+    viz_text_column,
 ]
 
 p = interface.plot_data_bokeh(df, hover_columns=viz_cols, tooltips=True)
