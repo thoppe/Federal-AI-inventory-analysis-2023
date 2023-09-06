@@ -1,6 +1,6 @@
 umap-learn
 scikit-learn
-bokeh
+bokeh==2.4.3
 yake
 pandas
 numpy==1.21.4
