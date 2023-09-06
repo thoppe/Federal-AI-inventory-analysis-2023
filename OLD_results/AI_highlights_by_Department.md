@@ -1,0 +1,633 @@
+# Prominent AI Highlights across Departments
+
+- [HHS (81)](#HHS)
+- [Energy (76)](#Energy)
+- [Commerce (76)](#Commerce)
+- [Homeland_Security (71)](#Homeland_Security)
+- [Interior (69)](#Interior)
+- [VA (40)](#VA)
+- [Agriculture (39)](#Agriculture)
+- [State (34)](#State)
+- [Labor (18)](#Labor)
+- [USAID (14)](#USAID)
+- [Transportation (14)](#Transportation)
+- [SSA (14)](#SSA)
+- [Treasury (12)](#Treasury)
+- [GSA (12)](#GSA)
+- [Justice (4)](#Justice)
+- [Education (3)](#Education)
+- [EPA (3)](#EPA)
+
+## HHS
+- Auto-generation synonyms: Enhancing search results by adding synonyms to search queries.
+- Text analytics portal: Providing tools for analyzing text documents.
+- Chatbot - Voice CMS/OSFLO: Automated phone response system for general information and support.
+- QVR's LIKE feature: Comparing scientific terms to discover similar projects or publications.
+- Reasonable Accommodation RPA Bot: Streamlining the process of managing accommodations for employees with disabilities.
+- MetaMap: Program for linking biomedical text to the knowledge in the Metathesaurus.
+- Automated referral of grant applications: Using AI to parse grant applications and assign appropriate project officers.
+- Classifier for MEDLINE article selection: Using a CNN to automate the selection of indexed articles.
+- Priority Score Model: Ranking providers within the Fraud Prevention System based on program integrity guidelines.
+- Model for detecting item nonresponse in survey data: Using NLP to improve survey data quality.
+- Machine learning system for predicting scientific paper citations: Assessing translational progress in biomedicine.
+- Security Data Lake: Modernizing data pipelines and tooling for enhanced security.
+- Deduplication algorithm for FDA Adverse Event Reporting System: Identifying duplicate reports for safety evaluation.
+- Pango lineage tracking system for SARS-CoV-2: Analyzing sequence data for lineage assignment.
+- Virtual assistant chat bot for grant-related information: Assisting users with navigating grant information.
+- Splunk: IT system monitoring software using machine learning for log analysis.
+- Relevancy tailoring: Adjusting search result rankings for improved relevance.
+- Related searches feature: Offering additional valuable information to users.
+- RCDC AI/NLP tool: Categorizing projects based on grant applications and publications.
+- COVID-19 Pandemic Vulnerability Index Dashboard: Providing risk profiles for US counties.
+- SingleCite algorithm for PubMed search: Improving single citation search.
+- Prioritization of alerts in Fraud Prevention System: Forecasting time needed to work on alerts.
+- NIGMS ASSIST system: Utilizing AI and NLP to provide relevant data to program staff.
+- Chatbot (text) for automating email responses: Assisting the Security team.
+- RPAB for grant application categorization: Automating categorization into Program Class Codes.
+- Chatbot for real-time query response: Interactive interface using NLP.
+- Provider Education 90 Day program: Analyzing healthcare claim submission patterns.
+- Auto tagging for efficient content categorization: Suggesting content tags automatically.
+- Implementation of spelling corrections and reformatted search queries: Based on Google Analytics data.
+- Best Match algorithm for relevant paper search in PubMed: Improving retrieval performance.
+- BHW Community Need Analysis Platform: Analyzing relevant datasets for grant evaluation.
+- NLM-Chem for automatic chemical name identification: Improving efficiency of chemical indexing.
+- Predictive Intelligence for incident assignment: Analyzing incident data for appropriate assignment.
+- Feedback Analysis Solution for public comment analysis: Aggregating and analyzing stakeholder comments.
+- Sequential Coverage Algorithm for data linkage: Enhancing efficiency of joining large datasets.
+- word2vec OPA for analyzing scientific content: Converting words into numbers for document summarization.
+- Rapid ATO System for system security analysis: Analyzing security plans using NLP.
+- Auto-suggestion or auto-fill queries: Assisting users in typing queries more quickly.
+- MedCoder for matching cause of death descriptions: Matching death certificates with ICD-10 codes.
+- Term Identification and Novel Synthetic Opioid Detection and Evaluation Analytics: Identifying new drug references in social media text.
+- AI and machine learning are used to classify and categorize scientific concepts in publications and grants abstracts.
+- The Internal Referral Module (IRM) NLP module automatically refers grant applications to Program Officers based on analysis of application content, eliminating referral bottlenecks.
+- A disambiguation solution is used to link researchers to their grants and publications, considering factors like institutional affiliation and co-authorship.
+- An AI chatbot has been developed for HRSA EHBs grantees, allowing natural conversational communication and automated ticket creation.
+- Machine-learning method is used to disambiguate author names in PubMed queries, improving author name searches.
+- AI tool ASSIST4Tobacco enables semantic indexing and enhanced search capabilities in tobacco authorization applications.
+- Support Vector Machines (SVM) provide confidence scores for MeSH CheckTags in MEDLINE articles.
+- Natural language processing is used to classify grant applications for review assignment purposes.
+- Grants Analytics Portal utilizes AI to provide efficient access to grants data for HHS OIG staff.
+- NLM-Gene is an automatic tool for gene indexing in biomedical literature using natural language processing and deep learning.
+- Auto-generation synonyms enhance search results by adding synonyms to queries.
+- MedCoder matches cause of death descriptions on death certificates using ICD-10 codes.
+- Reasonable Accommodation RPA Bot streamlines the process of managing accommodations for employees with disabilities.
+- Machine learning system predicts the likelihood of a scientific paper being cited by a future clinical trial or guideline.
+- NCHS creates a model to detect item nonresponse in open-text survey data using Natural Language Processing (NLP).
+- BHW Community Need Analysis Platform uses machine learning to analyze relevant datasets and assess healthcare needs in grant proposals.
+- PubMed's Best Match algorithm uses machine learning to improve retrieval performance and user experience.
+- Convolutional Neural Network (CNN) automates the selection of indexed articles for MEDLINE.
+- Chatbot automates email responses to general physical security questions for the Security team.
+- Word2vec OPA analyzes scientific content by converting words to numbers and summarizing documents based on semantic meaning.
+- NLM-Chem finds chemical names in biomedical literature to improve chemical indexing.
+- SingleCite algorithm improves single citation search in PubMed.
+- Spelling corrections and reformatted search queries are suggested based on Google Analytics data.
+- Alerts produced by the Fraud Prevention System are prioritized based on forecasted time needed to work on them.
+- Deduplication algorithm identifies duplicate reports in the FDA Adverse Event Reporting System (FAERS).
+- Query suggestions or auto-fill functionality is implemented to assist users in typing queries.
+- Relevancy tailoring adjusts search result rankings to display the most relevant information.
+- Auto tagging suggests content tags automatically, improving categorization efficiency.
+- Related searches are displayed to offer users additional valuable information.
+- Splunk uses machine learning to collect and analyze system logs for IT system monitoring.
+- CMS is building a modern data platform using a Security Data Lake to enhance security and enable future machine learning model development.
+- MetaMap links biomedical text to the knowledge in the UMLS Metathesaurus using natural language processing.
+- Feedback Analysis Solution (FAS) aggregates and analyzes public comments using NLP and ML tools.
+- NIH's virtual assistant chat bot assists users in navigating grant information through open educational resources.
+- COVID-19 Pandemic Vulnerability Index Dashboard provides risk profiles for US counties based on the latest data.
+- Term Identification and Novel Synthetic Opioid Detection and Evaluation Analytics identifies new drug references in social media text.
+- NIGMS ASSIST utilizes AI and NLP to provide relevant data to program staff.
+- Priority Score Model ranks providers within the Fraud Prevention System based on program integrity guidelines.
+- Predictive Intelligence (PI) assigns incidents in the Quality Service Center based on previous incidents.
+- Pango nomenclature tracks the transmission and spread of SARS-CoV-2 and its variants using sequence data.
+- Text analytics portal provides tools for analyzing text documents without a background in analytics.
+
+## Energy
+- Develop methods and technologies to defend industrial control systems (ICS) networks and detect compromise using AI for cybersecurity analysis.
+- Use deep learning and internal voltage sensors to diagnose and predict failure in solid-state ceramic membrane reactors.
+- Improve thermal diffusivity measurement using machine learning algorithms and finite element models.
+- Expedite the development of nuclear fuel by analyzing microstructural image and thermal conductivity data using machine learning and deep learning models.
+- Investigate the impact of radiation damage on calcium fluoride and uranium dioxide using machine learning potentials and experimental validation.
+- Analyze phasor measurement unit (PMU) data using big data, AI, and machine learning for grid operation and management enhancement.
+- Automate identification and labeling of data using machine learning for usability in other tools and research areas.
+- Develop a machine learning-based system to detect attacks in 5G cellular networks for enhanced security.
+- Estimate load composition data and calibrate parameters using machine learning for improved load modeling.
+- Use AI-based control algorithms to optimize advanced manufacturing processes and reduce the need for trial and error.
+- Develop a tool combining reduced-order models, machine learning, and thermal property characterization for accelerated nuclear fuel development.
+- Analyze PMU data using big data, AI, and machine learning to improve grid operation and management.
+- Measure strains caused by radiation using passive instrumentation and machine learning algorithms.
+- Improve computational simulations for estimating low failure probabilities in advanced reactors using AI and Monte Carlo algorithms.
+- Develop a simulation framework using AI algorithms to detect and respond to component contingencies in integrated energy systems.
+- Analyze phasor measurement unit data using big data, AI, and machine learning for improved grid operation and management.
+- Create a digital twin of a centrifugal contactor system for anomaly detection and trend analysis using machine learning.
+- Support secure spectrum sharing for 5G using millimeter wave beam directionality and autonomous beam scheduling with predictive analytics.
+- Manage distributed multi-agent systems in energy systems using deep reinforcement learning and neural networks.
+- Identify microstructural features in alloys using machine learning techniques and microscopy.
+- Translate industrial control system features into a machine-readable format for automated cyber tools and threat intelligence sharing.
+- Use AI, big data, and machine learning to enhance power system resilience and grid management.
+- Analyze satellite imagery using computer vision techniques to enhance critical infrastructure security and defense capabilities.
+- Assess the resilience of integrated energy systems and vulnerabilities using machine learning methodologies.
+- Improve probabilistic risk assessment by automatically detecting vulnerabilities in system design using support vector machines.
+- Develop models for autonomous operation and risk analysis of microreactors using physics-based and AI techniques.
+- Automate the training of electromagnetic-based anomaly detection systems using generative adversarial networks.
+- Utilize AI to measure the effects of extreme weather events on the power grid and predict potential impacts.
+- Analyze PMU data using big data, AI, and machine learning for improved grid operation and management.
+- Safeguard industrial internet of things devices by analyzing physical aspects and detecting abnormal functionality.
+- Predict events and develop digital twins using AI, software, and sensor data for intelligent control and cybersecurity.
+- Speed up nuclear materials research and qualification using AI and physics-based multi-scale modeling.
+- Develop a framework for automated malware analysis and threat information sharing using dynamic sandboxes.
+- Use sparse data reconstruction and sparse learning for stronger prediction and diagnostics in nuclear digital twins.
+- Understand the relationship between alloy composition, microstructure, and swelling and creep behavior using machine learning and characterization techniques.
+- Develop a multi-sensor data science system for solvent extraction processes using machine learning for real-time decision making.
+- Develop a machine learning system to effectively detect 5G attacks, including zero-day attacks.
+- Improve the security assessment of AI systems through reverse engineering, risk assessment, and vulnerability remediation.
+- New approach using machine learning framework and resilience-chaos plots reduces computational expense and accurately discovers n-2 contingencies by 50% in power utilities' contingency analysis.
+- Deep learning method developed to analyze radiation spectra, overcoming weaknesses of existing spectroscopic techniques, and enhancing difficult measurements in hazardous radiological environments.
+- Research and implementation of machine learning and AI algorithms for signal decomposition to detect false data injection in physical processes and develop an advanced library for improved detection of malicious tampering.
+- Use of big data, AI, and machine learning to analyze phasor measurement unit data for enhanced grid operation and management, identifying existing knowledge and discovering new insights and tools for improved efficiency.
+- Development of theories and algorithms for reducing scientific data in workflows, driven by specific objectives, including data-driven AI models.
+- Development of methods and technologies to defend industrial control systems (ICS) networks using AI, analyzing captured communication signals to determine protocols and employing machine learning to identify unknown protocols.
+- Development of a machine learning system to effectively detect 5G attacks, including zero-day attacks, using field programmable gate array based deep autoencoders.
+- Use of machine learning interatomic potentials to investigate the impact of radiation damage on the physical properties of calcium fluoride and uranium dioxide, validated through electron irradiation experiments and thermal conductivity measurements.
+- Development of AI-based control algorithms using deep reinforcement learning and physics-informed reduced order models (ROMs) for intelligently controlling and optimizing advanced manufacturing processes.
+- Use of machine learning methods to estimate load composition data and motor protection profiles for different climate regions, calibrating parameters of composite load models to match responses with detailed feeder models.
+- Use of big data, AI, and machine learning technology in analyzing PMU data to enhance grid operation and management, improving existing knowledge and uncovering new insights and tools.
+- Utilization of AI in analyzing satellite imagery for critical infrastructure and interdependency data, enhancing national critical infrastructure security and defense capabilities.
+- Use of sparse data reconstruction methods and NDT models to efficiently train and demonstrate nuclear digital twins, leveraging sparse sensing and sparse learning for stronger prediction and diagnostics capabilities.
+- Development of external monitoring methods to safeguard industrial internet of things devices by analyzing physical aspects and detecting abnormal functionality indicating potential attacks.
+- Combination of machine learning techniques with microscopy to identify and correlate microstructural features in multiphase alloys, developing a tool for identifying key features and correlating them with mechanical properties.
+- Automation of training electromagnetic-based anomaly detection systems for legacy control systems using generative adversarial networks, reducing manual labor and operational costs.
+- Development of a machine-readable format for industrial control system features, examining standards for usability with diverse grid architectures, and enhancing national capabilities for sharing actionable threat intelligence.
+- Use of big data, AI, and machine learning on PMU data to improve grid operation and management, identifying existing knowledge, discovering new insights, and developing better tools for real-time monitoring.
+- Development of a multi-sensor data science system using non-traditional and traditional measurement sources and machine learning techniques to improve solvent extraction processes and make real-time decisions.
+- Use of big data, AI, and machine learning technology to analyze PMU data, enhancing grid operation and management by identifying and improving existing knowledge and discovering new insights and tools.
+- Development of scalable models combining physics-based multi-scale modeling and AI techniques for faster predictions and decisions in autonomous microreactors and distributed anticipatory control strategies.
+- Development of a digital twin of a centrifugal contactor system in the nuclear fuel cycle, utilizing data from sensors, simulating chemical separations, and using machine learning to analyze data for anomalies and failures.
+- Creation of a simulation framework combining physics models with grid monitoring data to make real-time decisions for integrated energy systems operation and mitigate impacts of extreme events.
+- Development of a tool combining reduced-order models, machine learning algorithms, fuel performance methods, and thermal property characterization equipment to accelerate the discovery, development, and deployment of nuclear fuels.
+- Use of big data, AI, and machine learning to analyze PMU data for enhancing grid operation and management, identifying and improving existing knowledge, discovering new insights, and developing better tools.
+- Use of AI to speed up nuclear materials research and qualification through combinatorial-based materials research, narrowing down candidates with desired properties.
+- Use of AI and Monte Carlo algorithms to improve the efficiency and reliability of computational simulations for estimating low failure probabilities in advanced reactor technologies.
+- Development of a deep reinforcement learning approach for managing distributed or tightly coupled multi-agent systems in energy systems, utilizing deep neural networks for system representation and learning.
+- Improvement of security assessment of AI systems through reverse engineering, exploitation, risk assessment, vulnerability remediation, and development of risk evaluation metrics.
+- Use of big data, AI, and machine learning on PMU data to enhance power system resilience, improving existing knowledge, discovering new insights, and developing tools for better grid operation and management.
+- Development of a machine learning-based system for detecting attacks in the 5G cellular network, enhancing security for mission-critical applications.
+- Integration of data from test bed sensors and physics-based models with AI to predict events and develop frameworks for future digital twins for intelligent autonomous control and cybersecurity.
+- Development of passive instrumentation to measure strains caused by radiation and use of modeling, simulation, and machine learning algorithms to extract important parameters and predict material's response.
+- Use of deep learning technology and internal voltage sensors to diagnose and predict failure in solid-state ceramic membrane reactors under harsh conditions.
+- Development of a methodology combining machine learning models, ion irradiation and creep testing techniques, and advanced characterization to understand the relationship between alloy composition, microstructure, and swelling and creep behavior.
+- Improvement of laser flash technique for measuring thermal diffusivity using modified experimental setup and machine learning tool for thermal property analysis from a single laser flash measurement.
+- Use of big data, AI, and machine learning technology on PMU data to improve existing knowledge and discover new insights for better grid operation and management.
+- Use of AI technology to expedite the development of nuclear fuel by studying the post irradiation examination of UZr metallic fuel, analyzing microstructural image and thermal conductivity data, and training machine learning models.
+
+## Commerce
+- WAWENETS algorithm: Estimates speech quality and intelligibility of telecommunications recordings.
+- ProbSR: Predicts the probability of roads being subfreezing.
+- C-CAP: Uses machine learning algorithms to classify coastal land cover from high-resolution imagery.
+- Robotic microscopes and machine learning algorithms: Track and monitor phytoplankton in relation to ocean and climate variability.
+- Enhanced detection and classification of ice seals: Reduces false positive rates and minimizes post-survey review.
+- ProbSevere v3: Uses various data sources and improved machine learning techniques to predict severe weather events.
+- First Guess Excessive Rainfall Outlook: Provides predictions for excessive rainfall using machine learning techniques.
+- NOAA Coral Reef Watch: Uses remote sensing and modeling to provide early warnings and outlooks of coral reef ecosystem stressors.
+- Azure Chatbot: Uses AI and natural language processing to improve user responses on the MBDA website.
+- Hybrid statistical-dynamical prediction system: Generates probabilistic forecasts for temperature and precipitation.
+- Consolidated Screening List (CSL): Allows fuzzy name search for export screening lists.
+- VIAME: An open-source software toolkit for marine image and video analysis using deep learning algorithms.
+- GOES-16 Solar Ultraviolet Imager (SUVI): Uses machine learning to generate thematic maps of solar features.
+- Green sea turtle study: Analyzes underwater images using facial recognition software to gather data on population size and behavior.
+- AI models for wave modeling in the Great Lakes: Trained on wave observations to replace unstructured wave models.
+- Fisheries Electronic Monitoring Library (FEML): Centralized database for electronic monitoring data.
+- VOLCAT: Uses AI-powered satellite applications to detect and forecast volcanic hazards, particularly volcanic ash.
+- Automated identification of right whales: Uses deep learning algorithms on Flukebook platform.
+- CoralNet: Software for annotating benthic photo quadrats using machine vision.
+- INSTINCT software: Trains and deploys machine learning models for acoustic detection of marine mammals.
+- Automated species classification of toothed whales and dolphins: Analyzes acoustic recordings in the Gulf of Mexico.
+- Automated detection of Steller sea lions: Uses automated detection and image registration pipelines for aerial surveys.
+- Image library of landed catch in the Gulf of Mexico: Uses machine learning to identify and count species from underwater imagery.
+- Neural network radiations for weather forecasting: Develops accurate neural network models for radiation predictions.
+- Machine learning techniques for precipitation and temperature predictions: Provides drought outlooks using NCEP models.
+- EcoCast: Models the distribution of swordfish and bycatch species to support sustainable fisheries.
+- Automated detection of hazardous low clouds: Uses satellite imagery and machine learning to ensure safe transportation.
+- B2B matchmaking system: Uses AI algorithms to identify suitable matches for event participants.
+- CNN for object identification in side scan imagery: Automates contact picking in the field.
+- Market Diversification Toolkit: Uses machine learning to recommend potential new export markets.
+- Branded Steller sea lion identification: Automates photo processing for efficiency.
+- Passive acoustic analysis of beluga whales: Detects and classifies signals to understand their distribution and impact of human disturbance.
+- K-means clustering for wave systems identification: Identifies consistent wave systems in marine forecasts.
+- AI for clutter classification in radio frequency propagation: Uses lidar data and machine learning to classify obstructed radio paths.
+- AD/CVD program: Uses AI to investigate dumping and countervailing duties.
+- FathomNet: Provides training data for machine learning algorithms to analyze visual data.
+- Enriched Citation Data dissemination system: Identifies references cited in patent application office actions.
+- Inventor Search Assistant (iSAT) Service: Assists inventors in conducting novelty searches by providing relevant documents and resources.
+- First Guess Excessive Rainfall Outlook: AI is used to predict excessive rainfall for the Day 4-7 time frame based on atmospheric variables.
+- Automated identification of reef fish: AI is used to create automated detection and classification models for the SEAMAP Reef Fish Video survey to assist in identifying reef fish.
+- Chatbot pilot for trade.gov: AI-powered chatbot is embedded into trade.gov to assist clients with frequently asked questions, providing relevant answers and suggestions based on the client's persona.
+- AI retrieval system for trademark design coding and image search: AI system is used to identify similar trademark images, suggest correct design codes, and determine the potential acceptability of goods and services.
+- Enhanced patent search tools for examiners: AI system is developed to analyze published and unpublished applications and suggest additional areas to search for relevant documents based on similarity to specific concepts.
+- BANTER acoustic event classifier: AI-powered machine learning classifier used for acoustic event classification.
+- Artificial Neural Networks (ANN) for weather forecasts: AI is used to enhance the accuracy of Week 3-4 precipitation and temperature forecasts.
+- Multispectral aerial imaging for arctic mammals: AI is used to develop a real-time imaging payload to expedite analysis and population assessment for arctic mammals.
+- AI-powered CPC classification system: AI system helps categorize patent applications based on cooperative patent classification scheme and provides classification symbols for AI search.
+- LSTM model for ONI value forecast: AI model is used to forecast ONI (Oceanic Niño Index) values in the tropical Pacific up to one year in advance.
+- Neural Network training software for environmental prediction models: AI software is developed to optimize the handling of high spatial resolution model data generated by NCEP models.
+- Automated detection and classification of ice seals: AI is used to enhance the detection and classification process of ice seals in aerial imagery.
+- Solar Ultraviolet Imager (SUVI) machine learning classifier: AI classifier is used to generate thematic maps of solar features from SUVI spectral channels.
+- Coral reef ecosystem monitoring and early-warning system: AI is used to monitor and predict coral reef ecosystem changes caused by climate change and warming oceans.
+- Hybrid statistical-dynamical prediction system for climate variability: AI techniques are used to generate probabilistic forecasts for daily extremes and subseasonal to seasonal temperature and precipitation.
+- Automated classification of toothed whales and dolphins: AI tools are developed to classify the species identity of toothed whales and dolphins using acoustic recordings.
+- VOLCAT volcanic events detection and forecasting: AI-powered satellite applications are used to detect and forecast hazardous volcanic events, particularly volcanic ash.
+- Consolidated Screening List (CSL) fuzzy name search: AI-based search system allows users to search entities without knowing the exact spelling of their names.
+- Enriched Citation Data system for patent office actions: AI system extracts information from unstructured office actions and provides structured data through an API.
+- AI for clutter classification in radio frequency propagation: AI, specifically convolutional neural network (CNN), is used to classify clutter obstructed radio frequency propagation paths.
+- K-means clustering for wave system identification: AI-based k-means clustering is used to identify consistent wave systems in marine forecasting.
+- Passive acoustic analysis for beluga whale detection: AI and machine learning are used to detect and classify signals emitted by beluga whales.
+- Automated identification of right whales in photos: AI algorithms are used to automate the identification of right whales in photos, including different viewpoints and body parts.
+- WAWENETS algorithm for speech quality estimation: AI algorithm is used to estimate the speech quality and intelligibility of telecommunications recordings.
+- Fast and accurate neural network radiations for weather forecasting: AI-based neural network models are developed to enhance the accuracy of radiation forecasts.
+- Automated detection of branded Steller sea lions: AI is used to detect and identify branded Steller sea lions from remote camera images.
+- Fisheries Electronic Monitoring Library (FEML): AI-powered centralized database for storing electronic monitoring (EM) data pertaining to marine life.
+- VIAME for marine environment analysis: AI toolkit for deep-learning based annotation of marine imagery.
+- ProbSevere v3 nowcasting model for severe weather prediction: AI techniques are used to enhance the operational version of the ProbSevere nowcasting model.
+- Automated detection and image registration for Steller sea lion surveys: AI-based automated detection and image registration pipelines are developed to improve the monitoring of Steller sea lions in Alaska.
+- AI models for wave prediction in the Great Lakes: AI models, including Recurrent Neural Network (RNN) and boosted ensemble decision tree, are investigated for wave prediction in the Great Lakes.
+- Market Diversification Toolkit: AI tool that uses trade patterns and machine learning algorithms to identify potential new export markets.
+- Inventor Search Assistant (iSAT) Service: AI-powered service that assists inventors in conducting novelty searches and provides relevant resources based on the description of their invention.
+- Automated species identification and counting from underwater imagery: AI and deep learning techniques are used to automatically identify and count species from underwater imagery in the Gulf of Mexico.
+- Azure Chatbot for MBDA website: AI-powered chatbot using machine learning and natural language processing to provide effective responses to user questions.
+- Automated contact picking in side scan imagery: AI-based CNN is used to identify objects of a specific size in side scan imagery, enabling automation of contact picking.
+- Facial recognition software for green sea turtle population studies: AI-powered facial recognition software is used to identify individual green sea turtles from underwater images.
+- ProbSR machine-learned algorithm for subfreezing road prediction: AI algorithm predicts the probability of roads being subfreezing.
+
+## Homeland_Security
+- Barcode Scanner: Uses AI to scan and populate information from barcodes for analysis and investigation purposes.
+- Sentiment Analysis - Surveys: Utilizes AI to assign sentiments to survey results for employee satisfaction analysis.
+- Maritime Detection: AI-enhanced detection and tracking of illicit vessels to improve maritime security.
+- Predicted to Naturalize: AI model predicts eligibility for naturalization and provides current address for correspondence.
+- Identity Match Option (IMO): Combines data from multiple systems to create comprehensive immigration histories for analysis and fraud detection.
+- CBP One App: Uses AI and mobile device cameras for "Liveness Detection" to reduce fraud and ensure data authenticity.
+- AI Curated Synthetic Data: Generates artificial data for computer vision to improve algorithms for detecting narcotics and contraband.
+- Mobile Device Analytics (MDA): AI-based analysis of data extracted from mobile devices to aid in investigations and object detection.
+- Person-Centric Identity Services (PCIS): Uses machine learning and biometric information for accurate identification and immigration history.
+- Integrated Digital Environment: AI/ML models analyze user activity data for workflow improvement and application usage.
+- Cyber Threat Intelligence Feed Correlation: AI quickly correlates information from multiple feeds to enhance shared threat intelligence.
+- Autonomous Maritime Awareness: Uses AI and surveillance technology for autonomous detection and tracking in maritime environments.
+- Email Analytics: AI-based tool for analyzing email data, including spam classification and information extraction.
+- Security Operations Centers: AI-assisted tools for detecting and correlating potential cyber attacks and anomalies.
+- Data Normalization and Entity Resolution: AI helps merge and identify connections between different data sources for comprehensive analysis.
+- Malware Reverse Engineering: AI-powered techniques to disrupt adversaries' malware development lifecycle and enhance cyber threat intelligence.
+- AI Security and Robustness Frameworks: Tools and testing for secure AI technology acquisition, development, and deployment.
+- I-539 Application Approval Prediction: AI model predicts approval of applications for enhanced efficiency.
+- Geospatial Imagery Analysis: AI and machine vision used to detect objects and changes in geospatial imagery.
+- Facial Recognition Service: AI-powered system for identifying individuals involved in crimes and supporting investigations.
+- Topic Modeling on RFE Data Sets: AI-based models to identify and classify topics and documents related to Request For Evidence data.
+- Data and Entity Resolution: AI and machine learning used to merge and identify connections between different data sources.
+- Cyber Sentry: AI and anomaly detection for monitoring critical infrastructure networks and analyzing cyber-physical data.
+- Cyber Incident Handling: AI-powered tools for processing and filtering data from threat intelligence and incident channels.
+- Person-Centric Identity Services (PCIS): AI and machine learning used for accurate identification and immigration history gathering.
+- AIS Automated Scoring & Feedback (AS&F): AI-based system for classifying indicators of compromise and prioritizing actions.
+- Text Analytics for Survey Responses (TASR): AI analyzes open-ended survey responses to extract important topics/themes.
+- Operations Center AI Dashboard: AI system for real-time event data analysis and suggesting appropriate actions.
+- ICAD System: AI-powered software for analyzing and annotating photographs for various purposes.
+- Vulnerability Analysis: AI and machine learning tools for processing and aggregating data for vulnerability analysis.
+- AI for Autonomous Situational Awareness: AI and IoT sensor kits for detecting illicit cross-border traffic.
+- RelativityOne: AI-powered document review platform for streamlining document review processes.
+- Cybersecurity Investigations: AI tools used by forensic specialists to analyze data and detect anomalies and threats.
+- RVSS Legacy Overhauled System (INVNT): AI-based software for creating and sharing vision detectors for event detection.
+- Third-Party Global Trade Data: AI/ML models used for managing and analyzing global trade data for investigations.
+- I-485 Family Matching: AI matches family members to their I-485 petitions for faster and more accurate processing.
+- Advanced Network Anomaly Alerting: AI is used to detect network attacks and refine alerts for SOC analysts.
+- Autonomous Aerostat: AI autonomously launches and recovers aerostats based on weather conditions, eliminating the need for on-site staff.
+- Automated PII Detection: AI automatically detects potential personally identifiable information in submissions and helps ensure compliance with privacy requirements.
+- Autonomous Surveillance Towers: AI allows towers to detect, identify, and track objects of interest without a dedicated operator, providing real-time photos.
+- Systran Machine Translation: AI translates over 100 language combinations for the Innovation Lab.
+- Identity Match Option: AI combines data from various systems to determine a single identity for each applicant or beneficiary.
+- AI-powered Operations Center: AI-powered dashboard assists duty officers and analysts in understanding operational activities and suggests appropriate actions.
+- Mobile Device Analytics: AI helps investigators analyze data extracted from mobile devices and detects objects in photos and videos.
+- Integrated Digital Environment: AI analyzes end user activity data to improve workflows and application usage.
+- I-539 Approval Prediction: AI aims to predict the approval of I-539 applications through eProcessing.
+- Malware Reverse Engineering: AI combines advanced engineering and deep learning techniques to improve cyber threat intelligence.
+- Cyber Threat Intelligence Feed Correlation: AI quickly correlates information from multiple feeds to enhance the quality of shared information.
+- Third-Party Global Trade Data: AI manages and analyzes trade data to support investigations into targeted entities.
+- ICAD System: AI software analyzes and annotates field imaging equipment photographs, recognizing objects, people, and events.
+- Data and Entity Resolution: AI merges and identifies connections between different data sources.
+- Topic Modeling: AI creates models to identify topics and related documents in Request For Evidence data sets.
+- AI Security and Robustness Frameworks: AI tools ensure the trustworthy and secure operation of AI systems.
+- Barcode Scanner: AI scans and populates information from barcodes into text fields for analysis.
+- Cybersecurity Analysis: AI tools analyze data to detect anomalies and potential threats more efficiently.
+- Cyber Sentry: AI analyzes cyber-physical data to detect anomalies in critical infrastructure networks.
+- Autonomous Maritime Awareness: AI uses surveillance towers, autonomous surface vehicles, and ocean data to detect and track objects in maritime environments.
+- CBP One App: AI technology detects proof of life to reduce fraudulent activity in submitted data.
+- Data Normalization and Correction: AI normalizes and corrects data entry errors, streamlining investigations.
+- I-485 Family Matching: AI matches family members to underlying petitions, improving reliability and processing speed.
+- Person-Centric Identity Services: AI provides biographical and biometric information for immigration history and status.
+- Cyber Incident Handling: AI tools process and filter data from threat intelligence and cyber incident channels, increasing accuracy and relevance.
+- Security Operations Center: AI tools detect and correlate potential cyber attacks, refining alerts for analysts.
+- Sentiment Analysis - Surveys: AI assigns sentiments to survey results for analysis.
+- RelativityOne: AI streamlines document review and production in legal contexts.
+- Facial Recognition Service: AI helps identify individuals involved in various crimes, supporting law enforcement efforts.
+- Autonomous Situational Awareness: AI detects and tracks illicit cross-border traffic using IoT sensor kits.
+- AIS Automated Scoring & Feedback: AI classifies indicators of compromise based on intelligence data for prioritizing actions.
+- Email Analytics: AI analyzes email data, classifies spam messages, and extracts information about names, organizations, and locations.
+- Predicted to Naturalize: AI predicts eligibility for naturalization and provides current addresses for USCIS customers.
+- Vulnerability Analysis: AI aids vulnerability analysts in processing and aggregating data, improving accuracy and relevance.
+
+## Interior
+- Data-driven approach and machine learning models were used to create a prospectivity map for deposits in three countries.
+- Remote sensing and machine learning were used to assess ground failure and predict multi-hazards and damage caused by earthquakes.
+- AI was used to analyze orthomosaic and satellite images of coastal, estuarine, and wetland environments.
+- Machine learning models were developed to predict daily hydrologic drought in the Colorado River Basin.
+- Historical topographic maps were used to extract spot elevations for summit locations in the United States.
+- Machine learning models and donor models were developed to predict hydrologic drought in specific locations and similar ungaged basins.
+- Timelapse images were used to estimate water flow in unmonitored stream networks and create a web-based platform for data exploration.
+- AI and data assimilation were used to forecast water temperature in the Delaware River Basin.
+- Machine learning tools were used to analyze DC ramp test data from rotating machines for faster and more reliable analysis.
+- Self-supervised deep neural networks were used to identify classification systems for significant well events.
+- AI was used to quickly identify wells with sustained casing pressure in well platforms.
+- Data on the flow of the Delaware River was connected with models of trout population dynamics and economic benefits of recreational fishing.
+- Machine learning techniques were used to process aerial images and classify marine birds and mammals.
+- AI was used to automate the detection and classification of wildlife from aerial imagery.
+- Orthophotos and multispectral images were used to map benthic algae along the Buffalo National River.
+- AI and machine learning were used to analyze high-resolution photogrammetric data from unmanned aerial systems.
+- AI was used to predict flood flow metrics for stream reaches based on watershed characteristics and meteorological data.
+- Machine learning models were developed to predict daily streamflow and stream water temperature using meteorological inputs.
+- An AI system was developed to identify individual fish and detect diseases from images.
+- ML-Mondays course focused on applications of deep learning in image analysis.
+- Machine learning models were developed to predict daily dissolved oxygen concentrations in streams using meteorological inputs and catchment attributes.
+- AI was used to classify walrus haulout camera trap images and detect human disturbances.
+- Machine learning was used to develop a ground motion model using synthetic data.
+- AI was used to predict ground shaking during earthquakes based on initial observations from seismic stations.
+- Streamflow forecasting technologies were evaluated using AI/ML forecasting companies and prize competition.
+- AI and machine learning were used to analyze and map cracks on Reclamation facilities.
+- A process-guided deep learning model was developed to predict lake water temperatures.
+- Satellite imagery was used to delineate tile drains and analyze their effects on streamflow and water quality.
+- Neural networks were used to differentiate between exposed bare rock and soil covered areas for land cover classification.
+- AI was used to detect and count individual walruses in drone imagery.
+- Artificial neural networks were used to identify surface water in different areas using annotated hydrography data.
+- Machine learning was used to enhance the mapping of wetlands and floodplains using remote sensing data.
+- AI and machine learning were used to generate landcover data for all 50 states in the National Landcover database.
+- Explainable AI (XAI) was developed to predict stream characteristics and provide interpretable metrics for WMA PUMP Projects.
+- Development of an automated screening system to identify areas with excessive corrosion in well platforms, speeding up report processing time.
+- Creation of a system using convolutional neural networks to identify individual mountain lions using facial images.
+- Implementation of the Fouling Identification Neural Network (FINN) for real-time prediction and detection of sensor fouling at USGS stream gages.
+- Automation of the review process for the Fish and Climate Change Database (FiCli) to maintain and update the database efficiently.
+- Collaboration with Scripps Institute of Oceanography to improve sub-seasonal temperature and precipitation forecasts in the western US.
+- Enhancement of the earthquake monitoring system at the USGS National Earthquake Information Center using deep learning models.
+- Development of ground-motion models for peak ground acceleration and peak ground velocity using gradient boosting methods.
+- Creation of a machine learning model to predict the location of the salt front in the Delaware River Estuary.
+- Application of semantics and machine reasoning in the ARIES project to enable AI-assisted modeling of human-natural systems.
+- Use of meta-transfer learning to predict water temperature dynamics in unmonitored lakes.
+- Development of techniques to extract and recognize terrain features using advanced technology.
+- Creation of a system to predict specific conductance in inland stream reaches using watershed characteristics, land use, and meteorological data.
+- Prediction of the thickness of the regolith layer in the Delaware River Basin using a Random Forest model.
+- Estimation of water depth in river channels using high-frequency satellite images and neural network regression.
+- Development of a system to predict lake water temperature based on lake characteristics.
+- Classification of waterfowl behavior using GPS relocations and potentially habitat data.
+- Application of Artificial Neural Networks to enhance earthquake ground-motion models.
+- Prediction of stream habitat conditions in the Chesapeake Bay Watershed using rapid habitat assessment data.
+- Development of species distribution models for fluvial fish species in the conterminous United States.
+- Creation of a machine learning model to analyze hydroacoustic data on fish movement in coastal wetlands.
+- Prediction of water temperature in the Delaware River Basin using recurrent graph convolutional networks.
+- Classification of wildlife camera trap images based on species present using convolutional neural networks.
+- Integration of AI/ML modeling techniques into the USGS Water Mission Area's streamgage monitoring network.
+- Implementation of the Generalized Phase Detection model to improve the earthquake catalog of the Southern California Seismic Network.
+- Analysis of the 2020-2021 earthquake sequence in southwestern Puerto Rico using deep learning models.
+- Classification of amphibian vocalizations in audio recordings using convolutional neural networks.
+- Analysis of resource management planning rules through unstructured planning document mining.
+- Prediction of stream temperature using meteorological drivers and groundwater influence.
+- Prediction of stream temperature under changing climate conditions using deep learning models.
+- Analysis of human-driven environmental changes on global inland fisheries and development of a risk index.
+- Use of the PROSPER modeling framework to predict streamflow permanence.
+- Creation of a database of spot elevations for summit locations in the contiguous United States.
+- Identification of surface water using artificial neural networks trained with annotated hydrography data.
+- Forecasting of water temperature in the Delaware River Basin using process-guided deep learning and data assimilation.
+- Identification of classification systems for significant well events using self-supervised deep neural networks.
+
+## VA
+- Researchers are using AI to analyze brain imaging and electrophysiological data to identify patterns of dementia and epilepsy disorders.
+- AI is being used to evaluate treatment policies for patients with hepatitis C virus and predict disease progression.
+- Random forest modeling is used to predict corticosteroid-free remission in ulcerative colitis patients.
+- AI tools can predict health outcomes such as suicide death, opioid overdose, and chronic disease decompensation using electronic health records.
+- Nediser is an AI system that assists radiologists in analyzing X-ray properties.
+- Machine learning is used to enhance the treatment of functional issues in patients with peripheral artery disease.
+- AI is used to enhance suicide risk identification in veterans through various initiatives.
+- The SoKat Suicide Ideation Engine uses NLP to detect suicidal thoughts among veterans.
+- AICURE is an AI-powered mobile application that tracks medication adherence in clinical studies.
+- Machine learning is used to predict hospitalization and corticosteroid use in patients with irritable bowel disease.
+- AI is used in a research study to find colon polyps through a randomized trial.
+- Automated eye movement analysis using AI improves diagnostic predictions for neurological diseases.
+- AI can assess lung function and identify predictors of normal and abnormal lung function.
+- Machine learning predicts surgery in Crohn's disease patients using patient data and demographics.
+- AI algorithms detect and classify seizures in epilepsy patients using EEG and video data.
+- AI is used to improve the accuracy and quality of provider directory data and clinical decision support.
+- AI is used to detect acute kidney injury and its causes in collaboration with Google DeepMind.
+- Machine learning enhances diagnostic error detection and classification of protein electrophoresis text.
+- AI is used to evaluate risk factors for opioid use disorder and overdose in Post-9/11 Veterans.
+- AI extracts family medical history data from patient records to identify individuals at risk of prostate cancer.
+- The Digital Command Center uses AI analytics to optimize hospital performance.
+- The Medtronic GI Genius uses AI to assist in the detection of colon polyps during colonoscopy procedures.
+- AI extracts social determinants of health information from clinical notes for health-related analysis.
+- Machine learning predicts veterans' suicidal thoughts based on web-based survey data.
+- CuraPatient is a remote AI-powered tool for effective health condition management.
+- Behavidence analyzes phone usage to track mental health conditions in veterans.
+- AI models enhance the clinical management of colorectal polyps through video analysis.
+- AI analyzes digitally recorded speech to assess cognitive decline in older VA patients.
+- AI improves the diagnosis of eye conditions in telehealth by analyzing retina photos.
+- AI predicts veterans' response to thiopurines for irritable bowel disease treatment.
+- The MedSafe Clinical Decision Support system provides evidence-based recommendations for diabetes, hypertension, and chronic kidney disease management.
+- Machine learning predicts health outcomes in VA patients, including Alzheimer's disease and rehospitalization.
+- Machine learning forecasts the progression of hepatitis C virus in veterans.
+- AI models predict perfusionists' decision-making in cardiac surgery for improved patient safety.
+- Deep learning models predict hepatocellular carcinoma risk in hepatitis C-related cirrhosis patients.
+- AI coach identifies misalignment in mental models during complex healthcare tasks in cardiac surgery.
+- AI physical therapy app analyzes wearable sensor data to support physical therapy.
+- Precision medicine model predicts PTSD and suicidality episodes and diagnoses.
+- PredictMod analyzes the gut microbiome to make predictions about diabetes.
+- AI tools use national VHA administrative data to predict the risk of esophageal adenocarcinoma.
+
+## Agriculture
+- Retailer Receipt Analysis: Uses AI to automate the review process of receipts and invoices, detect fraud patterns, and save staff time.
+- RMRS Raster Utility: A .NET library that streamlines raster analysis and incorporates machine learning techniques.
+- Ecosystem Management Decision Support System (EMDS): Spatial decision support system that uses AI engines for tailored applications.
+- Deadwood Model: Utilizes boosted regression trees and expert knowledge to identify and remove non-operational farm operations.
+- Procurement Description Analysis: Natural language processing model to determine the likelihood of IT-related procurements.
+- Publicly-Funded Data Analysis: Uses AI tools to democratize access to publicly-funded data and evidence.
+- Wildfire Damage Assessment: Applies machine learning techniques to identify building loss and defensible space after wildfires.
+- Climate Change Project Classification: NLP model to classify NIFA funded projects as climate change related or not.
+- Aquatic Weed Detection: Focuses on identifying and locating aquatic weeds in aquatic environments.
+- Multi-Model Machine Learning Metasystem: Improves accuracy of spring-summer river flow volume forecasts for water management.
+- Invasive Pest Detection: Uses inspection data to develop predictive models for identifying invasive pests at ports of entry.
+- Video Surveillance System: Comprehensive system for collecting, managing, and presenting video from multiple sources.
+- Intelligent Ticket Routing: Automatically routes tickets to appropriate work groups using AI technologies and tools.
+- Landscape Change Monitoring System (LCMS): Uses remote sensing to map and monitor changes in vegetation and land cover.
+- Cropland Data Layer (CDL): Utilizes machine learning to classify crop types on a pixel level using satellite data.
+- Forest Mortality and Defoliation Mapping: Utilizes machine learning models to map and monitor forest health.
+- Fuzzy Matching Algorithm: Automates matching similar text in administrative documents, reducing manual error-checking.
+- Citrus Tree Disease Detection: Identifies pre-symptomatic citrus trees infected with Huanglongbing using imagery.
+- USDA Nutrition Information Integration: Participants used AI techniques to connect USDA nutrition information with a large dataset of food items.
+- NAL Automated Indexing Cogito Software: Uses AI to annotate peer-reviewed journal articles in the National Ag Library.
+- ARS Project Mapping NLP: Analyzes and clusters research project plans to identify synergies and patterns.
+- Predictive Maintenance: Uses AI tools and technologies to predict infrastructure maintenance needs.
+- High Throughput Phenotyping in Citrus Orchards: Utilizes machine learning to monitor the health of citrus orchards.
+- Land Change Analysis Tool (LCAT): Generates land cover maps using a random forest classifier and docker cluster processing.
+- Correlative Statistical Analysis: Utilizes AI modeling approaches for statistical prediction.
+- CLT Knowledge Database: Uses data aggregator bots to search for cross-laminated timber information.
+- Repair Expense Analysis: Analyzes descriptions of expenses to classify them as repair or not repair.
+- Ecological Site Descriptions: Uses machine learning to create ecological site descriptions.
+- Geospatial and Remote Sensing Courses: Teach software and scripting for machine learning in geospatial and remote sensing.
+- No-Change Detection in Imagery: Uses neural networks and AI technologies to identify and detect no-changes in digital imagery.
+- Automatic Host Plant Mapping: Develops a system to automatically detect and map host plants using ground-level imagery.
+- Standardizing Cut Flower Business Names: Uses NLP techniques to standardize cut flower business names.
+- Comment Analysis Pilot: Utilizes NLP to assist in the regulatory comment analysis process.
+- Document Processing and Information Extraction: Utilizes AI to automatically extract information from document attachments.
+- TreeMap 2016: Matches forest plot data to a grid to represent forests in the United States.
+- Propensity Scores for Census of Agriculture: Calculates propensity scores using random forest models for data collection methods.
+- Conservation Effects Assessment Project: Uses farmer survey data and modeling results to predict conservation benefits.
+- Spam Email Classification: AI solution to classify and remove spam and marketing emails from civil rights complaint email channels.
+- Nutrition Education & Local Access Dashboard: Provides visual representation of FNS nutrition support at the county level.
+
+## State
+- Global Engagement Center (GEC) Technology Testbed: Makor Analytics uses AI behavioral analytics to analyze survey responses and provide sentiment insights.
+- Natural language processing (NLP) for extracting information from PDF documents.
+- Image clustering using pretrained deep learning models.
+- Crisis Campaign Cable Analytics: Optical character recognition and NLP used to identify gaps and trends in crisis training.
+- Apptio Working Capital Fund (IRM/WCF): Uses Apptio for invoicing and budget planning with predictive capabilities.
+- Facebook's GPA system: Collects and analyzes media coverage for ad optimization.
+- NLP for Foreign Assistance Appropriations Analysis (F/RA) to automate extraction of earmarks and directives.
+- Machine learning in GPA's production system for measuring and evaluating public outreach efforts.
+- Statistical models for forecasting COVID cases and violent events.
+- Louvain Community Detection algorithm for analyzing social networks.
+- Foreign Service Institute School of Language Studies' tool for finding authentic texts by topic and proficiency level.
+- Integration of ServiceNow's Virtual Agent into IRM's applications for support and data requests.
+- TOPIQ tool using LDA for classifying text into topics.
+- Machine learning models in the eRecords archive for enhanced metadata and record discovery.
+- Village Monitoring System program using AI and machine learning for satellite imagery analysis.
+- Fast Text for identifying similar terms and phrases.
+- Prototype system for analyzing media coverage from Embassy Public Affairs Sections.
+- SentiBERTIQ tool for extracting subjective information from text.
+- Deepfake Detector for classifying real and synthetic faces.
+- GPATools and GPAIX for testing messages across foreign sub-audiences.
+- Conflict Observatory program for automated damage assessments in Ukraine.
+- AI/ML models to detect fraud in the Integrated Logistics Management System (ILMS).
+- Product Service Code Automation ML Model for improved categorization of procurement items.
+- SMART system with AI capabilities for cable analysis and recommendations.
+- NLP and ICR for extracting values from payroll forms.
+- Automated support desk assistant using ServiceNow Virtual Agent.
+- Conflict Forecasting models for predicting conflict outcomes.
+- Bots for automating data entry and grant closeout reminders.
+- Topic modeling for clustering text into themes.
+- Text Similarity capability for grouping similar texts.
+- OCR for extracting text from images on websites.
+- Analysis of ILMS data for customized user experiences and analytics.
+- K-means clustering for categorizing countries into tiers.
+- Use of Sealr technology for secure monitoring of foreign assistance using blockchain and AI.
+
+## Labor
+- Audio transcription: AI is used to convert speech into written text for record-keeping purposes.
+- Website chatbot assistant: AI-powered chatbot provides information, guidance, and support related to the program.
+- Language translation services: AI-based natural language processing models are used to translate published documents and websites.
+- Automatic data processing workflow: Form Recognizer technology is used to extract necessary data from complex documents, eliminating manual extraction and streamlining the process.
+- Text to speech conversion enhancement: Neural networks and natural language processing models are used to improve the realism of human-sounding applications.
+- Causal language detection: Custom natural language processing models are used to identify causal language in physician's notes as part of claims document processing.
+- Case recording document summarization: Open source large language models are used to summarize case recording documents, with human review to ensure no personal identifiable information or sensitive data is included.
+- Data extraction from complex forms: Custom machine learning models extract data from forms and tag the data entries to field headers, improving efficiency.
+- Electronic records management: AI is used to identify data within documents and classify and summarize them, meeting metadata standards for permanent federal documents.
+- Machine learning for BLS data processing: Machine learning is used to label bulk data received from corporations with Entry Level Item (ELI) codes, streamlining the process.
+- Validation of official documents: AI technology is used to detect mismatched addresses and garbled text in letters sent to benefits recipients.
+- Form Recognizer for Benefits Forms: Custom machine learning model extracts data from complex forms and tags the data entries to field headers.
+- Automatic processing of continuation of benefits forms: AI is used to extract pre-defined selection boxes for streamlined processing.
+- Expenditure classification autocoder: Custom machine learning model assigns expense descriptions to specific expense categories for analysis and reporting.
+- Chatbot assistant for procurement: Chatbot provides answers to common procurement questions and specific contract inquiries.
+- Hololens AI for visual inspection: Inspectors use Hololens AI to visually assess high and unsafe areas without endangering themselves.
+- Analysis of recorded calls: AI is used to analyze calls made to Benefits Advisors, evaluating content and quality to improve efficiency and effectiveness.
+- Occupation autocoder: Tool reads job titles and assigns Standard Occupational Classification (SOC) codes as recommendations for human coders.
+
+## USAID
+- Breakthrough RESEARCH uses social media listening and machine learning to analyze gender-related online conversations in Nigeria, providing insights into conversation volume, misinformation, attitudes, and social norms.
+- NASA SERVIR enhances urban vulnerability assessment by utilizing satellite imagery and artificial intelligence to map informal settlements in major population centers.
+- Machine learning is used to predict the likelihood of treatment interruption among people living with HIV in Nigeria, providing more intensive follow-up support to high-risk patients.
+- AI and satellite data are used to analyze the long-term impacts of land-use dynamics on water quality in Botswana's Limpopo River Basin, developing empirical models for estimating water quality and mapping a water quality index.
+- AI technology is used in Mali to prioritize areas for COVID-19 vaccine distribution based on high case rates and vulnerable populations.
+- Project Vikela uses AI to detect illegal rhino horn in airplane luggage X-Ray scanners, aiming to prevent smuggling.
+- AI technology predicts bed occupancy at hospitals in Serbia, demonstrating the value of AI and focusing on waiting list optimization for imaging diagnostics services.
+- The Media Early Warning System (MEWS) utilizes AI to detect alterations in images and videos, addressing malign narratives on social media.
+- NASA SERVIR predicts harmful algae blooms in Lake Atitlán, Guatemala, using machine learning and Earth observations to provide daily forecasts for the Harmful Algal Blooms Alert System.
+- NASA SERVIR's GEOGloWS ECMWF Streamflow Service (GESS) uses machine learning to bias correct historical flow data, providing actionable water information globally.
+- Machine Learning for Peace Objective 1 is part of the INSPIRES initiative, focusing on program activities and collaboration.
+- UC Berkeley analyzes gender differentiated credit scoring for Rappicard customers in Mexico using machine learning, aiming to improve women's access to credit.
+- A social innovation lab in Tanzania uses machine vision to address agricultural problems, including disease detection, weed classification, pest detection, and crop performance improvement.
+- AI technology creates a forecasting model for tuberculosis drugs in Indonesia, improving the accuracy of annual quantification exercises for the Ministry of Health.
+
+## Transportation
+- Machine learning is used to predict crash parameters directly from real-world crash images, improving efficiency in crash examination.
+- Surface incident reports are categorized using a system that utilizes machine learning to classify events and severity levels.
+- Deep learning models can predict head kinematics in vehicle crashes using videos, useful when sensor data is unavailable or of low quality.
+- Machine learning software analyzes camera images of wind socks to determine surface wind speed and direction in remote areas without weather sensors.
+- Deep neural network technology is used to identify and classify features related to railroad tracks, allowing for change detection and inspection notifications.
+- Natural Language Processing and Machine Learning are used to predict JASC codes from safety difficulty reports, improving accuracy and efficiency.
+- Deep learning computer vision algorithms analyze crushed aggregate to determine particle size grading.
+- ChatGPT, an AI system, is used to analyze and catalog comments on proposed rules, improving efficiency in the rulemaking process.
+- Voice processing technology enables automated delay detection in air traffic control and aircraft interactions, improving accuracy in tracking delays.
+- Machine learning techniques enhance the accuracy of identifying and predicting precipitation areas using various data sources.
+- Machine learning filters incident data to identify rare events in aircraft navigation, aiding in the development of collision risk models.
+- Predictive analytics using machine learning analyze track geometry data to generate maintenance and safety reports.
+- Artificial intelligence is used to assess convective weather information and enhance accuracy using satellite and model data.
+- Natural Language Processing processes documents to establish compliance evidence and matches between regulatory standards and FAA text.
+
+## SSA
+- The Medicare Part D Subsidy Model uses machine learning to detect incorrect Medicare Part D subsidies for further assessment.
+- The Modernized Development Worksheet (MDW) utilizes AI to categorize textual data into workload topics, making it easier for technicians to review claim development tasks.
+- Mobile Wage Reporting (MOBWR) extracts text and data from scanned images or documents, allowing for quicker processing and analysis of payroll information.
+- The SSI Redetermination Model uses machine learning to identify cases of supplemental security income with significant overpayments for review by technicians.
+- The PATH Model predicts which cases are likely to receive an allowance at the hearing level, speeding up the decision-making process.
+- Insight is decision support software that analyzes case data in real-time, providing alerts and reference information to improve the quality, speed, and consistency of decision making.
+- Pre-Effectuation Review and Targeted Denial Review utilize machine learning to identify errors in determining disability eligibility for quality review checks.
+- The Duplicate Identification Process (DIP) uses image recognition technology to efficiently identify duplicate cases, reducing time spent on case review.
+- Handwriting recognition from forms AI performs OCR on handwritten entries, supporting Robotic Process Automation and standalone applications.
+- The anomalous iClaim predictive model identifies high-risk iClaims for further review.
+- Quick Disability Determinations (QDD) prioritizes cases with a positive disability determination and easily accessible medical evidence for expedited processing.
+- IMAGEN is an IT modernization product that improves efficiency and consistency of disability determinations, leveraging machine learning for fraud prevention.
+- The Rep Payee Misuse Model predicts the likelihood of representative payees misusing resources, flagging cases for further examination.
+- The CDR Model uses machine learning to identify disability cases with a higher chance of medical improvement for review of continued eligibility.
+
+## Treasury
+- Large Corporate Compliance: Utilizes machine learning to classify and manage corporate tax data.
+- NRP Redesign: Implements active learning methods for efficient tax gap estimation and policy analysis.
+- Multiple Linear Regression Model: Predicts if inventory items will be replenished within the standard need by time.
+- Automated Collections IVR (ACI): Integrates NLU model to analyze customer speech input and guide appropriate call path.
+- Multilingual BERT Model Evaluation: Evaluates the effectiveness of training a multilingual BERT model on IRS content.
+- eGain Intent Engine: Integrates NLU model to analyze customer typed text input and provide relevant knowledge article.
+- Line Anomaly Recommender: Combines recommender system models to evaluate compliance risk and detect abnormal tax returns.
+- LB&I Text Analytics: Develops TaxBERT model for targeted analytics in the tax domain.
+- SBSE Issue Recommender: AI-based system detects potential non-compliance issues and improves training and field work processes.
+- Large Partnership Compliance: Uses machine learning to analyze partnership data and assess the risk of non-compliance.
+- Procurement Contract Prediction: Web app uses machine learning to predict when procurement requests will become signed contracts.
+- Multiple Linear Regression Model: Predicts likelihood of receiving inventory items on time in the future.
+
+## GSA
+- Service Desk Virtual Agent (Curie) - Uses machine learning to provide predictive responses and enhance IT support for employees seeking assistance.
+- City Pairs Program Ticket Forecast and Scenario Analysis Tools - Utilizes segment-level data to generate predictions for air travel purchases in different categories.
+- Document Workflow Platform Improvement - Implements intelligent data capture and extraction techniques to transfer data from PDF files efficiently.
+- Category Taxonomy Refinement - Uses Natural Language Processing to accurately identify and categorize products based on descriptions and Product Service Codes.
+- Generic Service Desk Ticket Classification and Routing - Develops a model to classify and route tickets automatically, reducing the need for manual re-routing.
+- Acquisition Analytics - Organizes and manages government acquisitions effectively using detailed transaction data and Category Management Taxonomy.
+- Key KPI Forecasts for GWCM - Uses historical data to create near-term forecasts for key performance indicators, starting with total agency/category spend.
+- Solicitation Review Tool (SRT) - Applies machine learning algorithms to determine compliance language in ICT solicitations, validated by agencies and manual reviews.
+- Virtual Agent SAM - Understands customer needs using manual learning and natural language processing, part of the IAE FSD CCAI system.
+- CALI - Evaluates vendor proposals against solicitation requirements using automated machine learning, currently trained with sample data from the Multiple Award Schedule program.
+- Chatbot for GSA FAS NCSC - Streamlines customer experience, automates frequently asked questions, and reduces the need for live chat agents.
+- Qualitative Data Analysis for USAGov - Classifies data from various sources to identify areas for product updates or enhancements.
+
+## Justice
+- AI is used to scan documents and identify attorney/client privileged information.
+- AI algorithms are used in the Complaint Lead Value Probability Threat Intake Processing System (TIPS) database to identify and process actionable tips, prioritizing immediate threats for response.
+- The Office of Records Management Policy uses AI and Natural Language Processing in the Intelligent Records Consolidation Tool to assess the similarity of records schedules and provide recommendations for consolidation.
+- The DEA's Special Testing and Research Laboratory uses AI and machine learning techniques to classify the geographic origin of samples in their Heroin and Cocaine signature programs, as well as automatically detect anomalies and low confidence results.
+
+## Education
+- Aidan FSA is a virtual assistant that uses AI and natural language processing to provide information and answer questions about financial aid.
+- Aidan has assisted over 2.6 million customers and processed more than 11 million user messages.
+- AI is used to enhance the user experience and improve the efficiency of information retrieval in the financial aid domain.
+
+## EPA
+- Collaborated with the University of Chicago to develop a proof-of-concept using predictive analytics for facility inspections, resulting in a 47% improvement in identifying violations of environmental regulations.
+- Used a random forest model to predict the probability of chemical exposure pathways and created a consensus model to estimate intake rates for a large number of chemicals, even with limited exposure information.
+- Utilized machine learning to forecast the retention schedule for records, integrating it into a records management application to assist users in applying appropriate retention schedules for new records.

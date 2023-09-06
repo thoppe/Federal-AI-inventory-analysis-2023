@@ -1,0 +1,220 @@
+Title,Agency,Summary,Development Stage,Techniques,Source Code
+AdaStress,Ames Research Center,"Testing complex systems often requires computationally intensive Monte Carlo sampling approaches to identify
+possible faults. In systems where the number of faults are low, but safety critical, this form of testing may be
+infeasible due to the large number of samples needed to catch a rare fault. AdaStress instead uses reinforcement
+learning to more efficiently sample low-likelihood, but high-impact faults.",In-use,Reinforcement Learning,
+Airplane detection,Marshall Space Flight Center,Deep learning-based airplane detection from high-resolution satellite imagery,In-use,,
+"Application that provides bio-inspired solutions
+to engineering problems (PeTaL)",Glenn Research Center,"PeTaL (the Periodic Table of Life) is an open source artificial intelligence (AI) design tool that leverages data and
+information from nature and technology to advance biomimicry research and development. PeTaL is envisioned to
+streamline various steps of the bio-inspired design process by integrating new and existing tools and methodologies
+around its core ontological framework (Shyam et al., 2019; Unsworth et al., 2019). To be as comprehensive as
+possible, PeTaL requires mass curation of standardized data through which it can learn, interpret, and output
+predictive solutions to design queries. PeTaL is intended to be used by designers and engineers who seek nature’s
+solutions to their design and engineering problems, as well as by biologists who seek to extend the application of
+their scientific discoveries.
+In Production: Classification of biology journal articles into functional categories.
+In Development: Joint text summarization and named entity recognition task involving open-access biology journal
+articles using large language models such as those available from OpenAI.",In-use,"LLM prompt engineering, BERT
+text classification, Natural
+Language Processing",https://github.com/nasa-petal
+ASPEN Mission Planner,Jet Propulsion Laboratory,"Based on AI techniques, ASPEN is a modular, reconfigurable application framework which is capable of supporting a
+wide variety of planning and scheduling applications. ASPEN provides a set of reusable software components that
+implement the elements commonly found in complex planning/scheduling systems, including: an expressive
+modeling language, a resource management system, a temporal reasoning system, and a graphical interface. ASPEN
+has been used for many space missions including: Modified Antarctic Mapping Mission, Orbital Express, Earth
+Observing One, and ESA's Rosetta Orbitter.",In mission,"constraint-based heuristic
+Search",
+"Automatic Detection of Impervious Surfaces
+from Remotely Sensed Data Using Deep Learning",Marshall Space Flight Center,"Uses a U-Net based architecture with VGG-19 as an encoder block and custom decoder block to map the impervious
+surfaces using Landsat and OSM data patches",In-use,,
+"Autonomous Marine Vehicles (Single, Multiple)",Jet Propulsion Laboratory,"Due to the communication paradigm associated with operating an underwater submersible on an Ocean World, the
+vehicle must be able to act autonomously when achieving scientific goals. One such goal is the study of
+hydrothermal venting. Evidence for hydrothermal activity has been found on one Ocean World, Enceladus. On
+Earth, these geological phenomena harbor unique ecosystems and are potentially critical to the origin of life. Similar
+vents on Ocean Worlds could be the best chance at extra-terrestrial life in our Solar System. We focus on performing
+autonomous science, specifically the localization of features of interest - such as hydrothermal venting - with limited
+to no human interaction. A field program to Karasik Seamount in the Arctic Ocean was completed in Fall 2016 to
+study and understand the human-in-the-loop approach to the localizing hydrothermal venting. In 2017/2018 an
+autonomous nested search method for hydrothermal venting was developed and tested in simulation using a
+hydrothermal plume dispersion model developed by Woods Hole Oceanographic Institution. Numerous
+deployments have been executed including to Monterey Bar (multiple), Chesapeake Bay.",In mission,"constraint-based heuristic
+Search",
+Autonomous WAiting Room Evaluation (AWARE),Langley Research Center,"Using an existing security camera and YOLO Machine Learning model to detect and count number of people waiting
+for service at Langley's Badge & Pass Office. When a predetermined threshold of people is exceeded, automated
+texts and emails are sent to request additional help at the service counters.",In-use,Convolutional Neural Network,
+"Biological and Physical Sciences (BPS) RNA
+Sequencing Benchmark Training Dataset",Ames Research Center,"RNA sequencing data from spaceflown and control mouse liver samples, sourced from NASA GeneLab and
+augmented with generative adversarial network to provide synthetic data points. The implementation uses
+classification methods and hierarchical clustering to identify genes that are predictive of outcomes.",In-use,"GANs, Hierarchical Clustering",https://github.com/NASA-IMPACT/bps-numerical
+"Biological and Physical Sciences Microscopy
+Benchmark Dataset",Ames Research Center,"This study uses fluorescence microscopy images from the Biological and Physical Sciences Open Science Data
+Repositories (osdr.nasa.gov). The dataset consists of 93,488 images of individual nuclei from mouse fibroblast cells,
+irradiated with Fe particles or X-rays and labeled for DNA double strand breaks using 53BP1 as a fluorescence
+marker. DNA damage appears as small white foci in these images. The study simulates exposure to space radiation
+and the dataset has been modified to be AI ready so that AI expert can test several AI tools on them. The dataset is
+publicly available on the Registry of Open Data on AWS. Implementation AI tools developed in-house are also
+available on the link.",In-use,Graphical Neural Network,https://github.com/NASA-IMPACT/bps-imagery-radiation-classification/tree/cnn_classifier
+CLASP Coverage Planning & Scheduling,Jet Propulsion Laboratory,"The Compressed Large-scale Activity Scheduling and Planning (CLASP) project is a long-range scheduler for space-
+based or aerial instruments that can be modelled as pushbrooms -- 1D line sensors dragged across the surface of
+the body being observed. It addresses the problem of choosing the orientation and on/off times of a pushbroom
+instrument or collection of pushbroom instruments such that the schedule covers as many target points as possible,
+but without oversubscribing memory and energy. Orientation and time of observation is derived from geometric
+computations that CLASP performs using the SPICE ephemeris toolkit. CLASP allows mission planning teams to start
+with a baseline mission concept and simulate the mission's science return using models of science observations,
+spacecraft operations, downlink, and spacecraft trajectory. This analysis can then be folded back into many aspects
+of mission design -- including trajectory, spacecraft design, operations concept, and downlink concept. The long
+planning horizons allow this analysis to span an entire mission. Actively in use for optimized scheduling for the
+NISAR Mission, ECOSTRESS mission (study of water needs for plant areas), EMIT mission (minerology of arid dusty
+regions), OCO-3 (atmospheric CO2) and more as well as used for numerous missions analysis and studies (e.g.
+100+).",In mission,constraint-based heuristic Search,
+"Deep Learning Approaches for mapping surface
+water using Sentinel-1",Marshall Space Flight Center,Uses a U-Net based architecture to map surface water using the Sentinel-1 SAR Images,In-use,,
+"Deep Learning-based Hurricane Intensity
+Estimator",Marshall Space Flight Center,"A web-based situational awareness tool that uses deep learning on satellite images to objectively estimate
+windspeed of a hurricane",In-use,,
+"Europa Ice Floe Detection (GSFC Planetary
+Sciences Lab)",Goddard Space Flight Center,"Machine Learning applied to Galileo space probe imagery to detect and classify ice blocks in the chaos regions of
+Jupiter's moon Europa. GANs were also used to generate simulated training data.",In-use,"Mask R-CNN, GANs",https://gitlab.grc.nasa.gov/kgansler/europa-ice-floe-detection
+Forecasting Algal Blooms With Ai In Lake Atitlán,Marshall Space Flight Center,"Deep analyses on image datasets from different satellites. Machine learning will help to identify the variables that
+could predict future algal blooms. Knowledge on what those triggers are can turn into precise preventative action,
+not just in Lake Atitlan, but also in other freshwater bodies with similar conditions in Central and South America.",In-use,,
+GCMD Keyword Recommender (GKR),Marshall Space Flight Center,Natural Language Processing-based science keyword suggestion tool,In-use,Natural Language Processing,
+"Geophysical Observations Toolkit for Evaluating
+Coral Health (GOTECH)",Langley Research Center,"Three capstone projects conducted 2021-2022 with Georgia Tech and University of Rochester to develop machine
+learning models that can analyze satellite LIDAR imagery to detect coral reefs and monitor their health. Capstones
+were conducted with support of Coral Vita (an NGO) and the National Institute of Aerospace. Results were
+presented at United Nations COP27.",In-use,"support vector machine,
+artificial neural network",https://ntrs.nasa.gov/citations/20220010955
+"High-Performance Quantum-Classical Hybrid
+Deep Generative Modeling Parameterized by
+Energy-based Models for Flight-Operations
+Anomaly Detection",Ames Research Center,"Our project conducts high-performance scalable and explainable machine learning for flight-operations anomaly
+detection, with contributions from classical computing (enhanced performance, reduced cost) and quantum
+computing (encoding of quantum correlations, quantum-resource estimates). Our deep-learning model takes time
+series of 19 flight metrics collected by flight recorders of commercial aircraft as input and predicts operational and
+safety-relevant anomalies during the take-off and landing phases of flight.",In-use,"Convolutional Neural Network,
+#K-Means Clustering, Variational
+Autoencoders",
+"Hybrid On-Board and Ground-Based Processing
+of Massive Sensor Data (HyspIRI IPM)",Jet Propulsion Laboratory,"Future space missions will enable unprecedented monitoring of the Earth's environment and will generate immense
+volumes of science data. Getting this data to ground communications stations, through science processing, and
+delivered to end users is a tremendous challenge. On the ground, the spacecraft's orbit is projected, and automated
+mission-planning tools determine which onboard-processing mode the spacecraft should use. The orbit determines
+the type of terrain that the spacecraft would be overflying—land, ice, coast, or ocean, for instance. Each terrain
+mask implies a set of requested modes and priorities. For example, when a spacecraft overflies polar or
+mountainous regions, producing snow and ice coverage maps can provide valuable science data. The science team
+can adjust these priorities on the basis of additional information (such as external knowledge of an active volcano, a
+flooded area, an active wildfire, or a harmful algal bloom). The mission-planning tool accepts all these requests and
+priorities, then determines which onboard-processing algorithms will be active by selecting the highest-priority
+requests that fit within the onboard CPU resources, band-processing limitations, and downlink bandwidth.In the
+intelligent onboard processing concept, HyspIRI's onboard processing algorithms would consist of expert-derived
+decision tree classifiers, machine-learned classifiers such as SVM classifiers and regressions, classification and
+regression trees (CART), Bayesian maximum-likelihood classifiers, spectral angle mappers, and direct
+implementations of spectral band indices and science products",In mission,"constraint-based heuristic
+Search",
+ImageLabeler,Marshall Space Flight Center,Web-based Collaborative Machine Learning Training Data Generation Tool,In-use,,
+Inverse Design of Materials,Glenn Research Center,"Discovering new materials is typically a mix of art and science, with timelines to create and robustly test a new
+material mix / manufacturing method ranging from ten to twenty years. This project seeks to enable rapid
+discovery, optimization, qualifaction and deployment of fit-for-purpose materials. Supervised ML models are
+trained to establish the relationship between how a material is made and how the material performs. Then Bayesian
+optimization is used to select iterative optimal experiments to achieve the target material properties in a cost and
+time efficient manner compared to traditional design of experiments. The project is currently being utilized in an
+NESC investigation to improve SLS core stage weld quality. The technology will be used to select experiments for a
+fully autonomous robotic lab that is currently being procured to design better insulating materials for electrified
+aircraft. Outputs include recipes and approaches for new materials custom-tailored to applications with an 4x
+speedup for the overall materials discovery / design lifecycle, and potential 10x throughput for the same cycle based
+on parallizing discovery of multiple materials at once.",In-use,,
+Lessons Learned Bot (LLB),Langley Research Center,"In near real-time, the Lessons Learned Bot, or LLB, brings lessons learned (LL) documents to users through a
+Microsoft Excel add-in application locally installed to search for LL content relevant to the text within the selected
+Excel cell. The application will encompass a corpus of documents, a trained Machine Learning (ML) model, built-in
+ML tools to train user’s documents, and an easy-to-use user interface to allow for the streamlined discovery of LL
+content. Today, NASA’s LL are online and searchable via keywords. Nevertheless, users often face a challenge to find
+lessons relevant to their issues. Applying the advancement in Natural Language Processing (NLP) ML algorithm, the
+LLB can find and rank LL records relevant to text in the user’s selected Excel cells, containing just a few words or
+entire paragraphs of text. Results are displayed to the user in their existing Excel workflow. The LLB’s installation
+package comes with a pre-trained NASA LL dataset and a NASA Scientific and Technical Information (STI) dataset, as
+well as on-demand training tools allowing the user to apply the LLB search algorithm to their own discipline specific
+datasets.Additionally, we also have an API version of this software that can be called from any application within the
+Agency firewall.",In-use,,
+"Mapping sugarcane in Thailand using transfer
+learning, a lightweight convolutional neural
+network, NICFI high resolution satellite imagery
+and Google Earth Engine",Marshall Space Flight Center,"Uses a U-Net based architecture with MobileNetV2 based encoder with transfer learning from global model to map
+the sugarcane pixels in Thailand. This uses NICFI mosaic for the training purpose.",In-use,,
+Mexec Onboard Planning and Execution,Jet Propulsion Laboratory,"MEXEC is a lightweight, multi-mission software for activity scheduling and execution developed to increase the
+autonomy and efficiency of a robotic explorer. MEXEC was first created as a prototype demonstration for the
+Europa Clipper project as a potential solution to fail-operational requirements. Specifically, the Europa project is
+concerned with the radiation environment around Jupiter which can trigger on-board computer resets at critical
+times of the mission (e.g. during Europa flybys). If a CPU reset occurs, flight software must bring the spacecraft back
+to a safe state and resume science operations as quickly as possible to minimize science loss. The MEXEC prototype
+flight software was developed to provide such a capability using proven AI planning, scheduling, and execution
+technologies. Instead of command sequences, MEXEC works with task networks, which include abstract
+representations of command behavior, constraints on timing, and resources required and/or consumed by the
+behavior. Using this knowledge on-board, MEXEC can monitor command behavior and react to off-nominal
+outcomes (e.g. CPU reset), reconstructing command sequences to continue spacecraft operations without
+jeopardizing spacecraft safety.",In-use,,
+"Onboard Planner for Mars2020 Rover
+(Perseverance)",Jet Propulsion Laboratory,"The M2020 onboard scheduler incrementally constructs a feasible schedule by iterating through activities in priority-
+first order. When considering each activity it computes the valid time intervals for placement, taking into account
+preheating, maintenance heating, and wake/sleep of the rover as required. After an activity is placed (other than a
+preheat/maintenance or wake/sleep), the activity is never reconsidered by the scheduler for deletion or moving.
+Therefore the scheduler can be considered non backtracking, and only searches in the sense that it computes valid
+timeline intervals for legal activity placement. Meta Search: Because the onboard scheduler will be invoked many
+times in a given sol (Martian Day) with a range of possible contexts (due to execution variations), its non
+backtracking nature leaves its vulnerable to brittleness. In order to mitigate this potential brittleness, the Copilot
+systems perform a monte carlo based stochastic analysis to set meta parameters of the scheduler - primarily activity
+priority but also potentially preferred time and temporal constraints. Also: Research, experiments, and
+engineering to empower future rovers with onboard autonomy; planning, scheduling & execution; path planning;
+onboard science; image processing; terrain classification; fault diagnosis; and location estimation. This is a multi-
+faceted effort and includes experimentation and demonstrations on-site at JPL's simulated mars navigation yard.",In mission,,
+Pedestrian Safety Corridors for Drone Test Range,Langley Research Center,"NASA Langley Research Center (LaRC) is actively experimenting with Unmanned Aerial Systems (UAS - Drones and
+surrounding systems) to include command, control, coordination and safety mechanisms. LaRC is expanding an on-
+site UAS test range, to include areas where people walk, drive, etc. This project leverages the parking advisor image
+recognition project and applies it to detecting pedestrian traffic to supplement statistical assessment of human-
+heavy and human lite traffic areas with near-real time human-presence-detection. Inputs include camera signals
+and hand labelled training data. Outputs include maps indicating density of human pedestrian traffic. The results
+have been embedded into the GRASP flight risk simulation tool.",In-use,,https://gitlab.grc.nasa.gov/dmtrent/wahldo-1
+Predicting streamflow with deep learning,Marshall Space Flight Center,"Uses a long short-term memory model to predict streamflow at USGS gauges sites with inputs from the NASA Land
+Information System and forecasts of precipitation",In-use,,
+"Prediction of Mass Level in Radio Frequency
+Cryogenics",Ames Research Center,"Utilizing the Radio frequency signature of fluids in a tank, the ML model predicts the level of fluid in the tank. In
+micro-gravity standard fluid level detection methods do not work because the fluid is not restricted to any shape or
+Definition.",In-use,,
+"Pre-trained microscopy image neural network
+Encoders",Ames Research Center,"Convolutional Neural Network encoders were trained on over 100,000 microscopy images of materials. When
+deployed in downstream microscopy tasks through transfer learning, encoders pre-trained on MicroNet outperform
+ImageNet encoders. These pre-trained MicroNet encoders have been successfully deployed for semantic
+segmentation, instance segmentation, and regression tasks. Current work is ongoing to deploy the encoders for
+generative tasks and 3D texture synthesis tasks. The technology has been used to quantify the microstructure of
+numerous materials including SLS core stage welds, Ni-based superalloys, composites, and oxide dispersion
+strengthened alloys. Establishing the relationship between processing (how a material is made), microstructure (the
+atomisitc and phase arrangement of a material), and properties of materials is fundemental to the design and
+development of new materials. Microstructure is often analyzed qualitatively or by tedious manual measurements.
+This technology enables and improves the rapid quantification of material microstructure from microscope images
+for use in data-driven approaches to design materials faster.",In-use,Transfer learning,https://github.com/nasa/pretrained-microscopy-models
+"SensorWeb: Volcano, Flood, Wildfire, and
+Others.",Jet Propulsion Laboratory,"The Sensor Web Project uses a network of sensors linked by software and the internet to an autonomous satellite
+observation response capability. This system of systems is designed with a flexible, modular, architecture to
+facilitate expansion in sensors, customization of trigger conditions, and customization of responses. This system has
+been used to implement a global surveillance program to study volcanos. We have also run sensorweb tests to
+study flooding, cryosphere events, and atmospheric phenomena. Specifically, in our application, we use low
+resolution, high coverage sensors to trigger observations by high resolution instruments. Note that there are many
+other rationales to network sensors into a sensorweb. For example automated response might enable observation
+using complementary instruments such as imaging radar, infra-red, visible, etc. Or automated response might be
+used to apply more assets to increase the frequency of observation to improve the temporal resolution of available
+data. Our sensorweb project is being used to monitor the Earth's 50 most active volcanos. We have also run
+sensorweb experiments to monitor flooding, wildfires, and cryospheric events (snowfall and melt, lake freezing and
+thawing, sea ice formation and breakup.)",In mission,"constraint-based heuristic
+Search",
+Ship detection,Marshall Space Flight Center,Deep learning-based ship detection from high-resolution satellite imagery,In-use,,
+Similarity Search for Earth Science Image Archive,Marshall Space Flight Center,Self Supervised Based Learning approach to search image archives using a query image,In-use,,
+"Titan Methane Cloud Detection (GSFC Planetary
+Sciences Lab)",Goddard Space Flight Center,"Machine Learning applied to Cassini space probe imagery to detect and characterize methane clouds on Saturn's
+moon Titan.",In-use,"Mask R-CNN, U-net image
+Recognition",https://gitlab.grc.nasa.gov/zyahn/titan-clouds-project
+TRN (Terrain Relative Navigation),Jet Propulsion Laboratory,"Terrain Relative Navigation (TRN) estimates position during Mars landing by automatically matching landmarks
+identified in descent images to a map generated from orbital imagery. The position estimate is used to a select a
+safe and reachable landing site in a region with many large hazards. TRN was used successfully by the Mars 2020
+mission during its landing on February 18th, 2021 and will be used on Mars Sample Return Lander.",In-use,"Computer vision and state
+Estimation.",

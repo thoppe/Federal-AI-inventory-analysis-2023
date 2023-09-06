@@ -17,7 +17,6 @@ if API_KEY is None:
 
 
 def embed(text):
-
     query_url = "https://api.openai.com/v1/embeddings"
     headers = {
         "Authorization": f"Bearer {API_KEY}",
@@ -38,7 +37,6 @@ def embed(text):
 
 
 def query(messages, temperature=0.7, max_tokens=200, n=1):
-
     query_url = "https://api.openai.com/v1/chat/completions"
     headers = {
         "Authorization": f"Bearer {API_KEY}",
@@ -123,7 +121,6 @@ def tokenized_sampler(list_of_strings, query_tokens, seed=7142):
     batches = []
 
     for n, dx in df.groupby("batch_n"):
-
         # Last batch is too small fill it up with a random sample
         if n == df.batch_n.max():
             dx = pd.concat([dx, df[df.batch_n != n].sample(frac=1, random_state=seed)])

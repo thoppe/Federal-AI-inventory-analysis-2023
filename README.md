@@ -1,6 +1,7 @@
-# Federal AI inventory analysis 2022
+# Federal AI inventory analysis 2023
+_Last updated September 1st, 2023_
 
-**Abstract**: The Federal AI Inventory Analysis project for 2022 is a comprehensive examination of the AI projects reported in the federal inventory during that year. The complexity of this task is due to the variation in reporting formats and the inclusion of non-machine-readable reports from different Departments and independent agencies.
+**Abstract**: The Federal AI Inventory Analysis project for 2023 is a comprehensive examination of the public AI projects reported in the federal inventory during that collection cycle. The complexity of this task is due to the variation in reporting formats and the inclusion of non-machine-readable reports from different Departments and independent agencies.
 
 The analysis includes data collection from published AI use case inventories, data preparation, which required a blend of manual parsing and automated processing, and the use of a high-powered language model (LLM) for summarizing the collected data. Themes were then extracted from these summaries to categorize projects into specific domains like security, infrastructure, and healthcare. Visualization was employed to understand the general clustering of projects, using OpenAI’s text-embedding model. The project also included a mechanism for daily data integrity checks and provided transparent cost calculations for API usage. The outcomes include detailed and summarized reports of AI projects, interactive visualizations, and insights into prominent AI themes across various federal Departments and agencies, thereby contributing to a transparent understanding of AI's role within the federal government.
 
@@ -8,6 +9,7 @@ The analysis includes data collection from published AI use case inventories, da
 
 **Reports**: The methodology documented below has been utilized to create the following reports:
 
++ **WORK IN PROGESS FIX ME**
 + [AI Themes throughout the Federal Government](results/AI_themes.md)
 + [Complete Text of AI Projects by Agencies](results/AI_projects_full_text_by_Department.md)
 + [Summarized GPT Text for Project Descriptions](results/AI_projects_summary_text_by_Department.md)
@@ -21,25 +23,25 @@ Projects were downloaded from [AGENCY INVENTORIES OF AI USE CASES](https://www.a
 > Consistent with this principle of transparency, EO 13960 directed agencies to conduct an annual inventory of their AI use cases, and to publish them to the extent possible. As specified by EO 13960, agencies' inventories are not required to include AI use cases that are classified, sensitive, used in defense or national security systems, used by the Department of Defense or Intelligence Community, embedded within common commercial products, or used for AI research and development activities.
 
 Each inventory was downloaded and [saved](data/department_org_src).
-All data were collected on Aug 3rd, 2023 and may not reflect any updates on ai.gov or linked reports.
-Basic stats, information, and links can be found [here](data/high_level_stats_from_AI_gov.csv).
+All data were collected on September 1st, 2023 and may not reflect any updates on ai.gov or linked reports.
+Basic stats, information, and links can be found [here](data/data_ingestion_statistics_AI_inv.csv).
 
 ### Data preparation
 
-Most Departments provided some form of machine readable table or easily parsed web version. Some only provided PDFs (HHS, Commerce, Energy, Treasury, Justice) and these required considerable human parsing along with a [custom script](P0_parse_pdf2table.py) using [Camelot](https://github.com/camelot-dev/camelot).
+Most Departments provided some form of machine readable table or easily parsed web version. Some only provided PDFs (Commerce, Energy, Treasury, Justice, NASA) and these required considerable human parsing along with a [custom script](src/P0_parse_pdf2table.py) using [Camelot](https://github.com/camelot-dev/camelot). Entries that were exact duplicates in the Title and Summary were removed HHS (6), DOS (6), DOE (5).
 
-After manual parsing and cleanup the record level data was saved to [data/record_level_information_FedAI_2022.csv](data/record_level_information_FedAI_2022.csv)
+After manual parsing and cleanup the record level data was saved to [data/record_level_information_FedAI_2023.csv](data/record_level_information_FedAI_2023.csv)
 
-+ `Department` (or independent agency name)
-+ `Agency` (or bureau as appropriate)
-+ `Office` (or center / division as appropriate)
++ `Use_Case_ID` (automatically assigned by this project)
++ `Department_Code` (Acronym for the Department)
++ `Agency` (or Bureau / Institute as appropriate)
++ `Office` (or Center as appropriate)
 + `Title`
 + `Summary`
-+ `Lifecycle` (optional, returned as provided)
-+ `Contact Name` (optional, returned as provided)
-+ `Contact Email` (optional, returned as provided)
-
-Three records from the State Dept were dropped due to exact duplication across project Title and Summary.
++ `Development_Stage` (if provided)
++ `Techniques` (methodologies, models, or AI techniques if provided)
++ `Source_Code` (link to source code if provided)
++ `Department` (or independent agency name)
 
 ### Natural Language Processing
 

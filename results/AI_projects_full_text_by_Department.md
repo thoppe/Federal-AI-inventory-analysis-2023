@@ -1,1503 +1,2195 @@
 # Complete Text of AI Projects by Department / Agencies
 
-- [Interior (65)](#Interior)
-- [HHS (50)](#HHS)
-- [Commerce (49)](#Commerce)
-- [Energy (45)](#Energy)
-- [Homeland_Security (41)](#Homeland_Security)
-- [VA (40)](#VA)
-- [Agriculture (39)](#Agriculture)
-- [State (34)](#State)
-- [Labor (18)](#Labor)
-- [USAID (14)](#USAID)
-- [Transportation (14)](#Transportation)
-- [SSA (14)](#SSA)
-- [Treasury (12)](#Treasury)
-- [GSA (12)](#GSA)
-- [Justice (4)](#Justice)
-- [EPA (3)](#EPA)
-- [Education (1)](#Education)
+- [Department_of_Energy (178)](#Department_of_Energy)
+- [Department_of_Health_and_Human_Services (157)](#Department_of_Health_and_Human_Services)
+- [Department_of_Commerce (49)](#Department_of_Commerce)
+- [Department_of_Homeland_Security (41)](#Department_of_Homeland_Security)
+- [Department_of_Veterans_Affairs (40)](#Department_of_Veterans_Affairs)
+- [Department_of_Agriculture (39)](#Department_of_Agriculture)
+- [Department_of_Interior (38)](#Department_of_Interior)
+- [National_Aeronautics_and_Space_Administration (33)](#National_Aeronautics_and_Space_Administration)
+- [Department_of_State (31)](#Department_of_State)
+- [Department_of_Labor (18)](#Department_of_Labor)
+- [U.S._Agency_for_International_Development (14)](#U.S._Agency_for_International_Development)
+- [Social_Security_Administration (14)](#Social_Security_Administration)
+- [Department_of_Treasury (14)](#Department_of_Treasury)
+- [Department_of_Transportation (14)](#Department_of_Transportation)
+- [U.S._General_Services_Administration (12)](#U.S._General_Services_Administration)
+- [National_Archives_and_Records_Administration (5)](#National_Archives_and_Records_Administration)
+- [U.S._Office_of_Personnel_Management (4)](#U.S._Office_of_Personnel_Management)
+- [Department_of_Justice (4)](#Department_of_Justice)
+- [U.S._Environmental_Protection_Agency (3)](#U.S._Environmental_Protection_Agency)
+- [Department_of_Housing_and_Urban_Development (1)](#Department_of_Housing_and_Urban_Development)
+- [Department_of_Education (1)](#Department_of_Education)
 
-## Interior
+## Department_of_Energy
 
-**Land Use Plan Document and Data Mining and Analysis R&D**, _Interior | BLM_
-> Exploring the potential to identify patterns, rule alignment or conflicts, discovery, and mapping of geo history and/or rules. Inputs included unstructured planning documents. Outputs identify conflicts in resource management planning rules with proposed action locations requiring exclusion, restrictions, or stipluations as defined in the planning documents.
+**Machine Learning for Autonomous Control of Scientific User Facilities**, _Department_of_Energy | Brookhaven National Laboratory_
+> BNL will work alongside SLAC, to implement ML algorithm(s) into NSLS- II Operations to interpret accelerator data more intelligently. We intend to train said algorithms with 5+ years of archived device-data from accelerator components, records of previous fault causes (to connect to data-symptoms) and stored beam current.
 
-**Improved Processing and Analysis of Test and Operating Data from Rotating Machines**, _Interior | BOR_
-> This project is exploring a better method to analyze DC ramp test data from rotating machines. Previous DC ramp test analysis requires engineering expertise to recognize characteristic curves from DC ramp test plots. DC ramp tests produce a plot of voltage vs current for a ramping voltage applied to a rotating machine. By using machine learning/AI tools, such as linear regression, the ramp test plots can be analyzed by computer software, rather than manual engineering analysis, to recognize characteristic curves. The anticipated result will be faster and more reliable analysis of field-performed DC ramp testing.
+**Automated sorting of high repetition rate coherent diffraction data from XFELS**, _Department_of_Energy | Brookhaven National Laboratory_
+> "Coherent X-rays are routinely provided today by the latest Synchrotron and X-ray Free-electron Laser Sources. When these diffract from a crystal containing defects, interference leads to the formation of a modulated diffraction pattern called ""speckle"". When the defects move around, they can be quantified by a correlation analysis technique called X-ray Photon Correlation Spectroscopy. But the speckles also change when the beam moves on the sample. By scanning the beam in a controlled way, the overlap between the adjacent regions gives redundancy to the data, which allows a solution of the inherent phase problem. This is the basis of the coherent X-ray ptychography method which can achieve image resolutions of 10nm, but only if the probe positions are known. The goal of this proposal will be to separate ""genuine"" fluctuations of a material sample from the inherent beam fluctuations at the high data rates of XFELs. Algorithms will be developed to calculate the correlations between all the coherent diffraction patterns arriving in a time series, then used to separate the two sources of fluctuation using the criterion that the ""natural"" thermal fluctuations do not repeat, while beam ones do. We separate the data stream into image and beam ""modes"" automatically."
 
-**Improving UAS-derived photogrammetric data and analysis accuracy and confidence for high-resolution data sets using artificial intelligence and machine learning**, _Interior | BOR_
-> UAS derived photogrammetric products contain a large amount of potential information that can be less accurate than required for analysis and time consuming to analyze manually. By formulating a standard reference protocol and applying machine learning/artificial intelligence, this information will be unlocked to provide detailed analysis of Reclamation's assets for better informed decision making.
+**SMMM**, _Department_of_Energy | Brookhaven National Laboratory_
+> AI/ML is being used to evaluate measurements in real-time during simultaneous experiments on two beamlines and then drive subsequent data collection on both of the beamlines to maximize the scientific value generated per time.
 
-**Data Driven Streamflow Forecasting**, _Interior | BOR_
-> Reclamation, along with partners from the CEATI hydropower industry group (e.g. TVA, DOE-PNNL, and others) ran a year-long evaluation of existing 10-day streamflow foreasting technologies and a companion prize competition open to the public, also focused on 10-day streamflow forecasts. Forecasts were issued every day for a year and verified agains observed flows. Across locations and metrics, the top perfoming foreacst product was a private, AI/ML forecasting company - UpstreamTech. Several competitors from the prize competition also performed strongly; outperforming benchmark forecasts from NOAA. Reclamation is working to further evaluate the UpstreamTech forecast products and also the top performers from the prize competition.
+**Streamining intelligent detectors for sPHENIX/EIC**, _Department_of_Energy | Fermi National Accelerator_
+> This project develops real-time algorithms for event filtering with tracking detectors for nuclear physics collider experiments.
 
-**Photogrammetric Data Set Crack Mapping Technology Search**, _Interior | BOR_
-> This project is exploring a specific application of photogrammetric products to process analysis of crack mapping on Reclamation facilites. This analysis is time consuming and has typically required rope access or other means to photograph and locate areas that can now be reached with drones or other devices. By formulating a standard reference protocol and applying machine learning/AI, this information will be used to provide detailed analysis of Reclamation assets for better decision making.
+**Extreme data reduction for the edge**, _Department_of_Energy | Fermi National Accelerator_
+> This projects develops AI algorithms and tools for near-sensor data reduction in custom hardware.
 
-**Seasonal/Temporary Wetland/Floodplain Delineation using Remote Sensing and Deep Learning**, _Interior | BOR_
-> Reclamation was interested in determining if recent advancements in machine learning, specifically convolutional neural network architecture in deep learning, can provide improved seasonal/temporary wetland/floodplain delineation (mapping) when high temporal and spatial resolution remote sensing data is available? If so, then these new mappings could inform the management of protected species and provide critical information to decision-makers during scenario analysis for operations and planning.
+**READS: Real-time Edge AI for Distributed Systems**, _Department_of_Energy | Fermi National Accelerator_
+> This project will develop and deploy low-latency controls and prediction algorithms at the Fermilab accelerator complex
 
-**Data Driven Sub-Seasonal Forecasting of Temperature and Precipitation**, _Interior | BOR_
-> Reclamation has run 2, year-long prize competitions where particants developed and deployed data driven methods for sub-seasonal (2-6 weeks into future) prediction of temperature and precipitation across the western US. Particpants outperformed benchmark forecasts from NOAA. Reclamation is currently working with Scripps Institute of Oceanography to further refine, evaluate, and pilot implement the most promising methods from these two copmetitions. Improving sub-seasonal forecasts has significant potential to enhance water management outcomes.
+**Simulation-based inference for cosmology**, _Department_of_Energy | Fermi National Accelerator_
+> This project will develop and use simulation-based inference to estimate cosmological parameters related to cosmic acceleration in the early and late universe — via the cosmic microwave background and strong gravitational lensing, respectively. This will produce an analysis pipeline that can be deployed for next-generation cosmic surveys.
 
-**Well Activity Report Classification**, _Interior | BSEE_
-> Researching use of self-supervised deep neural networks to identify classification systems for significant well event using data from well Activity Reports
+**hls4ml**, _Department_of_Energy | Fermi National Accelerator_
+> This project develops hardware-software AI codesign tools for FPGAs and ASICs for algorithms running at the extreme edge.
 
-**Sustained Casing Pressure Identification**, _Interior | BSEE_
-> Well casing pressure requests are submitted to BSEE to determine whether a well platform is experiencing a sustained casing pressure (SCP) problem. SCP is usually caused by gas migration from a high-pressured subsurface formation through the leaking cement sheath in one of the well’s casing annuli, but SCP can also be caused by defects in tube connections, downhole accessories, or seals. Because SCP can lead to major safety issues, quickly identifying wells with SCP could greatly mitigate accidents on the well platforms
+**In-storage computing for multi- messenger astronomy in neutrino experiments and cosmological surveys**, _Department_of_Energy | Fermi National Accelerator_
+> This project aims to address the big-data challenges and stringent time constraints facing multi-messenger astronomy (MMA) in neutrino experiments and cosomological surveys. Instead of following the traditional computing paradigm of moving data to the compute elements, it does the opposite to embed computation in the data where processing is performed in situ. This will be achieved through emerging computational storage accelerators on which ML algorithms may be deployed to execute MMA tasks quickly so alerts can be disseminated promptly.
 
-**Level 1 Report Corrosion Level Classification**, _Interior | BSEE_
-> Level 1 surveys obtained from BSEE report the condition of well platforms. The reports include images of well platform components, which can be used to estimate coating condition and structural condition, important factors in the overall condition of the facility. The reports are used to assess the well platforms for safety concerns. The reports are submitted to BSEE and are manually reviewed to determine whether a well platform needs additional audits. Because the manual review process is time-consuming, an automated screening system that can identify parts of the wells that exhibit excess corrosion may greatly reduce report processing time.
+**SONIC: AI acceleration as a service**, _Department_of_Energy | Fermi National Accelerator_
+> This project focuses on integration of AI hardware for at-scale inference acceleration for particle physics experiments.
 
-**Data–driven prospectivity modelling of sediment–hosted Zn–Pb mineral systems and their critical raw materials**, _Interior | USGS_
-> Regional data (magnetics and their derivatives, gravity and their derivatives, black shales, terrane boundaries, LAB depths, permissive geology, paleo-latitude etc.) is loaded into Uber's H3 cube. Clastic Dominated (CD) and Mississippi Valley Type (MVT) deposits are used to train a Weights of Evidence model and two different Gradient-Boosting Machine models. After training occured the result was a prospecticvity map for CD and MVT deposits in the three countries.
+**AI Denoising**, _Department_of_Energy | Fermi National Accelerator_
+> This program aims to develop generative models for quickly simulating showers of particles in calorimeters for LHC experiments
 
-**Updating Real-time Earthquake Shaking, Ground Failure, and Impact products with remote sensing and ground truth observations**, _Interior | USGS_
-> A breakthrough for rapid post-earthquake ground failure (GF) and loss modeling and reporting has been achieved with initial Bayesian updating of our global loss and GF models with ground-truth observations. Empirical models suffer from limited performance due to the complex, event-specific causal effects underlying the cascading processes of earthquake-triggered hazards and impacts. In contrast, satellite imagery-based impact assessments (e.g., NASA’s Damage Proxy Maps, or DPMs), while spatially accurate, lack the specificity as to what physical process caused those image changes. We present the first rapid seismic multi-hazard and damage updating framework based on variational Bayesian causal inference and remotely sensed DPMs. This machine learning framework enables accurate and high-resolution multi-hazard and damage estimates by jointly inferring shaking and secondary hazards and resulting building damage and quantifying their causal dependencies from imagery and prior loss and GF models. The underlying physical causal dependencies are modeled using a multi-layer causal Bayesian network. Initial results are impressive, showing that our framework significantly improves the GF prediction abilities. It also reveals the event-specific causal dependencies among ground shaking, GF, building damage, and other environmental factors. We expect improved PAGER products to more rapidly evolve to accurate and thus more actionable images, maps, and products.
+**In-pixel AI for future tracking detectors**, _Department_of_Energy | Fermi National Accelerator_
+> This project explores novel AI-on-chip technology for intelligent detectors embedded with sensing technology
 
-**Coast Train**, _Interior | USGS_
-> Coast Train is a multi-labeler ML-ready dataset of orthomosaic and satellite images of coastal, estuarine, and wetland environments and corresponding thematic label masks. The data consist of spatial and time-series, and contains 1.2 billion labelled pixels, representing over 3.6 million hectares.
+**High-Velocity AI: Generative Models**, _Department_of_Energy | Fermi National Accelerator_
+> This project has two parts: 1. generating adversarial examples and then using domain adaptation and other techniques to improve the robustness of AI classification algorithms against those attacks (focusing on astrophysics/cosmology applications); 2. using AI algorithms to improve the output of low-quality classical simulation engines to deliver a high-quality result at high speed.
 
-**Water Mission Area Regional Drought Early Warning System**, _Interior | USGS_
-> The goal of this project is to build and test multiple ML models for predicting and forecasting daily hydrologic drought in the Colorado River Basin (CRB). Similar to the project listed in line 9, we use gridded meteorologic forcing data and daily streamflow data in the CRB to build random forest and neural networks (long-short term memory) to determine the best approach to predicting and forecasting hydrologic drought. The project is being developed on AWS and in cooperation with CHS. We are also using the USGS HPC systems.
+**Next-Generation Beam Cooling and Control with Optical Stochastic Cooling**, _Department_of_Energy | Fermi National Accelerator_
+> This program leverages the physics and technology of optical stochastic cooling (OSC) to explore new possibilities in beam control and sensing. The planned architecture and performance of a new OSC system at IOTA should enable turn-by-turn programmability of the high-gain OSC. This capability can then be used in conjunction with other hardware systems as the basis of an action space for reinforcement learning (RL) methods. The program aims to establish a new state of the art in beam cooling and a flexible set of tools for beam control and sensing at colliders and other accelerator facilities.
 
-**Spot Elevation OCR from historical topo maps**, _Interior | USGS_
-> The goal of this project is to create a database of summit spot elevations from the HTMC labeled for summits in CONUS.
+**Machine Learning for Linac Improved Performance**, _Department_of_Energy | Fermi National Accelerator_
+> In Linacs at FNAL and J-PARC, the current emittance optimization procedure is limited to manual adjustments of a few parameters; using a larger number is not practically feasible for a human operator. Using machine learning (ML) techniques allows lifting this restriction and expanding this set. Our goal is to integrate ML into linac operation - and in particular RF control to achieve a more optimal longitudinal emittance and lower overall losses.
 
-**Water Mission Area Drought Prediction Project**, _Interior | USGS_
-> The goal of this project is to develop a method for predicting daily hydrologic drought using machine learning models calibrated on streamflow data (response) and meteorological forcing data. Models will be built at individual gages across CONUS, then transferred to ungaged basins using a 'donor model' approach that identifies which gages are most similar to the ungaged basin and combines the models from those gages for the final prediction. Models will be developed and run on the USGS HPC systems.
+**Uncertainty Quantification and Instrument Automation to enable next generation cosmological discoveries**, _Department_of_Energy | Fermi National Accelerator_
+> This project will develop AI-based tools to enable critical sectors for near- future cosmic applications. Uncertainty quantification is essential for performing discovery science now, and simulation-based inference offers a new approach. The automated design and control of instrumentation will be important for improving the efficiency of planning and executing cosmic experiments.
 
-**Estimating stream flow from images in headwaters**, _Interior | USGS_
-> The goals of this project are to 1) measure how much water flows in small, ungaged stream networks using timelapse images captured by inexpensive and off-the-shelf cameras and 2) provide a web-based platform for making the images, associated climate and other related data as well as the model itself easy to access and explore. Data for training come from user-uploaded imagery and flow data (when available). Database is available for uploading and image viewing here: https://www.usgs.gov/apps/ecosheds/fpe/
+**Machine Learning for Accelerator Operations Using Big Data Analytics / L-CAPE**, _Department_of_Energy | Fermi National Accelerator_
+> Big data analytics for anomaly prediction and classification, enabling automatic mitigation, operational savings, and predictive maintenance of the Fermilab LINAC
 
-**Forecasting Water Temperature in the Delaware River Basin**, _Interior | USGS_
-> We developed a process-guided deep learning and data assimilation approach to operationally produce 7-day forecasts of daily maximum stream water temperature downstream of drinking water reservoirs in support of water management decisions. Our process-guided deep learning model was pretrained on output from an integrated stream-reservoir process-based model and used an autoregressive technique and data assimilation to ingest real-time observations of stream temperature to improve near-term forecasts. Our modeling system produced forecasts of daily maximum water temperature with an average root mean squared error (RMSE) from 1.1 to 1.4°C for 1-day-ahead and 1.4 to 1.9°C for 7-day-ahead forecasts across all sites.
+**Deep Learning Malware Analysis for reusable cyber defenses.**, _Department_of_Energy | Idaho National Laboratory_
+> The INL uses machine learning (feed forward neural network) on a large data set of translated malware binaries in graph structures to identify commonality between malware.
 
-**Economic valuation of fisheries in the Delaware River**, _Interior | USGS_
-> The goal is to link existing hydrological flow data (e.g., USGS stream gages) and models (e.g., USGS Process-Guided Deep Learning Models for flow and temparture) with trout population dynamic models, changes to fish catch, and the economic benefits of recreational fishing. These trout population dynamic models will be developed based on observational data, existing literature estimates, and existing models.
+**Geo Threat Observable for structure cyber threat related to the energy sector**, _Department_of_Energy | Idaho National Laboratory_
+> Collection of open source threat inforamtion related to cyber issues in the energy sector, collected stored in graphdb and used in machine learning for similarities of threat enabling better reuse of cyber protections.
 
-**Seabird and Marine Mammal Surveys Near Potential Renewable Energy Sites Offshore Central and Southern California**, _Interior | USGS_
-> The Seabird Studies Team at the Western Ecological Research Center (WERC), with support from the Bureau of Ocean Energy Management (BOEM), completed aerial photographic surveys of the ocean off central and southern California between 2018-2021. Over 800,000 high resolution images of the ocean were collected, with the goal of extracting and counting marine birds and mammals contained within. To process this volume of images machine learning offered the best methodology, but publicly available training data did not exist for this specific purpose. Through a collaboration with Conservation Metrics, Inc. we created a labeled training dataset using Faster RCNN models via active learning and transfer learning. We then evaluated a set of candidate models trained on different label aggregation schemes, selected a final model utilizing YOLOv5 architecture, and ran the final model on the complete image dataset. Images output from the final model classified targets into seven categories: bird, dark bird, dark bird flying, light bird, fish, marine mammal, and other. We are currently reviewing the final model output for false positives and negatives to evaluate performance. Next, we will reclassify model labels to the lowest taxonomic group possible. This manual review is occurring in the USGS cloud environment (Amazon Web Services) utilizing the opensource Computer Vision Annotation Tool (CVAT). Once low taxonomic reclassification is complete, we will generate maps of species distribution and abundance to inform BOEM’s planning in advance of potential offshore wind energy development along the California coast.
+**AI/ML and other software advances**, _Department_of_Energy | Lawrence Livermore National Laboratory_
+> Model architecture development research, including workflows, algorithm and performance optimization
 
-**Deep Learning for Automated Detection and Classification of Waterfowl, Seabirds, and other Wildlife from Digital Aerial Imagery**, _Interior | USGS_
-> Our project includes two stages of AI, the first is a binary detector to automate the detection of wildlife in aerial imagery and the second is a robust classification algorithm to automate the taxonomic classification of wildlife from the binary detector. The input of the first and second stage are manually annotated polygons around targets of interest and their taxonomic classification values from family to species, respectively. We use Tallgrass to develop and train our algorithms, BlackPearl/Caldera to store our large image datasets, a hosted instance of a customized version of the Computer Vision Annotation Tool to gather manually annotated data, and a separate PostgreSQL database to store annotations and image metadata.
+**Advanced energy, batteries, and industrial efficiency**, _Department_of_Energy | Lawrence Livermore National Laboratory_
+> Leveraging data science to navigate design space for better batteries and energy storage as well as scale up of various technologies
 
-**Mapping benthic algae along the Buffalo National River from remotely sensed data**, _Interior | USGS_
-> This study involves using orthophotos acquired from a manned, fixed-wing aircraft and multispectral images from two different satellites to map bottom-attached (benthic) algae along the Buffalo National River in northern Arkansas. The training data for this effort consist of field observations of water depth and percent cover of benthic algae along 8-10 cross sections from two distinct reaches of the Buffalo River. These field data are used to train a bagged trees (aka random forest) classification algorithm to distinguish among four ordinal levels of algal density: none, low, medium, and high.
+**Quantum computing and information systems**, _Department_of_Energy | Lawrence Livermore National Laboratory_
+> Machine learning and quantum computing applied towards optimization, quantum chemistry, material science, and cryptography
 
-**Prediction of Flood Flow Metrics for Minimally Altered Catchments**, _Interior | USGS_
-> Once developed, the system will input watershed characteristics (soils, land cover) and long-term meteorological data, and output predictions of flood flow metrics (magnitude, duration, frequency, volume) for stream reaches. Two models will be trained using gage data from regions surrounding the Delaware River Basin and the Colorado River Basin. The resulting models will allow for estimating flood flow metrics in ungaged reaches, which can be used to inform infrastructure designs along those reaches (e.g., bridges). The current deliverable is predictions for minimally altered catchments, and future years may expend to predictions in altered catchments (e.g., those with dam regulation). The models will be built using various R packages on the USGS Tallgrass supercomputer.
+**Biology, genomics, and synthetic biology**, _Department_of_Energy | Lawrence Livermore National Laboratory_
+> Combining experimental and computational methods to perform fundamental and applied research in genomics, molecular toxicology, nanotechnology, host–pathogen biology, structural biology, genetics, microbial systems, and medical countermeasures
 
-**Multi-task deep learning for daily streamflow and water temperature**, _Interior | USGS_
-> 1) This model predicts two interdependent variables, daily average streamflow and daily average stream water temperature, together using multi-task deep learning. A multi-task scaling factor controls the relative contribution of the auxiliary variable’s error to the overall loss during training. Input data include meteorological variables such as rainfall and humidity. 2) The training data were streamflow and water temperature observations. The stream temperature data were collected by the USGS and made available via NWIS. The streamflow observations were also collected by the USGS but collated along with input drivers in the CAMELS dataset. 3) This work was done using Python. The deep learning models were written via TensorFlow and the modeling workflow was scripted via Snakemake.
+**High-performance computing, semiconductors, and advanced computer hardware**, _Department_of_Energy | Lawrence Livermore National Laboratory_
+> Novel computer hardware architecture/configurations that can perform at the edge and/or in harsh environments
 
-**AI system to recognize individual fish and disease**, _Interior | USGS_
-> This study focuses on the development of an AI system to recognize individual fish and their disease status from images. Success of this effort could complement or replace traditional mark-recapture methods used for estimating abundance, survival, and movement, and this could greatly reduce costs to fisheries managers. Likewise, disease detection from images could enable new approaches for assessing status and trends in fish health.
+**Cyber security, data storage, and data management technologies**, _Department_of_Energy | Lawrence Livermore National Laboratory_
+> Data-processing pipelines and user interfaces to process and aggregate large, bulk, and possibly unstructured datasets allowing for search and export of data for further analysis in secure way
 
-**ML-Mondays course on applications of deep learning to image analysis**, _Interior | USGS_
-> A course in application of deep learning image segmentation, image classification, and object-in-image detection. Course includes software written in Python using Keras and Tensorflow ML libraries, software documentation, data, website, and slides. See course website https://dbuscombe-usgs.github.io/MLMONDAYS/ for more details
+**Innovation methods, processes and promising practices that can affect the speed and effectiveness of innovation processes at scale.**, _Department_of_Energy | Lawrence Livermore National Laboratory_
+> Computational approaches that lead to faster insights into the development and deployment of large scale operations
 
-**Process-Guided Deep Learning for Dissolved Oxygen Predictions on Stream Networks**, _Interior | USGS_
-> 1) this model predicts daily minimum, mean, and maximum dissolved oxygen (DO) concentrations at several stream locations in the Delaware River Basin. The inputs used are meteorological inputs (e.g., precipitation, cloud cover) and static catchment attributes (e.g., basin area). 2) the training data are DO concentrations collected by the USGS and made available via the National Water Information System (NWIS). 3) this work is being done using Python and R. The deep learning models were written via TensorFlow, the data prepartion is in R, and the modeling workflow was scripted via Snakemake.
+**Advanced materials science, engineering, and exploration relevant to the other key technology focus areas**, _Department_of_Energy | Lawrence Livermore National Laboratory_
+> Enabling machine learning based technology to specialized materials for superior performance for scientific research and manufacturing systems
 
-**Walrus Haulout Camera Trap Image Classification**, _Interior | USGS_
-> This project extends the application of codes developed for wildlife underpass camera trap image classification. Similarly, the system takes walrus haulout camera trap images as inputs and outputs the probability of the image containing walruses and various human disturbances (boats, aircraft, etc.). We will use and further develop the previous system's capability of supporting training experiments. Training, validation, and testing datasets have human-assigned labels and are used to train and evaluate the models. Once trained, the models can be used to predict classes on unlabeled images from ongoing camera monitoring efforts. We use a convolutional neural network (CNN) approach based on TensorFlow and training is run on the USGS Tallgrass supercomputer designed for AI/ML workflows.
+**Natural and anthropogenic disaster prevention and mitigation**, _Department_of_Energy | Lawrence Livermore National Laboratory_
+> Leveraging a broad, multimodal data stream to predict and understand natural disaster scenarios for the purposes of prevention and mitigation
 
-**A machine learning approach to developing ground motion models from simulated ground motions**, _Interior | USGS_
-> We use a machine learning approach to build a ground motion model (GMM) from a synthetic database of ground motions extracted from the Southern California CyberShake study. An artificial neural network is used to find the optimal weights that best fit the target data (without overfitting), with input parameters chosen to match that of state-of-the-art GMMs. We validate our synthetic-based GMM with empirically based GMMs derived from the globally based Next Generation Attenuation West2 data set, finding near-zero median residuals and similar amplitude and trends (with period) of total variability. Additionally, we find that the artificial neural network GMM has similar bias and variability to empirical GMMs from records of the recent Mw7.1 Ridgecrest event, which neither GMM has included in its formulation. As simulations continue to better model broadband ground motions, machine learning provides a way to utilize the vast amount of synthetically generated data and guide future parameterization of GMMs.
+**Robotics, automation, and advanced manufacturing**, _Department_of_Energy | Lawrence Livermore National Laboratory_
+> AI is being used for accelerating hardware development and interpretation of sensor data to improve process reliability
 
-**Application of machine learning to ground motion-based earthquake early warning**, _Interior | USGS_
-> We use initial observations of an earthquake on seismic stations close to an earthquake to predict what the peak ground shaking will be across a region. The initial test dataset are waveforms from the USGS-collected, large-n seismic array in an area of induced seismicity in Oklahoma. Future datasets will include seismic data from the California Seismic Integrated Network (primarily supported by USGS) and possible the Japanese Meterological Agency. Currently running Python-based codes on a desktop, plan to move to AWS or similar.
+**To develop a general drag model for assemblies of non-spherical particles created with artificial neural networks**, _Department_of_Energy | National Energy Technology Laboratory_
+> The project plans to develop a more accurate artificial neural network (ANN)-based method for modeling the momentum exchange in fluid- solid multiphase mixtures to significantly improve the accuracy and reduce the uncertainty of multiphase numerical codes and, in particular, of MFiX, by developing and providing a general and accurate method for determining the drag coefficients of assemblies of non-spherical particles for wide ranges of Reynolds numbers, Stokes numbers, and fluid-solid properties and characteristics. The research team will achieve this goal by conducting numerical computations with a validated in- house CFD code and using artificial intelligence methods to develop an ANN that will be implemented in TensorFlow and linked with the MFiX code.
 
-**Process-Guided Deep Learning Predictions of Lake Water Temperature**, _Interior | USGS_
-> This process-guided deep learning model predicts depth-specific lake temperatures while obeying physical laws using inputs of meteorological drivers. Training consists of two stages. In the first stage, the model is pre-trained using process-based modeling outputs. Then, lake temperature observations are used to finetune the model in a second training stage. The models are trained to simultaneously fit observations and honor conservation of energy. The models were developed using various R and Python packages on the USGS Tallgrass supercomputer. The General Lake Model (GLM version 2) software was used for process-based modeling.
+**To fill critical data gaps in big data analytics and machine learning applications to inform decision making and improve the ultimate recovery of unconventional oil and natural gas resources.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Project will conduct numerical analysis of all-digital pressure sensing technology will be used to create a synthetic dataset with downhole pressure sensor readings for each stage and will be analyzed statistically with DA to integrate with software.
 
-**Characterization of Sub-surface drainage (tile drains) from satellite imagery**, _Interior | USGS_
-> Without knowing how tile-drain extent (sub-surface agricultural drainage) has changed with time, it is difficult to differentiate how streamflow and water quality have changed as a result of spatial extent and characteristics of tile-drain networks. Our method delineates tile drains in satellite imagery, providing a way to look at historical imagery and to use satellite data to maintain an up-to-date geospatial layer of tile drain extent in basins of interest. We use panchromatic imagery that is processed using a UNet model that was trained on a library of panchromatic images on which visible tile-drain networks had been traced. Our workflow uses a combination of python scripting that is encapsulated in a Jupyter notebook; the entire process is open source.
+**Computational methods for the characterization of CO2 chemisorption in amine- functionalized MOFs.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Databases of MOFs will be screened using computational methods to identify promising MOFs. Software will be further developed to allow for the addition of desirable functional groups (amines) to metal centers and/or ligands of MOFs. The team will calculate the reaction enthalpy for CO2 sorption in amine functionalized MOFs and further computational methods for the characterization of CO2 chemisorption in amine- functionalized MOFs will be developed.
 
-**Where’s the Rock: Using Neural Networks to Improve Land Cover Classification**, _Interior | USGS_
-> While machine learning techniques have been increasingly applied to land cover classification problems, these techniques have not focused on separating exposed bare rock from soil covered areas. Therefore, we are using a neural network to differentiate exposed bare rock (rock) from soil cover (other). We started with a training dataset by mapping exposed rock at 20 test sites across the Sierra Nevada Mountains (California, USA) using USDA’s 0.6 m National Aerial Inventory Program (NAIP) orthoimagery. These initial sites were used to train and test the original CNN and now NASA's DELTA toolkit, which is being run on the USGS high-performance computing facilities. The goal is to generate a machine learning approach to classify bare rock in NAIP orthoimagery, starting with the Sierras, in order to provide a more accurate map of soil vs. rock-covered areas for use in landslide hazard mapping, quantifying soil carbon storage, calculating water fluxes, etc.
+**Use ML to reduce high-fidelity physical models to a fast calculation that requires minimal effort to initiate.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The platform will combine an intuitive user interface and visualization capabilities from gaming software with the speed and enhanced detail in evaluating reservoir dynamics and processes through ML /reduced order model approaches. Advancements made with ML will alleviate the need for both the expert user and the computational infrastructure and make understanding subsurface fluid flow accessible to the everyday user with a moderate level of understanding of the physics of the system. ML will allow the experts to reduce the high-fidelity physical models to a fast calculation that requires a minimal amount of effort to initiate, but allows a user to investigate their own scenarios without the need for predetermined models. Application of the platform will rapidly enhance the experience base required for deploying and managing commercial-scale projects, particularly for CO2 storage projects where field experience is limited, because of the anticipated intuitive translation of subsurface dynamics in real-time.
 
-**Walrus Object Detection in Drone/Satelite Imagery**, _Interior | USGS_
-> This system, once developed, will input drone imagery and output bounding boxes for individual walruses. If successful, this will allow researchers with Alaska Science Center to count the numbers of walruses in drone imagery to support population reseaarch. The system will use TensorFlow-based convolutional neural networks for object detection trained on the USGS Tallgrass supercomputer.
+**Using ML to design sensing materials which can work under harsh environments.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The team proposes to develop an ML approach that relies upon established experimental and theoretical evidence to gain a comprehensive ML model and boost the gas sensing material design. The essence of this approach will be to assess materials’ optimal performance at a specific condition, such as temperature, pressure, and radiation levels. The development of the package will occur in several steps: (1) building a materials database from various sources; (2) using ML techniques to build, evaluate, and optimize an ML model; (3) predicting the temperature dependence of sensing properties, such as gas selectivity, for FECM relevant gas species to screen the materials in the material bank, or proposing new sensing materials; and (4) exploring the gas sensing mechanisms suited for high-temperature application for those predicted most promising gas sensing materials.
 
-**AI applications to mapping surface water**, _Interior | USGS_
-> The research is investigating the use of hand annotated hydrography from one region to train an artificial neural net (ANN) to identify where surface water is likely to be in other areas. The input training data includes lidar, radar, and other remotely sensed data along with modeled surface flow to inform the model. The work is using open-source tools in a high-performance computing environment.
+**To develop drag models for non- spherical particles through machine learning**, _Department_of_Energy | National Energy Technology Laboratory_
+> Produce comprehensive experimental and numerical datasets for gas- solid flows in well-controlled settings to understand the aerodynamic drag of non-spherical particles in the dense regime. The datasets and the gained knowledge will train deep neural networks to formulate a general drag model for use directly in NETL MFiX-DEM module. This will help to advance the accuracy and prediction fidelity of the computational tools that will be used in designing and optimizing fluidized beds and chemical looping reactors
 
-**The National Landcover database**, _Interior | USGS_
-> NLCD uses AI/ML to develop Landcover across all 50 states. The system includes HPC processes, cloud services, and local resources to create thematic and continuous field classifications. These classifications serve as the base for users and federal agencies across the nation to provide wildlife habitat estimates, urban runoff estimates, population growth, etc. etc.
+**To develop an AI-driven integrated autonomous robotic visual inspection (RVI) platform.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The overall objective of the research is to develop an AI-driven integrated autonomous robotic visual inspection (RVI) platform that can perform real-time defect identification, dynamic path planning, and safe navigation in a closed-loop manner. The
 
-**Explainable AI and interpretable machine learning**, _Interior | USGS_
-> This work focuses on developing expertise and resources for Explainable AI (XAI) within WMA PUMP Projects. The inputs are various models developed for predicting stream temperature, discharge, dissolved oxygen, and other characteristics. The outputs are interpretable metrics to help understand why models are making the predictions they are and what physical processes are getting captured with the model architectures.
+**To leverage ML models to increase the size and complexity of problems that can be optimized within IDAES.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The objective is to leverage ML models as surrogates for complex unit operations or to bridge between scales to increase the size and complexity of models that can be optimized within IDAES.
 
-**Individual Mountain Lion ID from Camera Data**, _Interior | USGS_
-> This system will to take pairs of mountain lion (*Puma concolor*) facial images and output the probability that the images come from the same individual mountain lion. This will allow researches to passively "mark" individuals and support population estimation analyses. We will use a "Siamese" convolutional neural network architecture that has been used in other facial recognition and motion tracking applications.
+**Machine Learning for geophysical data inversion**, _Department_of_Energy | National Energy Technology Laboratory_
+> Use machine learning to generate synthetic seismic and gravity data, and data driven inversion for leak detection
 
-**Fouling Identification Neural Network (FINN)**, _Interior | USGS_
-> Our product is an end-to-end system that is used to predict and detect sensor (sonde) fouling at USGS stream gages. The system is trained using supervised learning on multiple features derived from archived stream gage data labelled by expert field technicians. The system operated in real-time on Amazon Web Services (AWS), providing predictions every 30 minutes based off of raw data collected from the USGS AQUARIUS database. The system produces values detecting the likelihood that fouling is currently present and likelihood of fouling predicted to occur in the next 24 hours. These values are displayed on a Tableau dashboard that is connected to AWS using Amazon Athena. This dashboard also displays other stream gage network monitoring information from AQUARIUS, like time since a sonde was last visited by a technician.
+**To develop and create an autonomous robotic inspection system.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The goal of the project is to prevent negative environmental and socioeconomic impacts of coal waste (coal ash and tailings) by developing an aerial robot-enabled inspection and monitoring system of active and abandoned coal ash and tailings storage facilities. The first objective of this project is the development of a programmable drone, equipped with several complementary sensors, that will autonomously inspect several structures of a storage facility. The second objective of this project is to create artificial intelligence-based hazard detection algorithms that will use multispectral and georeferenced images (i.e., thermal and visual) and 3D Point Clouds data collected by an autonomous drone to detect hazards in the storage facility structure that would indicate uncontrolled leakage to the environment or lead to the potential failure of the structure.
 
-**Fish and Climate Change Database (FiCli)**, _Interior | USGS_
-> The Fish and Climate Change Database (FiCli) is a comprehensive database of peer-reviewed literature compiled through an extensive, systematic primary literature review to identify English-language, peer-reviewed journal publications with projected and documented examples of climate change impacts on inland fishes globally. We are currently exploring options to automate certain portions of the review process to increase our efficiency in maintaining and updating the database.
+**To implement boiler health monitoring using a hybrid first principles-artificial intelligence model**, _Department_of_Energy | National Energy Technology Laboratory_
+> Develop methodologies and algorithms to yield (1) a hybrid first- principles artificial intelligence (AI) model of a PC boiler, (2) a physics- based approach to material damage informed by ex-service component evaluation, and (3) an online health-monitoring framework that synergistically leverages the hybrid models and plant measurements to provide the spatial and temporal profile of key transport variables and characteristic measures for plant health.
 
-**Leveraging Deep Learning to Improve Earthquake Monitoring**, _Interior | USGS_
-> The USGS National Earthquake Information Center monitors global earthquakes 24/7, rapidly detecting, characterizing, and publically desimating earthquake information. In order to improve the perfomance of their event characterization system, the NEIC has trained AI models to characterize earthquake source information using small portions of waveform data. These models improve autotmatic phase picking, classify phase types, and estimate source-station distances. The outcome of these models is improved automatic earthquake detections. The training dataset used in these models leverages the long standing reveiwed earthquake catalog produced by the NEIC combined with archived continous waveform recordings, many of which are USGS opperated stations. These tools have been developed primarily leveraging Python, Keras, and Tensorflow.
+**To drive insights on the dependencies between the natural gas and electricity sectors to increase reliability of the NG system**, _Department_of_Energy | National Energy Technology Laboratory_
+> Commercially available models will be used to generate predictive scenarios
 
-**Using Gradient Boosting Method and Feature Selection to Reduce Aleatory Uncertainty of Earthquake Ground-Motion Models**, _Interior | USGS_
-> We develop ground-motion models for peak ground acceleration and peak ground velocity using a gradient boosting method (GBM). In total 128 GBM-based ground-motion models are developed for estimating PGA and PGV, respectively, using varying subsets of explanatory variables. We select eight GBM-based ground-motion models that have the lowest root mean squared error (rmse) for the cross-validation datasets among models with the same number of explanatory variables. The secondary variables, in order of importance, that contribute to the model accuracy are: VS30, Ztor, Ry, Rx, Rake, Zhyp, and Dip. By considering the tradeoff between the model accuracy and model complexity (number of explanatory variables), we find an optimal model to predict PGA and PGV uses four explanatory variables: M, Rjb, VS30, and Ztor. The variability decomposition results suggest that the reduction of total variability is mostly due to the reduction of inter-event variability, likely because more source parameters than site or path parameters are included as explanatory variables.
+**Geochemically Informed Leak Detection (GILD)**, _Department_of_Energy | National Energy Technology Laboratory_
+> A Bayesian Belief Network has been developed to interogate the altered geochemistry around a potential CO2 leakage site. The use of the BNN and site specific parameters will reduce the percentage of false positives with this method.
 
-**Prediction of Salt Front Location in the Delaware River Estuary**, _Interior | USGS_
-> We are developing a machine learning model to make predictions of the 250 mg/L isochlor (salt front location) within the Delaware River Estuary. The model will be driven by river discharge into the estuary, tidal forcings, and meterological data from several points throughout the estuary. Model predictions will be compared with a process-based, hydrodynamic model, COAWST. The machine learning model is currently in development, but it will consist of a recurrent neural network architecture built using tools from pyTorch.
+**Creation of polymer datasets and inverse design of polymers with targeted backbones having High CO2 permeability and high CO2/N2 selectivity.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Machine learning models were developed to predict CO2 permeability and CO2/N2 selectivity of polymers. Novel methods were developed to generate polymer datasets. Furthermore, a novel machine learning technique is being developed to inverse design the polymers that will have targeted properties.
 
-**Artificial Intelligence for Environment & Sustainability (ARIES)**, _Interior | USGS_
-> ARIES is an international research project based at the Basque Centre for Climate Change (Bilbao, Spain), to which USGS has been a long-term collaborator. ARIES uses semantics and machine reasoning to enable AI-assisted multidisciplinary, integrated modeling of coupled human-natural systems. See https://aries.integratedmodelling.org/ and https://docs.integratedmodelling.org/technote/ for full details. ARIES is a full-stack solution for integrated modelling, supporting the production, curation, linking and deployment of scientific artifacts such as datasets, data services, modular model components and distributed computational services. Its purpose is to ensure — by design rather than just intent — that the pool of such artifacts constitutes a seamless knowledge commons, readily actionable (by humans and machines) through a full realization of the linked data paradigm augmented with semantics and powered by artificial intelligence. This design enables automation of a wide range of modeling tasks that would normally require human experts to perform. ARIES’ underlying software stack, called k.LAB, includes client and server components that support the creation, maintenance and use of a distributed semantic web platform where scientific information can be stored, published, curated and connected. The software is licensed through the Affero General Public License (AGPL) v.3.0.
+**To implement novel SSC-CCS sensing technology and associated condition-based monitoring (CBM) software for improved understanding of the boiler tube failure mechanisms**, _Department_of_Energy | National Energy Technology Laboratory_
+> A preliminary condition-based monitoring (CBM) package with graphic user interface (GUI) will be developed. This CUI will allow the operators to view the current and historical signals of temperature profiles of the boiler tube at specific sensor locations. Combining the pre-existing conditions and the opinions from designers/operators/experts’ experiences, the system will be integrated with EPRI’s Boiler Failure Reduction Program to provide assessments on the health conditions of the boiler tubes, warnings/diagnoses on potential failures and locations, and suggestions on maintenance locations and schedules.
 
-**Predicting Water Temperature Dynamics of Unmonitored Lakes With Meta‐Transfer Learning**, _Interior | USGS_
-> The approach compares the transfer of different model types from well-observed to unobserved lake systems. Process-based models, neural networks, and process-guided neural networks are trained on well observed lakes (source lakes) and then is used to make predictions in unobserved lakes (target lakes). The performance of each of those transfers is used to train a meta-model that uses lake characteristics (e.g., depth, area) to predict which source lakes will be good candidates for transfer to target lakes. The process-guided deep learning models were able to transfer better than process-based and pure machine learning approaches.
+**To design, proto-type and demonstrate a miniaturized implementation of a multi-process, high-spatial-resolution monitoring system for boiler condition management.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Project will develop control logic for automated control of bituminous coal-fired boiler. Plant operational data will be compared against monitoring data to determine when different sensor output from a miniaturized high temperature multi-process, high-spatial-resolution monitoring system signifies damaging conditions in that region of the boiler, and what operational changes can be made to eliminate the damaging condition. The control logic will be developed for automated control of soot-blowing and other boiler operations
 
-**TerrainFeatures detection and recognition**, _Interior | USGS_
-> The objective of this project is to use DL tools to extract terrain features.
+**Advanced model to forecast offshore landslide risks and marine geohazards**, _Department_of_Energy | National Energy Technology Laboratory_
+> This research will use data and models from the Offshore Risk Modeling (ORM) with intelligent databases, artificial intelligence (AI)/ML, big data, and other advanced computing technologies to address offshore subsurface natural-engineered system challenges, such as characterization and mapping of geologic hazards, safe operations, equipment reliability, and environmental assessments.
 
-**Prediction of Inland Salinity in the Delaware River Basin**, _Interior | USGS_
-> Once developed, the system will input watershed characteristics (soils, land cover), land use (road salt application) and meteorological timeseries, and output predictions of specific conductance (SC) for inland stream reaches in the Delaware River Basin (DRB). The model will be trained using SC sample data from within the DRB. The resulting model will allow for predictions in ungaged locations and time periods, and allow for an evaluation of salinity exposure in these stream reaches. The model will be built using pyTorch on the USGS Tallgrass supercomputer.
+**To develop artificial intelligence- enabled tools (ArtIT) for cyber hardening of power grids.**, _Department_of_Energy | National Energy Technology Laboratory_
+> To develop a novel resiliency framework for power grids by integrating different theories, such as closed-loop controls, security, agility, formal reasoning and synthesis, machine learning, and laboratory setup demonstration. The framework will provide enhanced resiliency to wide- area control operations in cyberattacks.
 
-**Prediction of Regolith Thickness in the Delaware River Basin**, _Interior | USGS_
-> This project uses observations of the depth to bedrock reported by private well drillers in the Delaware River Basin to train a Random Forest model to map the thickness of the regolith layer. This data product will support groundwater and hydrologic modeling efforts in the basin.
+**To drive insights on pipeline maintenance and repair strategies to reduce incidents of pipeline leakage; support evaluation of use and reuse strategies**, _Department_of_Energy | National Energy Technology Laboratory_
+> ML will be used to develop a pipeline risk assessment geospatial model and support evaluation of use and reuse opportunities.
 
-**Mapping river bathymetry from remotely sensed data**, _Interior | USGS_
-> We are using high frequency satellite images from the Planetscope constellation to estimate water depth in river channels. The short time lags between images allows us to average multiple scenes collected on the same day or within a couple of days to improve accuracy. In addition to established depth retrieval methods, we developed a neural network regression approach for this purpose. The training data consist of field measurements of water depth collected as part of other USGS projects on five different rivers. The neural network regression method is implemented in MATLAB using the Deep Learning Toolbox.
+**Advanced Image Segmentation**, _Department_of_Energy | National Energy Technology Laboratory_
+> U-Net CNN segmentation to isolate pore and fluid from computed tomography scans of multiphase transport in cores.
 
-**Prediction of Lake Water Temperature using Lake Attributes**, _Interior | USGS_
-> Once developed, the system will input lake characteristics (surface area, elevation, and others to be determined) and output predictions of depth-specific lake temperatures. Training data consist of lake temperature observations, meteorological data, and lake characteristics. The models will be developed using various Python packages including PyTorch on the USGS Tallgrass supercomputer.
+**To evaluate current infrastructure throughout a study area and evaluating future infrastructure needs to accelerate the deployment of CCUS**, _Department_of_Energy | National Energy Technology Laboratory_
+> One key task focuses on evaluating current infrastructure throughout the Initiative study area and evaluating future infrastructure needs to accelerate the deployment of CCUS. LANL will utilize its unique technologies for this project focusing on SimCCS, with a minor consulting role using NRAP and machine learning algorithms.
 
-**Waterfowl Lifehistory and Behavior Classification**, _Interior | USGS_
-> The model we developed provides a highly accurate daily classification of waterfowl behavior into 8 life history states/movement patterns using hourly GPS relocations and, optionally, remotely sensed habitat data. This will provide waterfowl researchers and managers a tool for real-time capable rapid assessments and notification of important life history events to improve research and management outcomes and reduce project operational costs.
+**To develop and demonstrate drone- based geophysical and remote- sensing technologies to quantify critical minerals (CM).**, _Department_of_Energy | National Energy Technology Laboratory_
+> To develop and demonstrate drone-based geophysical and remote- sensing technologies to quantify critical minerals (CM) in coal, coal related, unconventional and secondary sources or energy related waste streams. Drone-based geophysical surveys and remote sensing combined with artificial intelligence/machine learning (AI/ML) analytics for real-time integration and analytics has potential to transform characterization and monitoring for CM from conventional and secondary resources.
 
-**Using Artificial Neural Networks to Improve Earthquake Ground-Motion Models**, _Interior | USGS_
-> The ML model provides estimates of peak ground-motion from earthquakes given the location, magnitude, and local geological structure at a site of interest. The training data is a compilation of about 12,000 peak ground-motions recorded at seismic stations for moderate to large earthquakes. I constructed the ML model in Python using Keras with TensorFlow.
+**Initial case study using regulatory compliance (well integrity testing, fluid compositionali data, geographic, and geologic information from oil and gas wells in the Wattenberg Field, Denver Basin, central Colorado, USA**, _Department_of_Energy | National Energy Technology Laboratory_
+> Researchers will apply artificial intelligence/machine learning (AI/ML) techniques to national-scale well characterization and integrity test datasets to yield new insights into leakage potential.
 
-**Stream physical habitat characterization in the Chesapeake Bay Watershed**, _Interior | USGS_
-> The project objective is to take a large dataset of rapid habitat assessment data collected by multiple jurisdictions in the Chesapeake Bay Watershed, train a predictive model using those data, and use that model to predict stream habitat conditions for all unmeasured stream reaches in the region. The model is able to generate predictions for multiple aspects of physical habitat condition. The model directly connects to EPA's database containing the training data, enabling it to be rapidly updated when new data updates occur.
+**Data platform to expedite access and reuse of carbon ore data for materials, manufacturing and research**, _Department_of_Energy | National Energy Technology Laboratory_
+> Data platform to expedite access and reuse of carbon ore data for materials, manufacturing and research. Assembled using data science, NLP methods, and hosted in virtual, multi-cloud platform for online analytics.
 
-**Fluvial Fish Native Distributions for the Conterminous United States using the NHDPlusV2.1 and Boosted Regression Tree (BRT) Models**, _Interior | USGS_
-> Species distribution models are developed for 271 fluvial fish species in their native ranges of the conterminous United States. Boosted Regression Tree (BRT) models were used to develop presence/absence predictions for each of the National Hydrography Dataset Plus Version 2.1 stream segments within a species' native range. Landscape data that describe the natural variation (e.g., slope, precip) and anthropogenic impacts (e.g., stream fragmentation) were summarized to stream segments and used as predictor variables. Native species ranges were used to geographically constrain distribution modeling efforts. R Version 4.0.2 (or newer) with ‘dismo’ and ‘labdsv’ packages are used for modeling.
+**Machine learning to refine and analyze data for CCS needs**, _Department_of_Energy | National Energy Technology Laboratory_
+> Utilze and apply different machine learning approaches to process data and generate new derivative data products that help address CCS stakeholder data-needs for resource evaluation, risk assessment, supply chain, social and environmental justice evaluations, regulatory compliance, and more.
 
-**Evaluating fish movement in restored coastal wetlands using imaging sonar and machine learning models**, _Interior | USGS_
-> Wetland managers are restoring coastal wetland habitats in the Great Lakes, and often seek more information on when and how fish access restored habitats. Terabytes of hydroacoustic data on fish movement need to be analyzed more efficiently, so a collaboration between USGS, USFWS, and the University of Michigan is developing a machine learning model (MLM) that identifies, tracks, and quantifies fish movement. The completed model will read proprietary sonar image files, convert them to a universal file format (i.e., .mp4), place bounding boxes around individual fish detected by the model, and track them across consecutive image frames to determine bi-directional movement. The model uses training data and TensorFlow-based convolutional neural networks for object detection. Post-processing uses sonar geometry to estimate length of individual fish, and output files include labeled videos showing bounding boxes (.avi format), model metrics (.txt format), an enumeration of bi-directional fish movement (i.e., left or right) in .csv format, and individual fish length estimates (.csv format). Model output will allow USGS researchers to estimate fish habitat use and associated community metrics in restored wetland habitats. This information will support USFWS and other management agencies restoring coastal wetland habitats.
+**Use ML to analyze the existing H2 and natural gas pipelines to identify the key parameters that can enable the H2 transport and storage at a large scale**, _Department_of_Energy | National Energy Technology Laboratory_
+> This task aims to use geo-data science methods and geospatial information science to analyze the existing H2 and natural gas pipelines to identify the key parameters that can enable the H2 transport and storage at a large scale. The results can help to justify the importance of real-time pipeline monitoring and recommend optimized sensor deployment strategies to support smart maintenance and methane emissions reduction goals.
 
-**Prediction of Water Temperature in the Delaware River Basin**, _Interior | USGS_
-> We published a machine learning model to make water temperature predictions at 456 reaches in the Delaware River Basin. The recurrent graph convolutional network (RGCN) was pre-trained with predictions from a coupled process-based model that predicts stream flow and temperature (the Precipitation Runoff Modeling System with the coupled Stream Network Temperature Model or PRMS-SNTemp).
+**AI/ML methodology for rapid design of sorbents tuned to specific ash impoundment and/or landfill requirements.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Computation of the descriptors (atomic property-weighted radial distribution functions) that will be used for the ML portion of the task; Fitting of a machine-learned model for the prediction of B sorption; Optimization and computational design of a sorbent for maximum sorption of B as a function of B concentration in the aqueous solution; Force field generation for an additional pollutant (if needed); Sorption calculations and ML fitting for the second pollutant (TBD); Optimization and computational design of a sorbent for maximum sorption of the second pollutant as a function of pollutant concentration in the aqueous solution.
 
-**Wildlife Underpass Camera Trap Image Classification, San Diego CA**, _Interior | USGS_
-> This software system takes wildlife camera trap images as inputs and outputs the probability of the image belonging to user-specified taxonomic classes based on wildlife species present in each image. (Wildlife camera traps are motion-triggered, time lapse, and other camera systems placed in the field to capture images of wildlife at the location and times where and when the cameras are placed.) The process of humans reviewing, labeling, and QA/QCing labels is labor intensive, time consuming, and costly. Developing AI systems that can perform these tasks within an acceptable level of accuracy can reduce the costs in extracting tabular data from camera-based datasets and increase the volume of data for analysis. The system supports training experiments where model hyperparameters and training dataset characteristics can be varied to find those that are more optimal for training. Training, validation, and testing datasets have human-assigned labels and are used to train and evaluate the models. Once trained, the models can be used to predict classes on unlabeled images. We use a convolutional neural network (CNN) approach based on TensorFlow and training is run on the USGS Tallgrass supercomputer designed for AI/ML workflows.
+**Machine learning based identification of current hazardous offshore metocean and bathymetric conditions that can impact safe offshore energy operations**, _Department_of_Energy | National Energy Technology Laboratory_
+> Build off user testing and further refine analytical logic to develop Version 2 of the OGA smart tool for release on EDX. Continue refinements to offshore hazard models, including wave and turbidity current models. Draft manuscripts detailing the OGA Tool models and algorithms. Assemble a metocean and seafloor database for release with the OGA Tool Version 2 online; strategize web-hosted versions of the OGA Tool and database.
 
-**River Image SEnsing**, _Interior | USGS_
-> The River Image Sensing (RISE) project is charged with the development of a reliable camera system for integration into the operational streamgage monitoring network of the USGS Water Mission Area. In addition to capturing images and videos, the RISE system will be capable of producing time-series of surface water levels derived from still camera images using AI/ML modeling techniques.
+**To develop and validate sensor hardware and analytical algorithms to lower plant operating expenses for the pulverized coal utility boiler fleet**, _Department_of_Energy | National Energy Technology Laboratory_
+> The objective is to develop and validate sensor hardware and analytical algorithms to lower plant operating expenses for the pulverized coal utility boiler fleet. The focus is on relatively inexpensive new “Internet of Things” technologies to minimize capital investment. Three technologies will be explored for demonstration and full-scale testing in a coal-fired power plant. The first focuses on gas and steam temperature control issues at low load. The second uses sensors and analytic algorithms for monitoring coal pulverizer operation at lower loads to reduce the minimum firing capability of coal burners. The third investigates new sensors and advanced controls to better balance air and fuel at each burner enabling reduction in the minimum firing capability of coal burners.
 
-**Integrating machine learning phase pickers into the Southern California Seismic Network earthquake catalog**, _Interior | USGS_
-> We evaluate the readiness of machine-learning models for automatic earthquake detection and phase picking to enhance the Southern California Seismic Network earthquake catalog, with the end-goal of using these models in routine seismic network operations. We first test a model called Generalized Phase Detection (GPD), trained on millions of manually-picked P- and S- arrival times from Southern California earthquakes and examples of noisy time series data. Inputs are continuous seismic data time series, with 3 components (north, east, vertical), at hundreds of seismic stations located in southern California. Outputs are arrival times of P and S seismic waves, with associated probabilities between 0 and 1, with a threshold probability applied for detection; these arrival times are fed into existing software to estimate earthquake locations, origin times, and magnitudes. Custom software is written in Python with the model implemented in the PyTorch library. We are also developing a cloud-native software architecture that takes real-time seismic data as input (~15 seconds at a time) and applies the GPD model within Amazon Web Services.
+**To verify and validate testing of advanced power generation technologies**, _Department_of_Energy | National Energy Technology Laboratory_
+> Verification and validation testing with direct support and collaboration from operating power plants with advanced power generation technologies and prime mover and downstream systems using near- real-time data, resulting in better informed plant operators, and reduced disruptions, while meeting changing service demands based on enhanced operating flexibility
 
-**Understanding the 2020-2021 Puerto Rico Earthquake sequence with deep learning approaches**, _Interior | USGS_
-> We enhance the earthquake catalog for the 2020-2021 southwestern Puerto Rico earthquake sequence with a variety of deep learning approaches to understand its complex fault system, triggering mechanisms, and long-lived vigorous nature of the aftershock sequence. We use an existing deep learning model for earthquake detection and phase picking called EQTransformer, which was trained on a global data set of earthquake waveforms called STEAD, using the TensorFlow library. We also apply deep learning methods for earthquake location (EikoNet and HypoSVI), trained on a known velocity model with a physics informed neural network using the PyTorch library, which then allows grid-free rapid seismic wave travel time calculation between any 2 locations within a 3D volume . These machine learning methods for automatic earthquake detection, phase-picking, and location, which are all available as open-source Python codes, help increase the number of small earthquake observations and improve earthquake depth estimates, thus offering more detailed information about active faults and physical processes in this earthquake sequence.
+**To provide an effective quality assurance method for additively manufactured gas**, _Department_of_Energy | National Energy Technology Laboratory_
+> The primary goal of this project is to develop a cost-effective quality assurance (QA) method that can rapidly qualify laser powder bed fusion (LPBF) processed hot gas path turbine components (HGPTCs) through a machine learning framework which would assimilate in-situ monitoring and measurement, ex-situ characterization, and simulation data. The project technical deliverable will be a rapid QA tool capable of: i) building a metadata package of process-structure-property data and models intended for LPBF-processed HGPTCs by mining both simulation and in- situ/ex-situ characterization data; and ii) qualifying online/offline a manufactured component by inputting simulation with/without in-situ monitoring data to the developed algorithms to predict porosity and fatigue properties. The target application of this QA tool will be advanced HGPTC produced by LPBF in Inconel 718. Data mining techniques will be developed to consolidate and analyze the heterogeneous big data stemmed from the aforementioned methods of upfront simulation, online monitoring and post-build characterization, and thus enabling a collaborative learning about the process-microstructure- properties relationship. The resultant QA package includes a process- structure-property database and machine learning tools for using LPBF metal AM to fabricate HGPTC. The developed metadata package enables online/offline qualification of additively manufactured turbine components by inputting simulation with/without in-situ monitoring data to the developed machine learning algorithms to predict porosity and fatigue properties.
 
-**ARMI Amphibian Species ID from Acoustic Data**, _Interior | USGS_
-> The mission of the USGS Amphibian and Reptile Minitoring Initiative (ARMI) is to provide essential scientific information to managers to help arrest or reverse amphibian population declines. Acoustic monitoring of amphibian (anuran) vocalizations are a core technique used by ARMI researchers. Reviewing audio recordings and identifying species vocalizations captured therein is time consuming and labor intensive. For these reasons, many recordings remain unprocessed, preventing valuable data from being available for analysis. Our goal is to train convlutional neural networks (CNNs) that take audio clips that have been converted to sonograms (images) and classify the species generating the vocalizations in the recordings. Our initial prototype project will attempt to develop models that can identify audio clips containing bullfrog (*Lithobates catesbeianus*, which are native in some parts of the US and a destructive invasive species in others) vocalizations. The software will be build using the TensorFlow Python API and training will be performed on the USGS Tallgrass supercomputer.
+**Use of machine learning models to produce surrogates for efficient optimization**, _Department_of_Energy | National Energy Technology Laboratory_
+> We consider the use of machine learning models to produce surrogates for efficient optimization. The IDAES implementation will be demonstrated on a real-scale design problem focused on carbon capture (e.g., rigorous MEA model), or an integrated energy system.
 
-**Process guidance for learning groundwater influence on stream temperature predictions**, _Interior | USGS_
-> 1) This work uses meteorological drivers to predict network wide daily average stream temperature in the Delaware River Basin. 2) The training data are water temperature observations available through NWIS and collected by the UGSS. 3) The work focuses on developing a custom loss function that helps deep learning models learn to account for groundwater influence on stream temperature. Specifically, it uses the phase lag and amplitude dampening effect of groundwater to identify reaches likely influenced by shallow and deep groundwater inputs.
+**AI used to interpret sensor data.**, _Department_of_Energy | National Energy Technology Laboratory_
+> AI is being used to classify sensor data. An AI algorithm was written and trained with a wide range of known sensor conditions to enable automatic classification of sensor data into likely constituent gas concentrations.
 
-**Process-guided deep learning for predicting stream temperature in out-of-bound conditions**, _Interior | USGS_
-> 1) This work uses meteorological drivers to predict network wide daily average stream temperature in the Delaware River Basin. 2) The training data are water temperature observations available through NWIS and collected by the UGSS. 3) The work compares the performance of two deep learning achictectures, both of which incorporate process guidance through pretraining on process-based modelling outputs. For each architecture, we're testing the ability of the model to generalize outside the bounds of its training data in order to better understand the limitations of each modelling approach for accurately predicting stream temperature under changing climate and precipitation regimes.
+**To deploy dynamic neural network optimization to minimize heat rate during ramping for coal.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The primary objective of the proposed work is to 1) deploy dynamic neural network optimization (D-NNO) to minimize heat rate during all phases of operation (ramping, low load, and high load) at a coal power plant. The project will build a high-fidelity, systems-level, dynamic model of the plant for a rapid prototyping environment for the D-NNO and to allow researchers to better understand the dynamic phenomena that occur during ramping and at various plant loads, and Commercialize D- NNO as a readily-available software application by working with an industry-proven software platform. The plant will be perturbed over time to allow machine learning (ML) models to be fitted to the plant’s response data.
 
-**Global Inland Fisheries Risk Index**, _Interior | USGS_
-> We applied coupled manual and machine learning methods to an expansive literature set for major global inland fisheries to explore opportunities for improving user efficiency for linking anthropogenic drivers of environmental change to direct impacts. This work informs the relative influence of threats in the development of a global inland fisheries assessment using boosted regression trees to derive a spatially-explicit risk index of stressors.
+**With sensor technologies and network developed, in the future, AI/ML may be used to accelerate data processing of sensor data from the sensor network.**, _Department_of_Energy | National Energy Technology Laboratory_
+> With sensor technologies and network developed, in the future, AI/ML may be used to accelerate data processing of sensor data from the sensor network to identify and predict risks and failures in plugged wells.
 
-**PRObability of Streamflow PERmanence**, _Interior | USGS_
-> The PROSPER modeling framework was developed to incorporate sparse streamflow observation data representing wet or dry stream conditions and gridded hydroclimatic explanatory data to predict the annual probability of streamflow permanence at 30-m (PROSPER Pacific Northwest) or 10-m (PROSPER Upper Missouri) resolution. The training data are point observations of wet or dry at locations in the Pacific Northwest or Upper Missouri River basin. The PROSPER models were primarily developed using the FCPGTools (Barnhart, Sando, et al., 2020), R, and USGS HPC resources (Yeti).
+**To leverage disparate data to update assessments, analytics, and infromation for NATCARB and CS Atlas**, _Department_of_Energy | National Energy Technology Laboratory_
+> ML Is utilized to parse and generate additional data and information that can be parsed and labeled to provide additional inputs for geologic carbon storgae assessments from multiple sources.
 
-## HHS
+**To provide integrated boiler management through advanced condition monitoring and component assessment.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The Integrated Creep-Fatigue Management System represents an online boiler damage monitoring system applicable to creep and fatigue. The system will be configured to allow connectivity to the plant data historian (e.g., OSISoft:PI) and to commercial finite element software (e.g., ANSYS and Abaqus). In addition to configuring interaction with finite element software, existing damage mechanism monitoring modules will also be deployed using online analytical calculations. This functionality will be applied to terminal tubes entering the boiler header for which the combined mechanisms of creep and oxidation can be calculated without the need for a finite element analysis.
 
-**Auto-generation Synonyms**, _HHS | AHRQ_
-> Behind the scenes, adding synonyms to search queries to improve search results
+**To help automate data discovery and preparations to support a range of CS models, tools, and products**, _Department_of_Energy | National Energy Technology Laboratory_
+> AI & ML are used to help collect and process data from multipel sources to further integrate and characterize infromation to provide additional data and infromation to support a range of carbon storage work
 
-**Relevancy Tailoring**, _HHS | AHRQ_
-> Adjusting the ranking of search results so that most relevant results show up at the top of the list
+**To apply machine learning and data analytics techniques to integrated subsurface datasets to predict key reservoir properties and compare various fields across the area of study and to correlate vintage data with new data and address the distribution of fractures and vugs.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Laboratory experiments will be used to optimize a CO2 flood composition specific to HTD rock properties, and subsequently design and simulate injection scenarios that offer wettability alteration, foaming, and reduced surface tension. This work will improve oil recovery from matrix porosity and mitigate the impact of fracture zones. The optimized design will be implemented and tested in a Trenton/Black River field. The results will provide strategies to improve oil recovery in complex carbonate formations in the Michigan Basin as well as in other carbonate plays.
 
-**Suggested Related Content**, _HHS | AHRQ_
-> Show related searches that may provide the user with other related, valuable information
+**ML-based proxy models and multi- level data driven fracture network imaging to support rapid decision making.**, _Department_of_Energy | National Energy Technology Laboratory_
+> ML-based proxy-models of fracture network, HF geometry, HF properties, bottomhole pressure and drainage volume contribute to fracture network, production forecast and well drainage volume visualizations.
 
-**Chatbot**, _HHS | AHRQ_
-> An interactive interface that can respond to plain language queries in real time using natural language processing
+**Machine learning for legacy well evaluation**, _Department_of_Energy | National Energy Technology Laboratory_
+> Use machine learning to identify common attributes that correlated to well integrity issues to prioritize for monitoring and remediation.
 
-**Auto Tagging**, _HHS | AHRQ_
-> Suggesting content tags automatically based on a machine-driven evaluation of how existing content is tagged
+**To use data analytics and machine learning techniques to advance understanding of the characteristics of the Emerging Paradox Oil Play**, _Department_of_Energy | National Energy Technology Laboratory_
+> Using data analytics and machine learning techniques to advance understanding of the characteristics of the entire Parardox oil play through integration of geologic and log-derived “electrofacies” models and upscaling to 3D seismic data and propagation through the seismic volume.
 
-**Did you mean**, _HHS | AHRQ_
-> Suggesting spelling corrections and reformatted search queries based on Google Analytics data
+**To provide insights into opportunities to beneficiate and use hydrocarbon infrastructure for alternative uses such as offshore carbon storage.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Multiple big data-driven AI/ML models will be used to evaluate geologic, geospatial, and infrastructure related information to inform predictions using natural language processing, Artificial Neural Networks, and possibly bayesian networks as well.
 
-**Automated Suggestions**, _HHS | AHRQ_
-> Auto-filling queries as they are typed
+**Use AI to process large sensor datasets for identification and classification of NG pipeline conditions and methane leaks**, _Department_of_Energy | National Energy Technology Laboratory_
+> Focused on development of advanced data analytic techniques and methods for distributed OFS technology, including AI and ML, for identification of signatures and patterns representative of hazards, defects, and operational parameters of the natural gas pipeline network.
 
-**Item Nonresponse Detection in Open-text Response Data**, _HHS | CDC | NCHS_
-> NCHS is developing an item nonresponse detection model, to identify cases of item nonresponse (e.g., gibberish, uncertain/don’t know, refusals, or high-risk) among open-text responses to help improve survey data and question and Questionnaire design. The system is a Natural Language Processing (NLP) model pre-trained using Contrastive Learning and fine-tuned on a custom dataset from survey responses.
+**To develop 5G integrated edge computing platform for efficient component monitoring in coal-fired power plants**, _Department_of_Energy | National Energy Technology Laboratory_
+> Develop an on-demand distributed edge computing platform to gather, process, and efficiently analyze the component health data in coal-fired power plants. Given that edge computing servers are closer to the field devices in modernized power plants, the efficiency of edge computing service with respect to dynamic orchestration, resource data collection, and health information monitoring will be investigated for timely detection of remote faults and to perform diagnosis.
 
-**Sequential Coverage Algorithm (SCA) in Record Linkage**, _HHS | CDC | NCHS_
-> CDC’s National Center for Health Statistics (NCHS) Data Linkage Program has implemented a supervised machine learning algorithm, known as the Sequential Coverage Algorithm (SCA) in their linkage programs. The SCA was used to develop Joining methods (or blocking groups) when working with very large datasets. The SCA method improved the efficiency of blocking.
+**To perform reconstruction of the 3D temperature field using Neural Networks with measured and known propagation paths.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The sensor will first be tested up to 300 C. For high-temperature tests, the Recipient will use Alstom’s Industrial Size Burner Test Facility (ISBF) or another appropriate facility. The high-temperature sensor will be first tested from room temperature to 1,800 C. The results will be compared with data obtained using other methods such as surface acoustic wave (SAW), thermocouples, and optical fiber sensors. A 3D temperature mapping will be created by fusing the high-temperature sensor data. The Recipient will test the system’s survivability in a boiler environment. A high-temperature sensing array will be tested to map the temperature distribution within an exhaust pipe. The sensor array will be tested at one 6’’ port or a similar location. The Recipient will also perform reconstruction of the 3D temperature field using Neural Networks with measured and known propagation paths.
 
-**ICD-10 Coding of Cause of Death reported on Death Certificates (MedCoder)**, _HHS | CDC | NCHS_
+**To create reduced order models for predicting long term performance degradation behavior of fuel cells and electrolyzers.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Machine learning algorithms are being used to analyze large datasets of microstructural and perfromance degradation simulations of various electrode microstructres to develop reduced order models that can be used for long-term perfromance degradation predictions of large area fuel cell/electrolysis cells and cell stacks. The reduced order models can be used for dynamic simulations that can more accurately mimic the changing loading conditions of the modern grid.
+
+**Development of AI/ML methods**, _Department_of_Energy | National Energy Technology Laboratory_
+> Develop quality, reliability, and version control standards for SMART software. Continue development of AI/ML methods for use by the 2A and 2C activities, including Modeling anomalies due to local heterogeneity coupled with an enhanced capacitance-resistance model (CRM) and Bayesian Belief Network (BBN) modeling integrated with geochemistry. Continue development of advanced computational approaches with modeling using the most advanced general purpose PDE/ODE physics-informed neural network (PINN) tool developed by NVIDIA and accelerate training PINNs using Wafer Scale Engine (WSE) by Cerebras Systems Inc.
+
+**To help automate data integration and exploration for geologic core properties related information.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Using natural language processing, deep learning neural networks, and possibly tensor flow for image analytics.
+
+**Using AI to improve predcitions of subsurface properties, analyze multi- variate inputs, address knowledge and information gaps to improve predictions and modeli**, _Department_of_Energy | National Energy Technology Laboratory_
+> Use of AI methods such as fuzzy logic, neural networks, tensor flow, and natural language processing to assist with knowledge and data exploration, transformation and integration, as well as modeling and analysis of multi-variate data used in the resource assessment method to improve outputs and predictions.
+
+**Fluid migration from well-to-well communication will be inputted in AI to determine a costs-benefit analysis**, _Department_of_Energy | National Energy Technology Laboratory_
+> This project will develop an ML algorithm to predict the time when a growing fracture will reach the monitored well. The ML workflow will be trained on the distinctive tensile strain signature that precedes the growing fracture. The new workflow will be designed to work in conjunction with the fracture warning ML workflow developed in EY21. Together, these workflows will: (1) provide an early warning of well-to- well communication, (2) predict the measured depths where the communication will happen, and (3) provide an estimated time until the beginning of well-to-well communication.
+
+**DOE AI Data Infrastructure System**, _Department_of_Energy | National Energy Technology Laboratory_
+> Leveraging generative AI and cloud enabled data infrastructure to improve CCS user experience and connectivity producing an adaptive user interface that streamlines connection of CCS stakeholders to what matters to them.
+
+**Use ML to enable a geophysical monitoring toolkit, and assimilate real-time modeling and data.**, _Department_of_Energy | National Energy Technology Laboratory_
+> ML-enabled rapid and autonomous geophysical monitoring and real- time modeling and data assimilation tools (along with visualization and decision-support frameworks), work together to radically improve pressure and stress imaging.
+
+**Development of new machine learning-based process modeling capabilities that assess the viability and efficiency, with uncertainty quantification, of the chemical processes involved in the carbon fiber production and its output quality**, _Department_of_Energy | National Energy Technology Laboratory_
+> Provide sub-pilot-scale verification of lab-scale developments on the production of isotropic and mesophase coal-tar pitch (CTP) for carbon fiber production, using coals from several U.S. coal-producing regions. An extensive database and suite of tools for data analysis and economic modeling, with an associated web-based community portal, will be developed to relate process conditions to product quality, and to assess the economic viability of coals from different regions for producing specific high-value products.
+
+**To apply machine learning methods to explore the inter-well uncertainty in the Goldsmith Landreth San Andres Unit and to update reservoir models.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Engineered water can lower interfacial tension and minimize capillary forces that gravity can push the oil up and out of the matrix. This proposal is to test this technology in the field scale, in Goldsmith Landreth San Andres Unit. Apply history matching of flexible interface- based reservoir models and ML methods such as generative adversarial networks that provide new methods to explore the inter-well uncertainty and to update the reservoir models.
+
+**To develop high fidelity tools which run in near real time not only help in the field to guide and optimize complex operations but can be used as digital twins**, _Department_of_Energy | National Energy Technology Laboratory_
+> To develop high fidelity tools which run in near real time not only help in the field to guide and optimize complex operations but can be used as digital twins for cyber security and cyber-physical modeling.
+
+**To develop innovative biomonitoring and remediation of heavy metals using phytotechnologies.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The objective of the work is to utilize algal- and cyanobacterial-based phycotechnologies to address pervasive heavy metal contamination from coal combustion product (CCP) impoundments at the Savannah River Site. Novel bioindicators will be developed to gauge the potential for phytoremediation to restore legacy impoundment sites.
+
+**To realize next generation solid-state power substation.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The objective of the proposed project is to realize next generation solid- state power substation (SSPS) incorporating machine learning, cyber- physical anomaly detection, and multi-agent distributed networked control. The project will have the following capabilities: distributed control and coordination coupled with localized intelligence and sensing, autonomous control for plug-and-play, automatic reconfiguration, recovery, and restoration enabling decoupled, asynchronous, and fractal systems.
+
+**Transform reservoir management decisions through rapid analysis of real time data to visualize forecasted behavior in an advanced control room "human-in-the-loop" format.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Improve low-fidelity model performance by transfer-learning with high- fidelity data, and reduce uncertainty by combining high-fidelity and lower- fidelity models for improved UQ performance.
+
+**Natural Language Processing**, _Department_of_Energy | National Energy Technology Laboratory_
+> Information and articles on energy storage will be gathered and reviewed. Developed natural language processing (NLP) algorithms will be used to help categorize and understand various energy storage efforts in the R&D communities. Additionally, trends within the discovered and selected topical focus areas in energy storage will be examined. This will provide a view of energy storage R&D, which is not biased or limited to known search terms.
+
+**Machine learning to tool and model applications for CCS needs**, _Department_of_Energy | National Energy Technology Laboratory_
+> Utilze and apply different machine learning approaches to help model and analyze Class VI well regulatation data, CCS infrastructure optimization, CCS data visualization, and interaction with “really big” (petabyte-scale) datasets used for CCS resource characterization and risk reduction (e.g., reflection seismic surveys) within the EDX multi- cloud ecosystem.
+
+**To create a data-driven multiscale phytotechnology framework for identification and remediation of leached-metals-contaminated soil.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The project objectives are to integrate satellite remote sensing, machine learning and image processing, geological engineering models, and soil science and plant pathology to: 1) identify potential leaching of metals from coal ash impoundments (Phase I), and 2) propose locally adaptable phytoextraction approaches to remediate contaminated regions (Phase II).
+
+**To drive insights on environmental performance of the natural gas system to inform effective mitigation strategies**, _Department_of_Energy | National Energy Technology Laboratory_
+> Life Cycle Analysis models will be used to define and estimate environmental parameters/performance
+
+**To use ML to help identify promising oxygen carrier materials.**, _Department_of_Energy | National Energy Technology Laboratory_
+> A combination of experimental data and computational results will be used both to understand O2 production and to develop a machine learning model that can be used to identify promising carrier compositions. These compositions will be evaluated on two primary criteria, performance and ability to be synthesized. Once the model has identified promising candidates, these materials will be synthesized and compared to existing carriers. This new data will then be used to refine the models.
+
+**To drive insights on emissions from natural gas production, storage, and transmission to determine how best to reduce emissions**, _Department_of_Energy | National Energy Technology Laboratory_
+> AI/ML will be used to recognice patterns in well integrity records that could predict failure events
+
+**To design, develop, and demonstrate an AI-integrated physics-based attack resilient proactive system.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Enable "defense-in-depth" cyber-physical system (CPS) security and resiliency for the distribution grid. The recipient will design, develop, and demonstrate a vendor-agonistic scalable Artificial Intelligence Integrated Attack-Resilient Proactive System (AI-ARPS) for utility distribution grid systems including advanced distribution management system (ADMS) and DER management system (DERMS) applications.
+
+**To expore and analtze hydrogen- fueled rotating detonation engines using advanced turbulent combustion modeling and high- fidelity simultion tools.**, _Department_of_Energy | National Energy Technology Laboratory_
+> (1) analysis of injector design effects on RDE parasitic combustion; (2) understanding the impact of RDE ignition mechanism and initial transients on the ensuing detonation wave behavior; (3) deployment and assessment of machine learning assisted turbulent combustion models for predictive and computationally-efficient RDE CFD simulations; and (4) development of a highly scalable high-order CFD modeling framework for scale-resolving simulations of full-scale RDEs and investigation of TCI and wall boundary layer effects.(1) analysis of injector design effects on RDE parasitic combustion; (2) understanding the impact of RDE ignition mechanism and initial transients on the ensuing detonation wave behavior; (3) deployment and assessment of machine learning assisted turbulent combustion models for predictive and computationally-efficient RDE CFD simulations; and (4) development of a highly scalable high-order CFD modeling framework for scale-resolving simulations of full-scale RDEs and investigation of TCI and wall boundary layer effects.
+
+**ANN Submodels of Reaction Physics**, _Department_of_Energy | National Energy Technology Laboratory_
+> ANN development of flow physics for code acceleration
+
+**Using natural language processing to explore and extract information from historical literature/pdfs**, _Department_of_Energy | National Energy Technology Laboratory_
+> Training and adaptation of natural lanaguage processing algorithms to improve exploration and extraction of information from old, historical scientific literature. Extraction of knowledge and data, as well as preservation of key information.
+
+**To demonstrate multi-gamma based sensor technology for as-fired coal property measurement**, _Department_of_Energy | National Energy Technology Laboratory_
+> Applying an advanced multigamma attenuation (MGA) sensor to accurately and precisely measure coal properties at the point of injection into burners. One research objective is to perform MGA testing and databases development for neural network developed fingerprinting of coal properties. This will include neural network refinement with MGA data and to upgrade Microbeam’s Combustion System Performance Indices (CSPI) – CoalTracker (CT) program with MGA-based neural network algorithms.
+
+**Using time-series classification to assist in automated analysis of sensor data taken during experiments on the MHD test channel.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The measurements of chemical composition will be combined with resistance measurements to validate CFD models of the MHD channel system. Specifically, validated CFD models will be able to separate the contribution of the bulk and boundary layer resistance to the overall resistance of the MHD channel.
+
+**To detect leaks and creaks.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The relevant research has been focused on demonstrating applicability of novel machine learning based approaches to two major challenges associated with safe management of large-scale geologic CO2 storage operations, early detection of leaks (i.e., by detecting small leaks) and early detection of induced seismicity (i.e. by detecting small seismic signals).
+
+**To develop a deep-learning Artificial Intelligence model for analysis of fundamental combustion characteristics**, _Department_of_Energy | National Energy Technology Laboratory_
+> A deep-learning Artificial Intelligence model will be pursued for rapid analysis of detailed fundamental combustion characteristics that support the design and troubleshooting process of H2-containing fuel combustor development.
+
+**Computational capabilities to support experimental efforts**, _Department_of_Energy | National Energy Technology Laboratory_
+> This subtask will leverage NETL’s in-house computational capabilities and existing university collaborators to support experimental efforts by providing atomic-level DFT and microkinetic modeling calculations for catalyst systems. This work provides atomic-level details on reaction energetics and establishes key structure-property relationships used to optimize catalyst structure and formulation.
+
+**To identify and characterization REE- CM hot zones using machine learning-aided multi-physics.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Develop and field demonstrate a machine learning (ML)-aided multi- physics approach for rapid identification and characterization of REE- CM hot zones in mine tailings with a focus on coal and sulfide mine tailings or other processing or utilization byproducts, such as fly ash and refuse deposits.
+
+**Rokbase Geologic Core Data Tool**, _Department_of_Energy | National Energy Technology Laboratory_
+> This project will develop the platform through which the DOE OGFL data are easily accessible, searchable, and described, enabling future R&D, sustainable resource planning, and responsible stewardship of the team’s national resources. NETL’s expertise in developing geo-data science, ML, visualization, online data mining and integration, and advanced analytics through scientific computing (including high performance computing and big data computing methods) and virtualized environments can be leveraged to support further intelligent analytics for offshore systems.
+
+**To implement sensor-driven deep learning/artificial intelligence for power plant monitoring**, _Department_of_Energy | National Energy Technology Laboratory_
+> Sensor-driven deep learning/artificial intelligence for intelligent health monitoring capabilities that occur at the sensor (embedded computing) or base station (edge computing). Will give power plant operators more prediction tools about scheduling maintenance. Focus is on a high- priority in-situ boiler temperature measurement system that relies on chipless RFID technology and much-needed temperature, pressure, environmental, and water quality industrial sensors.
+
+**Analysis to Assess Offshore CCS Trends and Gaps**, _Department_of_Energy | National Energy Technology Laboratory_
+> Providing expertise, input, and support for the development of a DOE (NETL/FECM) carbon storage technical resources catalog that facilitates searching for information about datasets, models and tools, publications and reports, and competencies resulting from DOE- FECM/NETL’s offshore and CSP activities. this project will complete a review and analysis of knowledge and data resources resulting from international offshore CCS projects. Outcomes of this analysis are expected to include the integration of key data and tools into the EDX- hosted Open Carbon Storage Database and DisCO2ver platform (in development via the EDX4CCS FWP), as well as geo-data science based analysis and recommendations on geologic and metocean insights from international studies and their alignment or relevance to U.S. Federal offshore settings.
+
+**Develop and demonstrate reinforcement learning approach for time-varying control for flexible hydrogen and power production.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Efforts on IES control will include the development of a dynamic optimization-based nonlinear model predictive control (NMPC) framework. NMPC approaches for optimizing cell thermal management and maximizing IES efficiency under set-point transition will be developed for flexible operation. Reinforcement learning (RL) approaches will also be developed for optimal control policy selection and learning-based adaptive control. There are opportunities for improved learning through interaction with the electrolyzer in addition to learning from the MPC action. Multi-policy approaches will be developed for control, independently by RL or in concert with MPC, or even for scheduling the operating policy. The ultimate goal is to develop operational strategies and an NMPC and RL control framework for optimizing IES performance under flexible hydrogen and power production scenarios, while minimizing physical and chemical degradation over long-term operation.
+
+**To develop a wireless, distributed data acquisition and interpretation system foe seismic monitoring and carbon storage characterization.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Resensys plans to develop a wireless, distributed data acquisition and interpretation system tailored for monitoring and characterization of seismic activity at carbon storage sites. The seismicity data collected in real time during the CO2 storage site characterization and sequestration processes combined with advanced signal processing and Artificial Intelligence and Machine Learning (AI/ML) methodologies provide an understanding of natural seismicity risks prior to any CO2 injection, prior to making large investments in developing the storage project.
+
+**Neural networks used to compensate a drone-mounted magnetic sensor for maneuvering of the drone.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Electromagnetic technology development and optimization for cased wells. Scalable solutions—getting to 100,000 wells/year through drone technology and ML technology. NETL will develop ML algorithms to compensate magnetic data for the maneuvering of drone aircraft. Magnetic noise can limit sensitivity of detection and resolution of anomalies in the magnetic data. The ML algorithms will reduce attitude- and heading-induced noise in drone magnetic surveys.
+
+**To develop low cost conversion of coal to graphene**, _Department_of_Energy | National Energy Technology Laboratory_
+> Demonstrate the techno-economical feasibility of a 250 ton/day manufacturing facility to convert coal to high-quality graphene. The core technology is based on flash joule heating (FJH) to convert various coals to graphene. Machine learning algorithms will map out the correlation of processing parameters with the final product (graphene yield, quality, dimensions).
+
+**To drive insights using machine learning-based dynamics, control, and health models and tools developed by NETL to gain valuable operational data, insights, and**, _Department_of_Energy | National Energy Technology Laboratory_
+> ML will be used to develop dynamics, controls, and health models for operating power generation facilities
+
+**Develop, integrate, and automate the reduction of CFD models while preserving acceptable levels of accuracy. In general for CCSI2, this work intends to focuse on CFD applications.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Will leverage state-of-the-art, physics-based deep learning (DL) models to learn generalizable surrogates that may be used in place of CFD models to predict quantities required for downstream optimization. The products from this subtask can be immediately leveraged by other subtasks that are seeking to speed up their CFD simulation models to streamline their downstream analyses. Addtionally, improvements to the ML/AI interface in FOQUS. Includes support for vector variables in the ML/AI plugin and support for additional surrogate model tools (e.g., PyTorch, Sci-kit Learn) and additional normalization function forms in the ML/AI plugin.
+
+**To analyze data and derive insights and improve predictions to forecast wellbore kick events to reduce loss of control events.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Use of neural networks and/or AI cluster data analysis methods to improve detection and forecasting of wellbore and drilling related loss of control events, known as kicks, to imrpove real-time detection and prediction of these conditions.
+
+**Using AI/ML to replace conventional geophysics inversion - does the process quicker than the typical method. Make geophysical results more user-friendly.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The project will deploy a high sensitivity atomic magnetometer (potassium magnetometer or helium 4 magnetometer) on a sUAS platform. Baseline surveys using the sUAS platform with the magnetic receiver payload will be flown at the same CarbonSAFE site that baseline ground surveys were performed in EY21. Results of the forward modeling performed in EY20 will determine whether MT or CSEM (or both) methods will be tested. Using AI/ML to replace conventional geophysics inversion - does the process quicker than the typical method. Make geophysical results more user-friendly.
+
+**To implement unsupervised learning based interaction force model for nonspherical particles in incompressible flows**, _Department_of_Energy | National Energy Technology Laboratory_
+> Develop a neural network-based interaction (drag and lifting) force model. A database will be constructed of the interaction force between the non-spherical particles and the fluid phase based on the particle- resolved direct numerical simulation (PR-DNS) with immersed boundary- based lattice Boltzmann method (IB-LBM). An unsupervised learning method, i.e., variational auto-encoder (VAE), will be used to improve the diversity of the non-spherical particle library and to extract the primitive shape factors determining the drag and lifting forces. The interaction force model will be trained and validated with a simple but effective multi- layer feed-forward neural network: multi-layer perceptron (MLP), which will be concatenated after the encoder of the previously trained VAE for geometry feature extraction.
+
+**To provide combustion performance and emissions optimization through integration of a miniaturized high- temperature multi process monitoring system**, _Department_of_Energy | National Energy Technology Laboratory_
+> Project will develop control logic for automated control of lignite coal- fired boiler. Plant operational data will be compared against monitoring data to determine when different sensor output from a miniaturized high temperature multi-process, high-spatial-resolution monitoring system signifies damaging conditions in that region of the boiler, and what operational changes can be made to eliminate the damaging condition. The control logic will be developed for automated control of soot-blowing and other boiler operations
+
+**To use AI to calibrate the simulation model by matching simulation data with production history data.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Task 2 - Together with GEM, CMG’s intelligent optimization and analysis tool, CMOST Artificial Intelligence (AI), will be used to calibrate the simulation model by matching simulation results with production history data. . Based on the data sets, a series of simulation cases will be generated to perform parameter estimation using a systematic approach. As simulation jobs complete, the results will be analyzed using CMOST AI to determine how well they match production history. An optimizer will then determine parameter values for new simulation jobs.
+
+**Database will be utilized to demonstrate targeted biocide strategies using AI to assess large DNA datasets.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The team will develop a public DNA database that will advance knowledge in produced water management. This project consists of two phases: (1) the development and launching of the database, and (2) the demonstration of applicability of the database by conducting a network analysis. The work will be pursued as defined in the phases below. The fully characterized streams will be used by other FWPs to estimate overall resource recovery and will be used by other FWPs as training set for machine learning (ML) models to predict compositions when only limited measurements can or have been completed for the produced water.
+
+**Demonstrate the robust performance of our ML method in a commercial-scale synthetic data and integrate image-to-image mapping with convolutional neural networks**, _Department_of_Energy | National Energy Technology Laboratory_
+> Our method quickly incorporates streaming observations for accurate and timely forecasts with uncertainty quantification, taking reservoir simulation data as inputs and incorporating real-time observation streams for accurate, timely geological carbon storage forecasts. Computation effort is distributed over many machines, facilitates coupled inversions using many ML models, and allows for ML-Driven optimization and sensitivity analysis
+
+**To automate RDE image analysis, machine learning for RDE image analysis is being employed.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The expected outcome of this project will be extensive experimental data that can provide valuable insight in RDC design, coupling RDC with turbomachinery, model validation, and next generation combustion sensors that use artificial intelligence and computer vision. Design of an optimized inlet to maximize pressure gain in an RDE relies on an understanding of the coupling between the inlet plenums (fuel and air), the combustor annular channel, and the exhaust diffusor. This creates a challenge for CFD as the models are significant and computationally expensive. NETL is continuing a collaboration with the University of Michigan to accelerate reacting flow CFD modeling using machine learning (ML).
+
+**To implement machine learning to predict aerodynamic and combustion characteristics in hydrogen turbine**, _Department_of_Energy | National Energy Technology Laboratory_
+> Design rules and reduced models will be formulated by combining high fidelity simulations of chemically reacting flow, stochastic modeling techniques, reduced modeling through machine learning and testing of injector configurations. These can be used in an industrial setting to predict the aerodynamic and combustion characteristics in hydrogen turbine combustors based upon which design decisions are made.
+
+**ML-based approaches to improve site characterization efforts**, _Department_of_Energy | National Energy Technology Laboratory_
+> Demonstrate application of ML-based approaches to improve site- characterization efforts performed during the pre-injection phase using data from either IBDP (for which data are currently available) or other opportunistic field demonstration or commercial projects (for which data may become available) and develop value of information guidelines. Demonstrate how ML-based rapid forecasting can be used to help with pre-injection reservoir management decisions under data uncertainties. Demonstrate how a visualization platform with ML-based models can
+
+**AI/ML may be needed to extract data from text, image and tabular- based resources. NEWTS is partnering with university teams to use ML to fill in data gaps using predictive models.**, _Department_of_Energy | National Energy Technology Laboratory_
+> NEWTS data requirements and database structure needs will be established by reviewing datasets and literature on energy-water streams. Data sources will be identified from regulatory agencies, government monitoring programs, as well as open-source literature. Metadata of each source will be compiled into a data catalog for tracking and reference. Datasets, including high-quality composition data for relevant streams, will be collected and downloaded. Acquired data will be processed into a structured format based on the prioritization of datasets to be included in NEWTS. Data acquisition and processing might entail the application of ML (e.g., natural language processing) to efficiently resurrect data trapped in historical reports (e.g., PDFs) or other unstructured formats. One research product of this subtask will be a release of the data catalog, which will be made available on
+
+**To automate development of proxy models for power generation combustion systems.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Detailed CFD of large combustion systems will be performed. From the results, machine learning will be used to develop fast proxy models which can will provide results close to the CFD results, but in a small fraction of the time. These fast models will then be used in real-time digital twin models of the power plant, which can be used to help the power plant operator to spot instrumentation failures or cyberattacks on the plant.
+
+**To drive insights on the power system reliability, cost, and operations during the energy transition with and without FECM technologies**, _Department_of_Energy | National Energy Technology Laboratory_
+> Commercially available models will be used to generate predictive scenarios
+
+**Data discovery, processing, and generation using machine learning for a range of CCS data and information**, _Department_of_Energy | National Energy Technology Laboratory_
+> The team will focus on supporting ongoing geospatial data collection and publishing efforts leveraging the new EDX++ cloud computer capabilities through ArcGIS Enterprise Portal. The use of Arc Enterprise Portal will support the development of the Carbon Matchmaker tool, as well as support the release of a new version of GeoCube, which will be host to the updated Carbon Storage Open Database and NATCARB completed in EY21. NETL is supporting DOE-FECM in developing and releasing a survey and map for the Carbon Matchmaker, a tool developed to enable stakeholders to self-identify carbon dioxide related activities (production, utilization, storage, direct air capture, and infrastructure/transportation) to identify and connect stakeholders and support national collaborative opportunities. The ArcGIS Enterprise Portal will be leveraged to build out a new version of GeoCube with the migration of hundreds of spatial data layers into the new platform. The migration of data to an Arc Enterprise based GeoCube will enable easier version control for data integration and curation.
+
+**To leverage machine learning and predictive analytics to advance the state of the art in pipline infrastructure integrity management.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The purpose of this project is to leverage advances in machine learning and predictive analytics to advance the state of the art in pipeline infrastructure integrity management using forecasted (predicted) pipeline condition, using large sets of pipeline integrity data (periodic nondestructive inspection, NDI) and continuous operational data (e.g., sensor data used to monitor flow rate and temperature) generated by oil and gas (O&G) transmission pipeline operators.
+
+**Prediction of gasification gas yield and compositions using machine learning**, _Department_of_Energy | National Energy Technology Laboratory_
+> A machine learning (ML) model will be developed to aid in investigating and optimizing of gasification with various feedstocks like waste plastic, waste coal, biomass and MSW. Database on the gasification will be built from main resources of literature, prior experiments in NETL, and new generating experiments in NETL. Al/ML will be a part of the project. It combines with experimental study to accelerate development of gasification applying to variour feedstocks including waste plastics, waste coal, MSW and its mixture. The ML will have more impact as the big database will be built.
+
+**Using recursive neural networks and using fiber optic cables to recognize strain patterns and warn operators a fracture is coming.**, _Department_of_Energy | National Energy Technology Laboratory_
+> This project will develop an ML algorithm to predict the time when a growing fracture will reach the monitored well. The ML workflow will be trained on the distinctive tensile strain signature that precedes the growing fracture. The new workflow will be designed to work in conjunction with the fracture warning ML workflow developed in EY21. Together, these workflows will: (1) provide an early warning of well-to- well communication, (2) predict the measured depths where the communication will happen, and (3) provide an estimated time until the beginning of well-to-well communication.
+
+**To research and develop physics- aware and AI-enabled cyber- physical intrusion response for the power grid.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Responding to anomalous cyber and physical events in a timely manner requires fusing data from both cyber and physical sensors into actionable information. Thus, cyber-physical intrusion response research will be conducted that leverages cyber and physical side data and models with artificial intelligence (AI) as a scalable approach to maintain or regain power system resilience under anomalous incidents such as cyber threats.
+
+**Online real time system Identification**, _Department_of_Energy | National Energy Technology Laboratory_
+> Work will focus on using SI to monitor the condition of a power plant boiler at different process states. SI algorithms will be implemented within an MPC to provide continuous adaptability as the power plant ramps through the entire range of operating loads. Once the control algorithm has been developed to be effective on representative models, it will be tested on a high-fidelity commercial power plant simulator or on a real power plant facility. The online SI techniques will be tested on historical power plant data, dynamic models (including a power plant simulator), power generating equipment including laboratory pilot-scale power systems, and on power plants where feasible.
+
+**Solving Field Equations on the Wafer Scale Engine**, _Department_of_Energy | National Energy Technology Laboratory_
+> The intent is to develop a collocated, finite volume code to allow maximum mesh flexibility and support advanced CFD capabilities found in modern CFD codes like Fluent, OpenFOAM, and MFiX. NETL will take a metered approach to development towards a fully reacting CFD capability on the WSE. EY22 will be filled with API capability expansions needed to support general purpose CFD applications, such as general purpose finite volume formulations, collocated grid capabilities (Rhie & Chow Interpolation), bit stuffing to save memory when dealing with cell types, general purpose boundary conditions, etc. In addition, the code will be benchmarked in a series of tests towards a fully reacting CFD capability that will support problems of interest to FECM.
+
+**To develop an Artificial intelligence- based model for rotating detonation engine designs**, _Department_of_Energy | National Energy Technology Laboratory_
+> An artificial intelligence-based model will be used to develop low-loss rotating detonation engine (RDE) designs for use in power generation using natural gas/syngas mixtures. The model formulation will enable full- scale RDE calculations over 100-1000 detonation cycles.
+
+**To provide natural gas leak detection and quality control**, _Department_of_Energy | National Energy Technology Laboratory_
+> Employing machine learning techniques to train sensing systems to quantify the concentration of natural gas species, distinguish between natural gas at different parts of the processing pipeline, and distinguish natural gas from natural and man-made interfering sources such as wetlands and agriculture.
+
+**To use advanced machine learning techniques to analyze static and dynamic measurements of proppant distribution and fracture geometry data.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The project will use advanced ML techniques to analyze static and dynamic measurements of proppant distribution and fracture geometry data from thousands of microchips injected with proppant near the wellbore.
+
+**To enhance the SimCCS toolset to better account for existent infrastructure and to more broadly engage other user bases to improve toolset performance and applicability.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Continue development of the SimCCS toolset, which is utilized to determine optimal placement for CO2 pipeline rights of way (ROW) and infrastructure in a machine-learning driven methodology that that considers environmentally sensitive areas, Justice40 considerations, and utilization of existent infrastructure.
+
+**To accurately predict alloy & component performance extrapolated to conditions where experimental results to do not exist.**, _Department_of_Energy | National Energy Technology Laboratory_
+> AI/ML will be used to interrogate databases comprised of experimental data, literature data, and synthetic data generated improved physics based models to generate reduced order models to accurate predict materials the performance of materials and components under extreme environments (temperature, atmosphere) and complex loading (cyclical, triaxial) for long service life durations.
+
+**To accelerate discovery of protection system and laser processing of protective coatings on CMC for hydrogen turbines.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The objectives of this project are to design, process, and validate a laser-manufactured, integrated, and graded bond coat-environmental barrier coat-thermal barrier coat (BC-EBC-TBC) system that can effectively protect and lead to the use of Silicon Carbide fiber/Silicon Carbide (SiCf/SiC) matrix CMCs in next-generation hydrogen-fueled turbines.
+
+**To drive insights on water recovery from cooling tower plumes**, _Department_of_Energy | National Energy Technology Laboratory_
+> Study of plume formation and collection on mechanical (induced) draft cooling towers, partly in a high-fidelity controlled environment and partly on a full-scale industrial cooling tower. It will start by building the needed laboratory setup and installing various sensors on the lab cooling tower. At the same time a computational fluid dynamics (CFD) model will be implemented to get precise full-scale plume models. Using the insights into power-plant plume characteristics the project will iterate on and experimentally test electrodes and collectors, which make up modular panels, on the lab cooling tower. What has been learned from the full- scale plume modeling and sensor data analysis will then be applied to develop a design model to build the optimal collection apparatus for given working conditions
+
+**To employ machine learning to study the dependence of electrochemical performance on microstructural details**, _Department_of_Energy | National Energy Technology Laboratory_
+> With a significant number of images. The Recipient will build deep learning methods at the object detection stage using the Region Based Convolutional Neural Network (RCNN) or You Only Look Once (YOLO) class of algorithms, the heart of which is a deep learning image classifier. Deep learning algorithms will also be built using convolutional layers followed by residual layers to extract feature vector descriptors in the second stage. In the third and fourth stages of affinity and association, a recurrent neural network approach can be used to build a tracker. All of these approaches require a large training set that will enable sophisticated models to be built to handle the complexity of the application. With a limited number of images. In the case that there is are a limited number of images, the Recipient will still be able to follow the processing pipeline. The recipient will determine a suitable approach, with concurrence from the project manager. Two potential approaches include: • Transfer learning: training the image classifier in the object detector on images of similar quality and appearance, and • Match filtering: detection, feature extraction, and matching based on traditional image processing and computer vision techniques.
+
+**To apply machine learning applications to map carbon ore, rare earth element, and critical mineral resources**, _Department_of_Energy | National Energy Technology Laboratory_
+> To identify information gaps, GIS and machine learning applications will be used to map carbon ore, rare earth element, and critical mineral resource infrastructure, and market data in consultation with NETL geospatial modeling activities. Research needs and technology gaps will be assessed, and resources targeted for sampling and characterization. This effort will provide a complete Northern Appalachian carbon ore, rare earth element, and critical mineral value chain basinal assessment to enable quick development of commercial projects.
+
+**ML-based reduced order models of reservoir response to Co2 injection into saline and/or hydrocarbon- bearing formations - as the basis for integrated assessment modeling of leakage risk (e.g., SACROC)**, _Department_of_Energy | National Energy Technology Laboratory_
+> Generally, the approach used by NRAP researchers to address these questions is to develop a robust, science-based integrated assessment framework that links fast forecasting models of CO2 storage system components (e.g., storage reservoir; leakage pathways including wells, faults, and fractured caprock; intermediate formations; and receptors of concern, including groundwater aquifers and the atmosphere). Superimposed on this system model are various fit-for-purpose analytical capabilities that support analyses in support of stakeholder decision making for questions related to site-specific risk evolution, risk- based area of review delineation, conformance assessment, and post- injection site monitoring In Task 2.0, researchers will augment and expand this functionality to demonstrate relevance to industry-standard site risk management methods (i.e., bowtie analysis framework) and to understand containment performance and leakage risk for scenarios where a site transitions from CO2 utilization for EOR to dedicated CO2 storage. To ensure that risk assessment efforts are informative to real geologic storage deployment scenarios, NRAP researchers will engage with a diverse set of stakeholders to establish an appropriate modeling and risk assessment design basis.
+
+**Reduce computational cost of CFD simulations that screen for more efficient intensified solvent contactor geometries.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Collaborate with Subtask 4.3 Machine Learning Support to reduce the computational complexity of validated CFD calculations using Deeper Fluids (DF), graph neural networks (GNNs), or similar ML approaches. Further development of ongoing process modeling/optimization ultimately informed by the CFD reduced order models (ROM) will also be a focus.
+
+**To create and apply machine learning algorithms to predict carbon dioxide enhanced oil revoery improvements with rich gas in the Bell Creek Field and other selected fields.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Create models with ML algorithms to predict CO2 EOR improvements with rich gas in the Bell Creek Field and other selected fields. The results of these models will be compared with the predictions of CMG’s reservoir simulations models.
+
+**To drive insights through data-driven predictive modeling to forecast the remaining lifespan and future risk of offshore production platforms.**, _Department_of_Energy | National Energy Technology Laboratory_
+> An Artificial Neural Network and Gradient Boosted Regression Tree were developed and applied to predict the remaining lifespan of production platforms. These big data-driven models resulted in predictions with scored accuracies of 95–97%.
+
+**To improve control of hybrid SOFC- gas turbine power systems.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Machine learning algorithms are being developed and compared to other control methods for SOFC-gas turbine hybrid power generation systems.
+
+**Machine learning to process multi- model data and information to aid in the identification of undocumented orphaned wells**, _Department_of_Energy | National Energy Technology Laboratory_
+> Use of machine learning to process and analyze trends and patterns in known well data to predict undocuemnted orphaned wells, as well as machine learning approached to process different imagery based data to further classify and characterize additional undocuemented orphaned wells within the Appalachain Basin
+
+**UNET and other approaches for ML- based inversion**, _Department_of_Energy | National Energy Technology Laboratory_
+> Researchers will develop a design basis for risk-based monitoring considering data dimensionality, uncertainty, and inter-tool/module connectivity, and define the components of the monitoring design optimization tool (DREAM) to be incorporated into NRAP-Open-IAM and the SMART platform.
+
+**To build the first data analytics and artificial intelligence field laboratory for unconventional resources in the Powder River Basin, focusing on optimization of hydraulic fracture stimulations through the use of multiple diagnostic technologies.**, _Department_of_Energy | National Energy Technology Laboratory_
+> To establish a tight oil Field Laboratory in the Powder River Basin and accelerate the development of three major unconventional oil resources through detailed geologic characterization and improved geologic models leading to significant advances in well completion and fracture stimulation designs specific to these three formations. Utilize multi- variate analysis to understand the interrelationship between completion and stimulation controls on well productivity.
+
+**To develop a novel platform for secure data logging and processing in fossil fuel power generation systems using blockchain and machine learning to reduce down time for fossil energy power plants, limit reductions of power and reduce cost for repairs.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Machine learning model development will consist of traditional machine learning and deep learning algorithms implementation for anomaly detection. Machine learning server will be used to develop the traditional models using One-Class Support Vector Machine (SVM) and K-Mean Clustering and deep learning models using Recurrent Neural Network (RNN) and its various implementations like Long Short-Term Memory (LSTM), Gated Recurrent Unit (GRU), Generative Adversarial Network (GAN), and Autoencoders using the sensor data collected from secure sensor network.
+
+**Develop fast predictive models using novel machine-learning based methods.**, _Department_of_Energy | National Energy Technology Laboratory_
+> Accurate, fast predictive ML models form the foundation for the virtual learning platform. Generating training data then developing ML based models enables a Virtual Learning Environment (VLE) for exploring and testing strategies to optimize reservoir development, management & monitoring prior to field activities.
+
+**Using ML to build predictive models of branching processes and develop novel algorithms for automated MIP solver tuning**, _Department_of_Energy | National Energy Technology Laboratory_
+> We will collect dual gaps obtained as a result of using different branching strategies and feed them into ALAMO, Pysmo, and other machine learning approaches to build predictive models of branching processes as a function of carefully chosen instance features. These models will then be deployed as part of the IDAES platform to facilitate optimization of advanced integrated energy systems. o Currently, tuning MIP solvers for a particular application is approached by ad-hoc trial-and- error methods that are tedious and often ineffective, limiting design engineers to solution of small problems. To address this challenge and facilitate the solution of energy systems currently intractable, we propose to develop novel algorithms for automated MIP solver tuning through the use of machine learning.
+
+**Demonstrate how ML-based approaches can help operators during active injection and post- injection monitoring**, _Department_of_Energy | National Energy Technology Laboratory_
+> To demonstrate how ML-based approaches can help operators during active injection and post-injection monitoring, it is necessary to understand their needs and identify how ML-based approaches can potentially meet or support those needs. Task 4 will establish data- sharing protocols between SMART and the operator to create an exchange mechanism that is not intrusive to the operator and provides updates from ML results designed to enhance the operator decision process. Demonstrate application of ML-based approaches to improve site-monitoring and operations efforts performed during injection and post-injection phases, e.g., using IL-ICCS data, and developing value of information guidelines.
+
+**To use computational tools to optimize the design of solid CO2 sorbents.**, _Department_of_Energy | National Energy Technology Laboratory_
+> The objective of this project is to use computational tools to optimize the design of solid CO2 sorbents based on functionalized PIM-1 (or other porous, glassy polymers) impregnated with molecular primary amines. The expected outcome of this project is to inform, via computational methods, which polymer structure and which molecular amines can lead to a solid sorbent in which CO2 loading capacity, CO2 heat of adsorption, and overall CO2 mass transfer rate are optimal at extremely low CO2 partial pressures while amine leaching has been minimized.
+
+**To develop and evaluate a general drag model for gas-solid flows via physics-informed deep machine learning**, _Department_of_Energy | National Energy Technology Laboratory_
+> The project will evaluate the performance of several ANN algorithms for machine learning, pertinent to the deep neural network (DNN) algorithms. The DNN candidates will include random forest (RF), BPNN, XGBoost, and other supervised deep neural network algorithms. The best DNN algorithm will be identified by ranking of these algorithms’ performance. The Recipient will integrate the deep learning ANN model (DNN model) into the multiphase flow simulation software MFiX-DEM, which is part of the NETL’s open source CFD suite of software MFiX. The DNN based drag model developed on TensorFlow will be implemented using NETL’s existing software links between MFiX and TensorFlow.
+
+**Data Analytics and Machine Learning (DAMaL) Tools to enhance the analysis of Environment, Safety and Health (ES&H) data: Unsupervised Machine Learning Text Clustering**, _Department_of_Energy | Office of Environment, Health, Safety & Security_
+> "The EHSS Data Analytics Machine Learning (DAMaL) tools, unsupervised machine learning clustering tool, uses natural language processing (NLP) and clustering algorithms (i.e., k means, DBSCAN and dimensionality reduction approaches) to leverage AI to analyze the text of the DOE environment, safety, and health (ES&H) and operating experience dataset records (e.g., occurrence reporting and processing system, fire protection, lessons learned, and accident and injury reporting system, contractor assurance system CAS). The tool identifies recurrent and important topics that can be used by an analyst to drill down and further explore potential recurrent safety issues in the DOE operations. As of October 2021, the tool has been partially deployed in the DAMaL tools website. Development is mostly complete with use case in Fire Protection Trending and Analysis completed and undergoing review of report. Expected to continue to maintain, develop documentation (e.g., users analysis guides), improve and enhance, and increase data sources.
+
+**Memorandum of Understanding Between the US DOE and US NRC on Cooperation in the Area of Operating Experience and Applications of Data Analytics (Signed June 2021)**, _Department_of_Energy | Office of Environment, Health, Safety & Security_
+> The purpose of the Memorandum of Understanding (MOU) between the US DOE and US NRC on cooperation in the area of operating experience and applications of data analytics (Signed June 2021) is to efficiently use resources and to avoid needless duplication of effort by sharing data, technical information, lessons learned, and, in some cases, the costs related to the development of approaches and tools, whenever such cooperation and cost sharing may be done in a mutually beneficial fashion. The technical areas for collaboration include, those related to operating experience and safety data collection and analysis, including operational events, occupational injuries, hazardous substance releases, nuclear safety, radiation protection, equipment failure, accidents and accident precursors, trending analysis, and risk-informed decision-making. Applications of data analytics in the analysis of operating experience and safety data, including data visualization and analysis, artificial intelligence, machine learning, natural language processing, predictive analytics, and other advanced analysis techniques, user interface design, and deployment, and decision- making using data analytics tools.
+
+**Applications of Natural Language Processing and Similarity Measures for Similarity Ranking**, _Department_of_Energy | Office of Environment, Health, Safety & Security_
+> "EHSS has been developing applications of natural language processing (NLP) and similarity measures for advanced information retrieval and searching of datasets (e.g., SQL databases, CSV files, reports) as well as estimating similarities between records within a dataset or records between different datasets. Similarity search has been successfully applied to efficiently search DOE COVID-19 Hotline questions and answer database, searching DOE annual site environmental reports, similarity between DOE occurrence reporting and processing system and lessons learned, and AIX data. Similarity measures can also be used to identify opportunities for resource prioritization and prediction. As of October 2021, the tool runs locally by the principal investigator on project based, as requested or as a desktop application. Initial developments were initiated to move to a web-based application but not completed due to lack of user need and resources."
+
+**Data Analytics and Machine Learning (DAMaL) Tools for Analysis of Environment, Safety and Health (ES&H) data: Similarity Based Information Retrieval**, _Department_of_Energy | Office of Environment, Health, Safety & Security_
+> "The EHSS Data Analytics Machine Learning (DAMaL) tools, similarity- based information retrieval tool, uses natural language processing (NLP) and cosine similarity to leverage artificial intelligence (AI) to increase the efficiency of a user to find important records in the DOE environment, safety, and health (ES&H) datasets (e.g., occurrence reporting and processing system, fire protection, lessons learned, accident and injury reporting system, contractor assurance system CAS). The tool has no restriction on the text query, provides NLP options to the user (e.g., stemming or lemmatization) and could be used to improve decision-making in job planning activities, identifying hazards, and obtaining insights from operating experience and lessons learned data discovery and analysis, accident investigations among other areas. As of October 2021, Tool developed and deployed in the DAMaL tools website. Expected to continue to maintain, develop documentation (e.g., users analysis guides), improve and enhance, and increase data sources.
+
+**Data Analytics and Machine Learning (DAMaL) Tools to enhance the analysis of Environment, Safety and Health (ES&H) data: Classification, Robotic Process Automation and Data Visualization**, _Department_of_Energy | Office of Environment, Health, Safety & Security_
+> "The EHSS Data Analytics Machine Learning (DAMaL) tools, classification, robotic process automation and data visualization tool, uses natural language processing (NLP) and classification algorithms (i.e., random forests) to automate the classification of records, visually provide insights in the trends and provide an indication of importance and risk. The tool leverages artificial intelligence (AI) to analyze the text of the DOE environment, safety, and health (ES&H) and operating experience dataset records (e.g., occurrence reporting and processing system, fire protection, lessons learned, accident and injury reporting system, contractor assurance system CAS) and identifies important topics that can be used by an analyst to drill down and further explore potential safety issues in the DOE operations. As of October 2021, the tool has been deployed in the DAMaL tools website. Expected to continue to maintain, develop documentation (e.g., users analysis guides), improve and enhance, and increase data sources.
+
+**Groundwater Modeling**, _Department_of_Energy | Office of Legacy Management_
+> Groundwater modeling includes parameter estimation
+
+**Soil Moisture Modeling**, _Department_of_Energy | Office of Legacy Management_
+> Use multisource machine learning to model soil moisture within the lysimeter embedded within a disposal cell
+
+**AI-Based Chat Bot**, _Department_of_Energy | Office of the Chief Information Officer_
+> The OCIO EITS Service Desk is exploring the ability to use AI chat bots to interact with end-users. We are looking to have a single bot architecture that is highly tuned to IT system languages to properly handle the terms that may be used in an enterprise environment. The primary benefit would be to make knowledge more available to the end- users in a consumable manner. Additionally, it would connect to ITSM workflows that could automate basic functions such as request an account, provide permissions, or create an MS Teams site as examples. Additionally, the technology needs to provide a significant amount of feedback to the EITS Service Desk on unanswered questions, questions dropped, ineffective responses, incorrect responses, etc.
+
+**Managing curb allocation in cities**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> This project's goal is to develop a city-scale dynamic curb use simulation tool and an open-source curb management platform that address the challenge of increased demand for curb-side parking.
+
+**Laboratory Automation**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> Employing machine learning to identify regions of interest in SEM and TEM data. Automating data acquisition to improve efficiencies.
+
+**AI techniques for identification of suitable delivery parking spaces in an urban scenario**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> We are using AI (Graph Neural Network) to determine importance of parking spaces in a city network for curb management to promote adoption of electric vehicles for freight delivery
+
+**Regional waste feedstock conversion to biofuels**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> Unsupervised ML is used sequentially to group waste sources into different regions. Calibrated game theoretic models are used to assess the behavior and economic viability of different waste-to-energy pathways within a region.
+
+**Scalable, Efficient and Accelerated Causal Reasoning Operators, Graphs and Spikes for Earth and Embedded Systems (SEA-CROGS)**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> Establish a center for scalable and efficient physics-informed machine learning for science and engineering that will accelerate modeling, inference, causal reasoning, etiology and pathway discovery for earth systems and embedded systems. Advances will lead to a higher level of abstraction of operator regression to be implemented in next generation neuromorphic computers.
+
+**AI used for predictive modeling and real time control of traffic systems**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> Domain aware deep learning models are used for predictive modeling of traffic. Deep learning based predictive controllers are trained from simulated data to optimize the traffic signaling and coordination for improved traffic flow and reduced energy consumption and GHG emissions
+
+**APT Analytics**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> Development of AI/ML for automated analysis of APT data.
+
+**Surrogate models for probabilistic Bayesian inference**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> We are using AI/ML to build surrogate models of the observable response of complex physical systems. These surrogate models will be used for probabilistic model inversion of these systems with the goal of estimating unknown model parameters from indirect observations.
+
+**Adaptive Cyber-Physical Resilience for Building Control Systems**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> Deep learning models are used for predicting the operation of building energy systems, and detecting and diagnosing the health state or cyber attack presence, and for optimizing the building energy system response to provide resilient operation and sustained energy efficiency.
+
+**Physics-Informed Learning Machines for Multiscale and Multiphysics Problems (PhILMs)**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> PhILMs investigators are developing physics-informed learning machines by encoding physics knowledge into deep learning networks
+
+**Elucidating Genetic and Environmental Risk Factors for Antipsychotic-induced Metabolic Adverse Effects Using AI**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> Develop AI methids to find phenotypes that capture complex interation between human genome, chronic diseases and a drug's chemical signature to predict adverse side-effects of a mental health drug on human population
+
+**Advancing Market-Ready Building Energy Management by Cost- Effective Differentiable Predictive Control**, _Department_of_Energy | Pacific Northwest National Laboratory_
+> An AI based differentiable programming framework for domain aware data efficient predictive modeling and AI based control policy synthesis as well as methods for safety verification and online learning. Domain aware deep learning models are used for learning and predicting the response of building systems and components and for optimizing the building energy system response to provide resilient operation and sustained energy efficiency.
+
+**Universal MCEG**, _Department_of_Energy | Thomas Jefferson Laboratory_
+> R&D on ML based MC event generator that serves as data compatification utility.
+
+**FIMS - Invoice BOT - Employee Reimbursements FIMS - Invoice BOT - Purchase Power**, _Department_of_Energy | Western Area Power Administration_
+> PROCESS - Invoices are sent to the RPA Invoice Intake email box (RPAInvoiceIntake@WAPA.GOV). Once a day, unattended bot will extract information from PDF invoices. The invoice is classified to determine whether the invoice is an Employee Reimbursement or a Purchase Power Invoice. The information extracted from the invoice is then review/validated by the Accounts Payable Technician. After validation, the bot will load the information into the WAPA Financial Management System.
+
+## Department_of_Health_and_Human_Services
+
+**Information Gateway OneReach Application**, _Department_of_Health_and_Human_Services | ACF | ACF Children's Bureau_
+> The Information Gateway hotline connects to a phone IVR managed by OneReach AI. OneReach maintains a database of state hotlines for reporting child abuse and neglect that it can connect a caller to based on their inbound phone area code. Additionally, OneReach offers a limited FAQ texting service that utilizes natural language processing to answer user queries. User queries are used for reinforcement training by a human AI trainer and to develop additional FAQs.
+
+**Chatbot**, _Department_of_Health_and_Human_Services | AHRQ | AHRQ_
+> Provide interface to allow user to conversationally ask questions about AHRQ content to replace public inquiry telephone line
+
+**AHRQ Search**, _Department_of_Health_and_Human_Services | AHRQ | AHRQ_
+> Organization wide search that includes Relevancy Tailoring, Auto-generation Synonyms, Automated Suggestions, Suggested Related Content ,Auto Tagging, and Did you mean to allow visitors to find specific content
+
+**R+2:18eDIRECT: Clarivate**, _Department_of_Health_and_Human_Services | ASPR | BARDA (CBRN & DRIVe)_
+> AI to identify drug repurposing candidates
+
+**ReDIRECT: AriScience**, _Department_of_Health_and_Human_Services | ASPR | BARDA (CBRN & DRIVe)_
+> AI to identify drug repurposing candidates
+
+**Burn & Blast MCMs: Philips**, _Department_of_Health_and_Human_Services | ASPR | BARDA (CBRN)_
+> AI-based algorithms on Lumify handheld ultrasound system to detect traumatic injuries
+
+**Burn & Blast MCMs: Philips**, _Department_of_Health_and_Human_Services | ASPR | BARDA (CBRN)_
+> AI-based algorithms on Lumify handheld ultrasound system to detect lung injury and infectious diseases
+
+**Burn & Blast MCMs: Rivanna**, _Department_of_Health_and_Human_Services | ASPR | BARDA (CBRN)_
+> AI Based algorithms on Accuro XV to detect and highlight fractures and soft tissue injuries
+
+**Burn & Bast MCMs: SpectralMD**, _Department_of_Health_and_Human_Services | ASPR | BARDA (CBRN)_
+> Determination of burn depth severity and burn size of injuries
+
+**Digital MCM: Visual Dx**, _Department_of_Health_and_Human_Services | ASPR | BARDA (DRIVe)_
+> Using smartphone image with AI to detect the presence of mPox
+
+**Digital MCM: Virufy**, _Department_of_Health_and_Human_Services | ASPR | BARDA (DRIVe)_
+> Using forced cough vocalization (FCV) in a smartphone to detect the presence of COVID-19 using AI.
+
+**Current Health**, _Department_of_Health_and_Human_Services | ASPR | BARDA (DRIVe)_
+> Continuous monitoring platform and AI algorithm for COVID severity
+
+**Digital MCM: Raisonance**, _Department_of_Health_and_Human_Services | ASPR | BARDA (DRIVe)_
+> Using forced cough vocalization (FCV) in a smartphone to detect the presence of COVID-19 and Influenza using AI.
+
+**Host-Based Diagnostics: Patchd**, _Department_of_Health_and_Human_Services | ASPR | BARDA (DRIVe)_
+> Wearable device and AI model to predict sepsis at home.
+
+**Data Modernization**, _Department_of_Health_and_Human_Services | ASPR | Chief Data Officer_
+> Develop open data management architecture that enables optimized business intelligence (BI) and machine learning (ML) on all ASPR data.
+
+**Cyber Threat Detection/ Predictive analytics**, _Department_of_Health_and_Human_Services | ASPR | Office of Critical Infrastructure_
+> Use AI and ML tools for processing of extremely large threat data
+
+**emPOWER**, _Department_of_Health_and_Human_Services | ASPR | Office of Information Management, Data and Analytics_
+> Using the AI capabilities to rapidly develop the empower COVID-19 At Risk Population data tools and program
+
+**Community Access to Testing**, _Department_of_Health_and_Human_Services | ASPR | Office of Information Management, Data and Analytics/Division of Supply Chain Control Tower_
+> Utilizing several ML models to forecast a surge in the pandemic
+
+**Modeling & Simulation**, _Department_of_Health_and_Human_Services | ASPR | Office of Information Management, Data, and Analytics/Division of Modeling and Simulation_
+> Create modeling tools and perform analyses in advance of biothreat events and be able to refine them during emergent events
+
+**Ventilator Medication Model**, _Department_of_Health_and_Human_Services | ASPR | Office of Information Management, Data, and Analytics/Division of Supply Chain Control Tower_
+> Leveraging generalized additive model to project ventilated rate of COVID inpatients
+
+**Product redistribution optimization**, _Department_of_Health_and_Human_Services | ASPR | Office of Information Management, Data, and Analytics/ODA_
+> Using AI and models, allow partners (jurisdictions, pharmacies, federal entities) to optimize redistribution of products based on various factors like distance, ordering/admins, equity, etc.
+
+**Highly Infectious Patient Movement optimization**, _Department_of_Health_and_Human_Services | ASPR | Office of Information Management, Data, and Analytics/ODA_
+> Given a limited number of highly infectious patient transport containers, optimize US location based on various factors like distance, population, etc. Use as a planning tool for decision-making.
+
+**TowerScout:Automated cooling tower detection from aerial imagery for Legionnaires' Disease outbreak investigation**, _Department_of_Health_and_Human_Services | CDC | CSELS_
+> TowerScout scans aerial imagery and uses object detection and image classification models to detect cooling towers, which can be sources of community outbreaks of Legionnaires' Disease.
+
+**HaMLET: Harnessing Machine Learning to Eliminate Tuberculosis**, _Department_of_Health_and_Human_Services | CDC | CSELS_
+> HaMLET uses computer vision models to detect TB from chest x-rays to improve the quality of overseas health screenings for immigrants and refugees seeking entry to the U.S.
+
+**Zero-shot learning to identify menstrual irregularities reported after COVID-19 vaccination**, _Department_of_Health_and_Human_Services | CDC | CSELS_
+> Zero-shot learning was used to identify and classify reports of menstrual irregularities after receiving COVID-19 vaccination
+
+**Validation Study of Deep Learning Algorithms to Explore the Potential Use of Artificial Intelligence for Public Health Surveillance of Eye Diseases**, _Department_of_Health_and_Human_Services | CDC | NCCDPHP/DDT_
+> Applying deep learning algorithms for detecting diabetic retinopathy to the NHANES retinal photos. The purpose of this project is to determine whether these algorithms could be used in the future to replace ophthalmologist grading and grade retinal photos collected for surveillance purposes through the National Health and Nutrition Examination Survey (NHANES).
+
+**Automating extraction of sidewalk networks from street-level images**, _Department_of_Health_and_Human_Services | CDC | NCCDPHP/DNPAO_
+> A team of scientists participating in CDC's Data Science Upskilling Program are building a computer vision model to extract information on the presence of sidewalks from street-level images from Mapillary.
+
+**Identifying state and local policy provisions that promote or inhibit creating healthy built environments**, _Department_of_Health_and_Human_Services | CDC | NCCDPHP/DNPAO_
+> The Division of Nutrition, Physical Activity, and Obesity at the National Center for Chronic Disease Prevention and Health Promotion is interested in developing and promoting natural language processing and machine learning techniques to improve the efficiency of policy surveillance. Inputs are the text of state and local policies, including law (e.g., statute, legislation, regulation, court opinion), procedure, administrative action, etc. and outputs are datasets that capture relevant aspects of the policy as quantifiable information. To date (Apr 2023), DNAPO has not performed this work in-house, but is working with a contractor on various experiments comparing machine learning with traditional methods and identifying CDC, academic and other groups doing related work.
+
+**Identify walking and bicycling trips in location-based data, including global-positioning system data from smartphone applications**, _Department_of_Health_and_Human_Services | CDC | NCCDPHP/DNPAO_
+> The Division of Nutrition, Physical Activity, and Obesity at the National Center for Chronic Disease Prevention and Health Promotion is developing machine learning techniques to identify walking and bicycling trips in GPS-based data sources. Inputs would include commercially-available location-based data similar to those used to track community mobility during the COVID-19 pandemic. Outputs could include geocoded data tables, GIS layers, and maps.
+
+**Identify infrastructure supports for physical activity (e.g. sidewalks) in satellite and roadway images**, _Department_of_Health_and_Human_Services | CDC | NCCDPHP/DNPAO_
+> The Division of Nutrition, Physical Activity, and Obesity at the National Center for Chronic Disease Prevention and Health Promotion is interested in developing and promoting machine learning techniques to identify sidewalks, bicycle lanes, and other infrastructure in images, both satellite and roadway images. The inputs would include image-based data. The outputs could be geocoded data tables, maps, GIS layers, or summary reports.
+
+**Use of Natural Language Processing for Topic Modeling to Automate Review of Public Comments to Notice of Proposed Rulemaking**, _Department_of_Health_and_Human_Services | CDC | NCEZID_
+> Development of a Natural Language Processing Topic Modeling tool to improve efficiency for the process of clustering public comments to a 'notice of proposed rulemaking'
+
+**Sequential Coverage Algorithm (SCA) and partial Expectation-Maximization (EM) estimation in Record Linkage**, _Department_of_Health_and_Human_Services | CDC | NCHS_
+> CDC's National Center for Health Statistics (NCHS) Data Linkage Program has implemented both supervised and unsupervised machine learning (ML) techniques in their linkage algorithms. The Sequential Coverage Algorithm (SCA), a supervised ML algorithm, is used to develop joining methods (or blocking groups) when working with very large datasets. The unsupervised partial Expectation-Maximization (EM) estimation is used to estimate the proportion of pairs that are matches within each block. Both methods improve linkage accuracy and efficiency.
+
+**Detecting Stimulant and Opioid Misuse and Illicit Use**, _Department_of_Health_and_Human_Services | CDC | NCHS_
+> Analyze clinical notes to detect illicit use and miscue of stimulants and opioids
+
+**Transcribing Cognitive Interviews with Whisper**, _Department_of_Health_and_Human_Services | CDC | NCHS_
+> Current transcription processes for cognitive interviews are limited. Manual transcription is time-consuming and the current automated solution is low quality. Recently, open-sourced AI models have been released that appear to perform substantially better than previous technologies in automated transcription of video/audio. Of note is the model by OpenAI named Whisper (publication, code, model card) which has been made available for under a fully permissive license. Although Whisper is currently considered state-of-the-art compared to other AI models in standard benchmarks, it has not been tested with cognitive interviews. We hypothesize Whisper will produce production quality transcriptions for NCHS. We plan to do a comparison against both VideoBank and a manual transcription. If the results are encouraging, we plan to transcribe all videos from the CCQDER archive.
+
+**Coding cause of death information on death certificates to ICD-10**, _Department_of_Health_and_Human_Services | CDC | NCHS_
 > MedCoder ICD-10 cause of death codes to the literal text cause of death description provided by the cause of death certifier on the death certificate. This includes codes for the underlying and contributing causes of death.
 
-**Chatbot – Voice**, _HHS | CMS_
-> CMS/OSFLO: To assist the CMS Badging Help Desk, this Chatbot (voice) is an automated phone response for general badging questions allowing help desk personnel to assist employees and contractors with more detailed/larger issues.
+**PII detection using Private AI**, _Department_of_Health_and_Human_Services | CDC | NCHS_
+> NCHS has been evaluating Private AI's NLP solution designed to identify, redact, and replace PII in text data. This suite of models is intended to be used to safely identify and remove PII from free text data sets across platforms within the CDC network.
 
-**Reasonable Accommodation RPA Bot**, _HHS | CMS_
-> The Bot pulls HR data related to staffing changes, e.g. promotions, reassignments, change in supervisor, and generates information for action by Reasonable Accommodation staff to ensure disability reasonable accommodations follow the Employee.
+**Named Entity Recognition for Opioid Use in Free Text Clinical Notes from Electronic Health Records**, _Department_of_Health_and_Human_Services | CDC | NCHS_
+> A team of scientists participating in CDC's Data Science Upskilling Program are developing an NLP Named Entity Recognition model to detect the assertion or negation of opioid use in electronic medical records from the National Hospital Care Survey
 
-**Priority Score Model - ranks providers within the Fraud Prevention System using logistic regression based on program integrity guidelines.**, _HHS | CMS_
+**Semi-Automated Nonresponse Detection for Surveys (SANDS)**, _Department_of_Health_and_Human_Services | CDC | NCHS_
+> NCHS has developed and release an item nonresponse detection model, to identify cases of item nonresponse (e.g., gibberish, uncertain/don't know, refusals, or high-risk) among open-text responses to help improve survey data and question and questionnaire design. The system is a Natural Language Processing (NLP) model pre-trained using Contrastive Learning and fine-tuned on a custom dataset from survey responses.
+
+**AI/ML Model Release Standards**, _Department_of_Health_and_Human_Services | CDC | NCHS_
+> NCHS is creating a set of model release standards for AI/ML projects that should be adhered to throughout the Center, and could serve as a starting point for broader standards across the AI/ML development lifecycle to be created at NCHS and throughout CDC.
+
+**Nowcasting Suicide Trends**, _Department_of_Health_and_Human_Services | CDC | NCIPC/DIP_
+> An internal-facing, interactive dashboard incorporating multiple traditional and non-traditional datasets and a multi-stage machine learning pipeline to 'nowcast' suicide death trends nationally on a week-to-week basis.
+
+**NCIRD SmartFind ChatBots - Public and Internal**, _Department_of_Health_and_Human_Services | CDC | NCIRD_
+> Develop conversational ChatBots (Public Flu, Public COVID-19 Vaccination, Internal Knowledge-Bot) that analyze free text questions entered by the public, healthcare providers, partners, and internal staff, and provide agency-cleared answers which best match the question. Developed in collaboration with Microsoft staff during COVID-19 pandemic using their Cognitive Services, Search,�QnA Maker, Azure Healthcare Bot, Power Automate, SharePoint, and webapps.
+
+**Medicaid And CHIP Financial (MACFin) DSH Payment Forecasting model**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> Forecasting model to predict future DSH payment (next 1 year) based on historical data and trends (ex: last 1-3 years). Multiple models were trained based on time series (i.e., statistical models) and machine learning based model and compared for best performance in terms of average means error on DSH payment amount across all hospitals. DSH data were highly disorganized, the team spent time cleaning and combing the data from over 6 years for all states to conduct full model implementation and meaningful analysis. Predicting future DSH payment facilitates early planning and recommendations around trends, redistributions, etc. Modified models can also be built to predict other DSH-related metrics like payment-to-uncompensated ratio, underpayment, or overpayment
+
+**Risk Adjustment Payment Integrity Determination System (RAPIDS)**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> RAPIDS AI for Classification| Process Efficiency Improvement
+
+**Central Data Abstraction Tool-Modernized (Modernized-CDAT)- Intake Process Automation (PA) Tool**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> Intake PA uses advanced capabilities (NLP, OCR, AI, ML) to automate, modernize, and reduce manual efforts related to medical record review functions within MA RADV audits
+
+**Relationships, Events, Contacts, and Outreach Network (RECON)**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> RECON AI for Recommender System| Sentiment Analysis
+
+**Priority Score Model - ranks providers within the Fraud Prevention System using logistic regression based on program integrity guidelines.**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
 > Inputs - Medicare Claims data, Targeted Probe and Educate (TPE) Data, Jurisdiction information Output - ranks providers within the FPS system using logistic regression based on program integrity guidelines.
 
-**Data Lake/Load-Extract-Load-Transform (L-ETL)**, _HHS | CMS_
-> CMS is using Security Data Lake to modernize the load-extract-load-transform (L-ETL) pipelines and data tooling. CMS will be enhancing Agency security to bring together more system, telemetry and program data in one place with a unifying governance model. Building on top of a modern data platform will provide opportunities to experiment with machine learning model development against this data--solving any number of problems that require decisions to be made about inferences over time series data. There is no actual ML/AI work being done here today, rather, we are beginning work on the scaffolding that will open up these opportunities in 1-2 years time.
+**Federally Facilitated Marketplaces (FFM)**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> FFM AI for Anomaly Detection and Correction| Classification| Forecasting and Predicting Time Series
 
-**Priority Score Timeliness - forecast the time needed to work on an alert produced by Fraud Prevention System (Random Forest, Decision Tree, Gradient Boost, Generalized Linear Regression)**, _HHS | CMS_
+**Feedback Analysis Solution (FAS)**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> The Feedback Analysis Solution is a system that uses CMS or other publicly available data (such as Regulations.Gov) to review public comments and/or analyze other information from internal and external stakeholders. The FAS uses Natural Language Processing (NLP) tools to aggregate, sort and identify duplicates to create efficiencies in the comment review process. FAS also uses machine learning (ML) tools to identify topics, themes and sentiment outputs for the targeted dataset.
+
+**CMS Enterprise Portal Services (CMS Enterprise Portal-Chatbot)**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> CMS Enterprise Portal AI for Process Efficiency Improvement| Knowledge Management
+
+**Fraud Prevention System Alert Summary Report Priority Score**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> This model will use Medicare administrative, claims, and fraud alert and investigations data to predict the likelihood of an investigation leading to an administrative action (positive outcome), supporting CMS in prioritizing their use of investigations resources. This analysis is still in development and the final model type has not been determined yet.
+
+**Marketplace Learning Management System (MLMS)**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> MLMS AI for Language Interpretation and Translation
+
+**Performance Metrics Database and Analytics (PMDA)**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> PMDA AI for Anomaly Detection and Correction| Language Interpretation and Translation| Knowledge Management
+
+**Drug Cost Increase Predictions**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> Use Historical drug costs increases to predict future increases
+
+**CMS Connect (CCN)**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> CCN AI for Global Search
+
+**Drug cost anomaly detection**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> Identify anomalies in drug costs on Part D claims
+
+**Artificial Intelligence (AI) Explorers Program Pilot - Automated Technical Profile**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> 90 day Pilot is to engage in research and development to investigate applications in the generation of a machine-readable Automated Technical Profile for CMS systems with the goal of inferring the technology fingerprint of CMS projects based on multiple data sources at different stages of their development lifecycle
+
+**CCIIO Enrollment Resolution and Reconciliation System (CERRS)**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> CERRS AI for Classification
+
+**Predictive Intelligence - Incident Assignment for Quality Service Center (QSC).**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> Predictive Intelligence (PI) is used for incident assignment within the Quality Service Center (QSC). The solution runs on incidents created from the ServiceNow Service Portal (https://cmsqualitysupport.servicenowservices.com/sp_ess). The solution analyzes the short description provided by the end user in order to find key words with previously submitted incidents and assigns the ticket to the appropriate assignment group. This solution is re-trained with the incident data in our production instance every 3-6 months based on need.
+
+**Artificial Intelligence (AI) Explorers Program Pilot - Section 508 accessibility Testing**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> 90 day Pilot is to better inform CMS technical leads and Application Development Organizations (ADOs) to conduct a comprehensive analysis on the data from the test result documents in support of the CMS Section 508 Program.
+
+**Priority Score Timeliness - forecast the time needed to work on an alert produced by Fraud Prevention System (Random Forest, Decision Tree, Gradient Boost, Generalized Linear Regression)**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
 > Inputs - Medicare Claims data, TPE Data, Jurisdiction information Output - forecast the time needed to work on an alert produced by FPS (Random Forest, Decision Tree, Gradient Boost, Generalized Linear Regression)
 
-**Chatbot – Text**, _HHS | CMS_
-> CMS/OSFLO: To assist the Security team, this Chatbot (text) provides an automated email response for general physical security questions, allowing the help desk team to assist employees and contractors with more in depth issues.
+**Medicaid And CHIP Financial (MACFin) Anomaly Detection Model for DSH Audit**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> MACFin AI team developed machine learning model to predict anomalies within DSH audit data. The model flags top outliers in the submitted DSH hospitals data in terms of extreme behavior in the data based on amounts and other characteristics of the data to isolate the most outliers in the data. For example, out of all DSH allocations, the model can identify the top 1-5% outliers in the data for further review and auditing. Such model facilitates targeted investigations for gaps and barriers. In addition, the model can support the process by minimizing overpayment and/or underpayment and amounts redistribution
 
-**Provider Education 90 Day - reviews claims for provider before and after education for statistical change in their claim submission patterns**, _HHS | CMS_
-> Inputs - Medicare Claims data, TPE Data, Jurisdiction information Output - reviews claims for provider before and after education for statistical change in their claim submission patterns
+**Amazon Lex and Amazon Polly for the Marketplace Appeals Call Center**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> CMS/OHI: Amazon Lex & Amazon Polly are used in conjunction with the Amazon Connect phone system (cloud based) for the Marketplace Appeals Call Center. Amazon Lex offers self-service capabilities with virtual contact center agents, interactive voice response (IVR), information response automation, and maximizing information by designing chatbots using existing call center transcripts. Amazon Polly turns text into speech, allowing the program to create applications that talk, and build entirely new categories of speech-enabled products.
 
-**Predictive Intelligence - Incident Assignment for Quality Service Center (QSC).**, _HHS | CMS_
-> Predictive Intelligence (PI) is used for incident assignment within the Quality Service Center (QSC). The solution runs on Quality Service Center (QSC). incidents created from the ServiceNow Service Portal (https://cmsqualitysupport.servicenowservices.com/sp_ess). The solution analyzes the short description provided by the end user in order to find key words with previously submitted incidents and assigns the ticket to the appropriate assignment group. This solution is re-trained with the incident data in our production instance every 3-6 months based on need.
+**Brand vs Generic Market Share**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> Analyze generic drugs compared to brand drugs over time and forecast future market shares based on Part D claims volume
 
-**Feedback Analysis Solution (FAS)**, _HHS | CMS_
-> The Feedback Analysis Solution is a system that uses CMS or other publicly available data (such as Regulations.Gov) to review public comments and/or analyze other information from internal and external stakeholders. The FAS uses Natural Language Processing (NLP) tools to aggregate, sort and identify duplicates to create efficiencies in the comment review process. FAS also uses machine learning (ML) tools to identify topics, themes and sentiment outputs for the targeted Dataset.
+**Center for Program Integrity (CPI) Fraud Prevention System Models (e.g. DMEMBITheftML, HHAProviderML)**, _Department_of_Health_and_Human_Services | Centers for Medicare & Medicaid Services (CMS) | Centers for Medicare & Medicaid Services (CMS)_
+> These models use Medicare administrative and claims data to identify potential cases of fraud, waste, and abuse for future investigation using random forest techniques. Outputs are used to alert investigators of the potential fraud scheme and associated providers.
 
-**Rapid Authority to Operate (ATO)**, _HHS | CMS_
-> The Rapid ATO System was built using a natural language processing model and pipeline to process system security plans, to identify unique and commonly used technology components used across Federal Information Security Management Act (FISMA) systems. Natural language processing (NLP) is a form of machine learning that derives intent or subject out of blocks of text. In this particular case it was used to identify common blocks of language used in similar ways across system security plan (SSP) documents. In this way, CMS could identify similar approaches to solving certain technology or process-related control areas within the Acceptable Risk Safeguards (ARS). The output was used to create a list of components to develop control description language in a re-usable way, as part of the Blueprint/Rapid ATO effort to streamline SSP generation for new systems.
+**BEST Platform improves post-market surveillance efforts through the semi-automated detection, validation and reporting of adverse events.**, _Department_of_Health_and_Human_Services | FDA | CBER/OBPV/DABRA_
+> The BEST Platform employs a suite of applications and techniques to improve the detection, validation and reporting of biologics-related adverse events from electronic health records (EHRs). The Platform utilizes ML and NLP to detect potential adverse events, and extract the important features for clinicians to validate.
 
-**Artificial Intelligence-based Deduplication Algoirthm for Classfication of Duplicate Reports in the FDA Adverse Event Reports (FAERS)**, _HHS | FDA_
-> The deduplication algorithm is applied to nonpublic data in the FDA Adverse Event Reporting System (FAERS) to identify duplicate reports. Unstructured data in free text FAERS narratives is processed through a natural language processing system to extract relevant clinical features. Both structured and unstructured data are then used in a probabilistic record linkage approach to score pairs of reports by evaluating multiple data fields and applying relative weights per field. The output of potential duplicate reports is further placed in groups to facilitate identification of FAERS reports during case series evaluation for safety issues of concern.
+**To develop novel approaches to expand and/or modify the vaccine AESI phenotypes in order to further improve adverse event detection**, _Department_of_Health_and_Human_Services | FDA | CBER/OBPV/DABRA_
+> Developing a BERT-like ML model to improve detection of adverse events of special interest by applying a clinical-oriented language models pre-trained using the clinical documents from UCSF
 
-**Opioid Data Warehouse Term Identification Novel Synthetic Opioid Detection and Evaluation Analytics**, _HHS | FDA_
+**Process Large Amount of Submitted Docket Comments**, _Department_of_Health_and_Human_Services | FDA | CBER/OBPV/DABRA_
+> Provide an automated process to transfer, deduplicate, summarize and cluster docket comments using AI/ML
+
+**Development of Machine Learning Approaches to Population Pharmacokinetic Model Selection and Evaluation of Application to Model-Based Bioequivalence Analysis**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Generic Drugs_
+> 1. Development of a deep learning/reinforcement learning approach to population pharmacokinetic model selections 2. Implementation of an established Genetic algorithm approach to population pharmacokinetic model selections in Python.
+
+**Developing Tools based on Text Analysis and Machine Learning to Enhance PSG Review Efficiency**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Generic Drugs_
+> 1. Develop a novel neural summarization model in tandem with information retrieval system, tailored for PSG review, with dual attention over both sentence-level and word-level outputs by taking advantage of both extractive and abstractive summarization. 2. Evaluate the new model with the PSG data and the large CNN/Daily Mail dataset. 3. Develop an open-source software package for text summarization model and the information retrieval system.
+
+**Machine-Learning based Heterogeneous Treatment Effect Models for Prioritizing Product-Specific Guidance Development**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Generic Drugs_
+> In this project, we propose to develop and implement a novel machine learning algorithm for estimating heterogeneous treatment effects to prioritize PSG development. Specifically, we propose three major tasks. First, we will address an important problem in treatment effect estimation from observational data, where the observed variables may contain confounders, i.e., variables that affect both the treatment and the outcome. We will build on recent advances in variational autoencoder to introduce a data-driven method to simultaneously estimate the hidden confounders and the treatment effect. Second, we will evaluate our model on both synthetic datasets and previous treatment effect estimation benchmarks. The ground truth data enable us to investigate model interpretability. Third, we will validate the model with the real-world PSG data and explain model output for a particular PSG via collaborating with FDA team. The real-world datasets are crucial to validate our model, which may include Orange Book, FDA��s PSGs, National Drug Code directory database, Risk Evaluation and Mitigation Strategies (REMS) data and IQVIA National Sales Perspectives that are publicly available, as well as internal ANDA submission data.
+
+**BEAM (Bioequivalence Assessment Mate) - a Data/Text Analytics Tool to Enhance Quality and Efficiency of Bioequivalence Assessment**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Generic Drugs_
+> We aim to develop BEAM using verified data analytics packages, text mining, and artificial intelligence (AI) toolsets (including machine learning (ML)), to streamline the labor-intensive work during BE assessments to facilitate high-quality and efficient regulatory assessments.
+
+**Application of Statistical Modeling and Natural Language Processing for Adverse Event Analysis**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of New Drugs_
+> Drug-induced adverse events (AEs) are difficult to predict for early signal detection, and there is a need to develop new tools and methods to monitor the safety of marketed drugs, including novel approaches for evidence generation. This project will utilize natural language processing (NLP) and data mining (DM) to extract information from approved drug labeling that can be used for statistical modeling to determine when the selected AEs are generally labeled (pre- or post-market) and identify patterns of detection, such as predictive factors, within the first 3 years of marketing of novel drugs. This project is intended to increase our understanding of timing/early detection of AEs, which can be applied to targeted monitoring of novel drugs. Funding will be used to support an ORISE fellow.
+
+**Centers of Excellence in Regulatory Science and Innovation (CERSI) project - Leveraging AI for improving remote interactions.**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Pharmaceutical Quality (OPQ)_
+> This project aims to improve four major areas identified by FDA, including transcription, translation, document and evidence management, and co-working space. Automatic speech recognition has been widely used in many applications. Its cutting-edge technology is transformer-based sequence to sequence (seq2seq) model, which is trained to generate transcripts autoregressively and has been fine-tuned on certain datasets. Using pre-trained language models directly may not be suitable because they might not work properly with different accents and specialized regulatory and scientific terminologies. This is because the models were trained on a specific type of data and may not be able to handle data that is significantly different from what they were trained on. To address this, researchers plan to manually read a set of video/audio to obtain their true transcripts, upon which they fine-tune the model to make it adapt to this new domain. Machine translation converts a sequence of text from one language to another. Researchers usually use a method called "seq2seq," where original text is codified into a language that a computer can understand. Then, we use this code to generate the translated version of the text. It's like a translator who listens to someone speak in one language and then repeats what they said in another language. Similarly, it is not appropriate to directly apply the existing pre-trained seq2seq models, because (a) some languages used in the FDA context might not exist in existing models. (b) domain specific terms used in FDA are very different from general human languages. To tackle these challenges, models are trained for some unusual languages and fine-tune pre-trained models for major languages. For both situations, researchers prepare high-quality training set labeled by experts. University of Maryland CERSI (M-CERSI) plans to build a system to manage different documents and evidence, by implementing three sub-systems: (a) document classifier, (b) video/audio classifier, and (c) an interactive middleware that connects the trained model at the backend and the input at the frontend. With this, all documents created during co-working can be shared and accessed by all participants.
+
+**Opioid Data Warehouse Term Identification and Novel Synthetic Opioid Detection and Evaluation Analytics**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Strategic Programs (OSP)_
 > The Term Identification and Novel Synthetic Opioid Detection and Evaluation Analytics use publicly available social media and forensic chemistry data to identify novel referents to drug products in social media text. It uses the FastText library to create vector models of each known NSO-related term in a large social media corpus, and provides users with similarity scores and expected prevalence estimates for lists of terms that could be used to enhance future data gathering efforts.
 
-**Advanced Semantic Search and Indexing of Text for Tobacco Applications (ASSIST4Tobacco)**, _HHS | FDA_
-> ASSIST4Tobacco is a novel tool that will use semantic indexing to search tobacco authorization applications. The system will be based on an AI (artificial intelligence)‐based NLP (Natural Language Processing) model which provides deeper search capabilities using a language model developed to represent relationships between words and concepts within a body of text.
+**MASTER PLAN Y4**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Surveillance and Epidemiology (OSE)_
+> The overall mission of the Innovation Center is to integrate longitudinal patient-level EHR data into the Sentinel System to enable in-depth investigations of medication outcomes using richer clinical data than are generally not available in insurance claims data. The Master Plan lays out a five-year roadmap for the Sentinel Innovation Center to achieve this vision through four key strategic areas: (1) data infrastructure; (2) feature engineering; (3) causal inference; and (4) detection analytics. The projects focus on utilizing emerging technologies including feature engineering, natural language processing, advanced analytics, and data interoperability to improve Sentinel's capabilities.
 
-**BHW Community Need Analysis Platform**, _HHS | HRSA_
-> The first use case being developed is for primary care with behavioral health integration which uses a machine learning based automated clustering engine. The development of this tool allows for BHW to dynamically assess the healthcare need of a population given a specific use case and relevant datasets. The output of the model will be used as part of the Notice of Funding Opportunity (NOFO) grant proposal evaluation process.
+**Information Visualization Platform (InfoViP) to support analysis of individual case safety reports**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Surveillance and Epidemiology (OSE)_
+> Developed the Information Visualization Platform (InfoViP) for post market safety surveillance, to improve the efficiency and scientific rigor of Individual Case Study Reports (ICSRs) review and evaluation process. InfoViP incorporates artificial intelligence and advanced visualizations to detect duplicate ICSRs, create temporal data visualization, and classify ICSRs for useability.
 
-**Electronic Handbooks (EHBs) AI Chatbot**, _HHS | HRSA_
-> AI Chatbot • Successfully developed and deployed HRSA EHBs AI Chatbot using Artificial Solutions Teneo platform for external HRSA EHBs grantees • Built to allow grantees to communicate with the EHBs Chatbot using regular natural conversational expressions • Provides knowledge- and action-based responses through a self-service platform with 24/7 availability • Integrated with existing EHBs application UI and Salesforce for automated ticket creation • Chatbot has the ability to refine and increase the accuracy of its responses as more and more users invoke/use the Chatbot
+**Empirical evaluation of EHR-based signal detection approaches**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Surveillance and Epidemiology (OSE)_
+> This project will develop approaches for abstracting and combining structured and unstructured EHR data as well as expanding TBSS methods to also identify signals for outcomes identifiable only through EHR data (e.g. natural language processing, laboratory values).
 
-**Leveraging AI/ML for classification and categorization of scientific concepts**, _HHS | NIH | NHLBI_
-> Topical characterization of the research portfolio. Inputs are publications and grants abstracts. These are fed into a text classification model and concept extraction. The outputs are category labels and list of concepts.
+**Augmenting date and cause of death ascertainment in observational data sources**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Surveillance and Epidemiology (OSE)_
+> The objective of this project is to develop a set of algorithms to augment assessment of mortality through probabilistic linkage of alternative data sources with EHRs. Development of generalizable approaches to improve death ascertainment is critical to improve validity of Sentinel investigations using mortality as an endpoint, and these algorithms may also be usable in supplementing death ascertainment in claims data as well. Specifically, we propose the following Aims. Specific Aim 1: We propose to leverage online publicly available data to detect date of death for patients seen at two healthcare systems. Specific Aim 2: We propose to augment cause of death data using healthcare system narrative text and administrative codes to develop probabilistic estimates for common causes of death
 
-**Splunk IT System Monitoring Software**, _HHS | NIH | NIEHS_
-> Splunk utilizes machine learning to aggregate system logs from IT infrastructure systems and endpoints for auditing and monitoring purposes
+**Artificial Intelligence-based Deduplication Algorithm for Classification of Duplicate Reports in the FDA Adverse Event Reports (FAERS)**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Surveillance and Epidemiology (OSE)_
+> The deduplication algorithm is applied to nonpublic data in the FDA Adverse Event Reporting System (FAERS) to identify duplicate individual case safety reports (ICSRs). Unstructured data in free text FAERS narratives is processed through a natural language processing system to extract relevant clinical features. Both structured and unstructured data are then used in a probabilistic record linkage approach to identify duplicates. Application of the deduplication algorithm is optimized for processing entire FAERS database to support datamining.
 
-**COVID-19 Pandemic Vulnerability Index Dashboard**, _HHS | NIH | NIEHS_
-> The dashboard creates risk profiles, called PVI scorecards, for every county in the United States, continuously updated with the latest data that summarize and visualize overall disease risk.
+**Artificial Intelligence (AI) Supported Annotation of FAERS Reports**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Surveillance and Epidemiology (OSE)_
+> Develop a prototype software application to support the human�review of FAERS data by developing computational algorithms to semi-automatically categorizing FAERS reports into meaningful medication error categories based on report free text. Leveraged existing annotated reports and worked with subject matter experts to annotate subsets of FAERS reports, to generate initial NLP algorithms that can classify any report as being medication related and with an identified type of medication error. An innovative active learning approach was then used to annotate reports and build more robust algorithms for more accurate categorization.
 
-**Grant Application Subject-Matter Classification Tool**, _HHS | NIH | NIEHS_
-> Natural language processing of grant applications for the purpose of classification for review assignment
+**Creating a development network**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Surveillance and Epidemiology (OSE)_
+> This project has the following specific Aims: Aim 1: To convert structured data from EHRs and linked claims into Sentinel Common Data Model at each of the participating sites Aim 2: To develop a standardized process for storage of free text notes locally at each site and develop steps for routine meta data extraction from these notes for facilitating direct investigator access for timely execution of future Sentinel tasks
 
-**Leveraging AI for Business Process Automation**, _HHS | NIH | NIGMS_
-> NIGMS has developed a method to automate the initial referral of grant applications to the proper scientific expertise within the Institute using Natural Language Processing and Machine Learning. NIGMS IRMB and DIMA are currently using this NLP/ML algorithm developed in R statistical software to parse grant applications and to determine Project Officer candidates for grant assignment. This process was previously fully manual and required a substantial person hour effort. NIGMS has collaborated with the Electronic Records Administration group to incorporate this technique into the Internal Referral Module, and the tool is now available to be adapted for broader use across the NIH.
+**Using Unsupervised Learning to Generate Code Mapping Algorithms to Harmonize Data Across Data Systems**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Surveillance and Epidemiology (OSE)_
+> The goal of this project is to assess the potential of data��driven statistical methods for detecting and reducing coding differences between healthcare systems in Sentinel. Findings will inform development and deployment of methods and computational tools for transferring knowledge learned from one site to another and pave the way towards scalable and automated harmonization of electronic health records data.
 
-**National Institute of General Medical Sciences (NIGMS) AI Supported Searches, Information Systems and Tools System Acronym: NIGMS ASSIST)**, _HHS | NIH | NIGMS_
-> NIGMS program staff often need information that is available through IMPAC or QVR to perform their daily tasks. In order to provide such information, DIMA and IRMB have collaborated to develop functions that utilize artificial intelligence and natural language processing methods to produce data relevant to the program staff’s mission. These tools are collected into a single system to make them available to the NIGMS community for use on a day-to-day basis. ASSIST provides a secure interface supported by Oracle, SQL server and Python analytics. The individual components of ASSIST provide the following functions: - FLIP module (Development), provides the ability to identify investigators by PPID from Federal RePORTER based on user input of investigator PPIDs. - TPAL module (Production), provides the ability to lookup potential matching program officers, including their corresponding predicted Program Area Codes, and ICs based on the input of unstructured scientific data.
+**Onboarding of EHR data partners**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Surveillance and Epidemiology (OSE)_
+> In the currently proposed project (DI6), structured fields from EHRs and linked claims data from two identified commercial data partners will be converted to the Sentinel Common Data Model (SCDM). The SCDM is an organizing CDM that preserves the original information from a data source and has been successfully used in the Sentinel system for over a decade. While originally built for claims data, SCDM was expanded in 2015 to accommodate some information commonly found in EHRs in separate clinical data tables to capture laboratory test results of interest and vital signs. We selected the SCDM over other CDMs because data formatted in the SCDM enables analyses that can leverage the standardized active risk identification and analysis (ARIA) tools. Operationally, both Data Partners will share SCDM transformed patient-level linked EHR-claims data with the IC after quality assessments are passed. This is a substantial advantage in this early stage of understanding how to optimally analyze such data. It will allow Sentinel investigators to directly work with the data, adapt existing analytic programs, and test algorithms. In sum, transformation of structured data from the proposed sources to SCDM format will be a key first step for potential future incorporation of these Data Partners into Sentinel to provide access to EHR-claims linked data for >10 million patients, which will be critical to meet the need identified in the 5-year Sentinel System strategic plan of 2019.
 
-**MetaMap to identity potential terms for indexing MEDLINE articles**, _HHS | NIH | NLM_
+**Label comparison tool to support identification of safety-related changes in drug labeling**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Surveillance and Epidemiology (OSE)_
+> A tool with AI capabilities used to assist humans in their review and comparison of drug labeling in PDF format to identify safety-related changes occurring over time. The FDA uses postmarket data to update drug labeling, which can include new and a broad range safety-related issues; safety updates may be added to various sections of drug labeling. The tool's BERT natural language processing was trained to identify potential text related to newly added safety issues between drug labeling.
+
+**Scalable automated NLP-assisted chart abstraction and feature extraction tool**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Surveillance and Epidemiology (OSE)_
+> The overall goal of this study is to demonstrate the usability and value of currently available data sources and techniques in electronic medical records by harnessing claims and EHR data, including structured, semi-structured, and unstructured data, in a pharmacoepidemiology study. This study will use real-world longitudinal data from the Cerner Enviza Electronic Health Records (CE EHR) linked to claims with NLP technology applied to physician notes. NLP methods will be used to identify and contextualize pre-exposure confounding variables, incorporate unstructured EHR data into confounding adjustment, and for outcome ascertainment. Use case study; This study will seek to understand the relationship between use of montelukast among patients with asthma and neuropsychiatric events.
+
+**Community Level Opioid Use Dynamics Modeling and Simulation**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Translational Sciences_
+> The OUD project leverages artificial intelligence techniques, specifically Agent-Based Modeling (ABM), to design and carry out Community Level Opioid Use Dynamics Modeling and Simulation with a cohort of datasets and to investigate the propagation mechanisms involving various factors including geographical and social influences and more, and their impacts at a high level. The project also leveraged Machine Learning (ML), such as Classification, to identify data entry types (e.g., whether a particular data entry is entered by a person in the target population, e.g., a woman of child-bearing ages) as part of the training data generation task.
+
+**Automatic Recognition of Individuals by Pharmacokinetic Profiles to Identify Data Anomalies**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Translational Sciences/Office of Biostatistics_
+> In efforts to detect data anomalies under ANDA, Office of Biostatistics, Division of Biometrics VIII created an R shiny application, DABERS (Data Anomalies in BioEquivalence R Shiny) to support OSIS and OGD. Despite its demonstrated effectiveness, a major drawback is that the pharmacokinetics and pharmacodynamics may be too complicated to describe with a single statistic. Indeed, the current practice offers no practical guidelines regarding how similar PK profiles from different subjects can be in order to be considered valid. This makes it difficult to assess the adequacy of data to be accepted for an ANDA and requires additional information requests to applicants. This project will address the current gap in identifying the data anomalies and potential data manipulations by use of state-of-the-art statistical methods, specifically focusing on machine learning and data augmentation. The purpose of the project is twofold. First, from a regulatory perspective, our project will provide a data driven method that can model complex patterns of PK data to identify potential data manipulations under an ANDA. Second, from a public health research and drug development point of view, the proposed study can potentially be used to understand and quantify the variability in drug response, to guide stratification and targeting of patient subgroups, and to provide insight into what the right drug and right range of doses are for those subgroups.
+
+**CluePoints CRADA**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Translational Sciences/Office of Biostatistics_
+> This project uses unsupervised machine learning to detect and identify data anomalies in clinical trial data at the site, country and subject levels. This project will consider multiple use cases with the goals of improving data quality and data integrity, assist site selection for inspection, and assist reviewers by identifying potentially problematic sites for sensitivity analyses.
+
+**Clinical Study Data Auto-transcribing Platform (AI Analyst) for Generating Evidence to Support Drug Labelling**, _Department_of_Health_and_Human_Services | FDA | CDER/Office of Translational Sciences/Office of Clinical Pharmacology_
+> The AI Analyst platform is trained to auto-author clinical study reports from the source data to assess the strength and robustness of analytical evidence for supporting drug labelling languages. The platform directly transcribes SDTM (Study Data Tabulation Model) datasets of phase I/II studies into full-length clinical study reports autonomously with minimal human input. The underlying AI algorithm mimics the subject matter experts (e.g., clinicians, statisticians, and data managers) thinking process to decipher the full details of study design and conduct, and interpret the study results according to the study design. It consists of multiple layers of data pattern recognitions. The algorithm addresses the challenging nature of assessing clinical study results, including huge variety of study designs, unpredictable study conduct, variations of data reporting nomenclature/format, and wide range of study-specific analysis methods. The platform has been trained and tested with hundreds of NDA/BLA submissions and over 1500 clinical trials. The compatible study types include most drug label supporting studies, such as drug interaction, renal/hepatic impairment, and bioequivalence. In 2022, the Office of Clinical Pharmacology (OCP/OTS/CDER) initiated the RealTime Analysis Depot (RAD) project aiming to routinely apply the AI platform to support the review of NME, 505b2 and 351K submissions.
+
+**Data Infrastructure Backbone for AI applications**, _Department_of_Health_and_Human_Services | FDA | CFSAN /OFAS_
+> OFAS is creating a data lake (WILEE knowledgebase) that ingests and integrates data from a variety of data sources to assist our use of advance analytics in driving risked based decision making. The sources of data include, internal stakeholder submission data, data generated by OFAS staff, scientific information from PubMed, NIH and other scientific publications, CFSAN generated data such as the total diet study, news articles and blog posts, publications from sister agencies, food ingredient and packaging data, food sales data etc. The design of this data store allows for the automated ingestion of new data while allowing for manual curation where necessary. It is also designed to enable the identification, acquisition and integration of new data sources as they become available. The design of the data lake centralizes information about CFSAN regulated products, food additives, color additives, GRAS substances and food contact substance and integrates the different sources of information with stakeholder submission information contained in FARM and cheminformatics information in CERES enabling greater insights and a more efficient knowledge discovery during review of premarket submissions and post market monitoring of the U.S food supply.
+
+**AI Engine for Knowledge discovery, Post-market Surveillance and Signal Detection**, _Department_of_Health_and_Human_Services | FDA | CFSAN/OFAS_
+> The use of Artificial Intelligence in post-market surveillance and signal detection will enhance CFSAN's ability to detect potential problems associated with CFSAN commodities, including leveraging data to investigate potential issues with chronic, long-term exposure to food additives, color additives, food contact substances and contaminants or long-term use of cosmetics. OFAS Warp Intelligent Learning Engine (WILEE) project seeks establish an intelligent knowledge discovery and analytic agent for the Office. WILEE (pronounced Wiley) provides a horizon-scanning solution, analyzing data from the WILEE knowledgebase, to enable the Office to maintain a proactive posture and the capacity to forecast industry trends so that the Office can stay ahead of the development cycle and prepare for how to handle a large influx of submissions (operational risk - e.g., change in USDA rules regarding antimicrobial residue levels in poultry processing), prioritize actions based on risk or stakeholder perceived risk regarding substances under OFAS purview (e.g., yoga mat incident). WILEE will provide the Office with an advanced data driven risked based decision-making tool, that leverages AI technologies to integrate and process a large variety of data sources, generating reports with quick insights that will significantly improve our time-to-results.
+
+**Emerging Chemical Hazard Intelligence Platform (ECHIP - completed)**, _Department_of_Health_and_Human_Services | FDA | CFSAN/OFAS_
+> This is an AI solution designed to identify emerging, potential chemical hazards or emerging stakeholder concerns regarding potential hazards associated with substances of interest to CFSAN. Implementation of this solution will enable CFSAN to take proactive measures to protect and/or address concerns from our stakeholders. ECHIP uses data from the news and social media, and the scientific literature to identify potential issues that may require CFSAN's attention. Real world examples without the ECHIP AI solution have taken 2-4 weeks for signal identification and verification depending on the number of scientists dedicated to reviewing the open literature, news and social media. Results from pilot studies indicate that ECHIP could reduce the overall signal detection and validation process to about 2 hours. ECHIP accomplishes this reduction by automatically ingesting, reviewing, analyzing and presenting data from multiple sources to scientists in such a way that signal detection and verification can be done an a very short time period.
+
+**SSTAT**, _Department_of_Health_and_Human_Services | FDA | CTP/OS/DRSI_
+> Self-Service Text Analytics Tool (SSTAT) is used to explore the topics of a set of documents. Documents can be submitted to the tool in order to generate a set of topics and associated keywords. A visual listing of the documents and their associated topics is automatically produced to help quickly snapshot the submitted documents.
+
+**ASSIST4TOBACCO**, _Department_of_Health_and_Human_Services | FDA | CTP/OS/DRSI_
+> ASSIST4Tobacco is a semantic search system that helps CTP stakeholders find tobacco authorization applications more accurately and efficiently.
+
+**OSCAR**, _Department_of_Health_and_Human_Services | FDA | CTP/OS/DRSI_
+> OSCAR (Office of Science Customer Assistance Response) is a chatbot with predefined intents for customers to get help from Customer Service Center. It offers a 24/7 user interface allowing users to input questions and view previous responses, as well as a dashboard offering key metrics for admin users.
+
+**Using XGBoost Machine Learning Method to Predict Antimicrobial Resistance from WGS data**, _Department_of_Health_and_Human_Services | FDA | CVM_
+> Genomic data and artificial intelligence/machine learning (AI/ML) are used to study antimicrobial resistance (AMR) in Salmonella, E. coli, Campylobacter, and Enterococcus, isolated from retail meats, humans, and food producing animals. The Boost Machine Learning Model (XGBoost) is implemented to improve upon categorical resistance vs susceptible predictions by predicting antimicrobial Minimum Inhibitory Concentrations (MICs) from WGS data.
+
+**Predictive toxicology models of drug placental permeability using 3D-fingerprints and machine learning**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> The human placenta plays a pivotal role in fetal growth, development, and fetal exposure to chemicals and therapeutics. The ability to predict placental permeability of chemicals during pregnancy is an important factor that can inform regulatory decisions related to fetal safety and clinical trials with women of child-bearing potential (WOCBP). The human placenta contains transport proteins, which facilitate the transfer of various endogenous substances and xenobiotics. Several mechanisms allow this transfer: i) passive diffusion, ii) active transport, iii) facilitated diffusion, iv) pinocytosis, and v) phagocytosis. Among these, passive and active transport are the two major routes. Small, non-ionized, highly lipophilic drugs cross the placenta via passive diffusion; however, relatively large molecules (MW > 500 Da) with low lipophilicity are carried by transporters. While prediction of the ability of drugs to cross the placenta via diffusion is straight-forward, the complexity of molecular interactions between drugs and transporters has proven to be a challenging problem to solve. Virtually, all QSARs (Quantitative Structure Activity Relationships) published to date model small datasets (usually not exceeding 100 drugs) and utilize weak validation strategies [1-5]. In this proposal, 3D-molecular similarities of endogenous placental transporter ligands to known drug substrates will be used to identify the most likely mode of drug transportation (active/passive) and build predictive, quantitative and categorical 3D-SDAR models by linking their molecular characteristics to placental permeability. Permeability data will be collected via mining the literature, the CDER databases, and conducting empirical assessments using in vitro NAMs with confirmation using rodent models. Predictability will be validated using: i) blind test sets including known controls and ii) a small set of drugs with unknown permeabilities, which will be tested in in vitro and in vivo models.
+
+**Prediction of adverse events from drug - endogenous ligand - target networks generated using 3D-similarity and machine learning methods.**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> Excluding areas of the biochemical space near activity cliffs [1], molecular similarity [2] has long proven to be an outstanding tool in virtual screening [3], absorption, distribution, metabolism, and excretion (ADME) [4], drug design [5] and toxicology [6]. Among these, the toxicological response is the most challenging task due to its immense complexity involving multiple pathways and protein targets. Although many adverse drug reactions (ADRs) result from genetic polymorphisms and factors such as the patient's medical history and the treatment dosage and regimen, on a fundamental level all ADRs are initiated by the binding of a drug molecule to a target, whether intended (therapeutic target) or non-intended (off-target interactions with promiscuous proteins) [7]. While molecular similarity approaches designed to identify off-target interaction sites have been explored since the late 2000s [8, 9], most have been focused on drug design, repurposing and more generally, efficacy, whereas relatively few have been applied to toxicology [10, 11]. Since there are multiple approaches to molecular similarity (structural, functional, whole molecule, pharmacophore, etc. [12]), the performance of any of the above applications depends strongly on the metrics by which similarity is quantified. For the past 10 years, DSB has been working on creating a universal molecular modeling approach utilizing unique three-dimensional fingerprints encoding both the steric and electrostatic fields governing the interactions between ligands and receptors. It has been demonstrated that these fingerprints could quantify reliably both the structural and functional similarities between molecules [13, 14] and their application for prediction of adverse events from AI generated drug - endogenous ligand - target networks could provide new insights into yet unknown mechanisms of toxicity.
+
+**Identification of sex differences on prescription opioid use (POU)-related cardiovascular risks by big data analysis**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> 1) Prescription opioid use (POU) varies among patient population subgroups, such as gender, age, and ethnicity. POU can potentially cause various adverse effects in the respiratory, gastrointestinal, musculoskeletal, cardiovascular, immune, endocrine, and central nervous systems. Important sex differences have been observed in POU-associated cardiac endpoints. Currently, systematic knowledge is lacking for risk factors associated with the increased cardiotoxicity of POU in women. 2) Currently, the FDA utilizes two methods of analysis for data mining, the Proportional Reporting Ratio (PRR) and the Empirical Bayesian Geometric Mean (EBGM) to identify significant statistical associations between products and adverse events (AEs). These methods are not applicable when two or more reporting measures (e.g. gender, age, race, etc.) must be considered and compared. In this study, a novel statistical model will be developed to detect the safety signals when gender is considered as the third variable. Safety signals will then be detected and compared from combined multiple-layered real-world evidence in the form of EHRs from diverse sources. Sex-dependent differences in risk factors for cardiotoxicity from POU will be identified and analyzed using big data methods and AI-related tools. 3) The proposed project addresses the first of four priority areas of FDA's 2018 Strategic Policy Roadmap: Reduce the burden of addiction crises that are threatening American families, and two priority areas of Women's Health Research Roadmap: Priority Area 1: Advance Safety and Efficacy, and Priority Area 5: Expand Data Sources and Analysis. The results may provide information and knowledge to help the FDA drug reviewers and physicians be aware of sex differences to certain POU drugs and combinations of POU with other prescription drugs, therefore, preventing or reducing risk of the POU drug-induced CVD in women.
+
+**Assessing and mitigating bias in applying Artificial Intelligence (AI) based natural language processing (NLP) of drug labeling documents**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> As use of AI in biomedical sciences increases, significant concerns are raised regarding bias, stereotype, or prejudice in some AI systems. An AI system trained on inappropriate or inadequate data may reinforce biased patterns and thus provide biased predictions. Particularly, when the AI model was trained on dataset from different domains and then transferred to a new application domain, the system needs to be evaluated properly to avoid potential bias risks. Given the increased number of transfer learning and AI applications in document analysis to support FDA review, this proposal is to conduct a comprehensive study to understand and assess the bias in applying AI based natural language processing of drug labeling documents, and to the extension of developing a strategy to mitigate such a bias.
+
+**Artificial Intelligence (AI)-based Natural Language Processing (NLP) for FDA labeling documents**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> FDA has historically generated and continues to generate a variety of documents during the product-review process, which are typically unstructured text and often not follows the use of standards. Therefore, analysis of semantic relationships plays a vital role to extract useful information from the FDA documents to facilitate the regulatory science research and improve FDA product review process. The rapid advancement in artificial intelligence (AI) for Natural Language Processing (NLP) offers an unprecedent opportunity to analyze the semantic text data by using the language models that are trained with large biomedical corpus. This study is to assess the AI based NLP for the FDA documents with a focus on the FDA labeling documents. Specifically, we will apply the publicly available language models (e.g., BERT and BioBERT) to the FDA drug labeling documents available from the FDA Label tool that manages over 120K labeling documents including over 40K Human Prescription Drug and Biological Products. We will investigate three areas of AI applications that are important to the regulatory science research: (1) the interpretation and classification of drug properties (e.g., safety and efficacy) with AI reading, (2) text summarization to provide highlights of labeling sections, (3) automatic anomaly analysis (AAA) for signal identification, and (4) information retrieval with Amazon-like Questions/Answer. We will compare the AI based NLP with MedDRA based approach whenever possible for drug safety and efficacy. The study will provide a benchmark for fit-for-purpose application of the public language models to the FDA documents and, moreover, the outcome of the study could provide a scientific basis to support the future development of FDALabel tool which is widely used in CDER review process.
+
+**Opioid agonists/antagonists knowledgebase (OAK) to assist review and development of analgesic products for pain management and opioid use disorder treatment**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> The number of deaths caused by opioid overdose in the United States has been increasing dramatically for the last decade. misuse and abuse continue at alarmingly high rates. Opioid use disorder (OUD) often starts with use of prescription opioid analgesics. Therefore, the development of abuse-deterrent analgesic products may significantly impact the trajectory of the opioid crisis. In addition, FDA is making new efforts to support novel product innovation for pain management and the treatment of OUD to combat this opioid crisis. Opioid agonists bind and activate opioid receptors to decrease calcium influx and cyclic adenosine monophosphate (cAMP), leading to hyperpolarization that inhibits pain transmission. Opioid antagonists bind and inhibit or block opioid receptors. Both opioid agonists and antagonists are used in drug products for pain management and treatment of opioid addiction. An opioid agonists/antagonists knowledgebase (OAK) would be useful for FDA reviewers to inform evaluation and to assist development of analgesics and of additional treatments for OUD. To create a comprehensive OAK, we propose to curate the experimental data on opioid agonist/antagonist activity from the public domain, experimentally test some 2800 drugs in functional opioid receptor assays using quantitative high-throughput screen (qHTS) platform, and develop and validate in silico models to predict opioid agonist/antagonist activity. The created OAK knowledgebase could be used for retrieving experimental opioid agonist/antagonist activity data and the related experimental protocols. For chemicals without experimental data, read-across methods could be used to find similar chemicals in OAK to estimate the opioid agonist/antagonist activity, and the in silico models in OAK could be used to predict the opioid agonist/antagonist activity. The retrieved or predicted activity data can then be used to inform regulatory review or to assist in the development of analgesics.
+
+**Towards Explainable AI: Advancing Predictive Modeling for Regulatory Use**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> Artificial Intelligence (AI) is a broad discipline of training machines to think and accomplish complex intellectual tasks like humans. It learns from existing data/information to predict future outcomes, distill knowledge, offer advices, or plan action steps. The rise of AI has offered both opportunities and challenges to FDA in two aspects: (1) how to assess and evaluate marketed AI-centric products and (2) how to implement AI methods to improve the agency's operation. One of the key aspects of both regulatory applications is to understand the underlying features driving the AI performance and to the extension of its interpretability in the context of application. Different from the statistical evaluation (e.g., accuracy, sensitivity and specificity), model interpretability assessment lacks quantitative metrics. In most cases, the assessment tends to be subjective, where prior knowledge is often used as a ground-truth to explain the biological relevance of underlying features, e.g., whether the biomarkers featured by the model are in accordance with the existing findings. In reality, there is a trade-off between statistical performance and interpretability among different AI algorithms, and understanding the difference will improve the context of use of AI technologies in regulatory science. For that, we will investigate representative AI methods, in terms of their performance and interpretability, first through benchmark datasets that have been well-established in the research community, then extended to clinical/pre-clinical datasets. This project will provide basic parameters and offer an insightful guidance on developing explainable AI models to facilitate the real-world decision making in regulatory settings.
+
+**Development of virtual animal models to simulate animal study results using Artificial Intelligence (AI)**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> Testing data from animal models provides crucial evidence for the safety evaluation of chemicals. These data have been an essential component in regulating drug, food, and chemical safety by regulatory agencies worldwide including FDA. As a result, a wealth of animal data is available from the public domain and other sources. As the toxicology community and regulatory agencies move towards a reduction, refinement, and replacement (3Rs principle) of animal studies, we proposed an AI-based generative adversarial network (GAN) architecture to learn from existing animal studies so that it can generate animal data for new and untested chemicals without conducting further animal experiments. The FDA has developed guidelines and frameworks to modernize toxicity assessment with alternative methods, such as the FDA Predictive Toxicology Roadmap and the Innovative Science and Technology Approaches for New Drugs (ISTAND). These programs facilitate the development and evaluation of alternative methodologies to expand the FDA's toxicology predictive capabilities, to reduce the use of animal testing, and to facilitate drug development. A virtual animal model with capability of simulating animal studies could serve as an alternative to animal studies to support the FDA mission.
+
+**Informing selection of drugs for COVID-19 treatment by big data analytics and artificial intelligence**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> The pandemic of COVID-19 is the biggest global health concern currently. As of July 11, 2020, more than 12 million people have been tested positive of SARS-COV-2 virus infection and more than half million deaths have been caused by COVID-19 in the world. Currently, no vaccines and/or drugs have been proved to be effective to treat COVID-19. Therefore, many drug products on the market are being repurposed for the treatment of COVID-19. However, sufficient evidence is needed to determine that the repurposed drugs are safe and effective. Therefore, safety information on the drugs selected for repurposing purpose is important. The proposed project aims to mine adverse drug events using artificial intelligence and big data analytics in the public domain including the agency's database, public databases, and social media data for the drugs to be repurposed for the treatment of COVID-19. The ultimate goal of this project is to provide detailed adverse event information that can be used to facilitate safety evaluation for drugs repurposed for the treatment COVID-19. The detailed adverse event information will be used to develop recommendations for selecting the right drugs for repurposing efforts and for help select the appropriate COVID-19 patients and thus better to combat the pandemic.
+
+**Identify sex disparities in opioid drug safety signals in FDA adverse events report systems (FAERS) and social media Twitter to improve women health**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> This proposal aims to address OWH 2023 Priority Area: Use of real world data and evidence to inform regulatory processes. We propose to analyze sex differences in adverse events for opioid drugs in social media (Twitter) and the FDA Adverse Events Report Systems (FAERS). We will compare sex disparities identified from FAERS and Twitter to assess whether Twitter data can be used as an early warning system to signal the opioid-related issues specific to women. The identified sex disparities in adverse events for opioid drugs from this project could help improve women health.
+
+**NCTR/DBB-CDER/OCS collaboration on A SafetAI Initiative to Enhance IND Review Process**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> The development of animal-free models has been actively investigated and successfully demonstrated as an alternative to animal-based approaches for toxicity assessments. Artificial Intelligence (AI) and Machine learning (ML) have been the central engine in this paradigm shift to identify safety biomarkers from non-animal assays or to predict safety outcomes solely based on chemical structure data. AI is a computer system or algorithm that has the ability to learn from existing data to foresee the future outcome. ML, a subset of AI, has been specifically studied to make predictions for adverse drug reactions. Deep Learning (DL) is arguably the most advanced approach in ML which frequently outperforms other types of ML approaches (or conventional ML approaches) for the study of drug safety and efficacy. DL usually consists of multiple layers of neural networks to mimic the cognitive behaviors associated with the human brain learning and problem-solving process to solve data intensive problems. Among many studies using AI/ML, DL has become a default algorithm to consider due to its superior performance. This proposal will apply DL to flag safety concerns regarding drug-induced liver injury (DILI) and carcinogenicity during the IND review process.
+
+**Development of a Comprehensive Open Access Molecules with Androgenic Activity Resource (MAAR) to Facilitate Assessment of Chemicals**, _Department_of_Health_and_Human_Services | FDA | NCTR_
+> Androgen receptor (AR) is a ligand-dependent transcription factor and a member of the nuclear receptor superfamily, which is activated by androgens. AR is the target for many drugs but it could also act as an off target for drugs and other chemicals. Therefore, detecting androgenic activity of drugs and other FDA regulated chemicals is critical for evaluation of drug safety and assessment of chemical risk. There is a large amount of androgenic activity data in the public domain, which could be an asset for the scientific community and regulatory science. However, the data are distributed across different and diverse sources and stored in different formats, limiting the use of the data in research and regulation. Therefore, a comprehensive, reliable resource to provide open access to the data and enable modeling and prediction of androgenic activity for untested chemicals is in urgent need. This project will develop a high-quality open access Molecules with Androgenic Activity Resource (MAAR) including data and predictive models fully compliant with the FAIR (Findable, Accessible, Interoperable, and Reusable) principles. MAAR can be used to facilitate research on androgenic activity of chemicals and support regulatory decision making concerning efficacy and safety evaluation of drugs and chemicals in the FDA regulated products.
+
+**individual Functional Activity Composite Tool (inFACT)**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) CC_
+> inFACT is being developed for use in the Social Security Administration (SSA) disability determination process to assist adjudicators in identifying evidence on function from case records that might be hundreds or thousands of pages long. inFACT displays information on whole person function as extracted from an individual's free text medical records and aligned with key business elements.
+
+**Assisted Referral Tool**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) CSR_
+> To provide assistance in assigning appropriate scientific areas for grant applications.
+
+**NanCI: Connecting Scientists**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NCI_
+> Uses AI to match scientific content to users interests. By collecting papers into a folder a user can engage the tool to find similar articles in the scientific literature, and can refine the recommendations by up or down voting of recommendations. Users can also connect with others via their interests, and receive and make recommendations via this social network.
+
+**Detection of Implementation Science focus within incoming grant applications**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NHLBI_
+> This tool uses natural language processing and machine learning to calculate an Implementation Science (IS) score that is used to predict if a newly submitted grant application proposes to use science that can be categorized as "Implementation Science" (a relatively new area of delineation). NHLBI uses the "IS score" in its decision for assigning the application to a particular division for routine grants management oversight and administration.
+
+**Division of Allergy, Immunology, and Transplantation (DAIT) AIDS-Related Research Solution**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIAID_
+> The tool uses natural language processing (NLP), text extraction, and classification algorithms to predict both high/medium/low priority and area of research for a grant application. The incoming grant applications are ranked based on these predictions and more highly-ranked applications are prioritized for review.
+
+**Tuberculosis (TB) Case Browser Image Text Detection**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIAID_
+> A tool to detect text in images that could be potentially Personally Identifiable Information (PII)/ Protected Health Information (PHI) in TB Portals.
+
+**Scientific Research Data Management System Natural Language Processing Conflict of Interest Tool**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIAID_
+> A tool that identifies entities within a grant application to allow NIAID's Scientific Review Program team to more easily identify conflicts of interest (COI) between grant reviewers and applicants using NLP methods (e.g., OCR, text extraction).
+
+**Research Area Tracking Tool**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIAID_
+> A dashboard that incorporates machine learning to help identify projects within certain high-priority research areas.
+
+**Federal IT Acquisition Reform Act (FITARA) Tool**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIAID_
+> The tool automates the identification of NIAID contracts that are IT-related.
+
+**NIDCR Data Bank**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIDCR_
+> The project will permit intramural research program investigators to move large sets of unstructured data into a cloud archival storage, which will scale, provide cost effective data tiering, capture robust meta data sufficient for management and governance, and create secondary or tertiary opportunities for analysis leveraging cognitive services AI/ML/NLP toolsets.
+
+**NIDCR Digital Transformation Initiative (DTI)**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIDCR_
+> An initiative to create a natural language processing chatbot to improve efficiency, transparency, and consistency for NIDCR employees.
+
+**Splunk IT System Monitoring Software**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIEHS_
+> Utilizes machine learning to aggregate system logs from on-premises IT infrastructure systems and endpoints for auditing and cybersecurity monitoring purposes.
+
+**SWIFT Active Screener**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIEHS_
+> Applies statistical models designed to save screeners time and effort through active learning. Utilize user feedback to automatically prioritize studies. Supports literature screening for Division of Translational Toxicology evidence evaluations.
+
+**Automated approaches for table extraction**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIEHS_
+> This project developed an automated, model-based processes to reduce the time and level of effort for manual�extraction of data from tables. Published data tables are a particularly data-rich and challenging presentation of critical information in published research.
+
+**Similarity-based Application and Investigator Matching (SAIM)**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIGMS_
+> The SAIM system uses natural language processing to identify non-NIH grants awarded to NIGMS Principal Investigators. The system aids in identifying whether a grant application has significant unnecessary overlap with one funded by another agency.
+
+**Clinical Trial Predictor**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIGMS_
+> The Clinical Trial Predictor uses an ensemble of several natural language processing and machine learning algorithms to predict whether applications may involve clinical trials based on the text of their titles, abstracts, narratives, specific aims, and research strategies.
+
+**Stem Cell Auto Coder**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIGMS_
+> The Stem Cell Auto Coder uses natural language processing and machine learning to predict the Stem Cell Research subcategories of an application: human embryonic, non-human embryonic, human induced pluripotent, non-human induced pluripotent, human non-embryonic, and non-human non-embryonic.
+
+**JIT Automated Calculator (JAC)**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NIGMS_
+> The JIT Automated Calculator (JAC) uses natural language processing to parse Just-In-Time (JIT) Other Support forms and determine how much outside support PIs are receiving from sources other than the pending application.
+
+**SingleCite: Improving single citation search in PubMed**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> A search that is targeted at finding a specific document in databases is called a Single Citation search, which is particularly important for scholarly databases, such as PubMed, because it is a typical information need of the users. NLM developed SingleCite, an automated algorithm that establishes a query-document mapping by building a regression function to predict the probability of a retrieved document being the target based on three variables: the score of the highest scoring retrieved document, the difference in score between the two top retrieved documents, and the fraction of a query matched by the candidate citation. SingleCite shows superior performance in benchmarking experiments and is applied to rescue queries that would fail otherwise.
+
+**NLM-Gene: towards automatic gene indexing in PubMed articles**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> Gene indexing is part of the NLM's MEDLINE citation indexing efforts for improving literature retrieval and information access. Currently, gene indexing is performed manually by expert indexers. To assist this time-consuming and resource-intensive process, NLM developed NLM-Gene, an automatic tool for finding gene names in the biomedical literature using advanced natural language processing and deep learning methods. Its performance has been assessed on gold-standard evaluation datasets and is to be integrated into the production MEDLINE indexing pipeline.
+
+**NLM-Chem: towards automatic chemical indexing in PubMed articles**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> Chemical indexing is part of the NLM's MEDLINE citation indexing efforts for improving literature retrieval and information access. Currently, chemicals indexing is performed manually by expert indexers. To assist this time-consuming and resource-intensive process, NLM developed NLM-Chem, an automatic tool for finding chemical names in the biomedical literature using advanced natural language processing and deep learning methods. Its performance has been assessed on gold-standard evaluation datasets and is to be integrated into the production MEDLINE indexing pipeline.
+
+**Best Match: New relevance search for PubMed**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> PubMed is a free search engine for biomedical literature accessed by millions of users from around the world each day. With the rapid growth of biomedical literature, finding and retrieving the most relevant papers for a given query is increasingly challenging. NLM developed Best Match, a new relevance search algorithm for PubMed that leverages the intelligence of our users and cutting-edge machine-learning technology as an alternative to the traditional date sort order.
+
+**Remediate Adobe .pdf documents to be more accessible**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> Many .pdf documents could be made available for public release if they conformed to Section 508 accessibility standards. NLM has been investigating the use of AI developed to remediate Adobe .pdf files not currently accessible to Section 508 standards.�The improved files are particularly more accessible to those like the blind who use assistive technology to read.
+
+**Biomedical Citation Selector (BmCS)**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> Automation of article selection allows NLM to more efficiently and effectively index and host relevant information for the public. Through automation, NLM is able standardize article selection and reduce the amount of time it takes to process MEDLINE articles.
+
+**MetaMap**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
 > MetaMap is a widely available program providing access from biomedical text to the concepts in the unified medical language system (UMLS) Metathesaurus. MetaMap uses NLP to provide a link between the text of biomedical literature and the knowledge, including synonymy relationships, embedded in the Metathesaurus. The flexible architecture in which to explore mapping strategies and their application are made available. MTI uses the MetaMap to generate potential indexing terms.
 
-**Determining selection for indexing MEDLINE articles using Neural Network Architecture with a Convolutional Neural Network (CNN)**, _HHS | NIH | NLM_
-> Using the article title, abstract, journal, publication year, and indexing year of indexed and non-indexed articles that were submitted to MEDLINE in 2018, methods to automate the selection of indexed articles was researched. A classifier was developed that combines the predictions of many traditional machine learning algorithms and a Convolutional Neural Network (CNN). The final classification layer uses a sigmoid activation function to generate a single output value between zero and one, which can be interpreted as the probability of an article being in-scope for MEDLINE.
+**CLARIN: Detecting clinicians' attitudes through clinical notes**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> Understanding clinical notes and detecting bias is essential in supporting equity and diversity, as well as quality of care and decision support. NLM is using and developing AI approaches to detect clinicians' emotions, biases and burnout.
 
-**Pangolin lineage classifications to support accessing and analysis of SARS-CoV-2 sequence Data.**, _HHS | NIH | NLM_
-> The Pango nomenclature, called Pango lineages, is being used by researchers and public health agencies worldwide to track the transmission and spread of SARS-CoV-2, including variants of concern. The requirements for running the tool include having conda on a MacOS or Linux system, and the FASTA-formated sequence data. There are 2 methods for lineage assignment with Pango; within NCBI Virus we use the process which includes PangoLEARN, where a classification tree is used to group similar sequences.
+**Pangolin lineage classification of SARS-CoV-2 genome sequences**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> The PangoLEARN machine learning tool provides lineage classification of SARS-CoV-2 genome sequences. Classification of SARS-CoV-2 genome sequences into defined lineages supports user retrieval of sequences based on classification and tracking of specific lineages, including those lineages associated with mutations that may decrease the effectiveness of therapeutics or protection provided by vaccination.
 
-**SingleCite: Improving single citation search in PubMed**, _HHS | NIH | NLM_
-> A search that is targeted at finding a specific document in databases is called a Single Citation search, which is particularly important for scholarly databases, such as PubMed, because it is a typical information need of the users. We have developed SingleCite, an automated algorithm that establishes a query-document mapping by building a regression function to predict the probability of a retrieved document being the target based on three variables: the score of the highest scoring retrieved document, the difference in score between the two top retrieved documents, and the fraction of a query matched by the candidate citation. SingleCite shows superior performance in benchmarking experiments and is applied to rescue queries that would fail otherwise.
+**MTIX**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> Machine learning-based system for the automated indexing of MEDLINE articles with Medical Subject Headings (MeSH) terms. Automated indexing is achieved using a multi-stage neural text ranking approach. Automated indexing allows for cost-effective and timely indexing of MEDLINE articles.
 
-**Best Match: New relevance search for PubMed**, _HHS | NIH | NLM_
-> PubMed is a free search engine for biomedical literature accessed by millions of users from around the world each day. With the rapid growth of biomedical literature, finding and retrieving the most relevant papers for a given query is increasingly challenging. We have developed Best Match, a new relevance search algorithm for PubMed that leverages the intelligence of our users and cutting-edge machine-learning technology as an alternative to the traditional date sort order. The Best Match algorithm is trained with past user searches with dozens of relevance-ranking signals (factors) and demonstrates state-of-the-art retrieval performance in benchmarking experiments as well as an improved user experience in real-world testing.
+**MEDIQA: Biomedical Question Answering**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> Using and developing AI approaches to automate question answering for different users. This project leverages NLM knowledge sources and traditional and neural machine learning to address a wide-range of biomedical information needs. This project aims for improving access with one-entry access point to NLM resources.
 
-**National Library of Medicine NLM-Chem: towards automatic chemical indexing in PubMed articles**, _HHS | NIH | NLM_
-> Chemical indexing is part of the NLM’s MEDLINE citation indexing efforts for improving literature retrieval and information access. Currently, chemcial indexing is performed manually by expert indexers. To assist this time-consuming and resource-intensive process, we have developed NLM-Chem, an automatic tool for finding chemical names in the biomedical literature using advanced natural language processing and deep learning methods. Its performance has been assessed on gold-standard evaluation datasets and is to be integrated into the production MEDLINE indexing pipeline.
+**Computed Author: author name disambiguation for PubMed**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> PubMed users frequently use author names in queries for retrieving scientific literature. However, author name ambiguity (different authors share the same name) may lead to irrelevant retrieval results. NLM developed a machine-learning method to score the features for disambiguating a pair of papers with ambiguous names. Subsequently, agglomerative clustering is employed to collect all papers belong to the same authors from those classified pairs. Disambiguation performance is evaluated with manual verification of random samples of pairs from clustering results, with a higher accuracy than other state-of-the-art methods. It has been integrated into PubMed to facilitate author name searches.
 
-**Computed Author: author name disambiguation National Institutes of Health (NIH) NLM for PubMed**, _HHS | NIH | NLM_
-> PubMed users frequently use author names in queries for retrieving scientific literature. However, author name ambiguity (different authors share the same name) may lead to irrelevant retrieval results. Thus we have developed a machine-learning method to score the features for disambiguating a pair of papers with ambiguous names. Subsequently, agglomerative clustering is employed to collect all papers belong to the same authors from those classified pairs. Disambiguation performance is evaluated with manual verification of random samples of pairs from clustering results, with a higher accuracy than other state-of-the-art methods. It has been integrated into PubMed to facilitate author name searches.
+**CylanceProtect**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> Protection of Windows and Mac endpoints from Cyberthreats
 
-**Providing MeSH Check Tag of NLM’s Medical Text Indexer (MTI) ons using Support Vector Machines (SVM)**, _HHS | NIH | NLM_
-> Titles and abstracts from MEDLINE Citations are provided through SVM machine learning algorithm provides confidence scores for a set of MeSH CheckTags to the NLM Medical Text Indexer (MTI) program. These CheckTags are small set of MeSH Descriptors designed to indicate Species, Sex, and Age in MEDLINE articles.
+**ClinicalTrials.gov Protocol Registration and Results System Review Assistant**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) NLM_
+> This research project aims to help ClinicalTrials.gov determine whether the addition of AI could make reviewing study records more efficient and effective.
 
-**National Library of Medicine NLM-Gene: towards automatic gene indexing in PubMed articles**, _HHS | NIH | NLM_
-> Gene indexing is part of the NLM’s MEDLINE citation indexing efforts for improving literature retrieval and information access. Currently, gene indexing is performed manually by expert indexers. To assist this time-consuming and resource- intensive process, we have developed NLM-Gene, an automatic tool for finding gene names in the biomedical literature using advanced natural language processing and deep learning methods. Its performance has been assessed on gold- standard evaluation datasets and is to be integrated into the production MEDLINE indexing pipeline.
+**HIV-related grant classifier tool**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/DPCPSI/OAR_
+> A front-end application for scientific staff to input grant information which then runs an automated algorithm to classify HIV-related grants. Additional features and technologies used include an interactive data visualization, such as a heat map, using Plotly Python library to display the confidence level of predicted grants.
 
-**Query View Report (QVR) LIKE**, _HHS | NIH | OER_
-> The LIKE feature in QVR makes use of the NIH Research, Condition and Disease Categorization (RCDC) indexing results to compare scientific terms associated with a project, person or publication and find scientifically similar projects, persons or publications.
+**Person-level disambiguation for PubMed authors and NIH grant applicants**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/DPCPSI/OPA_
+> Correct attribution of grants, articles, and other products to individual researchers is critical for high quality person-level analysis. This improved method for disambiguation of authors on articles in PubMed and NIH grant applicants can inform data-driven decision making
 
-**NIH Grants Virtual Assistant**, _HHS | NIH | OER_
+**Machine learning system to predict translational progress in biomedical research**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/DPCPSI/OPA_
+> A machine learning system that detects whether a research paper is likely to be cited by a future clinical trial or guideline. Translational progress in biomedicine can therefore be assessed and predicted in real time based on information conveyed by the scientific community's early reaction to a paper. For more information see the publication describing this system: Hutchins et al 2019 (https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000416)
+
+**Automated approaches to analyzing scientific topics**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/DPCPSI/OPA_
+> Developed and implemented a validated approach that uses natural language processing and AI/ML to group semantically similar documents (including grants, publications, or patents) and extract AI labels that accurately reflect the scientific focus of each topic to aid in NIH research portfolio analysis.
+
+**Machine learning pipeline for mining citations from full-text scientific articles**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/DPCPSI/OPA_
+> The NIH Office of Portfolio Analysis developed a machine learning pipeline to identify scientific articles that are freely available on the internet and do not require an institutional library subscription to access. The pipeline harvests full-text pdfs, converts them to xml, and uses a Long Short-Term Memory (LSTM) recurrent neural network model that discriminates between reference text and other text in the scientific article. The LSTM-identified references are then passed through our Citation Resolution Service. For more information see the publication describing this pipeline: Hutchins et al 2019 (https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000385#sec003).
+
+**Identification of emerging areas**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/DPCPSI/OPA_
+> Developed an AI/ML-based approach that computes the age and rate of progress of topics in NIH portfolios. This information can identify emerging areas of research at scale and help accelerate scientific progress.
+
+**Prediction of transformative breakthroughs**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/DPCPSI/OPA_
+> The ability to predict scientific breakthroughs at scale would accelerate the pace of discovery and improve the efficiency of research investments. The initiative has helped identify a common signature within co-citation networks that accurately predicts the occurrence of breakthroughs in biomedicine, on average more than 5 years in advance of the subsequent publication(s) that announced the discovery.�There is a patent application filed for this approach: U.S. Patent Application No. 63/257,818 (filed October 20, 2021)
+
+**NIH Grants Virtual Assistant**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/OER_
 > Chat Bot to assist users in finding grant related information via OER resources
 
-**Research, Condition, and Disease Categorization (RCDC)**, _HHS | NIH | OER_
-> RCDC is an electronic budget reporting tool that categorizes projects using AI/NLP. The inputs are grant applications, R&D contracts, intramural projects, inter agency agreements. The RCDC Fingerprinting process identifies concepts in the extracted text from the source project, person or publication. The text is normalized, concepts are extracted, concepts and synonyms are matched to the RCDC thesaurus. A rank is applied based on the frequency of occurrence of the concepts within the text. Project fingerprints are sourced from the application description text (Title, Abstract and Specific Aims). Titles and abstracts provide the source of scientific concepts for publications. The system then outputs the projects into their respective areas of science.
+**Internal Referral Module (IRM)**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/OER_
+> The IRM initiative automates a manual process by using Artificial Intelligence & Natural Language Processing capabilities to help predict grant applications to NIH Institutes and Centers (ICs) Program Officers to make informed decisions.
 
-**Program Class Code (Area of Science) Referral for NIAID**, _HHS | NIH | OER_
-> The REFERRAL GROUP of Referral, Program Analysis Branch (RPAB) is responsible for program assignments for all research, training, career, and fellowship grant applications submitted to NIAID, from CSR. The NIAID Program Class Code classification AI project evaluates the projects that are in RAPB and auto assigns these grant applications to the Program Class Codes. The inputs are comprised of approximately 6,000+ grant applications that are currently manually assigned by RPAB Staff. The output would be grant applications that are categorized into their respective PCC's.
+**Research, Condition, and Disease Categorization (RCDC) AI Validation Tool**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/OER_
+> The goal of the tool is to ensure RCDC categories are accurate and complete for public reporting of data.
 
-**Internal Referral Module (IRM) NLP**, _HHS | NIH | OER_
-> The IRM NLP module automatically refers projects to Program Officers once the grant application is received. The system inputs are grant applications - the title, abstract, specific aims and Public Health Relevance is analyzed to automatically refer the grant application to the Program Officer who matches a similar background with the science contained in the applications. This process, is operating at a high accuracy rate and has effectively eliminated the referral bottleneck.
+**Chiller Plant Optimization**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/ORF_
+> This project will help to reduce the energy usage for producing chilled water to cool the NIH campus.
 
-**Text Analytics Portal**, _HHS | NIH | OIG_
-> The text analytics portal allows personnel without an analytics background to quickly examine text documents through a related set of search, topic modeling and entity recognition technologies
+**Tool for Nature Gas Procurement Planning**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/ORF_
+> With this tool, NIH can establish a natural gas procurement plan and set realistic price targets based on current long-term forecasts.
 
-**Grants Analytics Portal**, _HHS | NIH | OIG_
-> The Grants Analytics Portal uses AI to enhance HHS OIG staff’s ability to access grants related data quickly and easily by: quickly navigating directly to the text of relevant findings across thousands of audits, the ability to discover similar findings, analyze trends, compare data between OPDIVs, and the means to see preliminary assessments of potential anomalies between grantees.
+**NIH Campus Steam Demand Forecaster**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/ORF_
+> This project forecasts the NIH campus steam demand for the next four days. With this information, the stakeholders at the NIH Central Utilities Plant can plan and optimize the plant operation and maintenance in advance.
 
-**Machine learning system to predict translational progress in biomedical research**, _HHS | NIH | OPA_
-> Fundamental scientific advances can take decades to translate into improvements in human health. Shortening this interval would increase the rate at which scientific discoveries lead to successful treatment of human disease. One way to accomplish this would be to identify which advances in knowledge are most likely to translate into clinical research. Toward that end, the NIH Office of Portfolio Analysis built a machine learning system that detects whether a paper is likely to be cited by a future clinical trial or guideline. Despite the noisiness of citation dynamics, as little as 2 years of postpublication data yield accurate predictions about a paper’s eventual citation by a clinical article (accuracy = 84%, F1 score = 0.56; compared to 19% accuracy by chance). We found that distinct knowledge flow trajectories are linked to papers that either succeed or fail to influence clinical research. Translational progress in biomedicine can therefore be assessed and predicted in real time based on information conveyed by the scientific community’s early reaction to a paper. For more information see the publication describing this system: Hutchins et al 2019 (https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000416)
+**Natural Language Processing Tool for Open Text Analysis**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/ORF_
+> This project will improve facility readiness and reduce downtime by allowing other software to analyze data that was locked away in open text.
 
-**Semantic analysis of scientific documents (word2vec OPA )**, _HHS | NIH | OPA_
-> The NIH Office of Portfolio Analysis has developed a neural network approach to analysis of scientific content using dimensionality reduction (word2vec OPA ). This method computationally converts words in scientific texts to numbers and summarizes documents by their semantic content by learning relationships between words from their context. This method is adaptable to specific corpora, including grants and scientific articles. For more information see the publication describing our word2vec approach: Hoppe et al 2019 (https://www.science.org/doi/10.1126/sciadv.aaw7238)
+**NIH Campus Cooling Load Forecaster**, _Department_of_Health_and_Human_Services | NIH | National Institutes of Health (NIH) OD/ORF_
+> This project forecasts the NIH campus's chilled water demand for the next four days. With this information, the NIH Central Utilities Plant management can plan and optimize the chiller plant's operation and maintenance.
 
-**Person-level disambiguation for PubMed authors and NIH grant applicants**, _HHS | NIH | OPA_
-> High-quality disambiguation is required to correctly link researchers to their grants and outputs including articles, patents, and clinical trials. The NIH Office of Portfolio Analysis developed a disambiguation solution that used article level metadata to assign 24.5M unique papers from the PubMed database to 16.0M unique author names, then used a novel neural network model trained on ORCID identifiers to determine whether author-publication pairs refer to variant representations of the same person. For example, our model can determine whether hypothetical records listing Jane Smith and Jane M. Smith were the same person, or two different people, based on variables that include institutional affiliation, co-authorship, and article-affiliated Medical Subject Heading (MeSH) terms. For more information see the publication describing this method: Yu et al 2021 (https://www.biorxiv.org/content/10.1101/2021.02.02.429450v1.full.pdf)
+**Contracts and Grants Analytics Portal**, _Department_of_Health_and_Human_Services | OIG | OIG_
+> The Contracts and Grants Analytics Portal uses AI to enhance HHS OIG staff's ability to access grants related data quickly and easily by: quickly navigating directly to the text of relevant findings across thousands of audits, the ability to discover similar findings, analyze trends, compare data between OPDIVs, and the means to see preliminary assessments of potential anomalies between grantees.
 
-## Commerce
+**Text Analytics Portal**, _Department_of_Health_and_Human_Services | OIG | OIG_
+> The text analytics portal allows personnel without an analytics background to quickly examine text documents through a related set of search, topic modeling and entity recognition technologies; Initial implementation's focus is on HHS-OIG specific use cases.
 
-**Consolidated Screening List**, _Commerce | International Trade 
-Administration (ITA)_
-> The Consolidated Screening List (CSL) is a list of parties for which the United States Government maintains restrictions on certain exports, reexports, or transfers of items. It consists of the consolidation of 13 export screening lists of the Departments of Commerce, State, and Treasury. The CSL search engine has “Fuzzy Name Search” capabilities, allowing a search without knowing the exact spelling of an entity’s name. In Fuzzy Name mode, the CSL returns a “score” for results that exactly or nearly match the searched name. This is particularly helpful when searching on CSL for names that have been translated into English from non-Latin alphabet languages.
+## Department_of_Commerce
 
-**B2B Matchmaking**, _Commerce | International Trade 
-Administration (ITA)_
-> The system's algorithms and AI technology qualifies data and makes B2B matches with event participants according to their specific needs and available opportunities. The systems inputs are data related to event participants and the outputs are suggested B2B matches between participants and a match strength scorecard.
-
-**Market Diversification Toolkit**, _Commerce | International Trade 
-Administration (ITA)_
-> The Market Diversification Tool identifies potential new export markets using current trade patterns. A user enters what products they make and the markets they currently export to. The Market Diversification Tool applies a ML algorithm to identify and compare markets that should be considered. The tool brings together product-specific trade and tariff data and economy-level macroeconomic and governance data to provide a picture of which markets make sense for further market research. Users can limit the markets in the results to only the ones they want to consider and modify how each of the eleven indicators in the tool contributes to a country’s overall score. Users can export all the data to a spreadsheet for further analysis.
-
-**AD/CVD Self Initiation**, _Commerce | International Trade 
-Administration (ITA)_
-> The ADCVD program investigates allegations of dumping and/or countervailing of duties. Investigations are initiated when a harmed US entity files a petition identifying the alleged offence and the specific harm inflicted. Self-Initiation will allow ITA to monitor trade patterns for this activity and preemptively initiate investigations by identifying harmed US entities, often before these entities are aware of the harm.
-
-**Chatbot Pilot**, _Commerce | International Trade 
-Administration (ITA)_
+**Chatbot Pilot**, _Department_of_Commerce | International Trade Administration (ITA)_
 > Chatbot embedded into trade.gov to assist ITA clients with FAQs, locating information and content, suggesting events and services. ITA clients would enter input into the chatbot in the form of questions or responses to prompts. The chatbot would scan ITA content libraries and input from ITA staff and return answers and suggestions based on client persona (exporter, foreign buyer, investor).
 
-**Azure Chatbot**, _Commerce | Minority Business Development 
-Administration (MBDA)_
+**Market Diversification Toolkit**, _Department_of_Commerce | International Trade Administration (ITA)_
+> The Market Diversification Tool identifies potential new export markets using current trade patterns. A user enters what products they make and the markets they currently export to. The Market Diversification Tool applies a ML algorithm to identify and compare markets that should be considered. The tool brings together product-specific trade and tariff data and economy-level macroeconomic and governance data to provide a picture of which markets make sense for further market research. Users can limit the markets in the results to only the ones they want to consider and modify how each of the eleven indicators in the tool contributes to a country’s overall score. Users can export all the data to a spreadsheet for further analysis.
+
+**AD/CVD Self Initiation**, _Department_of_Commerce | International Trade Administration (ITA)_
+> The ADCVD program investigates allegations of dumping and/or countervailing of duties. Investigations are initiated when a harmed US entity files a petition identifying the alleged offence and the specific harm inflicted. Self-Initiation will allow ITA to monitor trade patterns for this activity and preemptively initiate investigations by identifying harmed US entities, often before these entities are aware of the harm.
+
+**B2B Matchmaking**, _Department_of_Commerce | International Trade Administration (ITA)_
+> The system's algorithms and AI technology qualifies data and makes B2B matches with event participants according to their specific needs and available opportunities. The systems inputs are data related to event participants and the outputs are suggested B2B matches between participants and a match strength scorecard.
+
+**Consolidated Screening List**, _Department_of_Commerce | International Trade Administration (ITA)_
+> The Consolidated Screening List (CSL) is a list of parties for which the United States Government maintains restrictions on certain exports, reexports, or transfers of items. It consists of the consolidation of 13 export screening lists of the Departments of Commerce, State, and Treasury. The CSL search engine has “Fuzzy Name Search” capabilities, allowing a search without knowing the exact spelling of an entity’s name. In Fuzzy Name mode, the CSL returns a “score” for results that exactly or nearly match the searched name. This is particularly helpful when searching on CSL for names that have been translated into English from non-Latin alphabet languages.
+
+**Azure Chatbot**, _Department_of_Commerce | Minority Business Development Administration (MBDA)_
 > Azure Chatbot is being leveraged to automate and streamline the user response to potential questions for MBDA users while interacting with the external facing MBDA website. The solution leverages AI based chatbot response coupled with Machine Learning and Natural Language Processing capabilities.
 
-**ProbSR (probability of subfreezing roads**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> A machine-learned algorithm that provides a 0-100% probability roads are subfreezing
-
-**Coastal Change Analysis Program (C-CAP)**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
+**Coastal Change Analysis Program (C-CAP)**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
 > Beginning in 2015, C-CAP embarked on operational high resolution land cover development effort that utilized geographic object-based image analysis and ML algorithms such as Random Forest to classify coastal land cover from 1m multispectral imagery. More recently, C-CAP has been relying on a CNN approach for the deriving the impervious surface component of their land cover products. The majority of the work is accomplished through external contracts. Prior to the high-res effort, C-CAP focused on developing Landsat based moderate resolution multi-date land cover for the coastal U.S. In 2002, C-CAP adopted a methodology that employed Classification and Regression Trees for land cover data development.
 
-**Robotic microscopes and machine learning algorithms remotely and autonomously track lower trophic levels for improved ecosystem monitoring and assessment**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Phytoplankton are the foundation of marine food webs supporting fisheries and coastal communities. They respond rapidly to physical and chemical oceanography, and changes in phytoplankton communities can impact the structure and functioning of food webs. We use a robotic microscope called an Imaging Flow Cytobot (IFCB) to continuously collect images of phytoplankton from seawater. Automated taxonomic identification of imaged phytoplankton uses a supervised machine learning approach (random forest algorithm). We deploy the IFCB on fixed (docks) and roving (aboard survey ships) platforms to autonomously monitor phytoplankton communities in aquaculture areas in Puget Sound and in the California Current System. We map the distribution and abundance of phytoplankton functional groups and their relative food value to support fisheries and aquaculture and describe their changes in relation to ocean and climate variability and change.
-
-**Ice seal detection and species classification in multispectral aerial imagery**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Refine and improve detection and classification pipelines with the goal of reducing false positive rates (to < 50%) while maintaining > 90% accuracy and significantly reducing or eliminating the labor intensive, post survey review process.
-
-**The Development of ProbSevere v3 - An improved nowcasting model in support of severe weather warning operations**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> ProbSevere is a ML model that utilizes NWP, satellite, radar, and lightning data to nowcast severe wind, severe hail, and tornadoes. ProbSevere, which was transitioned to NWS operations in October 2020, is a proven tool that enhances operational severe weather warnings. This project aims to develop the next version of ProbSevere, ProbSevere v3. ProbSevere v3 utilizes additional data sets and improved machine learning techniques to improve upon the operational version of ProbSevere. ProbSevere v3 was successfully demonstrated in the 2021 Hazardous Weather Testbed and a JTTI proposal was recently submitted to facilitate an operational update. The development is funded by GOES-R.
-
-**First Guess Excessive Rainfall Outlook**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Machine Learning Product that is a first guess for the WPC Excessive Rainfall Outlook - It is learned from the ERO with atmospheric variables. It is for the Day 1, 2, 3 products
-
-**Coral Reef Watch**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> For more than 20 years, NOAA Coral Reef Watch (CRW) has been using remote sensing, modeled, and in situ data to operate a Decision Support System (DSS) to help resource managers (our target audience), researchers, decision makers, and other stakeholders around the world prepare for and respond to coral reef ecosystem stressors, predominantly resulting from climate change and warming of the Earth's oceans. Offering the world's only global early-warning system of coral reef ecosystem physical environmental changes, CRW remotely monitors conditions that can cause coral bleaching, disease, and death; delivers information and early warnings in near real-time to our user community; and uses operational climate forecasts to provide outlooks of stressful environmental conditions at targeted reef locations worldwide. CRW products are primarily sea surface temperature (SST)-based but also incorporate light and ocean color, among other variables.
-
-**A Hybrid Statistical-Dynamical System for the Seamless Prediction of Daily Extremes and Subseasonal to Seasonal Climate Variability**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Demonstrate the skill and suitability for operations of a statistical- dynamical prediction system that yields seamless probabilistic forecasts of daily extremes and sub seasonal-to- seasonal temperature and precipitation. We recently demonstrated a Bayesian statistical method for post-processing seasonal forecasts of mean temperature and precipitation from the North American Multi-Model Ensemble (NMME). We now seek to test the utility of an updated hybrid statistical-dynamical prediction system that facilitates seamless sub seasonal and seasonal forecasting. Importantly, this method allows for the representation of daily extremes consistent with climate conditions. This project explores the use of machine learning.
-
-**VIAME: Video and Image Analysis for the Marine Environment Software Toolkit**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> The Video and Image Analysis for the Marine Environment Software Toolkit, commonly known as VIAME, is an open-source, modular software toolkit that allows users to employ high-level, deep-learning algorithms for automated annotation of imagery using a low code/no code graphical user interface. VIAME is available free of charge to all NOAA users. The NOAA Fisheries Office of Science and Technology supports an annual maintenance contract covering technical and customer support by the developer, routine software updates, bug fixes, and development efforts that support broad, cross center application needs.
-
-**SUVI Thematic Maps**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> The GOES-16 Solar Ultraviolet Imager (SUVI) is NOAA's operational solar extreme- ultraviolet imager. The SUVI Level 2 Thematic Map files in these directories are produced by NOAA's National Centers for Environmental Information in Boulder, Colorado. These data have been processed from Level 2 High Dynamic Range (HDR) composite SUVI images. The FITS file headers are populated with metadata to facilitate interpretation by users of these observations. Please note that these files are considered to be experimental and thus will be improved in future releases. Users requiring assistance with these files can contact the NCEI SUVI team by emailing goesr.suvi@noaa.gov. The SUVI Thematic Maps product is a Level 2 data product that (presently) uses a machine learning classifier to generate a pixel-by-pixel map of important solar features digested from all six SUVI spectral channels.
-
-**Using community-sourced underwater photography and image recognition software to study green sea turtle distribution and ecology in southern California**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> The goal of this project is to study green turtles in and around La Jolla Cove in the San Diego Region-a highly populated site with ecotourism-by engaging with local photographers to collect green turtle underwater images. The project uses publicly available facial recognition software (HotSpotter) to identify individual turtles, from which we determine population size, residency patterns, and foraging ecology
-
-**Replacing unstructured WW3 in the Great Lakes with a Recurrent neural network and a boosted ensemble decision tree**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Investigated replacing unstructured WW3 in the Great Lakes with (i) a Recurrent Neural Network (RNN, especially an LSTM) developed by EMC and (ii) a boosted ensemble decision tree (XGBoost) developed by GLERL. These two AI models were trained on two decades of wave observations in Lake Erie and compared to the operational Great Lakes unstructured WW3.
-
-**Fisheries Electronic Monitoring Image Library**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> The Fisheries Electronic Monitoring Library (FEML) will be the central repository for electronic monitoring (EM) data related to marine life.
-
-**The VOLcanic Cloud Analysis Toolkit (VOLCAT): An application system for detecting, tracking, characterizing, and forecasting hazardous volcanic events**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Volcanic ash is a major aviation hazard. The VOLcanic Cloud Analysis Toolkit (VOLCAT) consists of several AI powered satellite applications including: eruption detection, alerting, and volcanic cloud tracking. These applications are routinely utilized by Volcanic Ash Advisory Centers to issue volcanic ash advisories. Under this project, the VOLCAT products will be further developed, and subsequently transitioned to the NESDIS Common Cloud Framework, to help ensure adherence to new International Civil Aviation Organization requirements.
-
-**Deep learning algorithms to automate right whale photo id**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> AI for right whale photo id began with a Kaggle competition and has since expanded to include several algorithms to match right whales from different viewpoints (aerial, lateral) and body part (head, fluke, peduncle). The system is now live and operational on the Flukebook platform for both North Atlantic and southern right whales. We have a paper in review at Mammalian Biology.
-
-**CoralNet: Ongoing operational use, improvement, and development, of machine vision point classification**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
+**CoralNet: Ongoing operational use, improvement, and development, of machine vision point classification**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
 > CoralNet is our operational point annotation software for benthic photo quadrat annotation. Our development of our classifiers has allowed us to significantly reduce our human annotation, and we continue to co-develop (and co-fund) new developments in CoralNet,
 
-**AI-based automation of acoustic detection of marine mammals**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Timely processing of these data is critical for adapting mitigation measures as climate change continues to impact Arctic marine mammals. Infrastructure for Noise and Soundscape Tolerant Investigation of Nonspecific Call Types (INSTINCT) is command line software which was developed in-house for model training, evaluation, and deployment of machine learning models for the purpose of marine mammal detection in passive acoustic data. It also includes annotation workflows for labeling and validation. INSTINCT has been successfully deployed in several analyses, and further development of detectors within INSTINCT is desired for future novel studies and automation. Continued integration of AI methods into existing processes of the CAEP acoustics group requires a skilled operator familiar with INSTINCT, machine learning, and acoustic repertoire of Alaska region marine mammals.
+**Fisheries Electronic Monitoring Image Library**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> The Fisheries Electronic Monitoring Library (FEML) will be the central repository for electronic monitoring (EM) data related to marine life.
 
-**An Interactive Machine Learning Signals in Passive Acoustic Recordings Toolkit for Classifying Species Identity of Cetacean Echolocation**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Develop robust automated machine learning detection and classification tools for acoustic species identification of toothed whale and dolphin echolocation clicks for up to 20 species found in the Gulf of Mexico. Tool development project funded from June 2018 to May 2021. Tool will be used for automated analyses of long-term recordings from Gulf- wide passive acoustic moored instruments deployed from 2010-2025 to look at environmental processes driving trends in marine mammal density and distribution.
-
-**Steller sea lion automated count program**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> NOAA Fisheries Alaska Fisheries Science Center's Marine Mammal Laboratory (MML) is mandated to monitor the endangered western Steller sea lion population in Alaska. MML conducts annual aerial surveys of known Steller sea lion sites across the southern Alaska coastline to capture visual imagery. It requires two full-time, independent counters to process overlapping imagery manually (to avoid double counting sea lions in multiple frames), and count and classify individuals by age and sex class. These counts are vital for population and ecosystem-based modeling to better understand the species and ecosystem, to inform sustainable fishery management decisions, and are eagerly anticipated by stakeholders like the NOAA Alaska Regional Office, industry, and environmental groups. MML worked with Kitware to develop detection and image registration pipelines with VIAME (updates to the DIVE program to support updated interface needs). MML is now working to assess the algorithms efficacy and develop a workflow to augment the traditional counting method (to RL 9).
-
-**Developing automation to determine species and count using optical survey data in the Gulf of Mexico**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> VIAME - This project focuses on optical survey collected in the Gulf of Mexico: 1) develop an image library of landed catch, 2) develop of automated image processing (ML/DL) to identify and enumerate species from underwater imagery and 3) develop automated algorithms to process imagery in near real time and download information to central database.
-
-**NN Radiation**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Developing fast and accurate NN LW- and SW radiations for GFS and GEFS. NN LW- and SW radiations have been successfully developed for previous version of GFS, see: doi: 10.1175/2009MWR3149.1 and the stability and robustness of the approach used was demonstrated, see: https://arxiv.org/ftp/arxiv/papers/2103/2103.07024.pdf NN LW- and SW radiations will be developed for the current versions of for GFS and GEFS.
-
-**Drought outlooks by using ML techniques**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Drought outlooks by using ML techniques with NCEP models. Simple NN and Deep Learning techniques used for GEFSv12 to predict Week 1-5 Prcp & T2m over CONUS
-
-**EcoCast: A dynamic ocean management tool to reduce bycatch and support sustainable fisheries**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Operational tool that uses boosted regression trees to model the distribution of swordfish and bycatch species in the California Current
-
-**Automated detection of hazardous low clouds in support of safe and efficient transportation**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
+**Automated detection of hazardous low clouds in support of safe and efficient transportation**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
 > This is a maintenance and sustainment project for the operational GOES-R fog/low stratus (FLS) products. The FLS products are derived from the combination of GOES-R satellite imagery and NWP data using machine learning. The FLS products, which are available in AWIPS, are routinely used by the NWS Aviation Weather Center and Weather Forecast Offices.
 
-**Picky**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
+**Picky**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
 > Using CNN to pick out objects of a particular size from sides scan imagery. Presents users with a probability that allows for automation of contact picking in the field. Side scan imagery is simple one channel intensity image which lends itself well to basic CNN techniques.
 
-**Steller sea lion brand sighting**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Detection and identification of branded steller sea lions from remote camera images in the western Aleutian Islands, AK. The goal is to help streamline photo processing to reduce the effort required to review images.
+**Coral Reef Watch**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> For more than 20 years, NOAA Coral Reef Watch (CRW) has been using remote sensing, modeled, and in situ data to operate a Decision Support System (DSS) to help resource managers (our target audience), researchers, decision makers, and other stakeholders around the world prepare for and respond to coral reef ecosystem stressors, predominantly resulting from climate change and warming of the Earth's oceans. Offering the world's only global early-warning system of coral reef ecosystem physical environmental changes, CRW remotely monitors conditions that can cause coral bleaching, disease, and death; delivers information and early warnings in near real-time to our user community; and uses operational climate forecasts to provide outlooks of stressful environmental conditions at targeted reef locations worldwide. CRW products are primarily sea surface temperature (SST)-based but also incorporate light and ocean color, among other variables.
 
-**Passive acoustic analysis using ML in Cook Inlet, AK**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Passive acoustic data is analyzed for detection of beluga whales and classification of the different signals emitted by these species. Detection and classification are done with an ensemble of 4 CNN models and weighted scoring developed in collaboration with Microsoft. Results are being used to inform seasonal distribution, habitat use, and impact from anthropogenic disturbance within Cook Inlet beluga critical habitat. The project is aimed to expand to other cetacean species as well as anthropogenic noise.
+**The Development of ProbSevere v3 - An improved nowcasting model in support of severe weather warning operations**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> ProbSevere is a ML model that utilizes NWP, satellite, radar, and lightning data to nowcast severe wind, severe hail, and tornadoes. ProbSevere, which was transitioned to NWS operations in October 2020, is a proven tool that enhances operational severe weather warnings. This project aims to develop the next version of ProbSevere, ProbSevere v3. ProbSevere v3 utilizes additional data sets and improved machine learning techniques to improve upon the operational version of ProbSevere. ProbSevere v3 was successfully demonstrated in the 2021 Hazardous Weather Testbed and a JTTI proposal was recently submitted to facilitate an operational update. The development is funded by GOES-R.
 
-**Using k-means clustering to identify spatially and temporally consistent wave systems**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Postprocessing that uses k-means clustering to identify spatially and temporally consistent wave systems from the output of NWPS v1.3. Has been successfully evaluated in the field by NWS marine forecasters nationwide and has been implemented into operations on February 3, 2021.
-
-**FathomNet**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> FathomNet provides much-needed training data (e.g., annotated, and localized imagery) for developing machine learning algorithms that will enable fast, sophisticated analysis of visual data. We've utilized interns and college class curriculums to localize annotations on NOAA video data for inclusion in FathomNet and to begin training our own algorithms.
-
-**First Guess Excessive Rainfall Outlook**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Machine Learning Product that is a first guess for the WPC Excessive Rainfall Outlook - It is learned from the ERO with atmospheric variables. It is for the Day 4-7 products
-
-**Fast tracking the use of VIAME for automated identification of reef fish**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> We've been compiling image libraries for use in creating automated detection and classification models for use in automating the annotation process for the SEAMAP Reef Fish Video survey of the Gulf of Mexico. This work is being conducted in VIAME but we're looking at several other paths forward in the project to identify best performing models. Current status is that models are performing well enough that we will incorporate automated analysis in video reads this spring as part of a supervised annotation-qa/qc process.
-
-**BANTER, a machine learning acoustic event classifier**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> A supervised machine learning acoustic event classifier using hierarchical random forests
-
-**ANN to improve CFS T and P outlooks**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> Fan Y., Krasnopolsky, V., van den Dool H., Wu, C. , and Gottschalck J. (2021). Using Artificial Neural Networks to Improve CFS Week 3-4 Precipitation and Temperature Forecasts.
-
-**Edge AI survey payload development**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
+**Edge AI survey payload development**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
 > Continued support of multispectral aerial imaging payload running detection model pipelines in real-time. This is a nine camera (color, infrared, ultraviolet) payload controlled by dedicated on-board computers with GPUs. YOLO detection models run at a rate faster than image collection, allowing real-time processing of imagery as it comes off the cameras. Goals of effort are to reduce overall data burden (by TBs) and reduce the data processing timeline, expediting analysis and population assessment for arctic mammals.
 
-**ENSO Outlooks using observed/analyzed fields**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
-> LSTM model that uses ocean and atmospheric predictors throughout the tropical Pacific to forecast ONI values up to 1 year in advance. An extension of this was submitted to the cloud portfolio with the intent of adding a CNN layer that that uses reforecast data to improve the ONI forecasts.
+**SUVI Thematic Maps**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> The GOES-16 Solar Ultraviolet Imager (SUVI) is NOAA's operational solar extreme- ultraviolet imager. The SUVI Level 2 Thematic Map files in these directories are produced by NOAA's National Centers for Environmental Information in Boulder, Colorado. These data have been processed from Level 2 High Dynamic Range (HDR) composite SUVI images. The FITS file headers are populated with metadata to facilitate interpretation by users of these observations. Please note that these files are considered to be experimental and thus will be improved in future releases. Users requiring assistance with these files can contact the NCEI SUVI team by emailing goesr.suvi@noaa.gov. The SUVI Thematic Maps product is a Level 2 data product that (presently) uses a machine learning classifier to generate a pixel-by-pixel map of important solar features digested from all six SUVI spectral channels.
 
-**NN training software for the new generation of NCEP models**, _Commerce | National Oceanic and 
-Atmospheric Administration 
-(NOAA)_
+**Steller sea lion brand sighting**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Detection and identification of branded steller sea lions from remote camera images in the western Aleutian Islands, AK. The goal is to help streamline photo processing to reduce the effort required to review images.
+
+**Drought outlooks by using ML techniques**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Drought outlooks by using ML techniques with NCEP models. Simple NN and Deep Learning techniques used for GEFSv12 to predict Week 1-5 Prcp & T2m over CONUS
+
+**Passive acoustic analysis using ML in Cook Inlet, AK**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Passive acoustic data is analyzed for detection of beluga whales and classification of the different signals emitted by these species. Detection and classification are done with an ensemble of 4 CNN models and weighted scoring developed in collaboration with Microsoft. Results are being used to inform seasonal distribution, habitat use, and impact from anthropogenic disturbance within Cook Inlet beluga critical habitat. The project is aimed to expand to other cetacean species as well as anthropogenic noise.
+
+**Robotic microscopes and machine learning algorithms remotely and autonomously track lower trophic levels for improved ecosystem monitoring and assessment**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Phytoplankton are the foundation of marine food webs supporting fisheries and coastal communities. They respond rapidly to physical and chemical oceanography, and changes in phytoplankton communities can impact the structure and functioning of food webs. We use a robotic microscope called an Imaging Flow Cytobot (IFCB) to continuously collect images of phytoplankton from seawater. Automated taxonomic identification of imaged phytoplankton uses a supervised machine learning approach (random forest algorithm). We deploy the IFCB on fixed (docks) and roving (aboard survey ships) platforms to autonomously monitor phytoplankton communities in aquaculture areas in Puget Sound and in the California Current System. We map the distribution and abundance of phytoplankton functional groups and their relative food value to support fisheries and aquaculture and describe their changes in relation to ocean and climate variability and change.
+
+**NN Radiation**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Developing fast and accurate NN LW- and SW radiations for GFS and GEFS. NN LW- and SW radiations have been successfully developed for previous version of GFS, see: doi: 10.1175/2009MWR3149.1 and the stability and robustness of the approach used was demonstrated, see: https://arxiv.org/ftp/arxiv/papers/2103/2103.07024.pdf NN LW- and SW radiations will be developed for the current versions of for GFS and GEFS.
+
+**NN training software for the new generation of NCEP models**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
 > Optimize NCEP EMC Training and Validation System for efficient handling of high spatial resolution model data produced by the new generation of NCEP's operational models
 
-**WAWENETS**, _Commerce | National Telecommunications and 
-Information Administration (NTIA)_
-> The algorithm produces estimates of telecommunications speech quality and speech intelligibility. The input is a recording of speech from a telecommunications system in digital file format. The output is a single number that indicates speech quality (typically on a 1 to 5 scale) or speech intelligibility (typically on a 0 to 1 scale).
+**BANTER, a machine learning acoustic event classifier**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> A supervised machine learning acoustic event classifier using hierarchical random forests
 
-**Data Science: Clutter**, _Commerce | National Telecommunications and 
-Information Administration (NTIA)_
+**Ice seal detection and species classification in multispectral aerial imagery**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Refine and improve detection and classification pipelines with the goal of reducing false positive rates (to < 50%) while maintaining > 90% accuracy and significantly reducing or eliminating the labor intensive, post survey review process.
+
+**AI-based automation of acoustic detection of marine mammals**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Timely processing of these data is critical for adapting mitigation measures as climate change continues to impact Arctic marine mammals. Infrastructure for Noise and Soundscape Tolerant Investigation of Nonspecific Call Types (INSTINCT) is command line software which was developed in-house for model training, evaluation, and deployment of machine learning models for the purpose of marine mammal detection in passive acoustic data. It also includes annotation workflows for labeling and validation. INSTINCT has been successfully deployed in several analyses, and further development of detectors within INSTINCT is desired for future novel studies and automation. Continued integration of AI methods into existing processes of the CAEP acoustics group requires a skilled operator familiar with INSTINCT, machine learning, and acoustic repertoire of Alaska region marine mammals.
+
+**Developing automation to determine species and count using optical survey data in the Gulf of Mexico**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> VIAME - This project focuses on optical survey collected in the Gulf of Mexico: 1) develop an image library of landed catch, 2) develop of automated image processing (ML/DL) to identify and enumerate species from underwater imagery and 3) develop automated algorithms to process imagery in near real time and download information to central database.
+
+**First Guess Excessive Rainfall Outlook**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Machine Learning Product that is a first guess for the WPC Excessive Rainfall Outlook - It is learned from the ERO with atmospheric variables. It is for the Day 4-7 products
+
+**VIAME: Video and Image Analysis for the Marine Environment Software Toolkit**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> The Video and Image Analysis for the Marine Environment Software Toolkit, commonly known as VIAME, is an open-source, modular software toolkit that allows users to employ high-level, deep-learning algorithms for automated annotation of imagery using a low code/no code graphical user interface. VIAME is available free of charge to all NOAA users. The NOAA Fisheries Office of Science and Technology supports an annual maintenance contract covering technical and customer support by the developer, routine software updates, bug fixes, and development efforts that support broad, cross center application needs.
+
+**Steller sea lion automated count program**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> NOAA Fisheries Alaska Fisheries Science Center's Marine Mammal Laboratory (MML) is mandated to monitor the endangered western Steller sea lion population in Alaska. MML conducts annual aerial surveys of known Steller sea lion sites across the southern Alaska coastline to capture visual imagery. It requires two full-time, independent counters to process overlapping imagery manually (to avoid double counting sea lions in multiple frames), and count and classify individuals by age and sex class. These counts are vital for population and ecosystem-based modeling to better understand the species and ecosystem, to inform sustainable fishery management decisions, and are eagerly anticipated by stakeholders like the NOAA Alaska Regional Office, industry, and environmental groups. MML worked with Kitware to develop detection and image registration pipelines with VIAME (updates to the DIVE program to support updated interface needs). MML is now working to assess the algorithms efficacy and develop a workflow to augment the traditional counting method (to RL 9).
+
+**EcoCast: A dynamic ocean management tool to reduce bycatch and support sustainable fisheries**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Operational tool that uses boosted regression trees to model the distribution of swordfish and bycatch species in the California Current
+
+**ENSO Outlooks using observed/analyzed fields**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> LSTM model that uses ocean and atmospheric predictors throughout the tropical Pacific to forecast ONI values up to 1 year in advance. An extension of this was submitted to the cloud portfolio with the intent of adding a CNN layer that that uses reforecast data to improve the ONI forecasts.
+
+**Using community-sourced underwater photography and image recognition software to study green sea turtle distribution and ecology in southern California**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> The goal of this project is to study green turtles in and around La Jolla Cove in the San Diego Region-a highly populated site with ecotourism-by engaging with local photographers to collect green turtle underwater images. The project uses publicly available facial recognition software (HotSpotter) to identify individual turtles, from which we determine population size, residency patterns, and foraging ecology
+
+**FathomNet**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> FathomNet provides much-needed training data (e.g., annotated, and localized imagery) for developing machine learning algorithms that will enable fast, sophisticated analysis of visual data. We've utilized interns and college class curriculums to localize annotations on NOAA video data for inclusion in FathomNet and to begin training our own algorithms.
+
+**ANN to improve CFS T and P outlooks**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Fan Y., Krasnopolsky, V., van den Dool H., Wu, C. , and Gottschalck J. (2021). Using Artificial Neural Networks to Improve CFS Week 3-4 Precipitation and Temperature Forecasts.
+
+**First Guess Excessive Rainfall Outlook**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Machine Learning Product that is a first guess for the WPC Excessive Rainfall Outlook - It is learned from the ERO with atmospheric variables. It is for the Day 1, 2, 3 products
+
+**The VOLcanic Cloud Analysis Toolkit (VOLCAT): An application system for detecting, tracking, characterizing, and forecasting hazardous volcanic events**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Volcanic ash is a major aviation hazard. The VOLcanic Cloud Analysis Toolkit (VOLCAT) consists of several AI powered satellite applications including: eruption detection, alerting, and volcanic cloud tracking. These applications are routinely utilized by Volcanic Ash Advisory Centers to issue volcanic ash advisories. Under this project, the VOLCAT products will be further developed, and subsequently transitioned to the NESDIS Common Cloud Framework, to help ensure adherence to new International Civil Aviation Organization requirements.
+
+**Replacing unstructured WW3 in the Great Lakes with a Recurrent neural network and a boosted ensemble decision tree**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Investigated replacing unstructured WW3 in the Great Lakes with (i) a Recurrent Neural Network (RNN, especially an LSTM) developed by EMC and (ii) a boosted ensemble decision tree (XGBoost) developed by GLERL. These two AI models were trained on two decades of wave observations in Lake Erie and compared to the operational Great Lakes unstructured WW3.
+
+**An Interactive Machine Learning Signals in Passive Acoustic Recordings Toolkit for Classifying Species Identity of Cetacean Echolocation**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Develop robust automated machine learning detection and classification tools for acoustic species identification of toothed whale and dolphin echolocation clicks for up to 20 species found in the Gulf of Mexico. Tool development project funded from June 2018 to May 2021. Tool will be used for automated analyses of long-term recordings from Gulf- wide passive acoustic moored instruments deployed from 2010-2025 to look at environmental processes driving trends in marine mammal density and distribution.
+
+**Using k-means clustering to identify spatially and temporally consistent wave systems**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Postprocessing that uses k-means clustering to identify spatially and temporally consistent wave systems from the output of NWPS v1.3. Has been successfully evaluated in the field by NWS marine forecasters nationwide and has been implemented into operations on February 3, 2021.
+
+**Fast tracking the use of VIAME for automated identification of reef fish**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> We've been compiling image libraries for use in creating automated detection and classification models for use in automating the annotation process for the SEAMAP Reef Fish Video survey of the Gulf of Mexico. This work is being conducted in VIAME but we're looking at several other paths forward in the project to identify best performing models. Current status is that models are performing well enough that we will incorporate automated analysis in video reads this spring as part of a supervised annotation-qa/qc process.
+
+**A Hybrid Statistical-Dynamical System for the Seamless Prediction of Daily Extremes and Subseasonal to Seasonal Climate Variability**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> Demonstrate the skill and suitability for operations of a statistical- dynamical prediction system that yields seamless probabilistic forecasts of daily extremes and sub seasonal-to- seasonal temperature and precipitation. We recently demonstrated a Bayesian statistical method for post-processing seasonal forecasts of mean temperature and precipitation from the North American Multi-Model Ensemble (NMME). We now seek to test the utility of an updated hybrid statistical-dynamical prediction system that facilitates seamless sub seasonal and seasonal forecasting. Importantly, this method allows for the representation of daily extremes consistent with climate conditions. This project explores the use of machine learning.
+
+**ProbSR (probability of subfreezing roads**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> A machine-learned algorithm that provides a 0-100% probability roads are subfreezing
+
+**Deep learning algorithms to automate right whale photo id**, _Department_of_Commerce | National Oceanic and Atmospheric Administration (NOAA)_
+> AI for right whale photo id began with a Kaggle competition and has since expanded to include several algorithms to match right whales from different viewpoints (aerial, lateral) and body part (head, fluke, peduncle). The system is now live and operational on the Flukebook platform for both North Atlantic and southern right whales. We have a paper in review at Mammalian Biology.
+
+**Data Science: Clutter**, _Department_of_Commerce | National Telecommunications and Information Administration (NTIA)_
 > NTIA’s Institute for Telecommunication Sciences (ITS) is investigating the use of AI to automatically identify and classify clutter obstructed radio frequency propagation paths. Clutter is vegetation, buildings, and other structures that cause radio signal loss through dispersion, reflection, and diffraction. It does not include terrain effects. The classifier is a convolutional neural network (CNN) trained using lidar data coinciding with radio frequency propagation measurements made by ITS. This trained CNN can be fed new radio path lidar data and a clutter classification label is predicted.
 
-**Enriched Citation**, _Commerce | United States Patent and Trade 
-Office (USPTO)_
+**WAWENETS**, _Department_of_Commerce | National Telecommunications and Information Administration (NTIA)_
+> The algorithm produces estimates of telecommunications speech quality and speech intelligibility. The input is a recording of speech from a telecommunications system in digital file format. The output is a single number that indicates speech quality (typically on a 1 to 5 scale) or speech intelligibility (typically on a 0 to 1 scale).
+
+**Enriched Citation**, _Department_of_Commerce | United States Patent and Trade Office (USPTO)_
 > Data dissemination system that identifies which references, or prior art, were cited in specific patent application office actions, including: bibliographic information of the reference, the claims that the prior art was cited against, and the relevant sections that the examiner relied upon. System extracts information from unstructured office actions and provides the information through a structured public facing API.
 
-**Inventor Search Assistant (iSAT)**, _Commerce | United States Patent and Trade 
-Office (USPTO)_
-> Service to help inventors "get started" identifying relevant documents, figures, and classification codes used to conduct a novelty search. System takes a user entered short description of invention and provides a user selectable set of recommended documents, figures, and classification areas.
-
-**AI retrieval for TM design coding and Image search**, _Commerce | United States Patent and Trade 
-Office (USPTO)_
-> Clarivate COTS solution to assist examiner identification of similar trademark images, to suggest the correct assignment of mark image design codes, and to determine the potential acceptability of the identifications of goods and services. System is anticipated to use both incoming trademark images and registered trademark images and output design codes and/or other related images.
-
-**AI retrieval for patent search**, _Commerce | United States Patent and Trade 
-Office (USPTO)_
-> Augmentation for next generation patent search tool to assist examiners identify relevant documents and additional areas to search. System takes input from published or unpublished applications and provides recommendations on further prior art areas to search, giving the user the ability to sort by similarity to concepts of their choosing.
-
-**AI use for CPC classification**, _Commerce | United States Patent and Trade 
-Office (USPTO)_
+**AI use for CPC classification**, _Department_of_Commerce | United States Patent and Trade Office (USPTO)_
 > System that classifies incoming patent application based on the cooperative patent classification scheme for operational assignment of work and symbol recommendation for aI search. Backoffice processing system that uses incoming patent applications as input and outputs the resulting classification symbols.
 
-## Energy
+**AI retrieval for TM design coding and Image search**, _Department_of_Commerce | United States Patent and Trade Office (USPTO)_
+> Clarivate COTS solution to assist examiner identification of similar trademark images, to suggest the correct assignment of mark image design codes, and to determine the potential acceptability of the identifications of goods and services. System is anticipated to use both incoming trademark images and registered trademark images and output design codes and/or other related images.
 
-**Objective-Driven Data Reduction for Scientific Workflows**, _Energy | Brookhaven National Laboratory_
-> This project aims to develop theories and algorithms for objective-driven reduction of scientific data in workflows that are composed of various models, including data- driven AI models
+**AI retrieval for patent search**, _Department_of_Commerce | United States Patent and Trade Office (USPTO)_
+> Augmentation for next generation patent search tool to assist examiners identify relevant documents and additional areas to search. System takes input from published or unpublished applications and provides recommendations on further prior art areas to search, giving the user the ability to sort by similarity to concepts of their choosing.
 
-**Protocol Analytics to enable Forensics of Industrial Control Systems**, _Energy | Idaho National Laboratory_
-> The goal of this research is to discover methods and technologies to bridge gaps between the various industrial control systems (ICS) communication protocols and standard Ethernet to enable existing cybersecurity tools defend ICS networks and empower cybersecurity analysts to detect compromise before threat actors can disrupt infrastructure, damage property, and inflict harm. Research focuses on electronic signal analysis of captured communication to determine the protocol, using use machine learning to identify unknown protocols. Findings will be incorporated into a prototype device.
+**Inventor Search Assistant (iSAT)**, _Department_of_Commerce | United States Patent and Trade Office (USPTO)_
+> Service to help inventors "get started" identifying relevant documents, figures, and classification codes used to conduct a novelty search. System takes a user entered short description of invention and provides a user selectable set of recommended documents, figures, and classification areas.
 
-**Data-driven failure diagnosis and prognosis of solid-state ceramic membrane reactor under harsh conditions using deep learning technology with internal voltage sensors**, _Energy | Idaho National Laboratory_
-> This research will investigate in situ the effects of different components on the degradation behavior in a solid-state ceramic membrane reactor by embedding sensors that will collect current and impedance data during operation. Artificial intelligence will be used to understand the large amounts of data and predict reactor failure under harsh operating conditions.
+## Department_of_Homeland_Security
 
-**Evaluating thermal properties of advanced materials**, _Energy | Idaho National Laboratory_
-> The standard thermal diffusivity measurement technique laser flash is enhanced by modifying the traditional experimental set up and analyzing results with a machine learning based tool that includes a finite element model, a least-squares fitting algorithm and experimental data treatment algorithms. This tool helps elucidate thermo- physical properties of a material from a single laser flash measurement.
-
-**Artificial Intelligence Enhanced Advanced Post Irradiation Examination**, _Energy | Idaho National Laboratory_
-> This project uses post irradiation examination of uranium-10wt.% zirconium (UZr) metallic fuel as a case study to show how artificial intelligence (AI)-based technology can facilitate and accelerate nuclear fuel development. The approach will 1) revisit the microstructural image and local thermal conductivity data collected from UZr, 2) build a benchmark dataset for the microstructural patterns of irradiated UZr, and 3) train the machine learning and deep learning models to uncover the relationships between micro/nanoscale structure, zirconium phase redistribution, local thermal conductivity, and engineering scale fuel properties.
-
-**Machine Learning Interatomic Potentials for Radiation Damage and Physical Properties in Model Fluorite Systems**, _Energy | Idaho National Laboratory_
-> This project will use machine learning interatomic potentials to study the influence of radiation damage on physical properties of calcium fluoride and uranium dioxide. Electron irradiation experiments and thermal conductivity measurements will be performed to validate the effectiveness of the developed potentials. The high throughput capability of this method will become an important combinatorial materials science tool for developing and qualifying new nuclear fuels.
-
-**Automated Type and Data Structure Resolution**, _Energy | Idaho National Laboratory_
-> This research identified and labeled type and structure data in an automated and scalable way such that the information can be used in other tools and other Reverse Engineering at Scale research areas such as symbolic execution. This was done initially by utilizing heuristic methods and then scaled by adopting a machine learning approach.
-
-**Advanced Machine Learning-based Fifth Generation Network Attack Detection System**, _Energy | Idaho National Laboratory_
-> The project goal is to prove that enhancing attack detection via innovative machine learning and artificial intelligence techniques into the fifth generation (5G) cellular network can help to secure mission-critical applications, such as automated vehicles and drones, connected health, emergency response operations, and other mission- critical devices that either are or will be connected to the 5G cellular network.
-
-**Artificial Intelligence Based Process Control and Optimization for Advanced Manufacturing**, _Energy | Idaho National Laboratory_
-> This project will develop the capability to intelligently control and optimize advanced manufacturing processes instead of the existing trial and error approach. To achieve this goal, artificial intelligence (AI) based control algorithms will be developed by employing deep reinforcement learning. To reduce the computational expense with advanced manufacturing models, physics-informed reduced order models (ROMs) will be developed. The AI-based control algorithms will employ the ROMs’ predictions to adaptively inform processing decisions in a simulation environment.
-
-**Accelerating deployment of nuclear fuels through reduced-order thermo- physical property models and machine learning**, _Energy | Idaho National Laboratory_
-> This project will develop a novel physics-based tool that combines 1) reduced-order models, 2) machine learning algorithms, 3) fuel performance methods, and 4) state-of- the-art thermal property characterization equipment and irradiated nuclear fuel data sets to accelerate nuclear fuel discovery, development, and deployment. The models will describe thermal conductivity, specific heat, thermal expansion, and self-diffusion coefficients as a function of temperature and irradiation.
-
-**Passive Strain Measurements for Experiments in Radiation Environments**, _Energy | Idaho National Laboratory_
-> This project will develop passive instrumentation to determine permanent strains induced by irradiation and extract critical parameters using modeling and simulation as well as machine learning algorithms. An irradiation experiment will be conducted that will benefit from engineered anisotropic materials and characterize the directional deformation in response to neutron radiation. The results of the experiment will be incorporated into the model so that the material response can be predicted for future uses as a probe material.
-
-**Accelerating and Improving the Reliability of Low Failure Probability Computations to Support the Efficient Safety Evaluation and Deployment of Advanced Reactor Technologies**, _Energy | Idaho National Laboratory_
-> This project will research artificial intelligence enabled Monte Carlo algorithms to significantly reduce the computational burden by reducing the number of finite element evaluations when estimating low failure probabilities. These will be implemented in the Multiphysics Object-Oriented Simulation Environment, which will help the nuclear engineering community to efficiently conduct probabilistic failure analyses and uncertainty quantification studies for the design and optimization of advanced reactor technologies.
-
-**Nuclear-Renewable-Storage Digital Twin: Enhancing Design, Dispatch, and Cyber Response of Integrated Energy Systems**, _Energy | Idaho National Laboratory_
-> This project will develop a learning-based and digital twin enabled modeling and simulation framework for economic and resilient real-time decision-making of physics- informed integrated energy systems (IES) operation. High-fidelity physics models will be linked with large-scale grid monitoring data to provide real-time updates of IES states, predictive control systems, and optimized power dispatch solutions. Learning- based algorithms will make real-time decisions upon detection of component contingencies caused by climate-induced or man-made extreme events, such as cyber-attacks or extreme weather, thereby mitigating their impacts through appropriate counter measures.
-
-**Advances in Nuclear Fuel Cycle Nonproliferation, Safeguards, and Security Using an Integrated Data Science Approach**, _Energy | Idaho National Laboratory_
-> This research will develop a digital twin of a centrifugal contactor system that receives data from traditional and real time sensors, constructs a digital representation or simulation of the chemical separations component within the nuclear fuel cycle, and performs data analysis through machine learning to determine anomalies, failures, and trends. The research will include the identification and implementation of advanced artificial intelligence, machine learning, and data analysis techniques advised by a team of nuclear safeguards experts.
-
-**Secure Millimeter Wave Spectrum Sharing with Autonomous Beam Scheduling**, _Energy | Idaho National Laboratory_
-> This approach exploits the millimeter wave beam directionality and utilizes the beam sensing capabilities at end devices to prove that an autonomous radio frequency beam scheduler can support secure 5G spectrum sharing and guarantee optimality for base stations. Measurements and predictive analytics are used to develop the autonomous beam scheduling algorithms. These improvements will benefit mission critical communications and emergency response operations as well as enable secure communication for critical infrastructure without expensive and competitive licensed bands.
-
-**Deep Reinforcement Learning and Decision Analytics for Integrated Energy Systems**, _Energy | Idaho National Laboratory_
-> This project will develop a novel deep reinforcement learning approach that can manage distributed or tightly coupled multi-agent systems utilizing deep neural networks for automatic system representation, modeling, and end-to-end learning. This new control method will enable complex, nonlinear system optimization over timescales from milliseconds to months.
-
-**Tailoring the Properties of Multiphase Materials Through the Use of Correlative Microscopy and Machine Learning**, _Energy | Idaho National Laboratory_
-> This research uses state-of-the-art machine learning (ML) techniques in a new and novel manner to identify and correlate the critical microstructural features in a multiphase alloy that exhibits high strength and fracture toughness. Experimental data will be used to train a convolutional neural network (CNN) in a semi-supervised environment to identify key microstructural features and correlate those features with the strength and toughness. The resulting machine learning tool can be trained for additional microstructural features, different alloys, and/or target mechanical properties.
-
-**Infrastructure eXpression**, _Energy | Idaho National Laboratory_
-> The project developed a framework and process to translate industrial control system features to a machine-readable format for use with automated cyber tools. This research also examined other current and evolving standards for usability with diverse grid architectures that represent a set of variable conditions to establish the foundation for determining where future research should focus and to support improvements to industry standards and architecture designs for machine-learning cyber defense solutions. This project’s success can serve as the foundation for prioritizing the next research steps to realize automated threat response, improving the timeliness and fidelity of cyber incident consequence models, and enriching national capabilities to share actionable threat intelligence at machine speed.
-
-**Automated Infrastructure & Dependency Detection via Satellite Imagery and Dependency Profiles**, _Energy | Idaho National Laboratory_
-> Computer vision, a broad set of techniques for training statistical models and neural networks to process images, has advanced substantially in recent years. Applying these capabilities to satellite imagery can improve critical infrastructure analysis and interdependency data build-outs. Combining advanced computer vision techniques, a functional taxonomic approach to critical infrastructure, and the unique geo-spatial and dependency datasets the research team developed can produce innovative and state- of-the-art image processing results that advance abilities to secure and defend national critical infrastructure.
-
-**Interdependent Infrastructure Systems Resilience Analysis for Enhanced Microreactor Power Grid Penetration**, _Energy | Idaho National Laboratory_
-> This project will develop machine learning enabled integrated resource planning methodologies to help quantify key resilience elements across integrated energy systems and their vulnerabilities to threats and hazards. This includes the ability to accurately analyze and visualize a region’s critical infrastructure systems ability to sustain impacts, maintain critical functionality, recover from disruptive events. This advanced decision support capability can improve our understanding of these complex relationships and help predict the potential impacts that microreactors and distributed energy resources have on the reliability and resiliency of our energy systems.
-
-**Support Vector Analysis for Computational Risk Assessment, Decision-Making, and Vulnerability Discovery in Complex Systems**, _Energy | Idaho National Laboratory_
-> This project addressed limitations in current probabilistic risk assessment (PRA) by combining a support vector machine and PRA software to auto-detect system design vulnerabilities and find previously unseen issues, reduce human error, and reduce human costs. This method does not require training data that would only be available in the event of system or subsystem failures.
-
-**Scalable Framework of Hybrid Modeling with Anticipatory Control Strategy for Autonomous Operation of Modular and Microreactors**, _Energy | Idaho National Laboratory_
-> The goal this research is to develop and validate novel and scalable models to achieve faster-than-real-time prediction and decision-making capabilities. To achieve the project goal of autonomous operation of microreactors, a novel hybrid modeling approach combining both physics-based and artificial intelligence techniques will be developed at the component or sub-system level, integrated with anticipatory control techniques, and scaled. A novel distributed anticipatory control strategy will be developed as part of the scalability analysis to understand the risk of cascading failures when emerging reactors are deployed as part of a full feeder microgrid.
-
-**Adaptive Fingerprinting of Control System Devices through Generative Adversarial Networks**, _Energy | Idaho National Laboratory_
-> This project focuses on the reduction of manual labor and operational cost required for training an electromagnetic (EM)-based anomaly detection system for legacy industrial control systems devices and Industrial Internet of Things. This research would enable EM-based intrusion detection systems to be deployed to protect legacy control systems.
-
-**Resilient Attack Interceptor for Intelligent Devices**, _Energy | Idaho National Laboratory_
-> The Resilient Attack Interceptor for Intelligent Devices approach focuses on developing external monitoring methods to protect industrial internet of things devices by correlating observable physical aspects that are produced naturally and involuntarily during the operational lifecycle with anomalous functionality.
-
-**Unattended Operation through Digital Twin Innovations**, _Energy | Idaho National Laboratory_
-> The team hypothesizes that artificial intelligence can predict events using the integrated data from test bed sensors and physics-based models. A second hypothesis is that integrating software and artificial intelligence with sensor data from a test bed will lead to a framework for future digital twins. The team will train artificial intelligence models to determine what attributes are most important for enabling intelligent autonomous control and will determine best practices for digital twin cybersecurity.
-
-**Accelerated Nuclear Materials and Fuel Qualification by Adopting a First to Failure Approach**, _Energy | Idaho National Laboratory_
-> Physics-based multi-scale modeling was coupled with deep, recursive, and transfer learning approaches to accelerate nuclear materials research and qualification of high- entropy alloys. Applying AI to combinatorial-based materials research enables subsequent analysis to focus on a limited number of candidates predicted to have the necessary materials properties for the application.
-
-**Automated Malware Analysis Via Dynamic Sandboxes**, _Energy | Idaho National Laboratory_
-> The goal of this project is to develop an analysis framework enabled by dynamic sandboxes that allows for automated analysis, provides non-existing core capabilities to analyze industrial control system malware, and outputs to a format that is machine readable and an industry standard in sharing threat information. This will enable further analysis efforts via machine learning and provide a foundational platform that would allow for timely, automated analysis of malware samples.
-
-**Promoting Optimal Sparse Sensing and Sparse Learning for Nuclear Digital Twins**, _Energy | Idaho National Laboratory_
-> This project will address the efficient use of limited experimental data available for nuclear digital twin (NDT) training and demonstration. This involves developing sparse data reconstruction methods and using NDT models to define sensor requirements (location, number, accuracy) for the design of demonstration experiments. NDTs should leverage 1) sparse sensing for identifying optimal locations and the minimal set of required sensors and 2) sparse learning and recovery of full maps of responses of interest for stronger prediction, diagnostics, and prognostics capabilities.
-
-**Microstructurally-driven Framework for Optimization of In-core Materials**, _Energy | Idaho National Laboratory_
-> This research will develop a methodology that relies on mechanism-informed machine learning models, rapid ion irradiation and creep testing techniques, and advanced characterization coupled with automated image analysis to enable reactor developers to quickly understand the complex linkage between alloy composition, thermomechanical processing, the resulting microstructure, and swelling and creep behavior. This project will (1) develop and demonstrate a high-potential methodology for rapid development of future in-core materials and (2) provide critically important information on alloy design for optimized swelling and creep behavior to the advanced reactor development community.
-
-**Development of a multi-sensor data science system used for signature development on solvent extraction processes conducted within Beartooth facility**, _Energy | Idaho National Laboratory_
-> This project will develop a system that utilizes non-traditional measurement sources such as vibration, acoustics, current, and light, and traditional sources such as flow, and temperature in conjunction with data-based, machine learning techniques that will allow for signal discovery. The goal is to characterize stages within a solvent extraction process can increase target metals recovery, indicate process faults, account for special nuclear material, and inform near real-time decision making.
-
-**Secure and Resilient Machine Learning System for Detecting Fifth Generation (5G) Attacks including Zero-Day Attacks**, _Energy | Idaho National Laboratory_
-> This project will implement an advanced machine learning based 5G attack detection system that can achieve high classification speed (10k packets per second) with high accuracy (90% or greater) as well as address a vulnerability to zero-day attacks (90% accuracy against real zero-day attacks recorded by Amazon Web Services) using field programmable gate array based deep autoencoders.
-
-**Red Teaming Artificial Intelligence**, _Energy | Idaho National Laboratory_
-> This research will advance the state of the art for red team security assessment of machine learning and artificial intelligence systems by providing methods for the reverse engineering, exploitation, risk assessment and vulnerability remediation. The insights gained from the explorations into vulnerability assessment research will proactively address critical gaps in the cybersecurity community’s understanding of these systems and can be used to create appropriate risk evaluation metrics and provide best practices for inclusion into consequence-driven cyber-informed engineering.
-
-**Smart Contingency Analysis Neural Network for in-depth Power Grid Vulnerability Analyses**, _Energy | Idaho National Laboratory_
-> Typical contingency analysis for a power utility is limited to n-1 due to computational complexity and cost. A machine learning framework and resilience-chaos plots are leveraged to reduce computational expense required to discover, with 90% accuracy, n-2 contingencies by 50%.
-
-**Spectral Observation Convolutional Neural Network**, _Energy | Idaho National Laboratory_
-> This project developed method to analyze collected radiation spectra using advanced, scalable deep learning by combining spectroscopic expertise with high performance computing. Sophisticated deep learning can overcome the weaknesses of existing spectroscopic techniques and enhance the value of difficult measurements. This method was trained, tested, and operated on the International Space Station’s Spaceborne Computer-2 supercomputer, returning zero errors over the course of 100 training hours. This demonstrated performance autonomously in far-edge, low-wattage computing situations and in hazardous radiological environments where interference can cause errors.
-
-**Signal Decomposition for Intrusion Detection in Reliability Assessment in Cyber Resilience**, _Energy | Idaho National Laboratory_
-> The objective of this project is to research, assess, and implement machine learning and artificial intelligence and physics-based algorithms for signal decomposition and provide a straightforward framework wherein an anomaly detection algorithm can be trained on existing expected data and then used for false data injection detection. An advanced library for signal decomposition and analysis will be developed that allows combining machine learning and artificial intelligence algorithms and high-fidelity model comparisons for greatly improved false data injection detection. This library will facilitate online and posteriori analysis of digital signals for the purpose of detecting potential malicious tampering in physical processes.
-
-**Combinatorial Evaluation of Physical Feature Engineering and Deep Temporal Modeling for Synchrophasor Data at Scale**, _Energy | Office of Electricity_
-> Explore the use of big data, artificial intelligence (AI), and machine learning technology and tools on phasor measurement unit (PMU) data to identify and improve existing knowledge, and to discover new insights and tools for better grid operation and management.
-
-**Big Data Synchrophasor Monitoring and Analytics for Resiliency Tracking (BDSMART)**, _Energy | Office of Electricity_
-> Explore the use of big data, artificial intelligence (AI), and machine learning technology and tools on phasor measurement unit (PMU) data to identify and improve existing knowledge, and to discover new insights and tools for better grid operation and management.
-
-**Open-Source High-Fidelity Aggregate Composite Load Models of Emerging Load Behaviors for Large-Scale Analysis (GMLC 0064)**, _Energy | Office of Electricity_
-> 1. Machine learning methods such as cross-correlation, random forest, regression tree and transfer learning are used to estimate the load composition data and motor protection profiles for different climante regions in the Western US 2. Deep learning algorithm is appplied to calibrate the parameters of WECC composite load model to match the responses with detailed feeder model
-
-**A Robust Event Diagnostic Platform: Integrating Tensor Analytics and Machine Learning Into Real-time Grid Monitoring**, _Energy | Office of Electricity_
-> Explore the use of big data, artificial intelligence (AI), and machine learning technology and tools on phasor measurement unit (PMU) data to identify and improve existing knowledge, and to discover new insights and tools for better grid operation and management.
-
-**Discovery of Signatures, Anomalies, and Precursors in Synchrophasor Data with Matrix Profile and Deep Recurrent Neural Networks**, _Energy | Office of Electricity_
-> Explore the use of big data, artificial intelligence (AI), and machine learning technology and tools on phasor measurement unit (PMU) data to identify and improve existing knowledge, and to discover new insights and tools for better grid operation and management.
-
-**Robust Learning of Dynamic Interactions for Enhancing Power System Resilience**, _Energy | Office of Electricity_
-> Explore the use of big data, artificial intelligence (AI), and machine learning technology and tools on phasor measurement unit (PMU) data to identify and improve existing knowledge, and to discover new insights and tools for better grid operation and management.
-
-**MindSynchro**, _Energy | Office of Electricity_
-> Explore the use of big data, artificial intelligence (AI), and machine learning technology and tools on phasor measurement unit (PMU) data to identify and improve existing knowledge, and to discover new insights and tools for better grid operation and management.
-
-**The Grid Resilience and Intelligence Platform (GRIP)**, _Energy | Office of Electricity_
-> AI within GRIP is used to develop metrics that quantify the impact of the anticipated weather related extreme events. The platform uses utility data combined with physical models, distribution power solver to infer the potential grid impacts given a major storm.
-
-**PMU-Based Data Analytics Using Digital Twin Phasor Analytics Software**, _Energy | Office of Electricity_
-> Explore the use of big data, artificial intelligence (AI), and machine learning technology and tools on phasor measurement unit (PMU) data to identify and improve existing knowledge, and to discover new insights and tools for better grid operation and management.
-
-**Machine Learning Guided Operational Intelligence**, _Energy | Office of Electricity_
-> Explore the use of big data, artificial intelligence (AI), and machine learning technology and tools on phasor measurement unit (PMU) data to identify and improve existing knowledge, and to discover new insights and tools for better grid operation and management.
-
-## Homeland_Security
-
-**Vessel Detection**, _Homeland_Security | Customs and Border Protection_
-> Integrated technologies and analytics enhance maritime detection and the sensor network. Machine-assisted and AI-enhanced detection and tracking allows for improved illicit vessel detection in areas with high volumes of legitimate trade and recreational water vessel traffic by increasing situational awareness and responsiveness to threats. Vessel Detection allows an agent to set a search area with criteria (e.g., people, drones, vehicles) and transmit that criteria to the sensors. Images detected by the sensors are auto-recognized using Artificial Intelligence. The AI algorithms filter, detect, and recognize objects and divides them into Items of Interest (IoI) and "other" objects. Detections of IoI are shared with other detection systems while detections of other objects (e.g., animals) are not shared. IoIs can be tracked and maintained across multiple sensors seamlessly.
-
-**Use of technology to identify proof of life**, _Homeland_Security | Customs and Border Protection_
+**Use of technology to identify proof of life**, _Department_of_Homeland_Security | Customs and Border Protection_
 > The Use of technology to identify proof of life, or "Liveness Detection," uses Artificial Intelligence to reduce fraudulent activity, primarily for use within the CBP One app. The CBP One app is designed to provide the public with a single portal to a variety of CBP services. It includes different functionality for travelers, importers, brokers, carriers, International Organizations, and other entities under a single consolidated log-in, and uses guided questions to help users determine the correct services, forms, or applications needed. The Liveness Detection component used by the authentication system for the CBP One app uses the user's mobile device camera in addition to Artificial Intelligence algorithms to determine if the face presented to the app is the person in front of the camera at the time of capture and not a photo, mask, or other spoofing mechanism. Being able to accept submitted data with confidence that the submitting individual is who and where they claim to be is critical to the functionality of the app within the agency environment.
 
-**AI Curated Synthetic Data**, _Homeland_Security | Customs and Border Protection_
-> AI Curated Synthetic Data creates synthetic data for computer vision to enable more capable and ethical AI when detecting anomalies in complex environments. Specifically, it creates an emulated X-ray sensor that can produce visually realistic synthetic X-ray scan images similar to real X-ray scan images, and virtual 3D Assets of vehicles and narcotics containers. These images will be used to enhance the development of Anomaly Detection Algorithms for Non-Intrusive Inspection, incorporating AI/ML for the detection of narcotics and other contraband in conveyances and cargo.
-
-**Integrated Digital Environment**, _Homeland_Security | Customs and Border Protection_
+**Integrated Digital Environment**, _Department_of_Homeland_Security | Customs and Border Protection_
 > The Integrated Digital Environment provides managers with a better understanding of end user workflows, most and least used applications, and opportunities for improvement. The AI/ML model applies to end user activity data (e.g., use of applications, flow between applications) to help CBP identify opportunities for more efficient or effective configuration of interfaces, use of resources, or development and deployment of CBP’s applications. It tailors analytics and insight generation to allow metrics gathering, usage recording/observation, dashboarding, and workflow experimentations/suggestions to support analysts utilizing the entire suite of agency and open-source data systems. It also customizes existing capabilities to allow the exact automations needed for agency applications and systems, creating an integrated digital environment for greater connectivity and security between applications, and better ability for CBP administrators to manage and optimize use of applications by end users.
 
-**Autonomous Maritime Awareness**, _Homeland_Security | Customs and Border Protection_
-> The Autonomous Maritime Awareness system combines surveillance towers, ocean data solutions, unmanned autonomous surface vehicles (ASV), and AI to autonomously detect, identify, and track items of interest in a maritime environment. The towers are low-cost, customizable, and relocatable surveillance systems. They are equipped with a suite of radars and day/night camera sensors. The ASVs have been ruggedized for the open ocean and are powered by wind, solar, and/or onboard engine as required, allowing them to operate in an area of responsibility (AOR) for up to 12 months. Their sensor suite includes cameras and radar. Both systems use AI/ML to detect and identify objects, determine items of interest (IoI) and autonomously track those items using their sensor suites. Once identified, these systems can send alerts to monitoring agencies for at-sea interdictions of potential targets and/or intel collections.
+**Vessel Detection**, _Department_of_Homeland_Security | Customs and Border Protection_
+> Integrated technologies and analytics enhance maritime detection and the sensor network. Machine-assisted and AI-enhanced detection and tracking allows for improved illicit vessel detection in areas with high volumes of legitimate trade and recreational water vessel traffic by increasing situational awareness and responsiveness to threats. Vessel Detection allows an agent to set a search area with criteria (e.g., people, drones, vehicles) and transmit that criteria to the sensors. Images detected by the sensors are auto-recognized using Artificial Intelligence. The AI algorithms filter, detect, and recognize objects and divides them into Items of Interest (IoI) and "other" objects. Detections of IoI are shared with other detection systems while detections of other objects (e.g., animals) are not shared. IoIs can be tracked and maintained across multiple sensors seamlessly.
 
-**Geospatial imagery utilizing annotation**, _Homeland_Security | Customs and Border Protection_
-> Leverages a commercial constellation of Synthetic Aperture Radar (SAR) satellites with readily available data, capable of imaging any location on Earth, day, and night, regardless of cloud cover. Utilizes AI, including machine vision, object, detection, object recognition, and annotation to detect airframes, military vehicles, and marine vessels, as well as built-in change detection capabilities for disaster response missions.
-
-**Data and Entity Resolution**, _Homeland_Security | Customs and Border Protection_
-> Automates data unification and entity resolution with a high level of trust at enterprise scale and speed. Data and Entity Resolution uses Machine Learning modeling to ingest multiple data sources and develop models that associate disparate records to identify probable connections, unique entities, and/or identify commonalities between multiple independently submitted records. The automation of entity resolution within the models is supported by a tool that enables non-technical end users to continuously train models through a user-friendly interface.
-
-**Automated Item of Interest Detection - ICAD**, _Homeland_Security | Customs and Border Protection_
-> The software analyzes photographs that are taken by field imaging equipment, which are then fed into the ICAD system for review by USBP agents and personnel. The Matroid software currently processes and annotates images using proprietary software to determine if any of the images contain human subjects. Matroid is the name of the Video Computer Aided Detection system used by CBP. It uses trained computer vision models that recognize objects, people, and events in any image or video stream. Once a detector is trained, it can monitor streaming video in real time, or efficiently search through pre-recorded video data or images to identify objects, people, and events of interest. The intent for the ICAD system is to expand the models used to vehicles, and subjects with long-arm rifles, while excluding items of little or no interest such as animals.
-
-**AI for Autonomous Situational Awareness**, _Homeland_Security | Customs and Border Protection_
-> The AI for autonomous situational awareness system is intended to use IoT sensor kits to covertly detect and track illicit cross-border traffic in remote locations. The system will leverage a motion image/video system enhanced with Artificial Intelligence that is capable of vehicle detection and direction determination. It will also incorporate a motion sensor that, when triggered, wakes up a high-resolution camera to capture a series of pictures, with additional sensors providing confirmation prior to camera capture. Images captured will be processed by Artificial Intelligence models to classify objects, determine vehicle direction at intersections, and provide imagery sufficient for re-identification. Ultimately, the systems is intended to create a low footprint, low cost, low power system to provide situational awareness and covert detection.
-
-**RVSS Legacy Overhauled System Project (INVNT)**, _Homeland_Security | Customs and Border Protection_
-> Video Computer Aided Detection (VCAD) (also known as Matroid AI) is software that enables CBP end users to create and share vision detectors. VCAD detectors are trained computer vision models that recognize objects, people, and events in any image or video stream. Once a detector is trained, it can monitor streaming video in real time, or efficiently search through pre-recorded video data or images to identify objects, people, and events of interest. Users can view detection information via a variety of reports and alert notifications to process and identify important events and trends. Detection data is also available through VCAD's powerful developer Application Programming Interface (API) and language specific clients, so CBP applications can be integrated with the power of computer vision.
-
-**Entity Resolution**, _Homeland_Security | Customs and Border Protection_
-> The third-party global trade data is used to augment and enrich agency’s investigations into entities of interest. It combines data from companies and goods across multiple languages, then provides network analysis to assess trade flows and risks associated with cross-border trade. This can validate agency-held information or provide better understanding of networks of interest to the agency to better inform investigations that cross borders. AI/ML models help manage the information provided through the software, including behind-the-curtain collection of information, structuring of data, entity resolution, network analysis, risk analysis, and other functions that contribute to the software knowledge graph and frontend that end users interact with.
-
-**Autonomous Aerostat**, _Homeland_Security | Customs and Border Protection_
+**Autonomous Aerostat**, _Department_of_Homeland_Security | Customs and Border Protection_
 > Aerostat capability that uses three tethers instead of the traditional single tether, coupled with advanced weather sensors, analytic capabilities, and powerful winches. The AI/ML model is used to detect the need to launch and land based on weather. It also leverages AI and robotics to autonomously launch and recover the aerostat during inclement weather events without the need for on-site staffing, allowing the aerostat to operate autonomously, saving time and manpower.
 
-**Autonomous Surveillance Towers (Anduril)**, _Homeland_Security | Customs and Border Protection_
+**AI for Autonomous Situational Awareness**, _Department_of_Homeland_Security | Customs and Border Protection_
+> The AI for autonomous situational awareness system is intended to use IoT sensor kits to covertly detect and track illicit cross-border traffic in remote locations. The system will leverage a motion image/video system enhanced with Artificial Intelligence that is capable of vehicle detection and direction determination. It will also incorporate a motion sensor that, when triggered, wakes up a high-resolution camera to capture a series of pictures, with additional sensors providing confirmation prior to camera capture. Images captured will be processed by Artificial Intelligence models to classify objects, determine vehicle direction at intersections, and provide imagery sufficient for re-identification. Ultimately, the systems is intended to create a low footprint, low cost, low power system to provide situational awareness and covert detection.
+
+**Automated Item of Interest Detection - ICAD**, _Department_of_Homeland_Security | Customs and Border Protection_
+> The software analyzes photographs that are taken by field imaging equipment, which are then fed into the ICAD system for review by USBP agents and personnel. The Matroid software currently processes and annotates images using proprietary software to determine if any of the images contain human subjects. Matroid is the name of the Video Computer Aided Detection system used by CBP. It uses trained computer vision models that recognize objects, people, and events in any image or video stream. Once a detector is trained, it can monitor streaming video in real time, or efficiently search through pre-recorded video data or images to identify objects, people, and events of interest. The intent for the ICAD system is to expand the models used to vehicles, and subjects with long-arm rifles, while excluding items of little or no interest such as animals.
+
+**Autonomous Maritime Awareness**, _Department_of_Homeland_Security | Customs and Border Protection_
+> The Autonomous Maritime Awareness system combines surveillance towers, ocean data solutions, unmanned autonomous surface vehicles (ASV), and AI to autonomously detect, identify, and track items of interest in a maritime environment. The towers are low-cost, customizable, and relocatable surveillance systems. They are equipped with a suite of radars and day/night camera sensors. The ASVs have been ruggedized for the open ocean and are powered by wind, solar, and/or onboard engine as required, allowing them to operate in an area of responsibility (AOR) for up to 12 months. Their sensor suite includes cameras and radar. Both systems use AI/ML to detect and identify objects, determine items of interest (IoI) and autonomously track those items using their sensor suites. Once identified, these systems can send alerts to monitoring agencies for at-sea interdictions of potential targets and/or intel collections.
+
+**AI Curated Synthetic Data**, _Department_of_Homeland_Security | Customs and Border Protection_
+> AI Curated Synthetic Data creates synthetic data for computer vision to enable more capable and ethical AI when detecting anomalies in complex environments. Specifically, it creates an emulated X-ray sensor that can produce visually realistic synthetic X-ray scan images similar to real X-ray scan images, and virtual 3D Assets of vehicles and narcotics containers. These images will be used to enhance the development of Anomaly Detection Algorithms for Non-Intrusive Inspection, incorporating AI/ML for the detection of narcotics and other contraband in conveyances and cargo.
+
+**Data and Entity Resolution**, _Department_of_Homeland_Security | Customs and Border Protection_
+> Automates data unification and entity resolution with a high level of trust at enterprise scale and speed. Data and Entity Resolution uses Machine Learning modeling to ingest multiple data sources and develop models that associate disparate records to identify probable connections, unique entities, and/or identify commonalities between multiple independently submitted records. The automation of entity resolution within the models is supported by a tool that enables non-technical end users to continuously train models through a user-friendly interface.
+
+**RVSS Legacy Overhauled System Project (INVNT)**, _Department_of_Homeland_Security | Customs and Border Protection_
+> Video Computer Aided Detection (VCAD) (also known as Matroid AI) is software that enables CBP end users to create and share vision detectors. VCAD detectors are trained computer vision models that recognize objects, people, and events in any image or video stream. Once a detector is trained, it can monitor streaming video in real time, or efficiently search through pre-recorded video data or images to identify objects, people, and events of interest. Users can view detection information via a variety of reports and alert notifications to process and identify important events and trends. Detection data is also available through VCAD's powerful developer Application Programming Interface (API) and language specific clients, so CBP applications can be integrated with the power of computer vision.
+
+**Geospatial imagery utilizing annotation**, _Department_of_Homeland_Security | Customs and Border Protection_
+> Leverages a commercial constellation of Synthetic Aperture Radar (SAR) satellites with readily available data, capable of imaging any location on Earth, day, and night, regardless of cloud cover. Utilizes AI, including machine vision, object, detection, object recognition, and annotation to detect airframes, military vehicles, and marine vessels, as well as built-in change detection capabilities for disaster response missions.
+
+**Autonomous Surveillance Towers (Anduril)**, _Department_of_Homeland_Security | Customs and Border Protection_
 > Autonomously Detects, Identifies, and Tracks items of interest using Artificial Intelligence integrated with the tower. It does not require a dedicated operator, is rapidly deployable, and is relocatable in less than a day by 2-3 people. The system features a hybrid command and control capability, hosted in the government cloud, and is accessible via URL by desktop, laptop, tablet, or Smartphone. It is solar powered with battery backup and requires no accompanying physical infrastructure while providing visibility for 1.5 miles (2.4 km) for people, 3 miles (4.8km) for vehicles. The Lattice system permits autonomous detection, identification, and tracking of Items of Interest (IoIs). The tower scans constantly and autonomously. The radar detects and recognizes movement. The camera slews autonomously to the IoI and the system software identifies the object. The system alerts the user and autonomously tracks the IoI. End users can monitor the system and see near real time photos by logging into the User Interface on any CBP device.
 
-**Cyber Threat Intelligence Feed Correlation**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
-> Cyber Threat Intelligence Feed Correlation uses AI enabled capabilities to provide accelerated correlation across multiple incoming information feeds. This enables more timely enrichment to improve the externally shared information feeds. AI allows the algorithm to use the information items and results to learn most efficient ways to perform the task. Additionally, tailored algorithms could be created to provided sustained surveillance of threat actor TTPs.
+**Entity Resolution**, _Department_of_Homeland_Security | Customs and Border Protection_
+> The third-party global trade data is used to augment and enrich agency’s investigations into entities of interest. It combines data from companies and goods across multiple languages, then provides network analysis to assess trade flows and risks associated with cross-border trade. This can validate agency-held information or provide better understanding of networks of interest to the agency to better inform investigations that cross borders. AI/ML models help manage the information provided through the software, including behind-the-curtain collection of information, structuring of data, entity resolution, network analysis, risk analysis, and other functions that contribute to the software knowledge graph and frontend that end users interact with.
 
-**Security Information and Event Management (SIEM) Alerting Models**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
-> Threat hunting and Security Operations Center (SOC) analysts are provided terabytes per day of log data. Manually developed detection alerts and automatic correlation in Security Information and Event Management tool are common, but not comprehensive. Many cyber attacks can be probabilistically determined given sufficient training data and time. Analysts use automated tooling to further refine the alerts they receive and produce additional automated alerts based on aggregated information and curated subject matter expertise. This tooling allows CISA analysts the capabilities to comb through data in an automated fashion with mathematically and probabilistically based models to ensure high fidelity anomalies are detected in a timely manner.
-
-**Malware Reverse Engineering**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
-> Reverse engineering of malware, and software analysis more broadly, will continue to be a critical activity in support of CISA’s cyber defense mission. Threat Focused Reverse Engineering (TFRE) leverages advanced engineering, formal methods, and deep learning techniques for better cyber threat intelligence. Without scalable, automated tools, it is difficult to disrupt sophisticated adversaries’ malware development lifecycle. New, unique, automated techniques are needed to better target adversaries, augment analysts, and create sophisticated tools for end users. Core tools disrupt the adversary’s development lifecycle by exposing tactics, techniques, and procedures (TTPs). Analysts could spend more time and energy to hunt/takedown threats; adversaries can spend less time operating malware and must commit more resources to reorient. TFRE consists of a broader development pipeline providing tool hardening, enhanced computational abilities, understanding of deployment environments, and other important capabilities.
-
-**AI Security and Robustness**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
-> Frameworks, processes, and testing tools developed to govern the acquisition, development, deployment, and maintenance of AI technologies. Technology integrators within CISA as well as the rest of the federal enterprise use AI-enhanced tools to assure the trustworthy, robust, and secure operation of their AI systems. These tools use Machine Learning and Natural Language Processing to enhance the assessment of AI technology within the agency by speeding up data processing.
-
-**Critical Infrastructure Anomaly Alerting**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
-> The Cyber Sentry program provides monitoring of critical infrastructure networks. Within the program, threat hunting analysts require advanced anomaly detection and machine learning capabilities to examine multimodal cyber-physical data on IT and OT networks, including ICS/SCADA. The Critical Infrastructure Anomaly Alerting model provides AI-assistance in processing this information.
-
-**Cyber Incident Reporting**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+**Cyber Incident Reporting**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
 > Cyber incident handling specialists utilize advanced automation tools to process data received through various threat intelligence and cyber incident channels. These tools leverage Machine Learning and Natural Language Processing to increase the accuracy and relevance of data that is filtered and presented to human analysts and decision-makers. Machine Learning techniques also assist to aggregate the information in reports for presentation and further analysis. This includes data received through covered CIRCIA entities.
 
-**AIS Scoring and Feedback**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
-> AIS Automated Scoring & Feedback (AS&F) is uses descriptive analytics from organizational-centric intelligence to support confidence and opinion/reputation classification of indicators of compromise (IOCs). Looking at an indicator AS&F determines if the indicator is present in known-good list by cross-referencing organizational-centric intelligence data of known non-malicious/benign indicators and classifies accordingly if true. If not a known-good, determine if there are sightings of the indicator by cross-referencing organizational-centric intelligence and classify accordingly if true. If there are no sightings for the indicator, determine if this indicator has been verified by an analyst within our organizational-centric intelligence and classify accordingly if true. Lastly if the indicator has not been verified by an analyst, AS&F determines whether there are other reports within our organizational-centric intelligence about this indicator and classifies accordingly. AIS participants can triage against the populated opinion and/or confidence values to identify Indicator objects meeting or exceeding designated criteria and filter out the remaining data. AIS participants may also find value in utilizing the confidence score (if present) and the opinion value to understand whether any difference between the publisher and other organizations exists. Together, these enrichments can help those receiving information from AIS prioritize actioning and investigating Indicator objects.
+**Security Information and Event Management (SIEM) Alerting Models**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+> Threat hunting and Security Operations Center (SOC) analysts are provided terabytes per day of log data. Manually developed detection alerts and automatic correlation in Security Information and Event Management tool are common, but not comprehensive. Many cyber attacks can be probabilistically determined given sufficient training data and time. Analysts use automated tooling to further refine the alerts they receive and produce additional automated alerts based on aggregated information and curated subject matter expertise. This tooling allows CISA analysts the capabilities to comb through data in an automated fashion with mathematically and probabilistically based models to ensure high fidelity anomalies are detected in a timely manner.
 
-**Operational Activities Explorer**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
-> Duty officers and analysts in CISA's Operations Center use a dashboard powered by artificial intelligence to enable sensemaking of ongoing operational activities. Artificial intelligence uses new near-real-time event data (from open source reporting, partner reporting, CISA regional staff, and cybersecurity sensors) coupled with historical cybersecurity and infrastructure security information and previous operational response activity to recommend courses-of-action and engagement strategies with other government entities and critical infrastructure owners and operators based on potential impacts to the National Critical Functions.
+**AI Security and Robustness**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+> Frameworks, processes, and testing tools developed to govern the acquisition, development, deployment, and maintenance of AI technologies. Technology integrators within CISA as well as the rest of the federal enterprise use AI-enhanced tools to assure the trustworthy, robust, and secure operation of their AI systems. These tools use Machine Learning and Natural Language Processing to enhance the assessment of AI technology within the agency by speeding up data processing.
 
-**Cyber Vulnerability Reporting**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
-> Vulnerability analysts require advanced automation tools to process data received through various vulnerability reporting channels, as well as aggregate the information for automated sharing. These tools leverage Machine Learning and Natural Language Processing to increase the accuracy and relevance of data that is filtered and presented to human analysts and decision-makers. Machine Learning techniques also assist to aggregate the information in reports for presentation and further analysis. This includes data in the KEV and CVE databases.
-
-**Advanced Analytic Enabled Forensic Investigation**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
-> CISA deploys forensic specialists to analyze cyber events at Federal Civilian Executive Branch (FCEB) departments and agencies, as well as other State, Local, Tribal, Territorial, and Critical Infrastructure partners. Forensic analysts can utilize advanced analytic tooling, in the form of Artificial Intelligence implementations to better understand anomalies and potential threats. This tooling allows forensic specialists the capabilities to comb through data in an automated fashion with mathematically and probabilistically based models to ensure high fidelity anomalies are detected in a timely manner.
-
-**Advanced Network Anomaly Alerting**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
-> Threat hunting and Security Operations Center (SOC) analysts are provided terabytes per day of data from the National Cybersecurity Protection System's (NCPS) Einstein sensors. Manually developed detection alerts and automatic correlation via off the shelf tooling are common, but not comprehensive. Many network attacks can be probabilistically determined given sufficient training data and time. Analysts use automated tooling to further refine the alerts they receive and produce additional automated alerts based on aggregated information and backed in subject matter expertise. This tooling allows CISA analysts the capabilities to comb through data in an automated fashion with mathematically and probabilistically based models to ensure high fidelity anomalies are detected in a timely manner.
-
-**Automated Indicator Sharing (AIS) Automated PII Detection**, _Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+**Automated Indicator Sharing (AIS) Automated PII Detection**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
 > The Automated PII Detection and Human Review Process incorporates descriptive, predictive, and prescriptive analytics. Automated PII Detection leverages natural language processing (NLP) tasks including named entity recognition (NER) coupled with Privacy guidance thresholds to automatically detect potential PII from within AIS submissions. If submissions are flagged for possible PII, the submission will be queued for human review where the analysts will be provided with the submission and AI-assisted guidance to the specific PII concerns. Within Human Review, analysts are able to confirm/deny proper identification of PII and redact the information (if needed). Privacy experts are also able to review the actions of the system and analysts to ensure proper performance of the entire process along with providing feedback to the system and analysts for process improvements (if needed). The system learns from feedback from the analysts and Privacy experts. Through the incorporation of the automated PII detection, CISA fully compliances with Privacy, Civil Rights and Civil Liberties requirements of CISA 2015 and scaled analyst review of submissions by removing false positives and providing guidance to submission to be reviewed. Through continual audits CISA will maintain integrity and trust in system and human processes.
 
-**Text Analytics for Survey Responses (TASR)**, _Homeland_Security | HQ_
+**Cyber Threat Intelligence Feed Correlation**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+> Cyber Threat Intelligence Feed Correlation uses AI enabled capabilities to provide accelerated correlation across multiple incoming information feeds. This enables more timely enrichment to improve the externally shared information feeds. AI allows the algorithm to use the information items and results to learn most efficient ways to perform the task. Additionally, tailored algorithms could be created to provided sustained surveillance of threat actor TTPs.
+
+**Cyber Vulnerability Reporting**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+> Vulnerability analysts require advanced automation tools to process data received through various vulnerability reporting channels, as well as aggregate the information for automated sharing. These tools leverage Machine Learning and Natural Language Processing to increase the accuracy and relevance of data that is filtered and presented to human analysts and decision-makers. Machine Learning techniques also assist to aggregate the information in reports for presentation and further analysis. This includes data in the KEV and CVE databases.
+
+**Critical Infrastructure Anomaly Alerting**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+> The Cyber Sentry program provides monitoring of critical infrastructure networks. Within the program, threat hunting analysts require advanced anomaly detection and machine learning capabilities to examine multimodal cyber-physical data on IT and OT networks, including ICS/SCADA. The Critical Infrastructure Anomaly Alerting model provides AI-assistance in processing this information.
+
+**Malware Reverse Engineering**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+> Reverse engineering of malware, and software analysis more broadly, will continue to be a critical activity in support of CISA’s cyber defense mission. Threat Focused Reverse Engineering (TFRE) leverages advanced engineering, formal methods, and deep learning techniques for better cyber threat intelligence. Without scalable, automated tools, it is difficult to disrupt sophisticated adversaries’ malware development lifecycle. New, unique, automated techniques are needed to better target adversaries, augment analysts, and create sophisticated tools for end users. Core tools disrupt the adversary’s development lifecycle by exposing tactics, techniques, and procedures (TTPs). Analysts could spend more time and energy to hunt/takedown threats; adversaries can spend less time operating malware and must commit more resources to reorient. TFRE consists of a broader development pipeline providing tool hardening, enhanced computational abilities, understanding of deployment environments, and other important capabilities.
+
+**Advanced Analytic Enabled Forensic Investigation**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+> CISA deploys forensic specialists to analyze cyber events at Federal Civilian Executive Branch (FCEB) departments and agencies, as well as other State, Local, Tribal, Territorial, and Critical Infrastructure partners. Forensic analysts can utilize advanced analytic tooling, in the form of Artificial Intelligence implementations to better understand anomalies and potential threats. This tooling allows forensic specialists the capabilities to comb through data in an automated fashion with mathematically and probabilistically based models to ensure high fidelity anomalies are detected in a timely manner.
+
+**Advanced Network Anomaly Alerting**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+> Threat hunting and Security Operations Center (SOC) analysts are provided terabytes per day of data from the National Cybersecurity Protection System's (NCPS) Einstein sensors. Manually developed detection alerts and automatic correlation via off the shelf tooling are common, but not comprehensive. Many network attacks can be probabilistically determined given sufficient training data and time. Analysts use automated tooling to further refine the alerts they receive and produce additional automated alerts based on aggregated information and backed in subject matter expertise. This tooling allows CISA analysts the capabilities to comb through data in an automated fashion with mathematically and probabilistically based models to ensure high fidelity anomalies are detected in a timely manner.
+
+**Operational Activities Explorer**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+> Duty officers and analysts in CISA's Operations Center use a dashboard powered by artificial intelligence to enable sensemaking of ongoing operational activities. Artificial intelligence uses new near-real-time event data (from open source reporting, partner reporting, CISA regional staff, and cybersecurity sensors) coupled with historical cybersecurity and infrastructure security information and previous operational response activity to recommend courses-of-action and engagement strategies with other government entities and critical infrastructure owners and operators based on potential impacts to the National Critical Functions.
+
+**AIS Scoring and Feedback**, _Department_of_Homeland_Security | Cybersecurity and Infrastructure Security Agency_
+> AIS Automated Scoring & Feedback (AS&F) is uses descriptive analytics from organizational-centric intelligence to support confidence and opinion/reputation classification of indicators of compromise (IOCs). Looking at an indicator AS&F determines if the indicator is present in known-good list by cross-referencing organizational-centric intelligence data of known non-malicious/benign indicators and classifies accordingly if true. If not a known-good, determine if there are sightings of the indicator by cross-referencing organizational-centric intelligence and classify accordingly if true. If there are no sightings for the indicator, determine if this indicator has been verified by an analyst within our organizational-centric intelligence and classify accordingly if true. Lastly if the indicator has not been verified by an analyst, AS&F determines whether there are other reports within our organizational-centric intelligence about this indicator and classifies accordingly. AIS participants can triage against the populated opinion and/or confidence values to identify Indicator objects meeting or exceeding designated criteria and filter out the remaining data. AIS participants may also find value in utilizing the confidence score (if present) and the opinion value to understand whether any difference between the publisher and other organizations exists. Together, these enrichments can help those receiving information from AIS prioritize actioning and investigating Indicator objects.
+
+**Text Analytics for Survey Responses (TASR)**, _Department_of_Homeland_Security | HQ_
 > Text Analytics for Survey Responses (TASR) is an application for performing Natural Language Processing (NLP) and text analytics on survey responses. It is currently being applied by DHS OCHCO to analyze and extract significant topics/themes from unstructured text responses to open-ended questions in the quarterly DHS Pulse Surveys. Results of extracted topics/themes are provided to DHS Leadership to better inform agency-wide efforts to meet employees’ basic needs and improve job satisfaction
 
-**RelativityOne**, _Homeland_Security | HQ Enforcement, Intelligence and Analysis, Science and Technology_
+**RelativityOne**, _Department_of_Homeland_Security | HQ, Customs and Border Protection, Cybersecurity and Infrastructure Security Agency, Countering Weapons of Mass Destruction, Immigration and Customs Enforcement, Intelligence and Analysis, Science and Technology_
 > RelativityOne is a document review platform used to gain efficiencies in document review in litigation, FOIA, and other arenas where large-scale document review and production is necessary.
 
-**Barcode Scanner**, _Homeland_Security | Immigration and Customs Enforcement_
-> The Barcode Scanner has been developed to scan and populate detected information into corresponding text fields within the RAVEn GO's Encounter Card. The barcode scanner currently supports MRZ and PDF417 barcode types, frequently found on travel documents (Passport and Passport cards) and US Driver's Licenses. This is a DHS HSI Innovation Lab / RAVEn project. The Repository for Analytics in a Virtualized Environment (RAVEn) facilitates large, complex analytical projects to support ICE’s mission to enforce and investigate violations of U.S. criminal, civil, and administrative laws. RAVEn also enables tools used to analyze trends and isolate criminal patterns as HSI mission needs arise. For more information, please read the DHS/ICE/PIA-055 - Privacy Impact Assessment 055 for RAVEn.
-
-**Mobile Device Analytics**, _Homeland_Security | Immigration and Customs Enforcement_
-> Mobile Device Analytics (MDA) has been developed to meet the demand on investigators to view and analyze massive amounts of data resulting from court ordered mobile device extractions. The overarching goal of MDA is to improve the efficacy of agents and analysts in identifying pertinent evidence, relationships, and criminal networks from data extracted from cellular phones. Machine Learning is being developed for object detection (such as firearms, drugs, money, etc.) in photos and videos contained in the data. This is a DHS HSI Innovation Lab / RAVEn project. The Repository for Analytics in a Virtualized Environment (RAVEn) facilitates large, complex analytical projects to support ICE’s mission to enforce and investigate violations of U.S. criminal, civil, and administrative laws. RAVEn also enables tools used to analyze trends and isolate criminal patterns as HSI mission needs arise. For more information, please read the DHS/ICE/PIA-055 - Privacy Impact Assessment 055 for RAVEn.
-
-**Email Analytics**, _Homeland_Security | Immigration and Customs Enforcement_
-> The Email Analytics application enables a user to review and analyze email data acquired through legal process. AI is incorporated to accomplish spam message classification, and named entity recognition (NER) for entity extraction of names, organizations, locations, etc. It also integrates machine translation capabilities using a commercial product.
-
-**Normalization Services**, _Homeland_Security | Immigration and Customs Enforcement_
+**Normalization Services**, _Department_of_Homeland_Security | Immigration and Customs Enforcement_
 > HSI uses Artificial Intelligence to verify, validate, correct, and normalize addresses, phone numbers, names, and ID numbers to streamline the process of correcting data entry errors, point out purposeful misidentification, connect information about a person across HSI datasets, and cut down the number of resource hours needed for investigations. Examples of the normalization services provided include: normalizing less well-defined addresses into usable addresses for analysis- (such as those using mile markers instead of a street number); inferring ID type based on user-provided ID value (such as distinguishing a SSN from a DL number without additional context); categorizing name parts while taking into account additional factors (including generational suffixes and multi-part family names); and validating and normalizing phone numbers to the E164 standard, including their identified county of origin. These services are provided as part of the Repository for Analytics in a Virtualized Environment (RAVEn). RAVEn is a DHS HSI Innovation Lab project that facilitates large, complex analytical projects to support ICE’s mission to enforce and investigate violations of U.S. criminal, civil, and administrative laws. RAVEn also enables tools used to analyze trends and isolate criminal patterns as HSI mission needs arise. For more information, please read the DHS/ICE/PIA-055 - Privacy Impact Assessment 055 for RAVEn.
 
-**Facial Recognition Service**, _Homeland_Security | Immigration and Customs Enforcement_
-> The Facial Recognition Service is used during investigations conducted by HSI agents and analysts for identification of known individuals, as well as extracting faces for further investigations from perpetrators including child exploitation offenses, human rights atrocities, and war criminals. This is a DHS HSI Innovation Lab / RAVEn project. The Repository for Analytics in a Virtualized Environment (RAVEn) facilitates large, complex analytical projects to support ICE’s mission to enforce and investigate violations of U.S. criminal, civil, and administrative laws. RAVEn also enables tools used to analyze trends and isolate criminal patterns as HSI mission needs arise. For more information, please read the DHS/ICE/PIA-055 - Privacy Impact Assessment 055 for RAVEn.
+**Email Analytics**, _Department_of_Homeland_Security | Immigration and Customs Enforcement_
+> The Email Analytics application enables a user to review and analyze email data acquired through legal process. AI is incorporated to accomplish spam message classification, and named entity recognition (NER) for entity extraction of names, organizations, locations, etc. It also integrates machine translation capabilities using a commercial product.
 
-**Machine Translation (Previously Language Translator)**, _Homeland_Security | Immigration and Customs Enforcement_
+**Barcode Scanner**, _Department_of_Homeland_Security | Immigration and Customs Enforcement_
+> The Barcode Scanner has been developed to scan and populate detected information into corresponding text fields within the RAVEn GO's Encounter Card. The barcode scanner currently supports MRZ and PDF417 barcode types, frequently found on travel documents (Passport and Passport cards) and US Driver's Licenses. This is a DHS HSI Innovation Lab / RAVEn project. The Repository for Analytics in a Virtualized Environment (RAVEn) facilitates large, complex analytical projects to support ICE’s mission to enforce and investigate violations of U.S. criminal, civil, and administrative laws. RAVEn also enables tools used to analyze trends and isolate criminal patterns as HSI mission needs arise. For more information, please read the DHS/ICE/PIA-055 - Privacy Impact Assessment 055 for RAVEn.
+
+**Mobile Device Analytics**, _Department_of_Homeland_Security | Immigration and Customs Enforcement_
+> Mobile Device Analytics (MDA) has been developed to meet the demand on investigators to view and analyze massive amounts of data resulting from court ordered mobile device extractions. The overarching goal of MDA is to improve the efficacy of agents and analysts in identifying pertinent evidence, relationships, and criminal networks from data extracted from cellular phones. Machine Learning is being developed for object detection (such as firearms, drugs, money, etc.) in photos and videos contained in the data. This is a DHS HSI Innovation Lab / RAVEn project. The Repository for Analytics in a Virtualized Environment (RAVEn) facilitates large, complex analytical projects to support ICE’s mission to enforce and investigate violations of U.S. criminal, civil, and administrative laws. RAVEn also enables tools used to analyze trends and isolate criminal patterns as HSI mission needs arise. For more information, please read the DHS/ICE/PIA-055 - Privacy Impact Assessment 055 for RAVEn.
+
+**Machine Translation (Previously Language Translator)**, _Department_of_Homeland_Security | Immigration and Customs Enforcement_
 > Systran provides machine translation for over 100 different language combinations. Currently the Innovation Lab has licenses for translating Chinese, Spanish, Arabic, Farsi, Russian, German, Ukrainian and Filipino to English. Systran can translate plain text, word documents, and PDFS. A web-based UI and API endpoint are available.
 
-**Sentiment Analysis - Surveys**, _Homeland_Security | United States Citizenship and Immigration Services_
-> The Sentiment Analysis - Surveys system provides a statistical analysis of quantitative results from survey results and then uses Natural Language Processing (NLP) modeling software to assign "sentiments" to categories ranging from strongly positive to strongly negative. This allows survey administrators to glean valuable information from employee satisfaction surveys from both quantitative and qualitative data. This capability is currently available on demand.
+**Facial Recognition Service**, _Department_of_Homeland_Security | Immigration and Customs Enforcement_
+> The Facial Recognition Service is used during investigations conducted by HSI agents and analysts for identification of known individuals, as well as extracting faces for further investigations from perpetrators including child exploitation offenses, human rights atrocities, and war criminals. This is a DHS HSI Innovation Lab / RAVEn project. The Repository for Analytics in a Virtualized Environment (RAVEn) facilitates large, complex analytical projects to support ICE’s mission to enforce and investigate violations of U.S. criminal, civil, and administrative laws. RAVEn also enables tools used to analyze trends and isolate criminal patterns as HSI mission needs arise. For more information, please read the DHS/ICE/PIA-055 - Privacy Impact Assessment 055 for RAVEn.
 
-**Predicted to Naturalize**, _Homeland_Security | United States Citizenship and Immigration Services_
+**Predicted to Naturalize**, _Department_of_Homeland_Security | United States Citizenship and Immigration Services_
 > The Predicted to Naturalize model predicts when Legal Permanent Residents would be eligible to naturalize, and attempts to provide a current address. This model could potentially be used to send correspondence to USCIS customers of their resident status, and notify others of potential USCIS benefits.
 
-**Identity Match Option (IMO) Process with DBIS Data Marts**, _Homeland_Security | United States Citizenship and Immigration Services_
+**Identity Match Option (IMO) Process with DBIS Data Marts**, _Department_of_Homeland_Security | United States Citizenship and Immigration Services_
 > The Identity Match Option (IMO) is used to derive a single identity across multiple systems for each applicant or beneficiary who interacts with USCIS. The IMO aims to aid in person-centric research and analytics. USCIS maintains a variety of systems to track specific interactions with individuals – benefits case management, appointment scheduling, background check validation, and customer service inquiries. Each system captures its own person-centric data attributes (e.g. SSN, A-number, Name, DOB, address, etc.) related to individuals interacting with the agency. The identity derivation process uses standard entity matching algorithms included as part of the IMO product to leverage these individual instances of person-centric data attributes to derive identities. The system is able to account for a variety of data formats and potential data quality issues in the source data. The resulting identities are linked back to the original source records, allowing analysts to see an individual’s comprehensive immigration history with the agency, perform fraud detection, and identify data quality issues requiring resolution.
 
-**Person-Centric Identity Services A-Number Management Model**, _Homeland_Security | United States Citizenship and Immigration Services_
+**Person-Centric Identity Services A-Number Management Model**, _Department_of_Homeland_Security | United States Citizenship and Immigration Services_
 > The vision of Person-Centric Identity Services (PCIS) is to be the authoritative source of trusted biographical and biometric information that provides real-time, two-way visibility between services into an individual's comprehensive immigration history and status. The A-Number Management model ingests person-centric datasets from various source systems for model training and evaluation purposes. The dataset includes biographic information (name, date of birth, Alien #, Social Security #, passport #, etc.) as well as biographic information (fingerprint IDs, eye color, hair color, height, weight, etc.) for model training and matching purposes. The A-Number Management identifies which records from within our identity database best match search criteria. The model uses machine learning to ensure that search results presented to authorized external partners for external integrations and servicing have a high degree of confidence with the search criteria so that trust in the PCIS entity resolution remains high. The A-Number Management model plays a critical role in the entity resolution and surfacing of a person and all their associated records. The machine learning models are more capable of resolving "fuzzy" matches, and deal with the reality of different data quality.
 
-**I-539 approval prediction**, _Homeland_Security | United States Citizenship and Immigration Services_
+**I-539 approval prediction**, _Department_of_Homeland_Security | United States Citizenship and Immigration Services_
 > This project attempts to train and build a machine learning throughput analysis model to predict when an I-539 "Application to Extend or Change Nonimmigrant Status" case will be approved through eProcessing. Allows for some potential improvement for the approval process via eProcessing channel.
 
-**Topic Modeling on Request For Evidence data sets**, _Homeland_Security | United States Citizenship and Immigration Services_
-> Builds models that identify lists of topics and documents that are related to each topic. Topic Modeling provides methods for automatically organizing, understanding, searching, and summarizing text data. It can help with the following: discovering the hidden themes in the collection. classifying the documents into the discovered themes.
-
-**Person-Centric Identity Services Deduplication Model**, _Homeland_Security | United States Citizenship and Immigration Services_
+**Person-Centric Identity Services Deduplication Model**, _Department_of_Homeland_Security | United States Citizenship and Immigration Services_
 > The vision of Person-Centric Identity Services (PCIS) is to be the authoritative source of trusted biographical and biometric information that provides real-time, two-way visibility between services into an individual's comprehensive immigration history and status. The de-duplication model, ingests person-centric datasets from various source systems for model training and evaluation purposes. Our dataset includes biographic information (name, date of birth, Alien #, Social Security #, passport #, etc.) as well as biographic information (fingerprint IDs, eye color, hair color, height, weight, etc.) for model training and matching purposes. Critical to the success of PCIS is the entity resolution/deduplication of individual records from various systems of records to create a complete picture of a person. Using machine learning, it is able to identify which case management records belong to the same unique individual with a high degree of confidence. This allows PCIS to pull together a full immigration history for an individual without time-consuming research across multiple disparate systems. The Deduplication model plays a critical role in the entity resolution and surfacing of a person and all their associated records. The ML models are more resilient to fuzzy matches, and deals with the reality of different data fill rates more reliably.
 
-**I-485 Family Matching**, _Homeland_Security | United States Citizenship and Immigration Services_
+**Sentiment Analysis - Surveys**, _Department_of_Homeland_Security | United States Citizenship and Immigration Services_
+> The Sentiment Analysis - Surveys system provides a statistical analysis of quantitative results from survey results and then uses Natural Language Processing (NLP) modeling software to assign "sentiments" to categories ranging from strongly positive to strongly negative. This allows survey administrators to glean valuable information from employee satisfaction surveys from both quantitative and qualitative data. This capability is currently available on demand.
+
+**I-485 Family Matching**, _Department_of_Homeland_Security | United States Citizenship and Immigration Services_
 > I-485 Family Matching is designed to create models to match family members to underlying I-485 petitions. The underlying immigrant petition defines if the I-485 is employment-based or family-based. It also has information about the visa classification and priority date which, when compared against the Department of State’s monthly Visa Bulletin, helps predict visa usage. It is difficult to match an I-485 to its underlying immigrant petition, because the only available field on which to match is the A-number. This number is not always present on the immigrant petition, and name/date of birth matching is not as reliable. The goal of I-485 Family Matching is to leverage AI to more confidently create connections between petitioners and their families based on limited data. Additionally, it will be able to help identify and group I485s filed by family members, as well as gather up the many ancillary forms they may have pending (such as I765, I131). Similar to immigrant petition matching, it can be difficult to match up I485s filed by family members. In these cases the only similar fields are a common address. Efforts have been made in the past to identify family members by address, but it is effective only to a point. The AI model will help make working with this data more reliable, as well as group individual petitioners, their families, and other helpful associated data together for faster and more accurate processing.
 
-## VA
+**Topic Modeling on Request For Evidence data sets**, _Department_of_Homeland_Security | United States Citizenship and Immigration Services_
+> Builds models that identify lists of topics and documents that are related to each topic. Topic Modeling provides methods for automatically organizing, understanding, searching, and summarizing text data. It can help with the following: discovering the hidden themes in the collection. classifying the documents into the discovered themes.
 
-**Disentangling dementia patterns using artificial intelligence on brain imaging and electrophysiological data**, _VA_
-> This collaborative effort focuses on developing a deep learning framework to predict the various patterns of dementia seen on MRI and EEG and explore the use of these imaging modalities as biomarkers for various dementias and epilepsy disorders. The VA is performing retrospective chart review to achieve this.
+## Department_of_Veterans_Affairs
 
-**Reinforcement learning evaluation of treatment policies for patients with hepatitis C virus**, _VA_
-> A machine learning model is used to predict disease progression among veterans with hepatitis C virus.
-
-**Predicting corticosteroid free endoscopic remission with Vedolizumab in ulcerative colitis**, _VA_
-> This work uses random forest modeling on a cohort of 594 patients with Vedolizumab to predict the outcome of corticosteroid-free biologic remission at week 52 on the testing cohort. Models were constructed using baseline data or data through week 6 of VDZ therapy.
-
-**Prediction of health outcomes, including suicide death, opioid overdose, and decompensated outcomes of chronic diseases.**, _VA_
-> Using electronic health records (EHR) (both structured and unstructured data) as inputs, this tool outputs deep phenotypes and predictions of health outcomes including suicide death, opioid overdose, and decompensated outcomes of chronic diseases.
-
-**Nediser reports QA**, _VA_
-> Nediser is a continuously trained artificial intelligence “radiology resident” that assists radiologists in confirming the X-ray properties in their radiology reports. Nediser can select normal templates, detect hardware, evaluate patella alignment and leg length and angle discrepancy, and measure Cobb angles.
-
-**Gait signatures in patients with peripheral artery disease**, _VA_
-> Machine learning is used to improve treatment of functional problems in patients with peripheral artery disease (PAD). Previously collected biomechanics data is used to identify representative gait signatures of PAD to 1) determine the gait signatures of patients with PAD and 2) the ability of limb acceleration measurements to identify and model the meaningful biomechanics measures from PAD data.
-
-**VA-DoE Suicide Exemplar Project**, _VA_
+**VA-DoE Suicide Exemplar Project**, _Department_of_Veterans_Affairs_
 > The VA-DoE Suicide Exemplar project is currently utilizing artificial intelligence to improve VA's ability to identify Veterans at risk for suicide through three closely related projects that all involve collaborations with the Department of Energy.
 
-**SoKat Suicidial Ideation Detection Engine**, _VA_
-> The SoKat Suicide Ideation Engine (SSIE) uses natural language processing (NLP) to improve identification of Veteran suicide ideation (SI) from survey data collected by the Office of Mental Health (OMH) Veteran Crisis Line (VCL) support team (VSignals).
-
-**AI Cure**, _VA_
-> AICURE is a phone app that monitors adherence to orally prescribed medications during clinical or pharmaceutical sponsor drug studies.
-
-**Predicting hospitalization and corticosteroid use as a surrogate for IBD flares**, _VA_
-> This work examines data from 20,368 Veterans Health Administration (VHA) patients with an irritable bowel disease (IBD) diagnosis between 2002 and 2009. Longitudinal labs and associated predictors were used in random forest models to predict hospitalizations and steroid usage as a surrogate for IBD Flares.
-
-**VA /IRB approved research study for finding colon polyps**, _VA_
-> This IRB approved research study uses a randomized trial for finding colon polyps with artifical intelligence.
-
-**Automated eye movement analysis and diagnostic prediction of neurological disease**, _VA_
-> Artificial intelligence recursively analyzes previously collected data to both improve the quality and accuracy of automated algorithms, as well as to screen for markers of neurological disease (e.g. traumatic brain injury, Parkinson's, stroke, etc).
-
-**Assessing lung function in health and disease**, _VA_
-> Health professionals can use this artificial intelligence to determine predictors of normal and abnormal lung function and sleep parameters.
-
-**Use of machine learning to predict surgery in Crohn’s disease**, _VA_
-> Machine learning analyzes patient demographics, medication use, and longitudinal laboratory values collected between 2001 and 2015 from adult patients in the Veterans Integrated Service Networks (VISN) 10 cohort. The data was used for analysis in prediction of Crohn’s disease and to model future surgical outcomes within 1 year.
-
-**Seizure detection from EEG and video**, _VA_
-> Machine learning algorithms use EEG and video data from a VHA epilepsy monitoring unit in order to automatically identify seizures without human intervention.
-
-**Provider directory data accuracy and system of record alignment**, _VA_
-> AI is used to add value as a transactor for intelligent identity resolution and linking. AI also has a domain cache function that can be used for both Clinical Decision Support and for intelligent state reconstruction over time and real-time discrepancy detection. As a synchronizer, AI can perform intelligent propagation and semi-automated discrepancy resolution. AI adapters can be used for inference via OWL and logic programming. Lastly, AI has long term storage (“black box flight recorder”) for virtually limitless machine learning and BI applications.
-
-**Acute kidney injury (AKI)**, _VA_
-> This project, a collaboration with Google DeepMind, focuses on detecting acute kidney injury (AKI), ranging from minor loss of kidney function to complete kidney failure. The artificial intelligence can also detect AKI that may be the result of another illness.
-
-**Machine learning (ML) for enhanced diagnostic error detection and ML classification of protein electrophoresis text**, _VA_
-> Researchers are performing chart review to collect true/false positive annotations and construct a vector embedding of patient records, followed by similarity-based retrieval of unlabeled records "near" the labeled ones (semi-supervised approach). The aim is to use machine learning as a filter, after the rules-based retrieval, to improve specificity. Embedding inputs will be selected high-value structured data pertinent to stroke risk and possibly selected prior text notes.
-
-**Predictor profiles of OUD and overdose**, _VA_
-> Machine learning prediction models evaluate the interactions of known and novel risk factors for opioid use disorder (OUD) and overdose in Post-9/11 Veterans. Several machine learning classification-tree modeling approaches are used to develop predictor profiles of OUD and overdose.
-
-**Extraction of family medical history from patient records**, _VA_
-> This pilot project uses TIU documentation on African American Veterans aged 45-50 to extract family medical history data and identify Veterans who are are at risk of prostate cancer but have not undergone prostate cancer screening.
-
-**Digital command center**, _VA_
-> The Digital Command Center seeks to consolidate all data in a medical center and apply predictive prescriptive analytics to allow leaders to better optimize hospital performance.
-
-**GI Genius (Medtronic)**, _VA_
-> The Medtronic GI Genius aids in detection of colon polyps through artificial intelligence.
-
-**Social determinants of health extractor**, _VA_
-> AI is used with clinical notes to identify social determinants of health (SDOH) information. The extracted SDOH variables can be used during associated health related analysis to determine, among other factors, whether SDOH can be a contributor to disease risks or healthcare inequality.
-
-**Prediction of Veterans' Suicidal Ideation following Transition from Military Service**, _VA_
-> Machine learning is used to identify predictors of veterans' suicidal ideation. The relevant data come from a web-based survey of veterans’ experiences within three months of separation and every six months after for the first three years after leaving military service.
-
-**CuraPatient**, _VA_
-> CuraPatient is a remote tool that allows patients to better manage their conditions without having to see a provider. Driven by artificial intelligence, it allows patients to create a profile to track their health, enroll in programs, manage insurance, and schedule appointments.
-
-**Behavidence**, _VA_
+**Behavidence**, _Department_of_Veterans_Affairs_
 > Behavidence is a mental health tracking app. Veterans download the app onto their phone and it compares their phone usage to that of a digital phenotype that represents people with confirmed diagnosis of mental health conditions.
 
-**Computer-aided detection and classification of colorectal polyps**, _VA_
-> This study is investigating the use of artificial intelligence models for improving clinical management of colorectal polyps. The models receive video frames from colonoscopy video streams and analyze them in real time in order to (1) detect whether a polyp is in the frame and (2) predict the polyp's malignant potential.
-
-**Automatic speech transcription engines to aid scoring neuropsychological tests.**, _VA_
-> Automated speech transcription engines analyze the cognitive decline of older VA patients. Digitally recorded speech responses are transcribed using multiple artificial intelligence-based speech-to-text engines. The transcriptions are fused together to reduce or obviate the need for manual transcription of patient speech in order to score the neuropsychological tests.
-
-**Interpretation/triage of eye images**, _VA_
+**Interpretation/triage of eye images**, _Department_of_Veterans_Affairs_
 > Artificial intelligence supports triage of eye patients cared for through telehealth, interprets eye images, and assesses health risks based on retina photos. The goal is to improve diagnosis of a variety of conditions, including glaucoma, macular degeneration, and diabetic retinopathy.
 
-**Prediction of biologic response to thiopurines**, _VA_
-> Using CPRS and CDW data, artificial intelligence is used to predict biologic response to thiopurines among Veterans with irritable bowel disease.
-
-**Medication Safety (MedSafe) Clinical Decision Support (CDS)**, _VA_
-> Using VA electronic clinical data, the Medication Safety (MedSafe) Clinical Decision Support (CDS) system analyzes current clinical management for diabetes, hypertension, and chronic kidney disease, and makes patient-specific, evidence-based recommendations to primary care providers. The system uses knowledge bases that encode clinical practice guideline recommendations and an automated execution engine to examine multiple comorbidities, laboratory test results, medications, and history of adverse drug events in evaluating patient clinical status and generating patient-specific recommendations
-
-**Machine learning tools to predict outcomes of hospitalized VA patients**, _VA_
-> This is an IRB-approved study which aims to examine machine learning approaches to predict health outcomes of VA patients. It will focus on the prediction of Alzheimer's disease, rehospitalization, and Chlostridioides difficile infection.
-
-**Machine learning models to predict disease progression among veterans with hepatitis C virus**, _VA_
+**Reinforcement learning evaluation of treatment policies for patients with hepatitis C virus**, _Department_of_Veterans_Affairs_
 > A machine learning model is used to predict disease progression among veterans with hepatitis C virus.
 
-**Using machine learning to predict perfusionists’ critical decision-making during cardiac surgery**, _VA_
-> A machine learning approach is used to build predictive models of perfusionists’ decision-making during critical situations that occur in the cardiopulmonary bypass phase of cardiac surgery. Results may inform future development of computerized clinical decision support tools to be embedded into the operating room, improving patient safety and surgical outcomes.
-
-**Predicting hepatocellular carcinoma in patients with hepatitis C**, _VA_
+**Predicting hepatocellular carcinoma in patients with hepatitis C**, _Department_of_Veterans_Affairs_
 > This prognostic study used data on patients with hepatitis C virus (HCV)-related cirrhosis in the national Veterans Health Administration who had at least 3 years of follow-up after the diagnosis of cirrhosis. The data was used to examine whether deep learning recurrent neural network (RNN) models that use raw longitudinal data extracted directly from electronic health records outperform conventional regression models in predicting the risk of developing hepatocellular carcinoma (HCC).
 
-**Artificial intelligence coach in cardiac surgery**, _VA_
+**Acute kidney injury (AKI)**, _Department_of_Veterans_Affairs_
+> This project, a collaboration with Google DeepMind, focuses on detecting acute kidney injury (AKI), ranging from minor loss of kidney function to complete kidney failure. The artificial intelligence can also detect AKI that may be the result of another illness.
+
+**Nediser reports QA**, _Department_of_Veterans_Affairs_
+> Nediser is a continuously trained artificial intelligence “radiology resident” that assists radiologists in confirming the X-ray properties in their radiology reports. Nediser can select normal templates, detect hardware, evaluate patella alignment and leg length and angle discrepancy, and measure Cobb angles.
+
+**Machine learning (ML) for enhanced diagnostic error detection and ML classification of protein electrophoresis text**, _Department_of_Veterans_Affairs_
+> Researchers are performing chart review to collect true/false positive annotations and construct a vector embedding of patient records, followed by similarity-based retrieval of unlabeled records "near" the labeled ones (semi-supervised approach). The aim is to use machine learning as a filter, after the rules-based retrieval, to improve specificity. Embedding inputs will be selected high-value structured data pertinent to stroke risk and possibly selected prior text notes.
+
+**Artificial intelligence coach in cardiac surgery**, _Department_of_Veterans_Affairs_
 > The artificial intelligence coach in cardiac surgery infers misalignment in team members’ mental models during complex healthcare task execution. Of interest are safety-critical domains (e.g., aviation, healthcare), where lack of shared mental models can lead to preventable errors and harm. Identifying model misalignment provides a building block for enabling computer-assisted interventions to improve teamwork and augment human cognition in the operating room.
 
-**Artificial Intelligence physical therapy app**, _VA_
+**Medication Safety (MedSafe) Clinical Decision Support (CDS)**, _Department_of_Veterans_Affairs_
+> Using VA electronic clinical data, the Medication Safety (MedSafe) Clinical Decision Support (CDS) system analyzes current clinical management for diabetes, hypertension, and chronic kidney disease, and makes patient-specific, evidence-based recommendations to primary care providers. The system uses knowledge bases that encode clinical practice guideline recommendations and an automated execution engine to examine multiple comorbidities, laboratory test results, medications, and history of adverse drug events in evaluating patient clinical status and generating patient-specific recommendations
+
+**Digital command center**, _Department_of_Veterans_Affairs_
+> The Digital Command Center seeks to consolidate all data in a medical center and apply predictive prescriptive analytics to allow leaders to better optimize hospital performance.
+
+**Assessing lung function in health and disease**, _Department_of_Veterans_Affairs_
+> Health professionals can use this artificial intelligence to determine predictors of normal and abnormal lung function and sleep parameters.
+
+**Computer-aided detection and classification of colorectal polyps**, _Department_of_Veterans_Affairs_
+> This study is investigating the use of artificial intelligence models for improving clinical management of colorectal polyps. The models receive video frames from colonoscopy video streams and analyze them in real time in order to (1) detect whether a polyp is in the frame and (2) predict the polyp's malignant potential.
+
+**Artificial Intelligence physical therapy app**, _Department_of_Veterans_Affairs_
 > This app is a physical therapy support tool. It is a data source agnostic tool which takes input from a variety of wearable sensors and then analyzes the data to give feedback to the physical therapist in an explainable format.
 
-**Precision medicine PTSD and suicidality diagnostic and predictive tool**, _VA_
+**VA /IRB approved research study for finding colon polyps**, _Department_of_Veterans_Affairs_
+> This IRB approved research study uses a randomized trial for finding colon polyps with artifical intelligence.
+
+**Use of machine learning to predict surgery in Crohn’s disease**, _Department_of_Veterans_Affairs_
+> Machine learning analyzes patient demographics, medication use, and longitudinal laboratory values collected between 2001 and 2015 from adult patients in the Veterans Integrated Service Networks (VISN) 10 cohort. The data was used for analysis in prediction of Crohn’s disease and to model future surgical outcomes within 1 year.
+
+**Using machine learning to predict perfusionists’ critical decision-making during cardiac surgery**, _Department_of_Veterans_Affairs_
+> A machine learning approach is used to build predictive models of perfusionists’ decision-making during critical situations that occur in the cardiopulmonary bypass phase of cardiac surgery. Results may inform future development of computerized clinical decision support tools to be embedded into the operating room, improving patient safety and surgical outcomes.
+
+**Machine learning models to predict disease progression among veterans with hepatitis C virus**, _Department_of_Veterans_Affairs_
+> A machine learning model is used to predict disease progression among veterans with hepatitis C virus.
+
+**AI Cure**, _Department_of_Veterans_Affairs_
+> AICURE is a phone app that monitors adherence to orally prescribed medications during clinical or pharmaceutical sponsor drug studies.
+
+**Automatic speech transcription engines to aid scoring neuropsychological tests.**, _Department_of_Veterans_Affairs_
+> Automated speech transcription engines analyze the cognitive decline of older VA patients. Digitally recorded speech responses are transcribed using multiple artificial intelligence-based speech-to-text engines. The transcriptions are fused together to reduce or obviate the need for manual transcription of patient speech in order to score the neuropsychological tests.
+
+**Provider directory data accuracy and system of record alignment**, _Department_of_Veterans_Affairs_
+> AI is used to add value as a transactor for intelligent identity resolution and linking. AI also has a domain cache function that can be used for both Clinical Decision Support and for intelligent state reconstruction over time and real-time discrepancy detection. As a synchronizer, AI can perform intelligent propagation and semi-automated discrepancy resolution. AI adapters can be used for inference via OWL and logic programming. Lastly, AI has long term storage (“black box flight recorder”) for virtually limitless machine learning and BI applications.
+
+**Predicting hospitalization and corticosteroid use as a surrogate for IBD flares**, _Department_of_Veterans_Affairs_
+> This work examines data from 20,368 Veterans Health Administration (VHA) patients with an irritable bowel disease (IBD) diagnosis between 2002 and 2009. Longitudinal labs and associated predictors were used in random forest models to predict hospitalizations and steroid usage as a surrogate for IBD Flares.
+
+**Machine learning tools to predict outcomes of hospitalized VA patients**, _Department_of_Veterans_Affairs_
+> This is an IRB-approved study which aims to examine machine learning approaches to predict health outcomes of VA patients. It will focus on the prediction of Alzheimer's disease, rehospitalization, and Chlostridioides difficile infection.
+
+**Prediction of Veterans' Suicidal Ideation following Transition from Military Service**, _Department_of_Veterans_Affairs_
+> Machine learning is used to identify predictors of veterans' suicidal ideation. The relevant data come from a web-based survey of veterans’ experiences within three months of separation and every six months after for the first three years after leaving military service.
+
+**Disentangling dementia patterns using artificial intelligence on brain imaging and electrophysiological data**, _Department_of_Veterans_Affairs_
+> This collaborative effort focuses on developing a deep learning framework to predict the various patterns of dementia seen on MRI and EEG and explore the use of these imaging modalities as biomarkers for various dementias and epilepsy disorders. The VA is performing retrospective chart review to achieve this.
+
+**Predicting corticosteroid free endoscopic remission with Vedolizumab in ulcerative colitis**, _Department_of_Veterans_Affairs_
+> This work uses random forest modeling on a cohort of 594 patients with Vedolizumab to predict the outcome of corticosteroid-free biologic remission at week 52 on the testing cohort. Models were constructed using baseline data or data through week 6 of VDZ therapy.
+
+**Prediction of biologic response to thiopurines**, _Department_of_Veterans_Affairs_
+> Using CPRS and CDW data, artificial intelligence is used to predict biologic response to thiopurines among Veterans with irritable bowel disease.
+
+**Seizure detection from EEG and video**, _Department_of_Veterans_Affairs_
+> Machine learning algorithms use EEG and video data from a VHA epilepsy monitoring unit in order to automatically identify seizures without human intervention.
+
+**Gait signatures in patients with peripheral artery disease**, _Department_of_Veterans_Affairs_
+> Machine learning is used to improve treatment of functional problems in patients with peripheral artery disease (PAD). Previously collected biomechanics data is used to identify representative gait signatures of PAD to 1) determine the gait signatures of patients with PAD and 2) the ability of limb acceleration measurements to identify and model the meaningful biomechanics measures from PAD data.
+
+**Automated eye movement analysis and diagnostic prediction of neurological disease**, _Department_of_Veterans_Affairs_
+> Artificial intelligence recursively analyzes previously collected data to both improve the quality and accuracy of automated algorithms, as well as to screen for markers of neurological disease (e.g. traumatic brain injury, Parkinson's, stroke, etc).
+
+**Precision medicine PTSD and suicidality diagnostic and predictive tool**, _Department_of_Veterans_Affairs_
 > This model interprets various real time inputs in a diagnostic and predictive capacity in order to forewarn episodes of PTSD and suicidality, support early and accurate diagnosis of the same, and gain a better understanding of the short and long term effects of stress, especially in extreme situations, as it relates to the onset of PTSD.
 
-**PredictMod**, _VA_
-> PredictMod uses artificial intelligence to determine if predictions can be made about diabetes based on the gut microbiome.
+**SoKat Suicidial Ideation Detection Engine**, _Department_of_Veterans_Affairs_
+> The SoKat Suicide Ideation Engine (SSIE) uses natural language processing (NLP) to improve identification of Veteran suicide ideation (SI) from survey data collected by the Office of Mental Health (OMH) Veteran Crisis Line (VCL) support team (VSignals).
 
-**Screening for esophageal adenocarcinoma**, _VA_
+**Prediction of health outcomes, including suicide death, opioid overdose, and decompensated outcomes of chronic diseases.**, _Department_of_Veterans_Affairs_
+> Using electronic health records (EHR) (both structured and unstructured data) as inputs, this tool outputs deep phenotypes and predictions of health outcomes including suicide death, opioid overdose, and decompensated outcomes of chronic diseases.
+
+**Extraction of family medical history from patient records**, _Department_of_Veterans_Affairs_
+> This pilot project uses TIU documentation on African American Veterans aged 45-50 to extract family medical history data and identify Veterans who are are at risk of prostate cancer but have not undergone prostate cancer screening.
+
+**CuraPatient**, _Department_of_Veterans_Affairs_
+> CuraPatient is a remote tool that allows patients to better manage their conditions without having to see a provider. Driven by artificial intelligence, it allows patients to create a profile to track their health, enroll in programs, manage insurance, and schedule appointments.
+
+**Screening for esophageal adenocarcinoma**, _Department_of_Veterans_Affairs_
 > National VHA administrative data is used to adapt tools that use electronic health records to predict the risk for esophageal adenocarcinoma.
 
-## Agriculture
+**GI Genius (Medtronic)**, _Department_of_Veterans_Affairs_
+> The Medtronic GI Genius aids in detection of colon polyps through artificial intelligence.
 
-**Detection of aquatic weeds**, _Agriculture | USDA | APHIS_
-> Identify and locate aquatic weeds
+**PredictMod**, _Department_of_Veterans_Affairs_
+> PredictMod uses artificial intelligence to determine if predictions can be made about diabetes based on the gut microbiome.
 
-**Predictive modeling of invasive pest species and category at the port of entry using machine learning algorithms**, _Agriculture | USDA | APHIS_
+**Predictor profiles of OUD and overdose**, _Department_of_Veterans_Affairs_
+> Machine learning prediction models evaluate the interactions of known and novel risk factors for opioid use disorder (OUD) and overdose in Post-9/11 Veterans. Several machine learning classification-tree modeling approaches are used to develop predictor profiles of OUD and overdose.
+
+**Social determinants of health extractor**, _Department_of_Veterans_Affairs_
+> AI is used with clinical notes to identify social determinants of health (SDOH) information. The extracted SDOH variables can be used during associated health related analysis to determine, among other factors, whether SDOH can be a contributor to disease risks or healthcare inequality.
+
+## Department_of_Agriculture
+
+**Predictive modeling of invasive pest species and category at the port of entry using machine learning algorithms**, _Department_of_Agriculture | USDA | APHIS_
 > Macine learning algorithms are used to develop with inspection data and improve prediction ability of detecting invasive/quarantine significant pests at the port of entry.
 
-**Approximate string or fuzzy matching, used to automate matching similar, but not identical, text in administrative documents**, _Agriculture | USDA | APHIS_
-> The algorithm computes a string similarity metric which can be used to classify similar strings into a single category, reducing information duplication and onerous, manual error-checking
-
-**Detection of pre-symptomatic HLB infected citrus**, _Agriculture | USDA | APHIS_
+**Detection of pre-symptomatic HLB infected citrus**, _Department_of_Agriculture | USDA | APHIS_
 > Identify pixels with HLB infection signature in multispectral and thermal imagery
 
-**High throughput phenotyping in citrus orchards**, _Agriculture | USDA | APHIS_
+**Detection of aquatic weeds**, _Department_of_Agriculture | USDA | APHIS_
+> Identify and locate aquatic weeds
+
+**High throughput phenotyping in citrus orchards**, _Department_of_Agriculture | USDA | APHIS_
 > Locate, count, and categorize citrus trees in an orchard to monitor orchard health
 
-**Artificial Intelligence for correlative statistical analysis**, _Agriculture | USDA | APHIS_
-> AI-type statistical techniques are used to model predictive relationships between variables. We routinely use modeling approaches such as random forest, artificial neural networks, k-nearest neighbor clustering, and support vector machines, for statistical prediction.
-
-**Automated Detection & Mapping of Host Plants from Ground Level Imagery**, _Agriculture | USDA | APHIS_
-> Generate maps of target trees from ground-level (streetview) imagery
-
-**Standardization of cut flower business names for message set data**, _Agriculture | USDA | APHIS_
+**Standardization of cut flower business names for message set data**, _Department_of_Agriculture | USDA | APHIS_
 > Natural language processing technique. Data are cleaned (e.g., remove punctuation) to facilitate matching. Cosine similarity is calculated, similar terms are matched, and the results are output.
 
-**Training machine learning models to automatically read file attachments and save information into a more convenient Excel format.**, _Agriculture | USDA | APHIS_
+**Artificial Intelligence for correlative statistical analysis**, _Department_of_Agriculture | USDA | APHIS_
+> AI-type statistical techniques are used to model predictive relationships between variables. We routinely use modeling approaches such as random forest, artificial neural networks, k-nearest neighbor clustering, and support vector machines, for statistical prediction.
+
+**Automated Detection & Mapping of Host Plants from Ground Level Imagery**, _Department_of_Agriculture | USDA | APHIS_
+> Generate maps of target trees from ground-level (streetview) imagery
+
+**Training machine learning models to automatically read file attachments and save information into a more convenient Excel format.**, _Department_of_Agriculture | USDA | APHIS_
 > Artificial intelligence used to automate document processing and information extraction. Program managers often need information from specific form fields that are sent as PDF email attachments. Many emailed documents are received each day, making manually opening each attachment and copying the needed information too time-consuming.
 
-**NAL Automated indexing**, _Agriculture | USDA | ARS_
+**Approximate string or fuzzy matching, used to automate matching similar, but not identical, text in administrative documents**, _Department_of_Agriculture | USDA | APHIS_
+> The algorithm computes a string similarity metric which can be used to classify similar strings into a single category, reducing information duplication and onerous, manual error-checking
+
+**NAL Automated indexing**, _Department_of_Agriculture | USDA | ARS_
 > Cogito (vendor) software, uses AI for automated subject indexing to annotate peer reviewed journal articles (~500,000 annually) using the National Ag Library Thesaurus concept space (NALT). Only NALT concepts are annotated as metadata to content in the Library's bibliographic citation database, AGRICOLA, PubAg, and Ag Data Commons.
 
-**ARS Project Mapping**, _Agriculture | USDA | ARS_
-> NLP of research project plans including term analysis and clustering enables national program leaders to work with an interactive dashboard to find synergies and patterns within and across the various ARS research program portfolios.
-
-**4% Repair Dashboard**, _Agriculture | USDA | ARS_
+**4% Repair Dashboard**, _Department_of_Agriculture | USDA | ARS_
 > The model reviews the descriptions of expenses tagged to repairs and maintenance and classifies expenses as "repair" or "not repair" based on keywords in context.
 
-**Democratizing Data**, _Agriculture | USDA | ERS_
+**ARS Project Mapping**, _Department_of_Agriculture | USDA | ARS_
+> NLP of research project plans including term analysis and clustering enables national program leaders to work with an interactive dashboard to find synergies and patterns within and across the various ARS research program portfolios.
+
+**Democratizing Data**, _Department_of_Agriculture | USDA | ERS_
 > The purpose of this project is to use AI tools, machine learning and natural language processing to understand how publicly-funded data and evidence are used to serve science and society.
 
-**Westat**, _Agriculture | USDA | ERS_
+**Westat**, _Department_of_Agriculture | USDA | ERS_
 > A competition to find automated, yet effective, ways of linking USDA nutrition information to 750K food items in a proprietary data set of food purchases and acquisitions. Competing teams used a number of AI methods including Natural Language Processing (NLP), random forest, and semantic matching.
 
-**Retailer Receipt Analysis**, _Agriculture | USDA | FNS_
+**Retailer Receipt Analysis**, _Department_of_Agriculture | USDA | FNS_
 > The Retailer Receipt Analysis is a Proof of Concept (POC) that uses Optical Character Recognition (OCR), an application of artificial intelligence on a sample (no more than 1000) of FNS receipt and invoice data. Consultants will use this data to demonstrate how the existing manual process can be automated, saving staff time, ensuring accurate review, and detecting difficult patterns. The goal of this POC will pave the way for a review system that (1) has an automated workflow and learns from analyst feedback (2) can incorporate know SNAP fraud patterns, look for new patterns, and visualize alerts on these patterns on retailer invoices and receipts.
 
-**Nutrition Education & Local Access Dashboard**, _Agriculture | USDA | FNS_
+**Nutrition Education & Local Access Dashboard**, _Department_of_Agriculture | USDA | FNS_
 > The goal of the this Dashboard is to provide a county-level visualization of FNS nutrition support, specifically nutrition education and local food access, alongside other metrics related to hunger and nutritional health. As part of this dashboard, the team developed a K-means clustering script to group States by 7 different clustering options: Farm to School Intensity & Size, Program Activity Intensity, Ethnicity & Race, Fresh Food Access, School Size, and Program Participation. This allows users to find like-minded, or similar, States based on any of these characteristics, opening up avenues for partnerships with States that they otherwise may not have considered.
 
-**Land Change Analysis Tool (LCAT)**, _Agriculture | USDA | FPAC_
+**Land Change Analysis Tool (LCAT)**, _Department_of_Agriculture | USDA | FPAC_
 > We employ a random forest machine learning classifier to produce high resolution land cover maps from aerial and/or satellite imagery. Training data is generate from a custom-built web application. We built and operate a 192-node docker cluster to parallize CPU-intensive processing tasks. We are publishing results through a publicly available Image service. To date we have mapped over 600 million acres and have generated over 700 thousand traiing samples.
 
-**OCIO/CDO Council Comment Analysis Tool**, _Agriculture | USDA | Federal CDO Council_
+**OCIO/CDO Council Comment Analysis Tool**, _Department_of_Agriculture | USDA | Federal CDO Council_
 > The Comment Analysis pilot has shown that a toolset leveraging recent advances in Natural Language Processing (NLP) can aid the regulatory comment analysis process. We developed tools that help comment reviewers identify the topics and themes of comments, as well as group comments that are semantically similar. Tools like these offer significant value by creating efficiencies through novel insights and streamlined processing of comments, reducing duplicative, upfront development efforts across government, and ultimately realizing cost savings for agencies and the USG.
 
-**RMRS Raster Utility**, _Agriculture | USDA | Forest Service_
-> RMRS Raster Utility is a .NET object oriented library that simplifies data acquisition, raster sampling, and statistical and spatial modeling while reducing the processing time and storage space associated with raster analysis. It includes machine learning techniques.
-
-**Ecosystem Management Decision Support System (EMDS)**, _Agriculture | USDA | Forest Service_
-> EMDS is a spatial decision support system for landscape analysis and planning that runs as a component of ArcGIS and QGIS. Users develop applications for their specific problem that may use any combination of four AI engines for 1) logic processing, 2) multi-criteria decision analysis, 3) Bayesian networks, and Prolog-based decision trees.
-
-**Wildland Urban Interface - Mapping Wildfire Loss**, _Agriculture | USDA | Forest Service_
+**Wildland Urban Interface - Mapping Wildfire Loss**, _Department_of_Agriculture | USDA | Forest Service_
 > This is a proof-of-concept study to investigate the use of machine learning (deep learning / convolutional neural networks) and object-based image classification techniques to identify buildings, building loss, and defensible space around buildings before and after a wildfire event in wildland-urban interface settings.
 
-**Landscape Change Monitoring System (LCMS)**, _Agriculture | USDA | Forest Service_
+**Landscape Change Monitoring System (LCMS)**, _Department_of_Agriculture | USDA | Forest Service_
 > The Landscape Change Monitoring System (LCMS) is a National landsat/sentinal remote sensing-based data produced by the USDA Forest Service for mapping and monitoring changes related to vegetation canopy cover, as well as land cover and land use. The process utilizes temporal change classifications together with training data in a supervised classification process for vegetation gain, and loss as well as land cover and use.
 
-**Forest Health Detection Monitoring**, _Agriculture | USDA | Forest Service_
-> Machine learning models are used to (1) upscale training data, using Sentinel-2, Landsat, MODIS, and lidar imagery, that was collected from both the field and high-resolution imagery to map and monitor stages of forest mortality and defoliation across the United States, and (2) to post-process raster outputs to vector polygons.
-
-**CLT Knowledge Database**, _Agriculture | USDA | Forest Service_
-> The CLT knowledge database catalogs cross-laminated timber information in an interface that helps users find relevant information. The information system uses data aggregator bots that search the internet for relevant information. These bots search for hundreds of keywords and use machine learning to determine if what is found is relevant. The search engine uses intelligent software to locate and update pertinent CLT references, as well as categorize information with respect to common application and interest areas. As of 2/24/2022, the CLT knowledge database has cataloged >3,600 publications on various aspects of CLT. This system fosters growth of mass timber markets by disseminating knowledge and facilitating collaboration among stakeholders, and by reducing the risk of duplication of efforts. Manufacturers, researchers, design professionals, code officials, government agencies, and other stakeholders directly benefit from the tool, thereby supporting the increasing use of mass timber, which benefits forest health by increasing the economic value of forests.
-
-**Geospatial and Remote Sensing Training Courses**, _Agriculture | USDA | Forest Service_
-> Several courses are offered which teach the use of software and scripting which allow for machine learning. The courses change, but current topics include Intro and Advanced Change Detection, eCognition (software package), Geospatial Scripting for Google Earth Engine. Some of the courses show how to use Collect Earth Online.
-
-**TreeMap 2016**, _Agriculture | USDA | Forest Service_
+**TreeMap 2016**, _Department_of_Agriculture | USDA | Forest Service_
 > TreeMap 2016 provides a tree-level model of the forests of the conterminous United States. It matches forest plot data from Forest Inventory and Analysis (FIA) to a 30x30 meter (m) grid. TreeMap 2016 is being used in both the private and public sectors for projects including fuel treatment planning, snag hazard mapping, and estimation of terrestrial carbon resources. A random forests machine-learning algorithm was used to impute the forest plot data to a set of target rasters provided by Landscape Fire and Resource Management Planning Tools (LANDFIRE: https://landfire.gov). Predictor variables consisted of percent forest cover, height, and vegetation type, as well as topography (slope, elevation, and aspect), location (latitude and longitude), biophysical variables (photosynthetically active radiation, precipitation, maximum temperature, minimum temperature, relative humidity, and vapour pressure deficit), and disturbance history (time since disturbance and disturbance type) for the landscape circa 2016.
 
-**List Frame Deadwood Identification**, _Agriculture | USDA | NASS_
+**CLT Knowledge Database**, _Department_of_Agriculture | USDA | Forest Service_
+> The CLT knowledge database catalogs cross-laminated timber information in an interface that helps users find relevant information. The information system uses data aggregator bots that search the internet for relevant information. These bots search for hundreds of keywords and use machine learning to determine if what is found is relevant. The search engine uses intelligent software to locate and update pertinent CLT references, as well as categorize information with respect to common application and interest areas. As of 2/24/2022, the CLT knowledge database has cataloged >3,600 publications on various aspects of CLT. This system fosters growth of mass timber markets by disseminating knowledge and facilitating collaboration among stakeholders, and by reducing the risk of duplication of efforts. Manufacturers, researchers, design professionals, code officials, government agencies, and other stakeholders directly benefit from the tool, thereby supporting the increasing use of mass timber, which benefits forest health by increasing the economic value of forests.
+
+**RMRS Raster Utility**, _Department_of_Agriculture | USDA | Forest Service_
+> RMRS Raster Utility is a .NET object oriented library that simplifies data acquisition, raster sampling, and statistical and spatial modeling while reducing the processing time and storage space associated with raster analysis. It includes machine learning techniques.
+
+**Forest Health Detection Monitoring**, _Department_of_Agriculture | USDA | Forest Service_
+> Machine learning models are used to (1) upscale training data, using Sentinel-2, Landsat, MODIS, and lidar imagery, that was collected from both the field and high-resolution imagery to map and monitor stages of forest mortality and defoliation across the United States, and (2) to post-process raster outputs to vector polygons.
+
+**Ecosystem Management Decision Support System (EMDS)**, _Department_of_Agriculture | USDA | Forest Service_
+> EMDS is a spatial decision support system for landscape analysis and planning that runs as a component of ArcGIS and QGIS. Users develop applications for their specific problem that may use any combination of four AI engines for 1) logic processing, 2) multi-criteria decision analysis, 3) Bayesian networks, and Prolog-based decision trees.
+
+**Geospatial and Remote Sensing Training Courses**, _Department_of_Agriculture | USDA | Forest Service_
+> Several courses are offered which teach the use of software and scripting which allow for machine learning. The courses change, but current topics include Intro and Advanced Change Detection, eCognition (software package), Geospatial Scripting for Google Earth Engine. Some of the courses show how to use Collect Earth Online.
+
+**List Frame Deadwood Identification**, _Department_of_Agriculture | USDA | NASS_
 > The deadwood model leverages boosted regression trees with inputs such as administrative linkage data, frame data, and historical response information as inputs, to produce a propensity score representing a relative likelihood of a farm operation being out of business. Common tree splits were identified using the model and combined with expert knowledge to develop a recurring process for deadwood clean up.
 
-**Cropland Data Layer**, _Agriculture | USDA | NASS_
-> A machine learning algorithm is used to interpret readings from satellite-based sensors and CLASSIFY the type of crop or activity that falls in each 30 square meter pixel (a box of fixed size) on the ground. The algorithms are trained on USDA&%2339;s Farm Services Agency data and other sources of data as sources of &quot;ground truth&quot;. It allows us to not only produce a classification, but to assess the accuracy of the classification as well. For commodities, like corn and soybeans, the CDL is highly accurate. The CDL has been produced for national coverage since 2008. Some summary and background about the CDL is available in a number of peer reviewed research papers and presentations https://www.nass.usda.gov/Research_and_Science/Cropland/othercitations/index.php
-
-**Census of Agricuilture Response Propensity Scores**, _Agriculture | USDA | NASS_
+**Census of Agricuilture Response Propensity Scores**, _Department_of_Agriculture | USDA | NASS_
 > The response propensity scores to the COA are derived from random forest models that use historical data, control data, and other survey data. These scores are used to help target more effective data collection.
 
-**Climate Change Classification NLP**, _Agriculture | USDA | NIFA_
+**Cropland Data Layer**, _Department_of_Agriculture | USDA | NASS_
+> A machine learning algorithm is used to interpret readings from satellite-based sensors and CLASSIFY the type of crop or activity that falls in each 30 square meter pixel (a box of fixed size) on the ground. The algorithms are trained on USDA&%2339;s Farm Services Agency data and other sources of data as sources of &quot;ground truth&quot;. It allows us to not only produce a classification, but to assess the accuracy of the classification as well. For commodities, like corn and soybeans, the CDL is highly accurate. The CDL has been produced for national coverage since 2008. Some summary and background about the CDL is available in a number of peer reviewed research papers and presentations https://www.nass.usda.gov/Research_and_Science/Cropland/othercitations/index.php
+
+**Climate Change Classification NLP**, _Department_of_Agriculture | USDA | NIFA_
 > The model classifies NIFA funded projects as climate change related or not climate related through natural language processing techniques. The model input features include text fields containing the project's title, non-technical summary, objectives and keywords. The target is a dummy variable classification of projects as climate change related or not climate change related.
 
-**Operational water supply forecasting for western US rivers**, _Agriculture | USDA | NRCS_
-> Western US water management is underpinned by forecasts of spring-summer river flow volumes made using operational hydrologic models. The USDA Natural Resources Conservation Service (NRCS) National Water and Climate Center operates the largest such forecast system regionally, carrying on a nearly century-old tradition. The NWCC recently developed a next-generation prototype for generating such operational water supply forecasts (WSFs), the multi-model machine-learning metasystem (M4), which integrates a variety of AI and other data-science technologies carefully chosen or developed to satisfy specific user needs. Required inputs are data around snow and precipitation from the NRCS Snow Survey and Water Supply Forecast program SNOTEL environmental monitoring network, but are flexible. In hindcasting test-cases spanning diverse environments across the western US and Alaska, out-of-sample accuracy improved markedly over current benchmarks. Various technical design elements, including multi-model ensemble modeling, autonomous machine learning (AutoML), hyperparameter pre-calibration, and theory-guided data science, collectively permitted automated training and operation. Live operational testing at a subset of sites additionally demonstrated logistical feasibility of workflows, as well as geophysical explainability of results in terms of known hydroclimatic processes, belying the black-box reputation of machine learning and enabling relatable forecast storylines for NRCS customers.
-
-**Ecological Site Descriptions (machine learning)**, _Agriculture | USDA | NRCS_
-> Analysis of over 20 million records of soils data and 20,000 text documents of ecological state and transition information.
-
-**Digital Imagery (no-change) for NRI program**, _Agriculture | USDA | NRCS_
+**Digital Imagery (no-change) for NRI program**, _Department_of_Agriculture | USDA | NRCS_
 > Using neural networks and other AI technologies to detect no-changes in digital imagery for the NRI (national resources inventory) program
 
-**Conservation Effects Assessment Project**, _Agriculture | USDA | NRCS_
+**Operational water supply forecasting for western US rivers**, _Department_of_Agriculture | USDA | NRCS_
+> Western US water management is underpinned by forecasts of spring-summer river flow volumes made using operational hydrologic models. The USDA Natural Resources Conservation Service (NRCS) National Water and Climate Center operates the largest such forecast system regionally, carrying on a nearly century-old tradition. The NWCC recently developed a next-generation prototype for generating such operational water supply forecasts (WSFs), the multi-model machine-learning metasystem (M4), which integrates a variety of AI and other data-science technologies carefully chosen or developed to satisfy specific user needs. Required inputs are data around snow and precipitation from the NRCS Snow Survey and Water Supply Forecast program SNOTEL environmental monitoring network, but are flexible. In hindcasting test-cases spanning diverse environments across the western US and Alaska, out-of-sample accuracy improved markedly over current benchmarks. Various technical design elements, including multi-model ensemble modeling, autonomous machine learning (AutoML), hyperparameter pre-calibration, and theory-guided data science, collectively permitted automated training and operation. Live operational testing at a subset of sites additionally demonstrated logistical feasibility of workflows, as well as geophysical explainability of results in terms of known hydroclimatic processes, belying the black-box reputation of machine learning and enabling relatable forecast storylines for NRCS customers.
+
+**Conservation Effects Assessment Project**, _Department_of_Agriculture | USDA | NRCS_
 > The goal is to predict conservation benefits at the field level. The model uses farmer survey data, APEX modeling results and environmental data.
 
-**Artificial Intelligence SPAM Mitigation Project**, _Agriculture | USDA | OASCR_
+**Ecological Site Descriptions (machine learning)**, _Department_of_Agriculture | USDA | NRCS_
+> Analysis of over 20 million records of soils data and 20,000 text documents of ecological state and transition information.
+
+**Artificial Intelligence SPAM Mitigation Project**, _Department_of_Agriculture | USDA | OASCR_
 > The AI Solution invoves Robotic Process Automation + AI/ML model solution to automatically classify and remove spam and marketing emails that appear in civil rights complaints email channels. A significant portion of incoming OASCR emails are spam, marketing and phishing emails.
 
-**Acquisition Approval Request Compliance Tool**, _Agriculture | USDA | OCIO_
+**Acquisition Approval Request Compliance Tool**, _Department_of_Agriculture | USDA | OCIO_
 > A natural language processing (NLP) model was developed to utilize the text in procurement header and line descriptions within USDA's Integrated Acquisition System (IAS) to determine the likelihood that an award is IT-related, and therefore might require an AAR. The model uses the text characteristics for awards that have an AAR number entered into IAS and then calculates the probability of being IT-related for those procurements that did not have an AAR Number entered in IAS.
 
-**Intelligent Ticket Routing**, _Agriculture | USDA | OCIO_
-> Routes BMC Remedy tickets to proper work group automatically utilizing python, jupyterhub, scikit learn, gitlab, flask, gunicorn, nginx, erms.
-
-**Predictive Maintenance Impacts**, _Agriculture | USDA | OCIO_
+**Predictive Maintenance Impacts**, _Department_of_Agriculture | USDA | OCIO_
 > Predict impacts of DISC maintenance on infrastructure items. Utilizes: einblick, mysql, python, linux, tableau
 
-**Video Surveillance System**, _Agriculture | USDA | OSSP_
+**Intelligent Ticket Routing**, _Department_of_Agriculture | USDA | OCIO_
+> Routes BMC Remedy tickets to proper work group automatically utilizing python, jupyterhub, scikit learn, gitlab, flask, gunicorn, nginx, erms.
+
+**Video Surveillance System**, _Department_of_Agriculture | USDA | OSSP_
 > The Video Surveillance System: the VSS system design will include a video management system, NVRs, DVRs, encoders, fixed cameras, Pan and Tilt cameras, network switches, routers, IP cables, equipment racks and mounting hardware. The Video Surveillance System (VSS)- shall control multiple sources of video surveillance subsystems to collect, manage, and present video clearly and concisely. VMS shall integrate the capabilities of each subsystem across single or multiple sites, allowing video management of any compatible analog or digital video device through a unified configuration platform and viewer. Disparate video systems are normalized and funneled through a shared video experience. Drag and drop cameras from the Security Management System hardware tree into VMS views and leverage Security Management System alarm integration and advanced features that help the operator track a target through a set of sequential cameras with a simplified method to select a new central camera and surrounding camera views.
 
-## State
+## Department_of_Interior
 
-**Supply Chain Fraud and Risk Models**, _State | A_
-> A/LM plans to expand current risk analytics through development of AI/ML models for detecting anomalous activity within the Integrated Logistics Management System (ILMS) that could be potential fraud or malfeasance. The models will expand upon existing risk models and focus on key supply chain functions such as: Asset Management, Procure-to-Pay, and Fleet Management.
+**Land Use Plan Document and Data Mining and Analysis R&D**, _Department_of_Interior | BLM_
+> Exploring the potential to identify patterns, rule alignment or conflicts, discovery, and mapping of geo history and/or rules. Inputs included unstructured planning documents. Outputs identify conflicts in resource management planning rules with proposed action locations requiring exclusion, restrictions, or stipluations as defined in the planning documents.
 
-**Product Service Code Automation ML Model**, _State | A_
-> A/LM developed a machine learning model to scan unstructured, user entered procurement data such as Requisition Title and Line Descriptions to automatically detect the commodity and services types being purchased for enhanced procurement categorization.
+**Improving UAS-derived photogrammetric data and analysis accuracy and confidence for high-resolution data sets using artificial intelligence and machine learning**, _Department_of_Interior | BOR_
+> UAS derived photogrammetric products contain a large amount of potential information that can be less accurate than required for analysis and time consuming to analyze manually. By formulating a standard reference protocol and applying machine learning/artificial intelligence, this information will be unlocked to provide detailed analysis of Reclamation's assets for better informed decision making.
 
-**Within Grade Increase Automation**, _State | A_
+**Seasonal/Temporary Wetland/Floodplain Delineation using Remote Sensing and Deep Learning**, _Department_of_Interior | BOR_
+> Reclamation was interested in determining if recent advancements in machine learning, specifically convolutional neural network architecture in deep learning, can provide improved seasonal/temporary wetland/floodplain delineation (mapping) when high temporal and spatial resolution remote sensing data is available? If so, then these new mappings could inform the management of protected species and provide critical information to decision-makers during scenario analysis for operations and planning.
+
+**Data Driven Sub-Seasonal Forecasting of Temperature and Precipitation**, _Department_of_Interior | BOR_
+> Reclamation has run 2, year-long prize competitions where particants developed and deployed data driven methods for sub-seasonal (2-6 weeks into future) prediction of temperature and precipitation across the western US. Particpants outperformed benchmark forecasts from NOAA. Reclamation is currently working with Scripps Institute of Oceanography to further refine, evaluate, and pilot implement the most promising methods from these two copmetitions. Improving sub-seasonal forecasts has significant potential to enhance water management outcomes.
+
+**Photogrammetric Data Set Crack Mapping Technology Search**, _Department_of_Interior | BOR_
+> This project is exploring a specific application of photogrammetric products to process analysis of crack mapping on Reclamation facilites. This analysis is time consuming and has typically required rope access or other means to photograph and locate areas that can now be reached with drones or other devices. By formulating a standard reference protocol and applying machine learning/AI, this information will be used to provide detailed analysis of Reclamation assets for better decision making.
+
+**PyForecast**, _Department_of_Interior | BOR_
+> Pyforecast is a statistical/ML water supply forecasting software developed by Reclamation that uses a range of data-driven methods.
+
+**Data Driven Streamflow Forecasting**, _Department_of_Interior | BOR_
+> Reclamation, along with partners from the CEATI hydropower industry group (e.g. TVA, DOE-PNNL, and others) ran a year-long evaluation of existing 10-day streamflow foreasting technologies and a companion prize competition open to the public, also focused on 10-day streamflow forecasts. Forecasts were issued every day for a year and verified agains observed flows. Across locations and metrics, the top perfoming foreacst product was a private, AI/ML forecasting company - UpstreamTech. Several competitors from the prize competition also performed strongly; outperforming benchmark forecasts from NOAA. Reclamation is working to further evaluate the UpstreamTech forecast products and also the top performers from the prize competition.
+
+**Improved Processing and Analysis of Test and Operating Data from Rotating Machines**, _Department_of_Interior | BOR_
+> This project is exploring a better method to analyze DC ramp test data from rotating machines. Previous DC ramp test analysis requires engineering expertise to recognize characteristic curves from DC ramp test plots. DC ramp tests produce a plot of voltage vs current for a ramping voltage applied to a rotating machine. By using machine learning/AI tools, such as linear regression, the ramp test plots can be analyzed by computer software, rather than manual engineering analysis, to recognize characteristic curves. The anticipated result will be faster and more reliable analysis of field-performed DC ramp testing.
+
+**Snowcast Showdown**, _Department_of_Interior | BOR_
+> Reclamation partnered with Bonneville Power Administration, NASA - Goddard Space Flight Center, U.S. Army Corps of Engineers, USDA - Natural Resources Conservation Service, U.S. Geological Survey, National Center for Atmospheric Research, DrivenData, HeroX, Ensemble, and NASA Tournament Lab to run the Snowcast Showdown Prize Competition. In this competition, particiapnts were asked to develop mehtods to estimate disrributed snow information by blending observations from different sources using machine learning methods that provide flexible and efficient algorithms for data-driven models and real-time prediction/esimation. Winning methods are now being evaluated and folded into a follow-on project with NOAA's River Forecast Centers.
+
+**Well Activity Report Classification**, _Department_of_Interior | BSEE_
+> Researching the use of self-supervised and supervised deep neural networks to identify classification systems for significant well event using data from well Activity Reports
+
+**Well Risk**, _Department_of_Interior | BSEE_
+> NASA's Advanced Supercomputer Division will utilize the work performed in the sustained casing pressure research to explore the development of machine learning models to identify various precursors of risk factors for wells. By identifying these risk factors it would help inform BSEE engineers of potential problems with the well during its various stages of development.
+
+**Level 1 Report Corrosion Level Classification**, _Department_of_Interior | BSEE_
+> Level 1 surveys obtained from BSEE report the condition of well platforms. The reports include images of well platform components, which can be used to estimate coating condition and structural condition, important factors in the overall condition of the facility. The reports are used to assess the well platforms for safety concerns. The reports are submitted to BSEE and are manually reviewed to determine whether a well platform needs additional audits. Because the manual review process is time-consuming, an automated screening system that can identify parts of the wells that exhibit excess corrosion may greatly reduce report processing time. BSEE entered into an Inter-Agency Agreement with NASA's Advanced Supercomputing Division to help research the use of various AI techniques.
+
+**Autonomous Drone Inspections**, _Department_of_Interior | BSEE_
+> BSEE is exploring the potential development of autonomous systems in drones to detect methane and inspect unsafe to board platforms on the outer continental shelf. Using autonomous drones will allow some inspection capabilities to be performed while maintaining the safety of inspectors without requiring extensive training to operate the drones.
+
+**Sustained Casing Pressure Identification**, _Department_of_Interior | BSEE_
+> Well casing pressure requests are submitted to BSEE to determine whether a well platform is experiencing a sustained casing pressure (SCP) problem. SCP is usually caused by gas migration from a high-pressured subsurface formation through the leaking cement sheath in one of the well’s casing annuli, but SCP can also be caused by defects in tube connections, downhole accessories, or seals. Because SCP can lead to major safety issues, quickly identifying wells with SCP could greatly mitigate accidents on the well platforms. BSEE entered into an Inter-Agency Agreement with NASA's Advanced Supercomputing Division to help research the use of various AI techniques.
+
+**Data Mining, Machine Learning and the IHS Markit Databases**, _Department_of_Interior | USGS_
+> Support the current DOI Secretarial Priority Project (Smart Energy Development) focused on the issue of identifying areas of potential conflict between energy development and alternative priorities, through the application of machine learning techniques to extract spatial patterns related to future development._x000D_ _x000D_ Lay the groundwork for the addition of new sets of skills, new types of analyses, and new products for the ERP and for the Mission Area; build internal knowledge about what machine learning can do for the ERP.
+
+**WRA.HIHR.WAIEE Building capacity for assessment and prediction of post-wildfire water availability**, _Department_of_Interior | USGS_
+> All listed objectives are focused on the western US: · Collect multiple harmonized datasets from fire-affected basins in the western US that will advance development, calibration, and validation of water-quality models and assessment. · Analyze harmonized datasets to assess regional differences in critical drivers of water quality impairment. · Develop decision tree and standardized plan to determine locations to monitor after wildfire and ensure consistent post-fire water-quality data collection that accurately captures magnitude and duration of impairment. · Develop rapid response plan to enable WSCs and WMA to be prepared for immediate responses for post-fire data collection and assessment. · Establish the state of the science of critical drivers of post-fire water quality impairment in different ecoregions the western U.S. · Characterize critical drivers, including in-stream and reservoir-sediment interface contributions, to post-fire water quality impairment. · Build catalog of methods for measuring remotely sensed water quality after wildfire and apply multiple test cases of application. · Develop catalog of critical data needs for geospatial prediction of wildfire impacts on water. · Construct blueprint for incorporating missing critical water-quality impairment processes into modeling and prediction. · Prepare plan with IWP for incorporating wildfire effects on water availability into rapid prediction. · Participate in development and application of a framework for cross-Mission Area integration of predictive approaches spanning temporal and spatial scales for post-fire hazards.
+
+**Aluminum Criteria Development in Massachusetts**, _Department_of_Interior | USGS_
+> The USGS, in cooperation with MassDEP, will collect water-quality data at freshwater sites in Massachusetts, and use those data to demonstrate a process for calculating aluminum criteria based on a sites water chemistry (pH, DOC, and hardness) using a multiple linear regression model developed by the EPA (2017).
+
+**WOS.OS.NHM National Temperature Observations**, _Department_of_Interior | USGS_
+> The objectives of this project are to reduce the burden on Science Centers for the collection, storage, analysis, and processing of quality assurance data with the expectation this will lead to an increase of deployed sensors in the water temperature network. More specifically the project will (1) modify software to allow for processing and storage of discrete water temperature data collected during streamflow measurements, (2) implement workflows and QA checks in data collection software that supports new temperature policies and procedures (3) create a pilot program to support Science Centers in accomplishing 5-pt temperature checks.
+
+**Vegetation and Water Dynamics**, _Department_of_Interior | USGS_
+> Major activities include tracking vegetation phenology as a basic input for drought monitoring and for capturing the unique phenological signatures associated with irrigated agriculture and invasive species. Drought mapping and monitoring focus on two conterminous US wide operational tools, VegDRI and QuickDRI, to inform drought severity in a timely fashion. A targeted livestock forage assessment tool is tailored to quantify drought effects in terms of livestock forage deficits in kg/ha for specific producer decision makers. High latitude systems have high carbon stocks, particularly the numerous wetlands. Understanding spatiotemporal surface water dynamics will inform of permafrost degradation and probable methane emission hot spots. Vegetation phenology signatures improve land cover class separations and capture unique phenological signatures associated with invasive species like cheatgrass. Understanding remote sensing sensitivity of phenology tracking at various spatial resolutions and varying degrees of noise associated with mixed pixel effects of other vegetation, soils, and water improves accuracy and consistency of estimations of phenology as well as derivative products tailored for specific land manager use. The determination of irrigated and non-irrigated system provides useful geospatial data for water management and can serve to isolate ecological comparisons or contrasts to either irrigated or non-irrigated land management.
+
+**DO NOT USE (21st Century IMT Applicaitons Analysis AIML)**, _Department_of_Interior | USGS_
+> Activity: Implement artificial intelligence (AI) and machine learning (ML) cloud services including SageMaker and Rekognition . Outcome/Value: Provide Cloud-based tools and services that present options to pursue investigations using machine learning or artificial intelligence-based approaches. These are critical capabilities to support predictive science and enabling the movement toward actionable intelligence.
+
+**TMDL and Data Mining Investigations**, _Department_of_Interior | USGS_
+> Apply data-mining techniques, include artificial neural network models, the hydrologic investigations.
+
+**WRA.NWC.IWAA National Extent Hydrogeologic Framework for NWC**, _Department_of_Interior | USGS_
+> The primary objectives of this project are to (1) provide Nationally consistent predictions of groundwater quality (salinity and nutrients) relevant for human and ecological uses and its influence on surface-water, and (2) develop strategies for integrating these predictions into comprehensive water-availability assessments including the National Water Census and regional Integrated Water Availability Assessments. These primary objectives are organized by task as follows: Task 1: Groundwater-Quality Prediction – salinity · Provide accurate and reliable predictions of groundwater salinity at appropriate resolutions to document groundwater availability for human and ecological uses. Task 2: Groundwater-Quality Prediction – nutrients · Provide accurate and reliable predictions of nutrient concentrations in groundwater at appropriate resolutions to document groundwater availability for human and ecological uses. Task 3: Incorporate Groundwater-Quality Predictions into Comprehensive Assessments of Water Availability · Develop and refine strategies for coupling predictions of groundwater quality with groundwater flow and flux simulations from process-based models (e.g., GSFLOW, General Simulation Models) to quantify the amount of groundwater of a specified quality that is available and to better determine the affect of groundwater on surface-water quantity and quality.
+
+**Twitchell Rice AFRI**, _Department_of_Interior | USGS_
+> A large, interdisciplinary study (led by UC Davis in collaboration with UC Berkeley, the USGS and several private consultants) will be investigating the effects (subsidence, gas flux and water quality) of converting acreage on Twitchell Island, a deeply subsided island in the Sacramento-San Joaquin Delta, from drained row crops to flooded rice production. The USGS research objective is to assess water quality effects with respect to MeHg production under different rice management practices including tillage, flooding and fertilization quantifying the relative methylation potential of each practice.
+
+**WRA.NWC.IWAA National-Extent Groundwater Quality Prediction for the National Water Census and Regional Integrated Water Availability Assessments**, _Department_of_Interior | USGS_
+> The primary objectives of this project are to (1) provide Nationally consistent predictions of groundwater quality (salinity and nutrients) relevant for human and ecological uses and its influence on surface-water, and (2) develop strategies for integrating these predictions into comprehensive water-availability assessments including the National Water Census and regional Integrated Water Availability Assessments.
+
+**WRA.NWC.EF Economic Valuation of Ecosystem Services in the Delaware River Basin**, _Department_of_Interior | USGS_
+> The objectives of this project are to: _x000D_ _x000D_ Create a data and model inventory plan to evaluate existing data and models. _x000D_ _x000D_ Develop a database for the existing fish data. _x000D_ _x000D_ Develop Artificial Intelligence/Machine Learning (AI/ML) models to predict fish abundances and size under alternate future climates and reservoir operations. _x000D_ _x000D_ Develop models for economic valuation of the fishery resource. _x000D_ _x000D_ Evaluate the validity of estimated economic models against alternative approaches. _x000D_ _x000D_ Link models together to allow evaluation of tradeoffs between water use and the fisheries resource. _x000D_ _x000D_ Provide a prototype web application with re-usable components for internal USGS use that promotes understanding of the models and allows assessment of resource tradeoffs. _x000D_ _x000D_
+
+**Multi-scale modeling for ecosystem service economics**, _Department_of_Interior | USGS_
+> Work continues to expand the existing ARIES modeling framework using artificial intelligence and a set of decision rules to build a system that can select models and data based on appropriate contextual factors (e.g., climate, vegetation, soils, socioeconomics). Using national and global datasets, this system will be capable of mapping ES at a much greater level of accuracy than before. I will work to expand and implement this intelligent modeling system to the United States, yielding a consistent, nationwide, AI-supported intelligent ES modeling system to support ES assessment and valuation nationwide and beyond. This includes the integration of national economic accounts data with ecosystem services data to provide more timely, up to date, and integrated data at the national and subnational levels.
+
+**WRA.NWC.IWAA Model Application for the National IWAAs and NWC**, _Department_of_Interior | USGS_
+> In support of both the periodic National Water Availability Assessment reports and the routinely updated National Water Census, the Model Application for the National IWAAs and NWC (MAPPNAT) project will have four major objectives related to model application development: 1) Provide initial applications of models for the National IWAAs reports and the National Water Census, 2) Provide periodic long-term projections for the National IWAAs reports and the National Water Census, 3) Provide routine model updates of current or near-current conditions for the National IWAAs reports and the National Water Census, and 4) Provide operational short-term forecasts for the National Water Census. These four objectives will ultimately cover multiple hydrologic sub-disciplines—including water budgets, water use, water quality, aquatic ecosystems, and drought. Objective 1 will require a combination of on-project and off-project modeling activities to provide the needed model applications for National IWAAs and NWC version 1. Objectives 2, 3, and 4 will begin with strategic planning activities before implementation using the available model applications. As new models are developed, the staffing, organization, and approach for this project will be developed in an integrated manner that can accommodate multiple sub-disciplines and differing domain expertise.
+
+**SWFL Habitat GIS Model**, _Department_of_Interior | USGS_
+> Objective 1 – Update and maintain a seamless digital library of predicted flycatcher breeding habitat displayed (rendered) as binary or 5-class probability maps. This effort is ongoing. Landsat reimages the same location every 16 days. Currently, the digital library that is housed within ESRI’s AGOL library contains SWFL habitat maps from 2013 – 2022, spanning 57 Landsat scenes (see Hatten, 2016 for details) output by GEE._x000D_ Objective 2 – Update and maintain the SWFL Habitat Viewer so users can leverage and display the satellite model’s range-wide database and produce a habitat map for any stream reach in the flycatcher’s range. The web based (AGOL) application will allow one to query, _x000D_ display, and download flycatcher habitat maps from 2013 to present by leveraging a library of existing habitat maps generated with GEE, create a habitat time series for a given reach, produce a change detection map between two time periods, and produce metadata records based upon the scene’s date and digital footprint. The SWFL Habitat Viewer can also quantify or simulate beetle impacts to flycatcher habitat on a reach-by-reach basis, but simulations are dependent upon the availability of tamarisk maps. _x000D_ Objective 3 – Participate on regional workgroups, symposia, and conferences to inform potential and existing users about the SWFL Habitat Viewer. Currently, the RiversEdge West biannual conference and NAU’s biannual Colorado Plateau Research conference are the major outlets for presentations, but other regional conference candidates may be in Colorado, Nevada, New Mexico, or California._x000D_ Objective 4 - Collaborate in efforts to improve and extend the utility of the flycatcher satellite model by exploring cutting-edge modeling techniques (e.g., occupancy modeling, climate-wildlife modeling). For example, the flycatcher satellite model is being used to develop a regional database that contains patch attributes of SWFL habitat across the entire range of flycatchers. Such information is invaluable for exploring the relationships between patch occupancy and neighborhood characteristics (e.g., number of patches within a given radii, age of patches, distance between patches). The SWFL model is also being integrated into a regionwide project that focuses on linking interdisciplinary scientific data and models with artificial intelligence techniques, with a focus on hydrologic and ecological model integration in the Colorado River Basin, to better address drought and climate change.
+
+**21st Century Prospecting: AI-assisted Surveying of Critical Mineral Potential (Reimbursable)**, _Department_of_Interior | USGS_
+> Based on the mandate to assess critical minerals distributions in the US, MRP has entered into a partnership between USGS and DARPA. The objective of this partnership is to accelerate advances in science for understanding critical minerals, assessing unknown resources, and increase mineral security for the Nation.
+
+**WRA.WPID.IWP.PUMP ExaSheds stream temperature projections with process-guided deep learning**, _Department_of_Interior | USGS_
+> This 3-year project will improve PGDL stream temperature models by adding new forms of process guidance and merging techniques developed by USGS and DOE staff in past projects. Model assessments will emphasize robustness to projections in not-previously-seen conditions, such as those of future climates, paving the way for reliable projections into future decades in the Delaware River Basin.
+
+**WRA.WPID.IWP.PUMP Turbidity Forecasting**, _Department_of_Interior | USGS_
+> This project aims to advance the use of national hydrological forecast models for delivering water quality forecasts relevant to water resource managers.
+
+**DOMESTIC WELL VULNERABILITY SES INDICATORS NEW HAMPSHIRE**, _Department_of_Interior | USGS_
+> The goals of this work are to: (1) investigate homeowner-level statistical associations between datasets on private wells (geology and land use, construction, hydraulics, and chemistry) and SES (and SES proxy) data; (2) investigate statewide census block-group level statistical associations between datasets on private wells (geology and land use, construction, hydraulics, and probabilities of arsenic and uranium contamination) and demographic and SES (and SES proxy) data; (3) identify indicators or triggers of vulnerability to private well water availability and quality in New Hampshire; and (4) broadly disseminate information from this study to scientific and general audiences, as well as to targeted community groups.
+
+**WRA.NWC.WU Gap analysis for water use**, _Department_of_Interior | USGS_
+> The USGS Water Use Program requires a formal and detailed gap analysis of water-use data for the nation in order to better understand uncertainty in water-use estimates and to help inform future data collection and modeling efforts. The primary objectives of this project are to: 1) identify the dominant water-use categories in different areas of the U.S.; 2) identify gaps in the available data for those categories, primarily gaps in data that if filled will improve model performance; and 3) identify potential methods for data estimation that can be used to fill gaps and provide the most benefit to water-use modeling efforts. Other objectives include: 1) increasing understanding of data quality to help inform uncertainty in model predictions; 2) collaboration with model developers to understand water-use model sensitivity to input data in order to focus and prioritize future data collection; and 3) improved quality of data related to the extraction, delivery, and consumptive use of water for the important water use categories in different regions. Water-use categories include public supply, domestic, industrial, thermoelectric power, irrigation, livestock, and aquaculture. National models currently are under development for public supply, irrigation and thermoelectric.
+
+**Two-Dimensional Detailed Hydraulic Analysis**, _Department_of_Interior | USGS_
+> The USGS proposes to conduct analysis of detailed hydrology and develop a two-dimensional hydraulic model to assist in decision-making for the protection of life and property and local floodplain management and regulation. The following objectives are identified in the scope of this effort:_x000D_ Data objectives include:_x000D_ 1.Topographic surveys in the study reaches to verify or augment existing topography usedin prior analyses._x000D_ a.Transportation routes_x000D_ b.Critical infrastructure_x000D_ c.Various landforms_x000D_ d.Non-structural flood mitigation recommendations at specific asset locations(USACE, 2019)_x000D_ Interpretive objectives include:_x000D_ 1.Hydrologic analysis of the main stem of Joachim Creek (fig. 2) to produce discharge- frequency values for the 10%, 4%, 2%, 1%, and 0.2% regulatory flood flows._x000D_ 2.Develop a calibrated two-dimensional hydraulic model inclusive of the following studyreaches for the newly developed regulatory flood flows identified in interpretiveobjective (1) above:_x000D_ a.Main stem 3.5-mile reach of Joachim Creek from a location above Highway Edownstream to cross-section AI (fig. 2). The study reach is aligned with theexisting regulatory FIS effective model and FIRM bounded upstream at a mid- point location between cross-section BC and BB and downstream at cross- section AI (fig. 3a, 3b)._x000D_ 3.Two-dimensional model simulations of 10%, 4%, 2%, 1%, and 0.2% regulatory floodflows developed in interpretive objective (1) will produce flood profiles for the mainstem of Joachim Creek._x000D_ 4.Development of two-dimensional model-derived flood maps for the main stem ofJoachim Creek, will be disseminated for the newly defined 1% and 0.2% regulatory floodflows in interpretive objective (1). Model-derived maps will illustrate inundationextents, water-surface elevation, depth, and velocity, including a published table ofcomparisons with the summarized list of spatially relevant nonstructural floodmitigation assets defined in the preliminary FMP by USACE (USACE, 2019).
+
+**GEMSC Geospatial Modernization and Machine Learning Integration**, _Department_of_Interior | USGS_
+> The USGS Director's office laid out a vision for the USGS for the next decade in the blog post “21st Century Science—Preparing for the Future”. A key component of this vision was outlined by stating “Over the next decade, we will take advantage of advances in sensor technologies, integrated modeling, artificial intelligence (AI), machine learning (ML), and high-performance computing to observe, understand, and project change across spatial and temporal scales in real-time and over the long term.” For GEMSC to play a role in this initiative, a multi-year project is proposed to integrate these technologies in GEMSC project workflows and data services. The overarching objective for this project is development of a strategic framework for integrating ERP science with traditional information technology related platforms.
+
+**WRA.HIHR.WQP Process-guided Deep Learning for Predicting Dissolved Oxygen on Stream Networks**, _Department_of_Interior | USGS_
+> The objective of this project is to build a model that predicts daily minimum, mean, and maximum stream DO levels on stream segments in the Lower Delaware River Basin using nationally available datasets.
+
+**Kaguya TC DTM Generation**, _Department_of_Interior | USGS_
+> The primary goals for FY21 are to develop a processing pipeline for generating Kaguya TC DTMs, generate a test suite of 100 Kaguya TC DTMs using Ames Stereo Pipeline (ASP), and evaluate the resulting products.
+
+**AI/ML for aquatic science**, _Department_of_Interior | USGS_
+> This project aims to develop novel computational frameworks and AI algorithms for individual_x000D_ fish recognition, by leveraging AI, computer vision and deep learning. The main objectives of_x000D_ this project include:_x000D_ (1) Develop baseline AI models by exploiting visual features and pre-trained deep_x000D_ learning models._x000D_ (2) Improve individual fish recognition performance, as well as handling new individuals and_x000D_ exploring dynamic environments._x000D_ (3) Evaluate melanistic markings associated with “blotchy bass syndrome” to assess the_x000D_ capacity for AI detection of diseased fish._x000D_ (4) Evaluate deep learning models for individual recognition and respiration rate (ventilate_x000D_ rate) using video data collected in laboratory settings and natural streams.
+
+## National_Aeronautics_and_Space_Administration
+
+**Pre-trained microscopy image neural network Encoders**, _National_Aeronautics_and_Space_Administration | Ames Research Center_
+> Convolutional Neural Network encoders were trained on over 100,000 microscopy images of materials. When deployed in downstream microscopy tasks through transfer learning, encoders pre-trained on MicroNet outperform ImageNet encoders. These pre-trained MicroNet encoders have been successfully deployed for semantic segmentation, instance segmentation, and regression tasks. Current work is ongoing to deploy the encoders for generative tasks and 3D texture synthesis tasks. The technology has been used to quantify the microstructure of numerous materials including SLS core stage welds, Ni-based superalloys, composites, and oxide dispersion strengthened alloys. Establishing the relationship between processing (how a material is made), microstructure (the atomisitc and phase arrangement of a material), and properties of materials is fundemental to the design and development of new materials. Microstructure is often analyzed qualitatively or by tedious manual measurements. This technology enables and improves the rapid quantification of material microstructure from microscope images for use in data-driven approaches to design materials faster.
+
+**High-Performance Quantum-Classical Hybrid Deep Generative Modeling Parameterized by Energy-based Models for Flight-Operations Anomaly Detection**, _National_Aeronautics_and_Space_Administration | Ames Research Center_
+> Our project conducts high-performance scalable and explainable machine learning for flight-operations anomaly detection, with contributions from classical computing (enhanced performance, reduced cost) and quantum computing (encoding of quantum correlations, quantum-resource estimates). Our deep-learning model takes time series of 19 flight metrics collected by flight recorders of commercial aircraft as input and predicts operational and safety-relevant anomalies during the take-off and landing phases of flight.
+
+**Prediction of Mass Level in Radio Frequency Cryogenics**, _National_Aeronautics_and_Space_Administration | Ames Research Center_
+> Utilizing the Radio frequency signature of fluids in a tank, the ML model predicts the level of fluid in the tank. In micro-gravity standard fluid level detection methods do not work because the fluid is not restricted to any shape or Definition.
+
+**AdaStress**, _National_Aeronautics_and_Space_Administration | Ames Research Center_
+> Testing complex systems often requires computationally intensive Monte Carlo sampling approaches to identify possible faults. In systems where the number of faults are low, but safety critical, this form of testing may be infeasible due to the large number of samples needed to catch a rare fault. AdaStress instead uses reinforcement learning to more efficiently sample low-likelihood, but high-impact faults.
+
+**Biological and Physical Sciences (BPS) RNA Sequencing Benchmark Training Dataset**, _National_Aeronautics_and_Space_Administration | Ames Research Center_
+> RNA sequencing data from spaceflown and control mouse liver samples, sourced from NASA GeneLab and augmented with generative adversarial network to provide synthetic data points. The implementation uses classification methods and hierarchical clustering to identify genes that are predictive of outcomes.
+
+**Biological and Physical Sciences Microscopy Benchmark Dataset**, _National_Aeronautics_and_Space_Administration | Ames Research Center_
+> This study uses fluorescence microscopy images from the Biological and Physical Sciences Open Science Data Repositories (osdr.nasa.gov). The dataset consists of 93,488 images of individual nuclei from mouse fibroblast cells, irradiated with Fe particles or X-rays and labeled for DNA double strand breaks using 53BP1 as a fluorescence marker. DNA damage appears as small white foci in these images. The study simulates exposure to space radiation and the dataset has been modified to be AI ready so that AI expert can test several AI tools on them. The dataset is publicly available on the Registry of Open Data on AWS. Implementation AI tools developed in-house are also available on the link.
+
+**Application that provides bio-inspired solutions to engineering problems (PeTaL)**, _National_Aeronautics_and_Space_Administration | Glenn Research Center_
+> PeTaL (the Periodic Table of Life) is an open source artificial intelligence (AI) design tool that leverages data and information from nature and technology to advance biomimicry research and development. PeTaL is envisioned to streamline various steps of the bio-inspired design process by integrating new and existing tools and methodologies around its core ontological framework (Shyam et al., 2019; Unsworth et al., 2019). To be as comprehensive as possible, PeTaL requires mass curation of standardized data through which it can learn, interpret, and output predictive solutions to design queries. PeTaL is intended to be used by designers and engineers who seek nature’s solutions to their design and engineering problems, as well as by biologists who seek to extend the application of their scientific discoveries. In Production: Classification of biology journal articles into functional categories. In Development: Joint text summarization and named entity recognition task involving open-access biology journal articles using large language models such as those available from OpenAI.
+
+**Inverse Design of Materials**, _National_Aeronautics_and_Space_Administration | Glenn Research Center_
+> Discovering new materials is typically a mix of art and science, with timelines to create and robustly test a new material mix / manufacturing method ranging from ten to twenty years. This project seeks to enable rapid discovery, optimization, qualifaction and deployment of fit-for-purpose materials. Supervised ML models are trained to establish the relationship between how a material is made and how the material performs. Then Bayesian optimization is used to select iterative optimal experiments to achieve the target material properties in a cost and time efficient manner compared to traditional design of experiments. The project is currently being utilized in an NESC investigation to improve SLS core stage weld quality. The technology will be used to select experiments for a fully autonomous robotic lab that is currently being procured to design better insulating materials for electrified aircraft. Outputs include recipes and approaches for new materials custom-tailored to applications with an 4x speedup for the overall materials discovery / design lifecycle, and potential 10x throughput for the same cycle based on parallizing discovery of multiple materials at once.
+
+**Europa Ice Floe Detection (GSFC Planetary Sciences Lab)**, _National_Aeronautics_and_Space_Administration | Goddard Space Flight Center_
+> Machine Learning applied to Galileo space probe imagery to detect and classify ice blocks in the chaos regions of Jupiter's moon Europa. GANs were also used to generate simulated training data.
+
+**Titan Methane Cloud Detection (GSFC Planetary Sciences Lab)**, _National_Aeronautics_and_Space_Administration | Goddard Space Flight Center_
+> Machine Learning applied to Cassini space probe imagery to detect and characterize methane clouds on Saturn's moon Titan.
+
+**Hybrid On-Board and Ground-Based Processing of Massive Sensor Data (HyspIRI IPM)**, _National_Aeronautics_and_Space_Administration | Jet Propulsion Laboratory_
+> Future space missions will enable unprecedented monitoring of the Earth's environment and will generate immense volumes of science data. Getting this data to ground communications stations, through science processing, and delivered to end users is a tremendous challenge. On the ground, the spacecraft's orbit is projected, and automated mission-planning tools determine which onboard-processing mode the spacecraft should use. The orbit determines the type of terrain that the spacecraft would be overflying—land, ice, coast, or ocean, for instance. Each terrain mask implies a set of requested modes and priorities. For example, when a spacecraft overflies polar or mountainous regions, producing snow and ice coverage maps can provide valuable science data. The science team can adjust these priorities on the basis of additional information (such as external knowledge of an active volcano, a flooded area, an active wildfire, or a harmful algal bloom). The mission-planning tool accepts all these requests and priorities, then determines which onboard-processing algorithms will be active by selecting the highest-priority requests that fit within the onboard CPU resources, band-processing limitations, and downlink bandwidth.In the intelligent onboard processing concept, HyspIRI's onboard processing algorithms would consist of expert-derived decision tree classifiers, machine-learned classifiers such as SVM classifiers and regressions, classification and regression trees (CART), Bayesian maximum-likelihood classifiers, spectral angle mappers, and direct implementations of spectral band indices and science products
+
+**SensorWeb: Volcano, Flood, Wildfire, and Others.**, _National_Aeronautics_and_Space_Administration | Jet Propulsion Laboratory_
+> The Sensor Web Project uses a network of sensors linked by software and the internet to an autonomous satellite observation response capability. This system of systems is designed with a flexible, modular, architecture to facilitate expansion in sensors, customization of trigger conditions, and customization of responses. This system has been used to implement a global surveillance program to study volcanos. We have also run sensorweb tests to study flooding, cryosphere events, and atmospheric phenomena. Specifically, in our application, we use low resolution, high coverage sensors to trigger observations by high resolution instruments. Note that there are many other rationales to network sensors into a sensorweb. For example automated response might enable observation using complementary instruments such as imaging radar, infra-red, visible, etc. Or automated response might be used to apply more assets to increase the frequency of observation to improve the temporal resolution of available data. Our sensorweb project is being used to monitor the Earth's 50 most active volcanos. We have also run sensorweb experiments to monitor flooding, wildfires, and cryospheric events (snowfall and melt, lake freezing and thawing, sea ice formation and breakup.)
+
+**Mexec Onboard Planning and Execution**, _National_Aeronautics_and_Space_Administration | Jet Propulsion Laboratory_
+> MEXEC is a lightweight, multi-mission software for activity scheduling and execution developed to increase the autonomy and efficiency of a robotic explorer. MEXEC was first created as a prototype demonstration for the Europa Clipper project as a potential solution to fail-operational requirements. Specifically, the Europa project is concerned with the radiation environment around Jupiter which can trigger on-board computer resets at critical times of the mission (e.g. during Europa flybys). If a CPU reset occurs, flight software must bring the spacecraft back to a safe state and resume science operations as quickly as possible to minimize science loss. The MEXEC prototype flight software was developed to provide such a capability using proven AI planning, scheduling, and execution technologies. Instead of command sequences, MEXEC works with task networks, which include abstract representations of command behavior, constraints on timing, and resources required and/or consumed by the behavior. Using this knowledge on-board, MEXEC can monitor command behavior and react to off-nominal outcomes (e.g. CPU reset), reconstructing command sequences to continue spacecraft operations without jeopardizing spacecraft safety.
+
+**Autonomous Marine Vehicles (Single, Multiple)**, _National_Aeronautics_and_Space_Administration | Jet Propulsion Laboratory_
+> Due to the communication paradigm associated with operating an underwater submersible on an Ocean World, the vehicle must be able to act autonomously when achieving scientific goals. One such goal is the study of hydrothermal venting. Evidence for hydrothermal activity has been found on one Ocean World, Enceladus. On Earth, these geological phenomena harbor unique ecosystems and are potentially critical to the origin of life. Similar vents on Ocean Worlds could be the best chance at extra-terrestrial life in our Solar System. We focus on performing autonomous science, specifically the localization of features of interest - such as hydrothermal venting - with limited to no human interaction. A field program to Karasik Seamount in the Arctic Ocean was completed in Fall 2016 to study and understand the human-in-the-loop approach to the localizing hydrothermal venting. In 2017/2018 an autonomous nested search method for hydrothermal venting was developed and tested in simulation using a hydrothermal plume dispersion model developed by Woods Hole Oceanographic Institution. Numerous deployments have been executed including to Monterey Bar (multiple), Chesapeake Bay.
+
+**Onboard Planner for Mars2020 Rover (Perseverance)**, _National_Aeronautics_and_Space_Administration | Jet Propulsion Laboratory_
+> The M2020 onboard scheduler incrementally constructs a feasible schedule by iterating through activities in priority- first order. When considering each activity it computes the valid time intervals for placement, taking into account preheating, maintenance heating, and wake/sleep of the rover as required. After an activity is placed (other than a preheat/maintenance or wake/sleep), the activity is never reconsidered by the scheduler for deletion or moving. Therefore the scheduler can be considered non backtracking, and only searches in the sense that it computes valid timeline intervals for legal activity placement. Meta Search: Because the onboard scheduler will be invoked many times in a given sol (Martian Day) with a range of possible contexts (due to execution variations), its non backtracking nature leaves its vulnerable to brittleness. In order to mitigate this potential brittleness, the Copilot systems perform a monte carlo based stochastic analysis to set meta parameters of the scheduler - primarily activity priority but also potentially preferred time and temporal constraints. Also: Research, experiments, and engineering to empower future rovers with onboard autonomy; planning, scheduling & execution; path planning; onboard science; image processing; terrain classification; fault diagnosis; and location estimation. This is a multi- faceted effort and includes experimentation and demonstrations on-site at JPL's simulated mars navigation yard.
+
+**ASPEN Mission Planner**, _National_Aeronautics_and_Space_Administration | Jet Propulsion Laboratory_
+> Based on AI techniques, ASPEN is a modular, reconfigurable application framework which is capable of supporting a wide variety of planning and scheduling applications. ASPEN provides a set of reusable software components that implement the elements commonly found in complex planning/scheduling systems, including: an expressive modeling language, a resource management system, a temporal reasoning system, and a graphical interface. ASPEN has been used for many space missions including: Modified Antarctic Mapping Mission, Orbital Express, Earth Observing One, and ESA's Rosetta Orbitter.
+
+**CLASP Coverage Planning & Scheduling**, _National_Aeronautics_and_Space_Administration | Jet Propulsion Laboratory_
+> The Compressed Large-scale Activity Scheduling and Planning (CLASP) project is a long-range scheduler for space- based or aerial instruments that can be modelled as pushbrooms -- 1D line sensors dragged across the surface of the body being observed. It addresses the problem of choosing the orientation and on/off times of a pushbroom instrument or collection of pushbroom instruments such that the schedule covers as many target points as possible, but without oversubscribing memory and energy. Orientation and time of observation is derived from geometric computations that CLASP performs using the SPICE ephemeris toolkit. CLASP allows mission planning teams to start with a baseline mission concept and simulate the mission's science return using models of science observations, spacecraft operations, downlink, and spacecraft trajectory. This analysis can then be folded back into many aspects of mission design -- including trajectory, spacecraft design, operations concept, and downlink concept. The long planning horizons allow this analysis to span an entire mission. Actively in use for optimized scheduling for the NISAR Mission, ECOSTRESS mission (study of water needs for plant areas), EMIT mission (minerology of arid dusty regions), OCO-3 (atmospheric CO2) and more as well as used for numerous missions analysis and studies (e.g. 100+).
+
+**TRN (Terrain Relative Navigation)**, _National_Aeronautics_and_Space_Administration | Jet Propulsion Laboratory_
+> Terrain Relative Navigation (TRN) estimates position during Mars landing by automatically matching landmarks identified in descent images to a map generated from orbital imagery. The position estimate is used to a select a safe and reachable landing site in a region with many large hazards. TRN was used successfully by the Mars 2020 mission during its landing on February 18th, 2021 and will be used on Mars Sample Return Lander.
+
+**Lessons Learned Bot (LLB)**, _National_Aeronautics_and_Space_Administration | Langley Research Center_
+> In near real-time, the Lessons Learned Bot, or LLB, brings lessons learned (LL) documents to users through a Microsoft Excel add-in application locally installed to search for LL content relevant to the text within the selected Excel cell. The application will encompass a corpus of documents, a trained Machine Learning (ML) model, built-in ML tools to train user’s documents, and an easy-to-use user interface to allow for the streamlined discovery of LL content. Today, NASA’s LL are online and searchable via keywords. Nevertheless, users often face a challenge to find lessons relevant to their issues. Applying the advancement in Natural Language Processing (NLP) ML algorithm, the LLB can find and rank LL records relevant to text in the user’s selected Excel cells, containing just a few words or entire paragraphs of text. Results are displayed to the user in their existing Excel workflow. The LLB’s installation package comes with a pre-trained NASA LL dataset and a NASA Scientific and Technical Information (STI) dataset, as well as on-demand training tools allowing the user to apply the LLB search algorithm to their own discipline specific datasets.Additionally, we also have an API version of this software that can be called from any application within the Agency firewall.
+
+**Autonomous WAiting Room Evaluation (AWARE)**, _National_Aeronautics_and_Space_Administration | Langley Research Center_
+> Using an existing security camera and YOLO Machine Learning model to detect and count number of people waiting for service at Langley's Badge & Pass Office. When a predetermined threshold of people is exceeded, automated texts and emails are sent to request additional help at the service counters.
+
+**Geophysical Observations Toolkit for Evaluating Coral Health (GOTECH)**, _National_Aeronautics_and_Space_Administration | Langley Research Center_
+> Three capstone projects conducted 2021-2022 with Georgia Tech and University of Rochester to develop machine learning models that can analyze satellite LIDAR imagery to detect coral reefs and monitor their health. Capstones were conducted with support of Coral Vita (an NGO) and the National Institute of Aerospace. Results were presented at United Nations COP27.
+
+**Pedestrian Safety Corridors for Drone Test Range**, _National_Aeronautics_and_Space_Administration | Langley Research Center_
+> NASA Langley Research Center (LaRC) is actively experimenting with Unmanned Aerial Systems (UAS - Drones and surrounding systems) to include command, control, coordination and safety mechanisms. LaRC is expanding an on- site UAS test range, to include areas where people walk, drive, etc. This project leverages the parking advisor image recognition project and applies it to detecting pedestrian traffic to supplement statistical assessment of human- heavy and human lite traffic areas with near-real time human-presence-detection. Inputs include camera signals and hand labelled training data. Outputs include maps indicating density of human pedestrian traffic. The results have been embedded into the GRASP flight risk simulation tool.
+
+**Airplane detection**, _National_Aeronautics_and_Space_Administration | Marshall Space Flight Center_
+> Deep learning-based airplane detection from high-resolution satellite imagery
+
+**Deep Learning-based Hurricane Intensity Estimator**, _National_Aeronautics_and_Space_Administration | Marshall Space Flight Center_
+> A web-based situational awareness tool that uses deep learning on satellite images to objectively estimate windspeed of a hurricane
+
+**Similarity Search for Earth Science Image Archive**, _National_Aeronautics_and_Space_Administration | Marshall Space Flight Center_
+> Self Supervised Based Learning approach to search image archives using a query image
+
+**Forecasting Algal Blooms With Ai In Lake Atitlán**, _National_Aeronautics_and_Space_Administration | Marshall Space Flight Center_
+> Deep analyses on image datasets from different satellites. Machine learning will help to identify the variables that could predict future algal blooms. Knowledge on what those triggers are can turn into precise preventative action, not just in Lake Atitlan, but also in other freshwater bodies with similar conditions in Central and South America.
+
+**GCMD Keyword Recommender (GKR)**, _National_Aeronautics_and_Space_Administration | Marshall Space Flight Center_
+> Natural Language Processing-based science keyword suggestion tool
+
+**ImageLabeler**, _National_Aeronautics_and_Space_Administration | Marshall Space Flight Center_
+> Web-based Collaborative Machine Learning Training Data Generation Tool
+
+**Deep Learning Approaches for mapping surface water using Sentinel-1**, _National_Aeronautics_and_Space_Administration | Marshall Space Flight Center_
+> Uses a U-Net based architecture to map surface water using the Sentinel-1 SAR Images
+
+**Ship detection**, _National_Aeronautics_and_Space_Administration | Marshall Space Flight Center_
+> Deep learning-based ship detection from high-resolution satellite imagery
+
+**Mapping sugarcane in Thailand using transfer learning, a lightweight convolutional neural network, NICFI high resolution satellite imagery and Google Earth Engine**, _National_Aeronautics_and_Space_Administration | Marshall Space Flight Center_
+> Uses a U-Net based architecture with MobileNetV2 based encoder with transfer learning from global model to map the sugarcane pixels in Thailand. This uses NICFI mosaic for the training purpose.
+
+**Automatic Detection of Impervious Surfaces from Remotely Sensed Data Using Deep Learning**, _National_Aeronautics_and_Space_Administration | Marshall Space Flight Center_
+> Uses a U-Net based architecture with VGG-19 as an encoder block and custom decoder block to map the impervious surfaces using Landsat and OSM data patches
+
+**Predicting streamflow with deep learning**, _National_Aeronautics_and_Space_Administration | Marshall Space Flight Center_
+> Uses a long short-term memory model to predict streamflow at USGS gauges sites with inputs from the NASA Land Information System and forecasts of precipitation
+
+## Department_of_State
+
+**Within Grade Increase Automation**, _Department_of_State | A_
 > A Natural Language Processing (NLP) model is used in coordination with Intelligent Character Recognition (ICR) to identify and extract values from the JF-62 form for within grade increase payroll actions. Robotic Process Automation (RPA) is then used to validate the data against existing reports, then create a formatted file for approval and processing.
 
-**Tailored Integration Logistics Management System (ILMS) Automated User Support Bot**, _State | A_
-> ILMS developed and deployed an automated support desk assistant using ServiceNow Virtual Agent to simplify support desk interactions for ILMS customers and to deflect easily resolved issues from higher cost support desk agents.
-
-**Conflict Forecasting**, _State | A_
-> CSO/AA is developing a suite of conflict and instability forecasting models that use open-source political, social, and economic datasets to predict conflict outcomes including interstate war, mass mobilization, and mass killings. The use of AI is confined to statistical models including machine learning techniques including tree-based methods, neural networks, and clustering approaches.
-
-**Federal Procurement Data System (FPDS) Auto-Populate Bot**, _State | A_
-> A/LM collaborated with A/OPE to develop a bot to automate the data entry in the Federal Procurement Data System (FPDS), reducing the burden on post’s procurement staff and driving improved compliance on DATA Act reporting. This bot is now used to update ~300 FPDS awards per week. A/LM also partnered with WHA to develop a bot to automate closeout reminders for federal assistance grants nearing the end of the period of performance and begin developing bots to automate receiving report validation and customer service inbox monitoring.
-
-**Tailored Integration Logistics Management System (ILMS) User Analytics**, _State | A_
+**Tailored Integration Logistics Management System (ILMS) User Analytics**, _Department_of_State | A_
 > A/LM plans to use available ILMS transactional data and planned transactions to develop tailored user experiences and analytics to meet the specifics needs of the user at that moment. By mining real system actions and clicks we can extract more meaningful information about our users to simplify their interactions with the system and reduce time to complete their daily actions.
 
-**Verified Imagery Pilot Project**, _State | A_
+**Supply Chain Fraud and Risk Models**, _Department_of_State | A_
+> A/LM plans to expand current risk analytics through development of AI/ML models for detecting anomalous activity within the Integrated Logistics Management System (ILMS) that could be potential fraud or malfeasance. The models will expand upon existing risk models and focus on key supply chain functions such as: Asset Management, Procure-to-Pay, and Fleet Management.
+
+**Conflict Forecasting**, _Department_of_State | A_
+> CSO/AA is developing a suite of conflict and instability forecasting models that use open-source political, social, and economic datasets to predict conflict outcomes including interstate war, mass mobilization, and mass killings. The use of AI is confined to statistical models including machine learning techniques including tree-based methods, neural networks, and clustering approaches.
+
+**Verified Imagery Pilot Project**, _Department_of_State | A_
 > The Bureau of Conflict and Stabilization Operations ran a pilot project to test how the use of a technology service, Sealr, could verify the delivery of foreign assistance to conflict-affected areas where neither U.S. Department of State nor our implementing partner could go. Sealr uses blockchain encryption to secure photographs taken on smartphones from digital tampering. It also uses artificial intelligence to detect spoofs, like taking a picture of a picture of something. Sealr also has some image recognition capabilities. The pilot demonstrated technology like Sealr can be used as a way to strengthen remote monitoring of foreign assistance to dangerous or otherwise inaccessible areas.
 
-**Automatic Detection of Authentic Material**, _State | CGFS_
+**Tailored Integration Logistics Management System (ILMS) Automated User Support Bot**, _Department_of_State | A_
+> ILMS developed and deployed an automated support desk assistant using ServiceNow Virtual Agent to simplify support desk interactions for ILMS customers and to deflect easily resolved issues from higher cost support desk agents.
+
+**Federal Procurement Data System (FPDS) Auto-Populate Bot**, _Department_of_State | A_
+> A/LM collaborated with A/OPE to develop a bot to automate the data entry in the Federal Procurement Data System (FPDS), reducing the burden on post’s procurement staff and driving improved compliance on DATA Act reporting. This bot is now used to update ~300 FPDS awards per week. A/LM also partnered with WHA to develop a bot to automate closeout reminders for federal assistance grants nearing the end of the period of performance and begin developing bots to automate receiving report validation and customer service inbox monitoring.
+
+**Product Service Code Automation ML Model**, _Department_of_State | A_
+> A/LM developed a machine learning model to scan unstructured, user entered procurement data such as Requisition Title and Line Descriptions to automatically detect the commodity and services types being purchased for enhanced procurement categorization.
+
+**Automatic Detection of Authentic Material**, _Department_of_State | CGFS_
 > The Foreign Service Institute School of Language Studies is developing a tool for automated discovery of authentic native language texts classified for both topic and Interagency Language Roundtable (ILR) proficiency level to support foreign language curriculum and language testing kit development.
 
-**Apptio**, _State | CSO_
-> Working Capital Fund (IRM/WCF) uses Apptio to bill bureaus for consolidated services run from the WCF. Cost models are built in Apptio so bureaus can budget for the service costs in future FYs. Apptio has the capability to extrapolate future values using several available formulas.
-
-**ServiceNow AI-Powered Virtual Agent (Chatbot)**, _State | CSO_
-> IRM’s BMP Systems is planning to incorporate ServiceNow’s Virtual Agent into our existing applications to connect users with support and data requests. The Artificial Intelligence (AI) is provided by ServiceNow as part of their Platform as a Service (PaaS).
-
-**Automated Burning Detection**, _State | CSO_
-> The Village Monitoring System program uses AI and machine learning to conduct daily scans of moderate resolution commercial satellite imagery to identify anomalies using the near-infrared band.
-
-**Automated Damage Assessments**, _State | CSO_
+**Automated Damage Assessments**, _Department_of_State | CSO_
 > The Conflict Observatory program uses AI and machine learning on moderate and high-resolution commerical satellite imagery to document a variety of war crimes and other abuses in Ukraine, including automated damage assessments of a variety of buildings, including critical infrastructure, hospitals, schools, crop storage facilities.
 
-**NLP for Foreign Assistance Appropriations Analysis**, _State | F_
+**ServiceNow AI-Powered Virtual Agent (Chatbot)**, _Department_of_State | CSO_
+> IRM’s BMP Systems is planning to incorporate ServiceNow’s Virtual Agent into our existing applications to connect users with support and data requests. The Artificial Intelligence (AI) is provided by ServiceNow as part of their Platform as a Service (PaaS).
+
+**Automated Burning Detection**, _Department_of_State | CSO_
+> The Village Monitoring System program uses AI and machine learning to conduct daily scans of moderate resolution commercial satellite imagery to identify anomalies using the near-infrared band.
+
+**Apptio**, _Department_of_State | CSO_
+> Working Capital Fund (IRM/WCF) uses Apptio to bill bureaus for consolidated services run from the WCF. Cost models are built in Apptio so bureaus can budget for the service costs in future FYs. Apptio has the capability to extrapolate future values using several available formulas.
+
+**NLP for Foreign Assistance Appropriations Analysis**, _Department_of_State | F_
 > Natural language processing application for F/RA to streamline the extraction of earmarks and directives from the annual appropriations bill. Before NLP this was an entirely manual process.
 
-**eRecords M/L Metadata Enrichment**, _State | FSI_
+**eRecords M/L Metadata Enrichment**, _Department_of_State | FSI_
 > The Department’s central eRecords archive leverages machine learning models to add additional metadata to assist with record discovery and review. This includes models for entity extraction, sentiment analysis, classification and identifying document types.
 
-**Facebook Ad Test Optimization System**, _State | GPA_
-> GPA’s production media collection and analysis system that pulls data from half a dozen different open and commercial media clips services to give an up-to-date global picture of media coverage around the world.
-
-**Machine-Learning Assisted Measurement and Evaluation of Public Outreach**, _State | GPA_
-> GPA’s production system for collecting, analyzing, and summarizing the global digital content footprint of the Department.
-
-**Global Audience Segmentation Framework**, _State | GPA_
+**Global Audience Segmentation Framework**, _Department_of_State | GPA_
 > A prototype system that collects and analyzes the daily media clips reports from about 70 different Embassy Public Affairs Sections.
 
-**GPATools and GPAIX**, _State | GPA_
+**Machine-Learning Assisted Measurement and Evaluation of Public Outreach**, _Department_of_State | GPA_
+> GPA’s production system for collecting, analyzing, and summarizing the global digital content footprint of the Department.
+
+**GPATools and GPAIX**, _Department_of_State | GPA_
 > GPA’s production system for testing potential messages at scale across segmented foreign sub-audiences to determine effective outreach to target audiences.
 
-**Behavioral Analytics for Online Surveys Test (Makor Analytics)**, _State | IRM_
-> GEC executes a Technology Testbed to rapidly test emerging technology applications against foreign disinformation and propaganda challenges. GEC works with interagency and foreign partners to understand operational threats they’re facing and identifies technological countermeasures to apply against the operational challenge via short-duration tests of promising technologies. Makor Analytics is an AI quantitative research company that helps clients understand their audience’s perceptions and feelings helping to mitigate some of the limitations in traditional survey research. Makor Analytics’ proprietary behavioral analytics technology was developed to uncover true convictions and subtle emotions adding additional insights into traditional online survey results. The desired outcome of the pilot is a report analyzing the survey responses using behavioral analytics to provide target audience sentiment insights and subsequent recommendations. By leveraging AI behavioral analytics, the pilot aims to provide additional information beyond self-reported data that reflects sentiment analysis in the country of interest.
+**Facebook Ad Test Optimization System**, _Department_of_State | GPA_
+> GPA’s production media collection and analysis system that pulls data from half a dozen different open and commercial media clips services to give an up-to-date global picture of media coverage around the world.
 
-**Fast Text Word Builder**, _State | IRM_
-> Fast Text is an AI approach to identifying similar terms and phrases based off a root word. This support A&R’s capability to build robust search queries for data collection.
-
-**AI Capabilities Embedded in SMART**, _State | IRM_
+**AI Capabilities Embedded in SMART**, _Department_of_State | IRM_
 > Models have been embedded in the backend of the SMART system on OpenNet to perform entity extraction of objects within cables, sentiment analysis of cables, keyword extraction of topics identified within cables, and historical data analysis to recommend addressees and passlines to users when composing cables.
 
-**Crisis Campaign Cable Analytics**, _State | M/SS_
-> Use optical character recognition and natural language processing on Department cables in order to evaluate gaps and trends in crisis training and bolster post preparedness for crisis events.
-
-**NLP to pull key information from unstructured text**, _State | PM_
+**NLP to pull key information from unstructured text**, _Department_of_State | PM_
 > Use NLP to extract information such as country names and agreement dates from dozens of pages of unstructured pdf document
 
-**K-Means clustering into tiers**, _State | PM_
+**K-Means clustering into tiers**, _Department_of_State | PM_
 > Cluster countries into tiers based off data collected from open source and bureau data using k-means clustering
 
-**Image Clustering**, _State | R_
-> Uses a pretrained deep learning model to generate image embeddings, then uses hierarchical clustering to identify similar images.
-
-**forecasting**, _State | R_
-> using statistical models, projecting expected outcome into the future; this has been applied to COVID cases as well as violent events in relation to tweets
-
-**Louvain Community Detection**, _State | R_
-> Takes in a social network and clusters nodes together into “communities” (i.e., similar nodes are grouped together)
-
-**TOPIQ**, _State | R_
-> GEC A&R’s TOPIQ tool automatically classifies text into topics for analyst review and interpretation. The tool uses Latent Dirichlet Allocation (LDA), a natural language processing technique that uncovers a specified number of topics from a collection of documents, and then assigns the probability that each document belongs to a topic.
-
-**SentiBERTIQ**, _State | R_
-> GEC A&R uses deep contextual AI of text to identify and extract subjective information within the source material. This sentiment model was trained by fine-tuning a multilingual, BERT model leveraging word embeddings across 2.2 million labeled tweets spanning English, Spanish, Arabic, and traditional and simplified Chinese. The tool will assign a sentiment to each text document and output a CSV containing the sentiment and confidence interval for user review.
-
-**Deepfake Detector**, _State | R_
+**Deepfake Detector**, _Department_of_State | R_
 > Deep learning model that takes in an image containing a person’s face and classifies the image as either being real (contains a real person’s face) or fake (synthetically generated face, a deepfake often created using Generative Adversarial Networks).
 
-**Topic Modeling**, _State | R_
+**Louvain Community Detection**, _Department_of_State | R_
+> Takes in a social network and clusters nodes together into “communities” (i.e., similar nodes are grouped together)
+
+**SentiBERTIQ**, _Department_of_State | R_
+> GEC A&R uses deep contextual AI of text to identify and extract subjective information within the source material. This sentiment model was trained by fine-tuning a multilingual, BERT model leveraging word embeddings across 2.2 million labeled tweets spanning English, Spanish, Arabic, and traditional and simplified Chinese. The tool will assign a sentiment to each text document and output a CSV containing the sentiment and confidence interval for user review.
+
+**Image Clustering**, _Department_of_State | R_
+> Uses a pretrained deep learning model to generate image embeddings, then uses hierarchical clustering to identify similar images.
+
+**Topic Modeling**, _Department_of_State | R_
 > Cluster text into themes based on frequency of used words in documents; has been applied to digital media articles as well as social media posts; performed using available Python libraries
 
-**Text Similarity**, _State | R_
-> GEC A&R’s Text Similarity capability identified different texts that are identical or nearly identical by calculating cosine similarity between each text. Texts are then grouped if they share high cosine similarity and then available for analysts to review further.
-
-**Optical Character Recognition – text extraction**, _State | R_
+**Optical Character Recognition – text extraction**, _Department_of_State | R_
 > Extract text from images using standard python libraries; inputs have been websites to collect data
 
-## Labor
+**Text Similarity**, _Department_of_State | R_
+> GEC A&R’s Text Similarity capability identified different texts that are identical or nearly identical by calculating cosine similarity between each text. Texts are then grouped if they share high cosine similarity and then available for analysts to review further.
 
-**Audio Transcription**, _Labor_
-> Transcription of speech to text for records keeping using natural language processing models.
+**forecasting**, _Department_of_State | R_
+> using statistical models, projecting expected outcome into the future; this has been applied to COVID cases as well as violent events in relation to tweets
 
-**Website Chatbot Assistant**, _Labor_
-> The chatbot helps the end user with basic information about the program, information on who to contact, or seeking petition case status.
+**TOPIQ**, _Department_of_State | R_
+> GEC A&R’s TOPIQ tool automatically classifies text into topics for analyst review and interpretation. The tool uses Latent Dirichlet Allocation (LDA), a natural language processing technique that uncovers a specified number of topics from a collection of documents, and then assigns the probability that each document belongs to a topic.
 
-**Language Translation**, _Labor_
-> Language translation of published documents and website using natural language processing models.
+## Department_of_Labor
 
-**Automatic Data Processing Workflow with Form Recognizer**, _Labor_
-> Automatic processing of current complex worflow to extract required data.
-
-**Text to Speech Conversion**, _Labor_
-> Text to speech (Neural) for more realistic human sounding applications using natural language processing models.
-
-**Claims Document Processing**, _Labor_
-> To identify if physician’s note contains causal language by training custom natural language processing models.
-
-**Case Recording summarization**, _Labor_
-> Using an open source large language model to summarize publicly available case recording documents which are void of personal identifiable information (PII) or any other sensitive information. This is not hosted in the DOL technical environment and is reviewed by human note takers.
-
-**Data Ingestion of Payroll Forms**, _Labor_
+**Form Recognizer for Benefits Forms**, _Department_of_Labor_
 > Custom machine learning model to extract data from complex forms to tag data entries to field headers. The input is a document or scanned image of the form and the output is a JSON response with key/value pairs extracted by running the form against the custom trained model.
 
-**Electronic Records Management**, _Labor_
-> Meeting NARA metadata standards for (permanent) federal documents by using AI to identify data within the document, and also using NLP to classify and summarize documents.
-
-**Scanner Data Product Classification**, _Labor_
+**Scanner Data Product Classification**, _Department_of_Labor_
 > BLS receives bulk data from some corporations related to the cost of goods they sell and services they provide. Consumer Price Index (CPI) staff have hand-coded a segment of the items in these data into Entry Level Item (ELI) codes. To accept and make use of these bulk data transfers at scale, BLS has begun to use machine learning to label data with ELI codes. The machine learning model takes as input word frequency counts from item descriptions. Logistic regression is then used to estimate the probability of each item being classified in each ELI category based on the word frequency categorizations. The highest probability category is selected for inclusion in the data. Any selected classifications that do not meet a certain probability threshold are flagged for human review.
 
-**Official Document Validation**, _Labor_
-> AI detection of mismatched addresses and garbled text in official letters sent to benefits recipients.
+**Claims Document Processing**, _Department_of_Labor_
+> To identify if physician’s note contains causal language by training custom natural language processing models.
 
-**Form Recognizer for Benefits Forms**, _Labor_
-> Custom machine learning model to extract data from complex forms to tag data entries to field headers. The input is a document or scanned image of the form and the output is a JSON response with key/value pairs extracted by running the form against the custom trained model.
-
-**Automatic Document Processing**, _Labor_
-> Automatic processing of continuation of benefits form to extract pre-defined selection boxes.
-
-**Expenditure Classification Autocoder**, _Labor_
-> Custom machine learning model to assign a reported expense description from Consumer Expenditure Diary Survey respondents to expense classification categories known as item codes.
-
-**DOL Intranet Website Chatbot Assistant**, _Labor_
+**DOL Intranet Website Chatbot Assistant**, _Department_of_Labor_
 > Conversational chatbot on DOL intranet websites to help answer common procurement questions, as well as specific contract questions.
 
-**Hololens**, _Labor_
-> AI used by Inspectors to visually inspect high and unsafe areas from a safe location.
+**Automatic Data Processing Workflow with Form Recognizer**, _Department_of_Labor_
+> Automatic processing of current complex worflow to extract required data.
 
-**Call Recording Analysis**, _Labor_
-> Automatic analysis of recorded calls made to Benefits Advisors in the DOL Interactive Voice Repsonse (IVR) center.
-
-**OEWS Occupation Autocoder**, _Labor_
+**OEWS Occupation Autocoder**, _Department_of_Labor_
 > The input is state submitted response files that include occupation title and sometimes job description of the surveyed units. The autocoder reads the job title and assigns up to two 6-digit Standard Occupational Classification (SOC) codes along with their probabilities as recommendations for human coders. Codes above a certain threshold are appended to the submitted response file and sent back to states to assist them with their SOC code assignment.
 
-## USAID
+**Automatic Document Processing**, _Department_of_Labor_
+> Automatic processing of continuation of benefits form to extract pre-defined selection boxes.
 
-**Long-term impacts of land-use/land-cover dynamics on surface water quality in Botswana’s reservoirs using satellite data and artificial intelligence methods: Case study of the Botswana’s Limpopo River Basin (1984-2019)**, _USAID | USAID | USAID/Bureau for Development, Democracy, and Innovation (DDI)_
-> For water supply, semi-arid Botswana relies on the reservoirs within the Botswana’s LRB. Reservoirs are particularly susceptible to the negative impacts of land-use and land-cover (LULC) activities and runoff because of their complex dynamics, relatively longer water residence times, and their role as an integrating sink for pollutants from their drainage basins. Despite these interrelationships and significance in regional and global economic stability, land and water (L-W) are often treated in “silos”. To understand the complex L-W nexus within the LRB, this study will use data-driven artificial intelligence for quantitative determination of the relationships between LULC change, together with socioeconomic development indicators and climate change, and their impacts on water quality and availability within the basin, both for 1984-2019 and to predict future scenarios (2020-2050). To advance data acquisition for LULC analysis and climate change, the study utilizes optical Earth-observation and meteorological satellite data. To provide near real-time and cost-effective approach for continuous monitoring of reservoir water quality within the basin, the study will develop empirical models for water quality estimation and water quality index mapping using 35-years of in-situ water quality measurements and water spectral observations using drone-borne spectrometer and optical satellite imagery through regression modeling and geospatial methods.
+**Official Document Validation**, _Department_of_Labor_
+> AI detection of mismatched addresses and garbled text in official letters sent to benefits recipients.
 
-**Project Vikela**, _USAID | USAID | USAID/Bureau for Development, Democracy, and Innovation (DDI)_
+**Text to Speech Conversion**, _Department_of_Labor_
+> Text to speech (Neural) for more realistic human sounding applications using natural language processing models.
+
+**Language Translation**, _Department_of_Labor_
+> Language translation of published documents and website using natural language processing models.
+
+**Audio Transcription**, _Department_of_Labor_
+> Transcription of speech to text for records keeping using natural language processing models.
+
+**Website Chatbot Assistant**, _Department_of_Labor_
+> The chatbot helps the end user with basic information about the program, information on who to contact, or seeking petition case status.
+
+**Case Recording summarization**, _Department_of_Labor_
+> Using an open source large language model to summarize publicly available case recording documents which are void of personal identifiable information (PII) or any other sensitive information. This is not hosted in the DOL technical environment and is reviewed by human note takers.
+
+**Hololens**, _Department_of_Labor_
+> AI used by Inspectors to visually inspect high and unsafe areas from a safe location.
+
+**Call Recording Analysis**, _Department_of_Labor_
+> Automatic analysis of recorded calls made to Benefits Advisors in the DOL Interactive Voice Repsonse (IVR) center.
+
+**Expenditure Classification Autocoder**, _Department_of_Labor_
+> Custom machine learning model to assign a reported expense description from Consumer Expenditure Diary Survey respondents to expense classification categories known as item codes.
+
+**Data Ingestion of Payroll Forms**, _Department_of_Labor_
+> Custom machine learning model to extract data from complex forms to tag data entries to field headers. The input is a document or scanned image of the form and the output is a JSON response with key/value pairs extracted by running the form against the custom trained model.
+
+**Electronic Records Management**, _Department_of_Labor_
+> Meeting NARA metadata standards for (permanent) federal documents by using AI to identify data within the document, and also using NLP to classify and summarize documents.
+
+## U.S._Agency_for_International_Development
+
+**Project Vikela**, _U.S._Agency_for_International_Development | Bureau for Development, Democracy, and Innovation (DDI)_
 > Use AI to detect illegal rhino horn in airplane luggage X-Ray scanners
 
-**Media Early Warning System (MEWS)**, _USAID | USAID | USAID/Bureau for Development, Democracy, and Innovation (DDI)_
-> To detect narratives and trends in social media alterations of images and video in order to find and counteract malign narratives
-
-**Machine Learning for Peace**, _USAID | USAID | USAID/Bureau for Development, Democracy, and Innovation (DDI)_
-> Objective 1 under the Illuminating New Solutions and Programmatic Innovations for Resilient Spaces’ (INSPIRES). Includes program activities and website - https://web.sas.upenn.edu/mlp-devlab/
-
-**Gender differentiated credit scoring**, _USAID | USAID | USAID/Bureau for Development, Democracy, and Innovation (DDI)_
-> University of California, Berkeley, is building a machine learning model to conduct gender differentiated credit scoring for customers of Rappicard in Mexico. They will compare this ML model to Rappi's "status quo" model to determine whether a gender differentiated model leads to greater access to credit for women.
-
-**Morogoro youth empowerment through establishment of social innovation (YEESI) lab for problem-centered training in machine vision**, _USAID | USAID | USAID/Bureau for Development, Democracy, and Innovation (DDI)_
+**Morogoro youth empowerment through establishment of social innovation (YEESI) lab for problem-centered training in machine vision**, _U.S._Agency_for_International_Development | Bureau for Development, Democracy, and Innovation (DDI)_
 > The project proposes to establish a social innovation lab for a machine vision program that will be used by youth in the Morogoro region of Tanzania. There are young people in the area who have studied information technologies and allied sciences, and while most of them can write computer programs, they cannot solve machine vision problems. This project aims to increase awareness among the youth of Morogoro and nearby regions to address machine vision problems in agriculture. Machine vision is a new and understudied practice in Tanzania; hence, this project will contribute to efforts in the creation of scientific societies that address the most pressing problems faced by more than 80% of Tanzania’s population who engage in farming. The main agricultural problems can be classified into five categories, as explained below: (1) Disease Detection and Classification: The project will develop experts who will solve problems in disease identification using machine vision for most of the diseases in crops and livestock, which are misdiagnosed by farmers. (2) Weed Classification: The project will develop algorithms that accurately identify weeds and contribute to the growing scientific database for automatic weed detection. (3) Pest Detection and Classification: Appropriate tools using machine vision for Integrated Pest Management (IPM) are needed in Tanzania, as IPM has been hindered due to a lack of extension officers to train farmers on mitigation and identification of pests in agriculture. (4) Crop Seedlings Stand Count and Yield Estimation: Use of machine vision and drones instead of scouting manually to estimate stand counts would provide appropriate mitigation strategies for replanting that would be beneficial to commercial farmers. Also of importance are algorithms to sort and estimate yield by counting the fruits and to estimate the amount of other agricultural products. (5) Crop Vigor Estimation: Most farmers apply inputs evenly across the farm because they cannot predetermine crop vigor. Accurate estimation of crop health would help farmers to mitigate the problems earlier and improve crop performance and avoid failure. Algorithms to determine crop vigor developed in this project will contribute to the improvement of the methods to estimate crop performance earlier.
 
-**Breakthrough RESEARCH’s Social Media Listening**, _USAID | USAID | USAID/Bureau for Global Health (GH)_
-> Social media listening draws on machine learning to synthesize and organize the vast quantities of data shared over social media platforms. Breakthrough RESEARCH carried out social listening on 12,301 social media posts in Nigeria to explore how gender-related online conversations manifest themselves and whether they have changed in the last five years. Using Crimson Hexagon’s machine learning algorithm, “Brightview,” publicly available social media content originating in the countries of interest was scraped by the algorithm, for posts relevant to RH/FP and youth. The resulting social media posts were then classified by topic, using language detected in the content. This provided a dataset categorizing conversations into overarching topics, allowing analyses to uncover key trends in topic specific conversation volume, insights about misinformation, attitudes and social norms, and more. The machine learning algorithm was able to identify relevant social media content. The 12,301 social media posts were qualitatively assessed and categorized, allowing researchers to monitor and track social media conversations far more expansively than allowed by research methods more traditionally used in public health and SBC programs.
+**Long-term impacts of land-use/land-cover dynamics on surface water quality in Botswana’s reservoirs using satellite data and artificial intelligence methods: Case study of the Botswana’s Limpopo River Basin (1984-2019)**, _U.S._Agency_for_International_Development | Bureau for Development, Democracy, and Innovation (DDI)_
+> For water supply, semi-arid Botswana relies on the reservoirs within the Botswana’s LRB. Reservoirs are particularly susceptible to the negative impacts of land-use and land-cover (LULC) activities and runoff because of their complex dynamics, relatively longer water residence times, and their role as an integrating sink for pollutants from their drainage basins. Despite these interrelationships and significance in regional and global economic stability, land and water (L-W) are often treated in “silos”. To understand the complex L-W nexus within the LRB, this study will use data-driven artificial intelligence for quantitative determination of the relationships between LULC change, together with socioeconomic development indicators and climate change, and their impacts on water quality and availability within the basin, both for 1984-2019 and to predict future scenarios (2020-2050). To advance data acquisition for LULC analysis and climate change, the study utilizes optical Earth-observation and meteorological satellite data. To provide near real-time and cost-effective approach for continuous monitoring of reservoir water quality within the basin, the study will develop empirical models for water quality estimation and water quality index mapping using 35-years of in-situ water quality measurements and water spectral observations using drone-borne spectrometer and optical satellite imagery through regression modeling and geospatial methods.
 
-**Using ML for predicting treatment interruption among PLHIV in Nigeria**, _USAID | USAID | USAID/Bureau for Global Health (GH)_
-> Using data from USAID funded Strengthening Integrated Delivery of HIV/AIDS Services (SIDHAS) project in Nigeria we trained and tested an algorithm that can be used for predicting the probability that someone newly initiated on ART will interrupt treatment. The algorithm has been successfully integrated into the Lafiya Management Information System (LAMIS), the individual-level client level electronic medical record system. Each week the outputs, for each new patient is shared with staff at the health facilities and those at high risk are provided with more intensive follow up support to reduce the risk of treatment interruption. We also conducted a qualitative assessment among to health care workers at the facilities to determine their perception of ML and determine what additional support are required for institutionalizing ML into their routine work.
+**Machine Learning for Peace**, _U.S._Agency_for_International_Development | Bureau for Development, Democracy, and Innovation (DDI)_
+> Objective 1 under the Illuminating New Solutions and Programmatic Innovations for Resilient Spaces’ (INSPIRES). Includes program activities and website - https://web.sas.upenn.edu/mlp-devlab/
 
-**Mali: AI predictions for the optimization of the allocation of the distribution of COVID-19 vaccines**, _USAID | USAID | USAID/Bureau for Global Health (GH)_
+**Gender differentiated credit scoring**, _U.S._Agency_for_International_Development | Bureau for Development, Democracy, and Innovation (DDI)_
+> University of California, Berkeley, is building a machine learning model to conduct gender differentiated credit scoring for customers of Rappicard in Mexico. They will compare this ML model to Rappi's "status quo" model to determine whether a gender differentiated model leads to greater access to credit for women.
+
+**Media Early Warning System (MEWS)**, _U.S._Agency_for_International_Development | Bureau for Development, Democracy, and Innovation (DDI)_
+> To detect narratives and trends in social media alterations of images and video in order to find and counteract malign narratives
+
+**Mali: AI predictions for the optimization of the allocation of the distribution of COVID-19 vaccines**, _U.S._Agency_for_International_Development | Bureau for Global Health (GH)_
 > AI technology was used to develop a pandemic preparedness AI model to support allocation of COVID-19 vaccines based on a multi-tiered strategy for target populations: 1) hotspots for COVID-19 positive cases and 2) pregnant/breastfeeding women using DHIS2 data. This was a proof-of-concept model.
 
-**Serbia: AI predictions for the utilization of hospital beds**, _USAID | USAID | USAID/Bureau for Global Health (GH)_
+**Serbia: AI predictions for the utilization of hospital beds**, _U.S._Agency_for_International_Development | Bureau for Global Health (GH)_
 > AI technology was used to predict bed occupancy at hospitals with MoH data from 2019, with an overall median error by department around 20%. This was a proof-of-concept model developed at the request of the Institute of Public Health (IPH) Batut to understand how AI can work and the value add. CHISU was asked to subsequently focus on a different use case (waiting list optimization for scheduled imaging diagnostics services, specifically CT and MRI), which is considered higher priority to demonstrate the implementation of the national AI strategy and the effect of AI in data use for decision making by the government, and will be addressed in the 2023-4.
 
-**Indonesia: AI predictions for improving forecasts for TB drugs**, _USAID | USAID | USAID/Bureau for Global Health (GH)_
+**Using ML for predicting treatment interruption among PLHIV in Nigeria**, _U.S._Agency_for_International_Development | Bureau for Global Health (GH)_
+> Using data from USAID funded Strengthening Integrated Delivery of HIV/AIDS Services (SIDHAS) project in Nigeria we trained and tested an algorithm that can be used for predicting the probability that someone newly initiated on ART will interrupt treatment. The algorithm has been successfully integrated into the Lafiya Management Information System (LAMIS), the individual-level client level electronic medical record system. Each week the outputs, for each new patient is shared with staff at the health facilities and those at high risk are provided with more intensive follow up support to reduce the risk of treatment interruption. We also conducted a qualitative assessment among to health care workers at the facilities to determine their perception of ML and determine what additional support are required for institutionalizing ML into their routine work.
+
+**Breakthrough RESEARCH’s Social Media Listening**, _U.S._Agency_for_International_Development | Bureau for Global Health (GH)_
+> Social media listening draws on machine learning to synthesize and organize the vast quantities of data shared over social media platforms. Breakthrough RESEARCH carried out social listening on 12,301 social media posts in Nigeria to explore how gender-related online conversations manifest themselves and whether they have changed in the last five years. Using Crimson Hexagon’s machine learning algorithm, “Brightview,” publicly available social media content originating in the countries of interest was scraped by the algorithm, for posts relevant to RH/FP and youth. The resulting social media posts were then classified by topic, using language detected in the content. This provided a dataset categorizing conversations into overarching topics, allowing analyses to uncover key trends in topic specific conversation volume, insights about misinformation, attitudes and social norms, and more. The machine learning algorithm was able to identify relevant social media content. The 12,301 social media posts were qualitatively assessed and categorized, allowing researchers to monitor and track social media conversations far more expansively than allowed by research methods more traditionally used in public health and SBC programs.
+
+**Indonesia: AI predictions for improving forecasts for TB drugs**, _U.S._Agency_for_International_Development | Bureau for Global Health (GH)_
 > AI technology will be used to develop a forecasting AI model for TB sensitive drugs to inform more accurate annual quantification exercises for the MoH linked to their national data integration platform SatuSehat
 
-**NASA SERVIR - Mapping urban vulnerability using AI techniques**, _USAID | USAID | USAID/Bureau for Latin America and the Caribbean_
-> This activity will improve urban vulnerability assessment in key population centers, particularly by co-creating replicable methods to use satellite imagery to map informal settlements.
-
-**NASA SERVIR - Using artificial intelligence to forecast harmful algae blooms in Lake Atitlán, Guatemala**, _USAID | USAID | USAID/Bureau for Latin America and the Caribbean_
-> This application uses machine learning with Earth observations and weather-modeled data to forecast daily algal blooms in Lake Atitlán, Guatemala. The forecasting system is being used by Lake Authorities, such as the Authority for Sustainable Management of the Lake Atitlan Basin and its surroundings (AMSCLAE), to inform their Harmful Algal Blooms Alert System. This work is also supported by National Geographic and Microsoft through their Artificial Intelligence (AI) for Innovation grants.
-
-**NASA SERVIR - Bias Correcting Historical GEOGloWS ECMWF Streamflow Service (GESS) data using Machine Learning (ML) Techniques**, _USAID | USAID | USAID/Bureau for Latin America and the Caribbean_
+**NASA SERVIR - Bias Correcting Historical GEOGloWS ECMWF Streamflow Service (GESS) data using Machine Learning (ML) Techniques**, _U.S._Agency_for_International_Development | Bureau for Latin America and the Caribbean_
 > GEOGloWS ECMWF Streamflow Service (GESS) helps to organize the international community engaged in the hydrologic sciences, observations, and their application to forecasting and provides a forum for government-to-government collaboration, and engagement with the academic and private sectors to achieve the delivery of actionable water information. Since the formal creation of the initiative in 2017, the most significant element of GEOGloWS has been the application of Earth Observations (EO) to create a system that forecasts flow on every river of the world while also providing a 40-year simulated historical flow. This application uses Long Short Term Memory (LSTM) Model with the time series of discharge data to bias correct the globally available GESS discharge information locally.
 
-## Transportation
+**NASA SERVIR - Using artificial intelligence to forecast harmful algae blooms in Lake Atitlán, Guatemala**, _U.S._Agency_for_International_Development | Bureau for Latin America and the Caribbean_
+> This application uses machine learning with Earth observations and weather-modeled data to forecast daily algal blooms in Lake Atitlán, Guatemala. The forecasting system is being used by Lake Authorities, such as the Authority for Sustainable Management of the Lake Atitlan Basin and its surroundings (AMSCLAE), to inform their Harmful Algal Blooms Alert System. This work is also supported by National Geographic and Microsoft through their Artificial Intelligence (AI) for Innovation grants.
 
-**Determining Surface Winds with Machine Learning Software**, _Transportation | Federal Aviation Administration | ANG_
-> Successfully demonstrated use of an AI capability to analyze camera images of a wind sock to produce highly accurate surface wind speed and direction information in remote areas that don’t have a weather observing sensor.
+**NASA SERVIR - Mapping urban vulnerability using AI techniques**, _U.S._Agency_for_International_Development | Bureau for Latin America and the Caribbean_
+> This activity will improve urban vulnerability assessment in key population centers, particularly by co-creating replicable methods to use satellite imagery to map informal settlements.
 
-**Remote Oceanic Meteorological Information Operations (ROMIO)**, _Transportation | Federal Aviation Administration | ANG_
-> ROMIO is an operational demonstration to evaluate the feasibility to uplink convective weather information to aircraft operating over the ocean and remote regions. Capability converted weather satellite data, lightning and weather prediction model data into areas of thunderstorm activity and cloud top heights. AI is used to improve the accuracy of the output based on previous activity compared to ground truth data.
+## Social_Security_Administration
 
-**Surface Report Classifiier (SCM/Auto-Class)**, _Transportation | Federal Aviation Administration | ATO_
-> SCM classifies surface incident reports by event type, such as Runway Incursion, Runway Excursion, Taxiway Incursion/Excursion and categorizes runway incursions further by severity type (Category A, B, C, D, E)
-
-**JASC Code classification in Safety Difficulty Reports (SDR)**, _Transportation | Federal Aviation Administration | AVS_
-> AVS identified a need to derive the joint aircraft system codes (JASC) chapter codes from the narrative description within service difficulty reports (SDR), a form of safety event reporting from aircraft operators. A team of graduate students at George Mason University collaborated with AVS employees to apply Natural Language Processing (NLP) and Machine Learning to predict JASC codes. This method can be used to check SDR entries to ensure the correct codes were provided or to assign a code when one was not.
-
-**Regulatory Compliance Mapping Tool**, _Transportation | Federal Aviation Administration | AVS_
-> The AVS International office is required to identify means of compliance to ICAO Standards and Recommended Practices (SARPs). Both SARPs and means of compliance evidence are text paragraphs scattered across thousands of pages of documents. AOV identified a need to find each SARP, evaluate the text of many FAA Orders, and suggest evidence of compliance based upon the evaluation of the text. The base dataset used by RCMT is the documents’ texts deconstructed into paragraphs. RCMT processes all the documents’ paragraphs run through Natural Language Processing (NLP) (this process has an AI aspect) to extract the meaning (semantics) of the text. RCMT then employs a recommender system (also using some AI technology) to take the texts augmented by the texts’ meaning to establish candidate matches between the ICAO SARPs and FAA text that provides means of compliance.
-
-**Course Deviation Identification for Multiple Airport Route Separation (MARS)**, _Transportation | Federal Aviation Administration | Aviation Safety (AVS)_
-> The Multiple Airport Route Separation (MARS) program is developing a safety case for reduced separation standards between Performance Based Navigation (PBN) routes in terminal airspace. These new standards may enable deconfliction of airports in high-demand metropolitan areas, including the Northeast Corridor (NEC), North Texas, and Southern California. To build necessary collision risk models for the safety case, several models are needed, including one that describes the behavior of aircraft that fail to navigate the procedure correctly. These events are very rare and difficult to identify with standard data sources. Prior work has used Machine Learning to filter incident data to identify similar events on departure procedures.
-
-**Offshore Precipitation Capability (OPC)**, _Transportation | Federal Aviation Administration | NextGen (ANG)_
-> OPC leverages data from several sources such as weather radar, lightning networks, satellite and numerical models to produce a radar-like depiction of precipitation. The algorithm then applies machine learning techniques based on years of satellite and model data to improve the accuracy of the location and intensity of the precipitation areas.
-
-**Automatic Track Change Detection Demonstration and Analysis**, _Transportation | Federal Railroad Administration | Office of Research, Development and Technology_
-> Description: DeepCNet-based neural network to identify and classify track-related features (e.g., track components, such as fasteners and ties) for "change detection" applications. Input: Line-scan images from rail-bound inspection systems Output: Notification of changes from status quo or between different inspections based on geolocation.
-
-**Crushed Aggregate Gradation Evaluation System**, _Transportation | Federal Railroad Administration | Office of Research, Development and Technology_
-> Description: Deep learning computer vision algorithms aimed at analyzing aggregate particle size grading. Input: Images of ballast cross sections Output: Ballast fouling index
-
-**Development of Predictive Analytics Using Autonomous Track Geometry Measurement System (ATGMS) Data**, _Transportation | Federal Railroad Administration | Office of Research, Development and Technology_
-> Description: Leveraging large volumes of these recursive track geometry measurements to develop and implement automated machine-learning-based processes for analyzing, predicting, and reporting track locations of concern, including those with significant rates of degradation. Input: Track geometry measurements and exceptions Output: Inspection report that includes the trending of track geometry measures and time to failure (i.e., maintenance and safety limits).
-
-**Automated Delay detection using voice processing**, _Transportation | Federal Transportation Administration | ATO_
-> In order to get a full accounting of delay, automated voice detection of ATC and aircraft interaction is required. Many delay events, such as vectoring, are not currently reported/detected/accounted for and voice detection would enable automated detection.
-
-**Machine Learning for Occupant Safety Research**, _Transportation | National Highway Traffic Safety Administration | NSR Human Injury Research Division_
-> Description: Utilize deep learning for predicting crash parameters, Delta-V (change in velocity) and PDOF (principal direction of force), directly from real-world crash images. Delta-V and PDOF are two most important parameters affecting injury outcome. Deep learning models can help predict both Delta-V and PDOF, without the need to run WinSmash software for Delta-V computation, and without requiring estimations by crash examiners. Moreover, with deep learning models, the Delta-V and PDOF can be obtained within milliseconds, providing rapid results for improved efficiency" Input: Real world crash images Output: Delta-V & PDOF
-
-**Machine Learning for Occupant Safety Research**, _Transportation | National Highway Traffic Safety Administration | NSR Human Injury Research Division_
-> Description: Utilize deep learning models for predicting head kinematics directly from crash videos. The utilization of deep learning techniques enables the extraction of 3D kinematics from 2D views, offering a viable alternative for calculating head kinematics in the absence of sensors or when sensor availability is inadequate, and when high-quality sensor data is absent Input: Vehicle crash videos Output: Angular velocity - injury prediction
-
-**PHMSA Rule Making**, _Transportation | Pipeline and Hazardous Materials Safety Administration (PHMSA | PHMSA Office of Chief Counsel (PHC)_
-> Artificial Intelligence Support for Rulemaking - Using ChatGPT to support the rulemanking processes to provide significant efficiencies, reduction of effort, or the ability to scale efforts for unusual levels of public scrutiny or interest (e.g. comments on a rulemaking). ChatGPT will be used to provide: 1. Sentiment Analysis – Is the comment positive / negative or neutral towards the proposed rule. 2. Relevance Analysis – Whether the particular comment posted is relevant to the proposed rule 3. Synopsis of the posted comment. 4. Cataloging of comments. 5. Identification of duplicate comments.
-
-## SSA
-
-**Medicare Part D Subsidy Model**, _SSA | SSA | Office of Analytics, Review, and Oversight _
-> This model uses machine learning to identify cases most likely to have incorrect Medicare Part D subsidies and flag them for technician review.
-
-**Modernized Development Worksheet (MDW)**, _SSA | SSA | Office of Analytics, Review, and Oversight _
-> This process uses AI to review textual data that is part of claim development tasks so it can be categorized into workload topics using natural language processing to facilitate faster technician review.
-
-**SSI Redetermination Model**, _SSA | SSA | Office of Analytics, Review, and Oversight _
-> This model uses machine learning to identify supplemental security income cases with highest expected overpayments due to changes in financial eligibility and flag them for technician review.
-
-**PATH Model**, _SSA | SSA | Office of Analytics, Review, and Oversight _
-> This model uses machine learning to identify cases likely to receive an allowance at the hearing level and refer them to administrative law judges or senior adjudicators for prioritized review.
-
-**Pre-Effectuation Review / Targeted Denial Review Models**, _SSA | SSA | Office of Analytics, Review, and Oversight _
-> These review models use machine learning to identify cases with greatest likelihood of disability eligibility determination error and refer them for quality review checks.
-
-**Anomalous iClaim Predictive Model**, _SSA | SSA | Office of Analytics, Review, and Oversight _
-> The anomalous iClaim predictive model is a machine learning model that identifies high-risk iClaims. These claims are then sent to Operations for further review before additional action is taken to adjudicate the claims.
-
-**Rep Payee Misuse Model**, _SSA | SSA | Office of Analytics, Review, and Oversight _
-> This model uses machine learning to estimate the probability of resource misuse by representative payees and flag the cases for a technician to examine.
-
-**CDR Model**, _SSA | SSA | Office of Analytics, Review, and Oversight _
+**CDR Model**, _Social_Security_Administration | Office of Analytics, Review, and Oversight_
 > This model uses machine learning techniques to identify disability cases with the greatest likelihood of medical improvement and flag them for a coninuing disability review.
 
-**Insight**, _SSA | SSA | Office of Analytics, Review, and Oversight; Office of Hearing Operations, Office of Disability Systems_
+**SSI Redetermination Model**, _Social_Security_Administration | Office of Analytics, Review, and Oversight_
+> This model uses machine learning to identify supplemental security income cases with highest expected overpayments due to changes in financial eligibility and flag them for technician review.
+
+**Modernized Development Worksheet (MDW)**, _Social_Security_Administration | Office of Analytics, Review, and Oversight_
+> This process uses AI to review textual data that is part of claim development tasks so it can be categorized into workload topics using natural language processing to facilitate faster technician review.
+
+**PATH Model**, _Social_Security_Administration | Office of Analytics, Review, and Oversight_
+> This model uses machine learning to identify cases likely to receive an allowance at the hearing level and refer them to administrative law judges or senior adjudicators for prioritized review.
+
+**Medicare Part D Subsidy Model**, _Social_Security_Administration | Office of Analytics, Review, and Oversight_
+> This model uses machine learning to identify cases most likely to have incorrect Medicare Part D subsidies and flag them for technician review.
+
+**Rep Payee Misuse Model**, _Social_Security_Administration | Office of Analytics, Review, and Oversight_
+> This model uses machine learning to estimate the probability of resource misuse by representative payees and flag the cases for a technician to examine.
+
+**Anomalous iClaim Predictive Model**, _Social_Security_Administration | Office of Analytics, Review, and Oversight_
+> The anomalous iClaim predictive model is a machine learning model that identifies high-risk iClaims. These claims are then sent to Operations for further review before additional action is taken to adjudicate the claims.
+
+**Pre-Effectuation Review / Targeted Denial Review Models**, _Social_Security_Administration | Office of Analytics, Review, and Oversight_
+> These review models use machine learning to identify cases with greatest likelihood of disability eligibility determination error and refer them for quality review checks.
+
+**Insight**, _Social_Security_Administration | Office of Analytics, Review, and Oversight; Office of Hearing Operations, Office of Disability Systems_
 > Insight is decision support software used by hearings and appeals-level Disability Program adjudicators to help maximize the quality, speed, and consistency of their decision making. Insight analyzes the free text of disability decisions and other case data to offer adjudicators real-time alerts on potential quality issues and case-specific reference information within a web application. It also offers adjudicators a series of interactive tools to help streamline their work. Adjudicators can leverage these features to speed their work and fix issues before the case moves forward (e.g. to another reviewing employee or to the claimant). Insight�s features are powered by several natural language processing and artificial intelligence packages and techniques.
 
-**Intelligent Medical Language Analysis Generation (IMAGEN)**, _SSA | SSA | Office of Disability Determinations, Office of Disability Information Systems_
+**Intelligent Medical Language Analysis Generation (IMAGEN)**, _Social_Security_Administration | Office of Disability Determinations, Office of Disability Information Systems_
 > IMAGEN is an IT Modernization Disability Analytics & Disability Decision Support (ADDS) Product that will provide new tools and services to visualize, search and more easily identify relevant clinical content in medical records. These tools and services will improve the efficiency and consistency of disability determinations and decisions and provide a foundation for machine-based decisional guidance. IMAGEN will transform text to data and enable disability adjudicators to leverage various machine learning technologies like Natural Language Processing (NLP) and predictive analytics and will support other high-priority agency initiatives such as fraud prevention and detection.
 
-**Duplicate Identification Process (DIP)**, _SSA | SSA | Office of Disability Information Systems,  Office of Hearing Operations, Office of Appellate Operations_
-> Duplicate Identification Process's (DIP's) objective is to help the user to�identify and flag�and mark duplicates�more efficiently, reducing the amount�of time spent to review�cases for�hearings.�DIP uses artificial�intelligence software in the form of image recognition technology to accurately�identify duplicates consistent with SSA�policy.?
-
-**Handwriting recognition from forms**, _SSA | SSA | Office of Disability Information Systems,  Office of Hearing Operations, Office of Appellate Operations_
+**Handwriting recognition from forms**, _Social_Security_Administration | Office of Disability Information Systems, Office of Hearing Operations, Office of Appellate Operations_
 > AI performs OCR against handwritten entries on specific standard forms submitted by clients. This use case is in support of an Robtic Process Automation effort as well as a standalone use.
 
-**Quick Disability Determinations Process**, _SSA | SSA | Office of Retirement of Disability Programs _
+**Duplicate Identification Process (DIP)**, _Social_Security_Administration | Office of Disability Information Systems, Office of Hearing Operations, Office of Appellate Operations_
+> Duplicate Identification Process's (DIP's) objective is to help the user to�identify and flag�and mark duplicates�more efficiently, reducing the amount�of time spent to review�cases for�hearings.�DIP uses artificial�intelligence software in the form of image recognition technology to accurately�identify duplicates consistent with SSA�policy.?
+
+**Quick Disability Determinations Process**, _Social_Security_Administration | Office of Retirement of Disability Programs_
 > The Quick Disability Determinations (QDD) process uses a computer-based predictive model to screen initial applications to identify cases where a favorable disability determination is highly likely and medical evidence is readily available. The Agency bases the QDD model�s predictive scores on historical data from application forms completed by millions of applicants. By identifying QDD cases early in the process, the Social Security Administration can prioritize this workload and expedite case processing. The Agency routinely refines the QDD model to reflect the characteristics of the recent applicant population and optimize its ability to identify strong candidates for expedited processing.
 
-**Mobile Wage Reporting (MOBWR)**, _SSA | SSA | Office of Systems_
+**Mobile Wage Reporting (MOBWR)**, _Social_Security_Administration | Office of Systems_
 > Mobile Wage Reporting uses AI to extract text/data from scanned images/documents represeting pay stubs or payroll information to enable faster processing.
 
-## Treasury
+## Department_of_Treasury
 
-**Large Corporate Compliance**, _Treasury_
-> Large Corporate Compliance is a machine learning model for classifying corporate taxes.
+**CX Analytics**, _Department_of_Treasury_
+> IRS' Customer Experience (CX) Analytics is a capability that uses multiple, customer service-related data sources to identify issues/anomalies/improvement opportunities across the customer service channel modes.
 
-**NRP Redesign**, _Treasury_
-> Deploy innovative active learning methods to provide a lower opportunity cost method of estimating a compliance baseline to support tax gap estimation, improper papyments reporting, development and validation of workload identfication and selection models, and inform policy analysis. System inputs require existing NRP data which provide an acceptable level of precision and quality for an acceptable level of data quality output.
+**Inventory Item Replenishment MLR Modeling POC - Phase 1a**, _Department_of_Treasury_
+> The Bureau of Engraving and Printing wanted to establish a proof of concept (POC) for Predictive Analytics at the BEP. This POC consisted of developing a Multiple Linear Regression (MLR) model to predict Processing Lead Times for the Office of Supply Chain Management (OSCM). Processing Lead Times are the numbers of days it takes an item to be delivered to the target facility from the time the purchase order (PO) was approved. The model utilizes historical requisition, vendor, and item specific data to come up with numerical predictions, which are then used to determine whether an item will be delivered on-time or if the OSCM should expect a delay. If a delay is expected, the OSCM can be proactive in their decision making to prepare for a potential inventory shortage.
 
-**Inventory Item Replenishment MLR Modeling POC - Phase 2**, _Treasury_
-> Built and evaluate a multiple linear regression model to predict to determine if the replenishment of an inventory item would receive by the standard Need By time of 128 days set for all inventory items.
-
-**Collection Voice Bot**, _Treasury_
-> The NLU model will be located inside the Automated Collections IVR (ACI) main menu. This NLU will take customer speech input aka – Utterances. It will map the utterance to a specific intent and direct the taxpayer down to a certain call path.
-
-**Evaluate Multilingual BERT for Software Translation Use Case Evaluations**, _Treasury_
-> Project is evaluating the cost-effectiveness of training a multi-lingual BERT model on IRS corpora and using the model as means to evaluate software translation output of IRS content. The framework is leveraging COMET, ROGUE, and BLEU measures. Furthermore, the product will also be assessed for English-Only and Spanish-Only content content classification.
-
-**Collection Chat Bot**, _Treasury_
+**Collection Chat Bot**, _Department_of_Treasury_
 > The Natural Language Understanding (NLU) model will be located inside the eGain intent engine. This NLU will take customer typed text input aka – Utterances. It will map the utterance to a specific intent and return the appropriate knowledge article.
 
-**Line Anomaly Recommender**, _Treasury_
-> This use case seeks to identify a workload selection model that uses two recommender system models to measure overall compliance risk and identify anomalous tax returns and line-item values. The delivered pipeline capabilities can supplement the core case selection model processes by providing additional insight to IRS LB&I reviewers through the use of advanced deep learning techniques for anomaly detection.
+**Inventory Item Replenishment MLR Modeling POC - Phase 2**, _Department_of_Treasury_
+> The Bureau of Engraving and Printing wanted to operationalize a model using their newly deployed Cloudera Data Science Workbench (CDSW) application to predict whether an item would be delivered by the vendor Promised Date. This date is the date the vendor promises an item to be delivered to BEP. The model utilizes historical requisition, vendor, and item specific data to come up with binary (0 or 1) predictions, which are then used to determine whether an item will be delivered on-time or if the OSCM should expect a delay. If the model outputs a 1, we expect that the item will be delayed and the OSCM can be proactive in their decision making to prepare for a potential inventory shortage.
 
-**LB&I Text Analytics (including Appeals Case Management)**, _Treasury_
-> Trained text extraction and tax domain-specific BERT models (called TaxBERT) using about 190,000 documents including Internal Revenue Code, Internal Revenue Manual, and PDFs from irs.gov, Revenue Rulings, Private Letter Rulings, Revenue Procedures, Treasury Decisions, and other legal tax-related documents. The extracted text was decomposed into 21 million sentences with 1 million unique tokens. Further filtering refinement resulted in 11 million unique sentences and 31 thousand unique vocabulary tokens which are then used to train domain-specific NLP models which can be used for targeted analytics.
+**NRP Redesign**, _Department_of_Treasury_
+> Deploy state-of-the-art AI machine learning methods to provide a lower opportunity cost method of estimating a compliance baseline to support tax gap estimation, improper payments reporting, development and validation of workload identification and selection models, and inform policy analysis. System inputs require existing NRP data which provide an acceptable level of precision and quality for an acceptable level of data quality output.
 
-**SBSE Issue Recommender**, _Treasury_
-> Developed an AI-based recommender for detecting potential non- compliance issues which makes training returns selection more efficient and scalable, which has been applied to the process for selecting training returns and field work.
+**TAS Virtual Assistant**, _Department_of_Treasury_
+> The TAS Virtual Assistant Chatbot will capture utterances from taxpayers/end-users to direct them to helpful resources on IRS and TAS public websites.
 
-**Large Partnership Compliance**, _Treasury_
-> Large Partnership Compliance is a machine learning model for stratifying Partnership data and score risk of potential non-compliance.
+**Collection Voice Bot**, _Department_of_Treasury_
+> The Nuance Natural Language Understanding (NLU) model will be located inside the Automated Collections IVR (ACI) main menu. This NLU will take customer speech input aka – Utterances. It will map the utterance to a specific intent and direct the taxpayer down to a certain call path.
 
-**Projected Contract Award Date Web App**, _Treasury_
-> Projected contract award dates are generated with a machine learning model that statistically predicts when procurement requests will become signed contracts. Input data includes funding information, date / time of year, and individual Contract Specialist workload. The model outputs projected contract award timeframes for specific procurement requests. 'When will a contract be signed?' is a key question for the IRS and generally for the federal government. This tool gives insight about when each request is likely to turn into a contract. The tool provides a technique other federal agencies can implement, potentially affecting $600 billion in government contracts. Weblink: https://www.irs.gov/newsroom/irs- announces-use-of-projected-contract-award-date-web-app-that-predicts- when-contracts-will-be-signed
+**Predictive equipment maintenance system**, _Department_of_Treasury_
+> Predictive maintenance to increase equipment uptime, improve safety, lower maintenance cost. Researching feasibility and tools.
 
-**Inventory Item Replenishment MLR Modeling POC - Phase 1**, _Treasury_
-> Build and evaluate a multiple linear regression model to predict to determine if the replenishment of an inventory item was received before or after the need by date to predict the likelihood that an item will be received on time in the future.
+**DATA Act**, _Department_of_Treasury_
+> The Digital Accountability and Transparency Act (DATA) Act Bot automates verifying that IRS Federal Procurement Data System (FPDS) reporting matches the information in contract documents (e.g. dollar amounts, dates, location of work). Natural language processing is used to extract unstructured information from contract documents. F1 scores are used to measure performance of validation models for each specific data element.
 
-## GSA
+**Inventory Item Replenishment MLR Modeling Pilot - Phase 1b**, _Department_of_Treasury_
+> The Bureau of Engraving and Printing wanted to establish a proof of concept (POC) for Predictive Analytics at the BEP. This POC consisted of developing a Logistic Regression model for the Office of Supply Chain Management (OSCM), to predict whether an item would be delivered by the specified "Need by Date". This is the date that the BEP needs the material in its facility and is set automatically to 128 days when a purchase order (PO) is approved in the system. The model utilizes historical requisition, vendor, and item specific data to come up with binary (0 or 1) predictions, which are then used to determine whether an item will be delivered on-time or if the OSCM should expect a delay. If the model outputs a 1, we expect that the item will be delayed and the OSCM can be proactive in their decision making to prepare for a potential inventory shortage.
 
-**Service Desk Virtual Agent (Curie)**, _GSA_
-> Virtual agent that uses ML to provide predictive results for chat entries. A natural language chatbot (virtual assistant), we named Curie, as part of a multi-model customer service experience for employee's IT service requests leveraging knowledge-based articles.
+**Appeals Case Memorandum**, _Department_of_Treasury_
+> The Appeals Case Memorandum (ACM) leverages natural language processing capabilities to assist with extraction, consolidation, and labeling of unstructured text from IRS ACM documents, automatic identification of key information, and processing results into a structured format. The outcome of this processes is for IRS staff to review appeals information for insights, which can be used upstream to enhance case quality, consistency, and performance. Summary of results involve detailed analysis on text relationships, issues, and citation narrative text paragraphs to provide insight on issues commonly adjusted during the appeals process.
 
-**City Pairs Program Ticket Forecast and Scenario Analysis Tools**, _GSA_
-> Takes segment-level City Pair Program air travel purchase data and creates near-term forecasts for the current and upcoming fiscal year by month and at various levels of granularity including DOD vs Civilian, Agency, and Region.
+**Coin quality inspection system**, _Department_of_Treasury_
+> Automated coin visual inspection tools to search for defects on production lines. Currently each coining press operator manually inspects coins for quality. Improve quality and eliminate waste. Researching feasibility and tools.
 
-**Document Workflow / Intelligent Data Capture and Extraction**, _GSA_
-> GSA is driving towards a more accurate and scalable document workflow platform. GSA seeks to intelligently capture, classify, and transfer critical data from unstructured and structured documents, namely PDF files, to the right process, workflow, or decision engine.
+**Account Management Chatbot**, _Department_of_Treasury_
+> The Accounts Management Chatbot leverages a natural language understanding model within the eGain intent engine. This NLU maps utterances to a specific intents, and returns the appropriate knowledge article.
 
-**Category Taxonomy Refinement Using NLP**, _GSA_
-> Uses token extraction from product descriptions more accurately shape intended markets for Product Service Codes (PSCs).
+**Taxpayer Accessibility - Machine Translation (MT)**, _Department_of_Treasury_
+> Taxpayer Accessibility Machine Translation (MT) is a SaaS based Commercial Off-the-Shelf (COTS) product that uses Amazon Translate, a neural machine translation (NMT) service. The MT solution implements customization features in the product which will have capabilities to integrate existing Linguistics Policies Tools and Services (LPTS) translations and workflows through a centralized repository formed by a collection of existing and customized IRS glossaries to return translations from English to Spanish (and Spanish to English) that more accurately reflect native- tongue verbiage.
 
-**Service Desk Generic Ticket Classification**, _GSA_
-> We are building a model to take generic Service Desk tickets and classify them so that they can be automatically re-routed to the correct team that handles these types of tickets. The process of re-routing generic tickets is currently done manually, so the model will allow us to automate it. The initial model will target the top 5 most common ticket types.
+## Department_of_Transportation
 
-**Acquisition Analytics**, _GSA_
-> Takes Detailed Data on transactions and classifies each transaction within the Government-wide Category Management Taxonomy
+**Remote Oceanic Meteorological Information Operations (ROMIO)**, _Department_of_Transportation | ANG_
+> ROMIO is an operational demonstration to evaluate the feasibility to uplink convective weather information to aircraft operating over the ocean and remote regions. Capability converted weather satellite data, lightning and weather prediction model data into areas of thunderstorm activity and cloud top heights. AI is used to improve the accuracy of the output based on previous activity compared to ground truth data.
 
-**Key KPI Forecasts for GWCM**, _GSA_
+**Determining Surface Winds with Machine Learning Software**, _Department_of_Transportation | ANG_
+> Successfully demonstrated use of an AI capability to analyze camera images of a wind sock to produce highly accurate surface wind speed and direction information in remote areas that don’t have a weather observing sensor.
+
+**Surface Report Classifiier (SCM/Auto-Class)**, _Department_of_Transportation | ATO_
+> SCM classifies surface incident reports by event type, such as Runway Incursion, Runway Excursion, Taxiway Incursion/Excursion and categorizes runway incursions further by severity type (Category A, B, C, D, E)
+
+**Automated Delay detection using voice processing**, _Department_of_Transportation | ATO_
+> In order to get a full accounting of delay, automated voice detection of ATC and aircraft interaction is required. Many delay events, such as vectoring, are not currently reported/detected/accounted for and voice detection would enable automated detection.
+
+**Regulatory Compliance Mapping Tool**, _Department_of_Transportation | AVS_
+> The AVS International office is required to identify means of compliance to ICAO Standards and Recommended Practices (SARPs). Both SARPs and means of compliance evidence are text paragraphs scattered across thousands of pages of documents. AOV identified a need to find each SARP, evaluate the text of many FAA Orders, and suggest evidence of compliance based upon the evaluation of the text. The base dataset used by RCMT is the documents’ texts deconstructed into paragraphs. RCMT processes all the documents’ paragraphs run through Natural Language Processing (NLP) (this process has an AI aspect) to extract the meaning (semantics) of the text. RCMT then employs a recommender system (also using some AI technology) to take the texts augmented by the texts’ meaning to establish candidate matches between the ICAO SARPs and FAA text that provides means of compliance.
+
+**JASC Code classification in Safety Difficulty Reports (SDR)**, _Department_of_Transportation | AVS_
+> AVS identified a need to derive the joint aircraft system codes (JASC) chapter codes from the narrative description within service difficulty reports (SDR), a form of safety event reporting from aircraft operators. A team of graduate students at George Mason University collaborated with AVS employees to apply Natural Language Processing (NLP) and Machine Learning to predict JASC codes. This method can be used to check SDR entries to ensure the correct codes were provided or to assign a code when one was not.
+
+**Course Deviation Identification for Multiple Airport Route Separation (MARS)**, _Department_of_Transportation | Aviation Safety (AVS)_
+> The Multiple Airport Route Separation (MARS) program is developing a safety case for reduced separation standards between Performance Based Navigation (PBN) routes in terminal airspace. These new standards may enable deconfliction of airports in high-demand metropolitan areas, including the Northeast Corridor (NEC), North Texas, and Southern California. To build necessary collision risk models for the safety case, several models are needed, including one that describes the behavior of aircraft that fail to navigate the procedure correctly. These events are very rare and difficult to identify with standard data sources. Prior work has used Machine Learning to filter incident data to identify similar events on departure procedures.
+
+**Machine Learning for Occupant Safety Research**, _Department_of_Transportation | NSR Human Injury Research Division_
+> Description: Utilize deep learning models for predicting head kinematics directly from crash videos. The utilization of deep learning techniques enables the extraction of 3D kinematics from 2D views, offering a viable alternative for calculating head kinematics in the absence of sensors or when sensor availability is inadequate, and when high-quality sensor data is absent Input: Vehicle crash videos Output: Angular velocity - injury prediction
+
+**Machine Learning for Occupant Safety Research**, _Department_of_Transportation | NSR Human Injury Research Division_
+> Description: Utilize deep learning for predicting crash parameters, Delta-V (change in velocity) and PDOF (principal direction of force), directly from real-world crash images. Delta-V and PDOF are two most important parameters affecting injury outcome. Deep learning models can help predict both Delta-V and PDOF, without the need to run WinSmash software for Delta-V computation, and without requiring estimations by crash examiners. Moreover, with deep learning models, the Delta-V and PDOF can be obtained within milliseconds, providing rapid results for improved efficiency" Input: Real world crash images Output: Delta-V & PDOF
+
+**Offshore Precipitation Capability (OPC)**, _Department_of_Transportation | NextGen (ANG)_
+> OPC leverages data from several sources such as weather radar, lightning networks, satellite and numerical models to produce a radar-like depiction of precipitation. The algorithm then applies machine learning techniques based on years of satellite and model data to improve the accuracy of the location and intensity of the precipitation areas.
+
+**Automatic Track Change Detection Demonstration and Analysis**, _Department_of_Transportation | Office of Research, Development and Technology_
+> Description: DeepCNet-based neural network to identify and classify track-related features (e.g., track components, such as fasteners and ties) for "change detection" applications. Input: Line-scan images from rail-bound inspection systems Output: Notification of changes from status quo or between different inspections based on geolocation.
+
+**Development of Predictive Analytics Using Autonomous Track Geometry Measurement System (ATGMS) Data**, _Department_of_Transportation | Office of Research, Development and Technology_
+> Description: Leveraging large volumes of these recursive track geometry measurements to develop and implement automated machine-learning-based processes for analyzing, predicting, and reporting track locations of concern, including those with significant rates of degradation. Input: Track geometry measurements and exceptions Output: Inspection report that includes the trending of track geometry measures and time to failure (i.e., maintenance and safety limits).
+
+**Crushed Aggregate Gradation Evaluation System**, _Department_of_Transportation | Office of Research, Development and Technology_
+> Description: Deep learning computer vision algorithms aimed at analyzing aggregate particle size grading. Input: Images of ballast cross sections Output: Ballast fouling index
+
+**PHMSA Rule Making**, _Department_of_Transportation | PHMSA Office of Chief Counsel (PHC)_
+> Artificial Intelligence Support for Rulemaking - Using ChatGPT to support the rulemanking processes to provide significant efficiencies, reduction of effort, or the ability to scale efforts for unusual levels of public scrutiny or interest (e.g. comments on a rulemaking). ChatGPT will be used to provide: 1. Sentiment Analysis – Is the comment positive / negative or neutral towards the proposed rule. 2. Relevance Analysis – Whether the particular comment posted is relevant to the proposed rule 3. Synopsis of the posted comment. 4. Cataloging of comments. 5. Identification of duplicate comments.
+
+## U.S._General_Services_Administration
+
+**Key KPI Forecasts for GWCM**, _U.S._General_Services_Administration | FAS_
 > Takes monthly historical data for underlying components used to calculate KPIs and creates near-term forecasts for the upcoming fiscal year. Pilot effort focuses on total agency/category spend (the denominator in multiple KPIs). If the pilot program is successful, the same methodology can be extended to other KPIs.
 
-**Solicitation Review Tool (SRT)**, _GSA_
-> The SRT intakes SAM.gov data for all Information and Communications Technology (ICT) solicitations. The system then compiles the data into a database to be used by machine learning algorithms. The first of these is a Natural Language Processing model that determines if a solicitation contains compliance language. If a solicitation does not have compliance language, then it is marked as non-compliant. Each agency is asked to review their data and validate the SRT predictions. GSA also conducts random manual reviews monthly.
+**Acquisition Analytics**, _U.S._General_Services_Administration | FAS_
+> Takes Detailed Data on transactions and classifies each transaction within the Government-wide Category Management Taxonomy
 
-**IAE FSD CCAI Virtual Agent**, _GSA_
-> The virtual agent uses manual learning to understand customer needs and provide a response appropriately. Our AI is named SAM and uses natural language.
+**City Pairs Program Ticket Forecast and Scenario Analysis Tools**, _U.S._General_Services_Administration | FAS_
+> Takes segment-level City Pair Program air travel purchase data and creates near-term forecasts for the current and upcoming fiscal year by month and at various levels of granularity including DOD vs Civilian, Agency, and Region.
 
-**Contract Acquisition Lifecycle Intelligence (CALI)**, _GSA_
+**Category Taxonomy Refinement Using NLP**, _U.S._General_Services_Administration | FAS_
+> Uses token extraction from product descriptions more accurately shape intended markets for Product Service Codes (PSCs).
+
+**Contract Acquisition Lifecycle Intelligence (CALI)**, _U.S._General_Services_Administration | FAS (QP0A)_
 > CALI tool is an automated machine learning evaluation tool built to streamline the evaluation of vendor proposals against the solicitation requirements to support the Source Selection process. Once the Contracting Officer (CO) has received vendor proposals for a solicitation and is ready to perform the evaluation process, the CO will initiate evaluation by sending solicitation documents along with all associated vendor proposal documents to the Source Selection module, which will pass all documents to CALI. CALI will process the documents, associated metadata and begin analyzing the proposals in four key areas: format compliance, forms validation, reps & certs compliance, and requirements compliance. The designated evaluation members can review the evaluation results in CALI and submit finalized evaluation results back to the Source Selection module. CALI is currently being trained with sample data from the EULAs under the Multiple Award Schedule (MAS) program.
 
-**Chatbot for Federal Acquisition Community**, _GSA_
+**Chatbot for Federal Acquisition Community**, _U.S._General_Services_Administration | FAS / GSA IT (IC)_
 > The introduction of a chatbot will enable the GSA FAS NCSC (National Customer Support Center) to streamline the customer experience process, and automate providing answers to documented commonly asked questions through public facing knowledge articles. The end goal is this will reduce staffing requirements for NCSC’s live chat programs and allow the NCSC resources to be dedicated to other proactive customer services initiatives. Customers will still have the option to connect to a live agent if they choose by requesting an agent.
 
-**Classifying Qualitative Data**, _GSA_
+**Document Workflow / Intelligent Data Capture and Extraction**, _U.S._General_Services_Administration | GSA IT (IC)_
+> GSA is driving towards a more accurate and scalable document workflow platform. GSA seeks to intelligently capture, classify, and transfer critical data from unstructured and structured documents, namely PDF files, to the right process, workflow, or decision engine.
+
+**Service Desk Virtual Agent (Curie)**, _U.S._General_Services_Administration | GSA IT (IDT)_
+> Virtual agent that uses ML to provide predictive results for chat entries. A natural language chatbot (virtual assistant), we named Curie, as part of a multi-model customer service experience for employee's IT service requests leveraging knowledge-based articles.
+
+**Service Desk Generic Ticket Classification**, _U.S._General_Services_Administration | GSA IT (IDT)_
+> We are building a model to take generic Service Desk tickets and classify them so that they can be automatically re-routed to the correct team that handles these types of tickets. The process of re-routing generic tickets is currently done manually, so the model will allow us to automate it. The initial model will target the top 5 most common ticket types.
+
+**Solicitation Review Tool (SRT)**, _U.S._General_Services_Administration | OGP_
+> The SRT intakes SAM.gov data for all Information and Communications Technology (ICT) solicitations. The system then compiles the data into a database to be used by machine learning algorithms. The first of these is a Natural Language Processing model that determines if a solicitation contains compliance language. If a solicitation does not have compliance language, then it is marked as non-compliant. Each agency is asked to review their data and validate the SRT predictions. GSA also conducts random manual reviews monthly.
+
+**Classifying Qualitative Data**, _U.S._General_Services_Administration | TTS_
 > USAGov and USAGov en Español collect large amounts of qualitative data from survey comments, web searches and call center chat transcripts. Comments are grouped together by topic to determine where we need to make product updates/enhancements
 
-## Justice
+**IAE FSD CCAI Virtual Agent**, _U.S._General_Services_Administration | TTS/IAE_
+> The virtual agent uses manual learning to understand customer needs and provide a response appropriately. Our AI is named SAM and uses natural language.
 
-**Drug Signature Program Algorithms**, _Justice | Drug Enforcement Administration_
+## National_Archives_and_Records_Administration
+
+**AI Pilot Project to Screen and Flag for Personally Identifiable Information (PII) in Digitized Archival Records**, _National_Archives_and_Records_Administration | Information Service_
+> The NARA Information Service (I) team collaborating with the Office of Innovation (V), Research Services (R), and the Office of General Counsel (NGC) on a pilot project to use artificial intelligence (AI) tools available on the Amazon Web Services Platform (AWS) and/or Google Cloud Platform to identify and redact Social Security Numbers, Dates of Birth, and other personally identifiable information (PII) in digitized archival records. This pilot project will screen digitized pages already in the National Archives Catalog (NAC or the Catalog) and both internal NARA and external partner digitized pages that are in the queue to be added to the Catalog. PII Detection pilot can detect PII information in all documents and parent document groups that have National Archives Identifier (NAID) associated with them and are accessible via NARA Catalog API. PII Detection pilot uses a weighted scoring algorithm to rank the documents with most sensitive information (defined by agency needs) with higher scores. Agency further plans to enhance this prototype into a User Interface driven tool that can be used by the Legal, Business and Security team to run preliminary scans on unpublished Information. Agency also plans to enhance to this prototype by further adding custom entities for detection.
+
+**Auto-fill of Descriptive Metadata for Archival Descriptions**, _National_Archives_and_Records_Administration | Information Service_
+> Archival descriptions or Self-describing records is the process of filling out descriptive metadata for the records that will be released to the public. When records are released to the public, the records need to be described with summary, authorities and other fields that would allow the records to be surfaced during a search. NARA has released millions of pages of records to the public via the National Archives Catalog at catalog.archives.gov. Most of the records have very minimal set of descriptive metadata as it is a very intensive manual process. The self-describing records will look at the content of the document and the various available metadata from the records management system such as originating agency etc. and predict values for the descriptive metadata.
+
+**Automated Data Discovery and Classification Pilot**, _National_Archives_and_Records_Administration | Information Service_
+> NARA is planning to conduct a future pilot to test AI/ML based automated data discovery and classification using public/mock-up datasets. In this pilot we will also test both supervised and un-supervised AI/ML techniques. We’re planning to use vendor’s COTS solution/ML algorithms "document classifier" which allows the customer to search and discover full documents rather than individual sensitive data elements such as SSN or credit card numbers. This technique allows for the "finding" of discovery to be a document. Our customers can search for and discover all their RFPs, purchase orders, NDAs, financial statements, budget documents, resumes, etc. In cases where NARA has a document type in mind that vendor’s COTS solution does not already understand, we should be able to assemble a learning set of documents (typically 20 - 100 examples) and train the vendor algorithm to find all documents of that type.
+
+**Semantic Search for National Archives Catalog - an Artificial Intelligence (AI) / Machine Learning (ML) Pilot Program**, _National_Archives_and_Records_Administration | Information Service_
+> The National Archives and Records Administration (NARA) is responsible for preserving and providing access to the records of the United States federal government. The NARA Catalog contains millions of records and documents critical to researchers, historians, and the general public and finding the correct records or documents can be a time-consuming and challenging task. Semantic search can solve this problem by allowing users to search the catalog using natural language queries. Semantic search is a data searching technique that not only finds the matching keywords based on user search terms but also understands the user’s intent and contextual meaning behind the search terms. Semantic search can also help to improve the accuracy and relevance of search results. By analyzing the meaning and context of search queries, semantic search can provide more accurate and relevant results than traditional keyword-based search methods. This can help researchers and historians to find the records and documents they need more quickly and easily. Additionally, semantic search can help to identify the relationships between records and documents in the NARA catalog. This can help to provide a more comprehensive understanding of the historical events and processes represented in the records and can facilitate new insights and discoveries.
+
+**Freedom of Information Act (FOIA) Discovery AI Pilot**, _National_Archives_and_Records_Administration | NGC FOIA Office_
+> NARA would like to utilize various AI techniques to respond to FOIA requests. The AI system will do two things. First, the AI system would offer an NLP based search technique based on the content similarity between the query and the content of the records. The second main AI application would be to redact based on the nature of the FOIA request. Most of the time, the personal information is redacted, but additional information would also need to be redacted based on the requester.
+
+## U.S._Office_of_Personnel_Management
+
+**Human Resource Apprentice (HRA)**, _U.S._Office_of_Personnel_Management | HRS/FSC/ASMG & OCIO/FITBS_
+> Evaluate the technical feasibility, validity, and affordability of providing AI-supported applicant review help to HR Specialists in USA Staffing. OPM will also evaluate prototype against fairness and bias standards to ensure it does not introduce adverse impact to the hiring process. The key metric that OPM is seeking is “can the AI solution deliver faster, more accurate evaluations of applicant qualifications when compared to experienced HR Specialists?”
+
+**Similar Job Recommendations**, _U.S._Office_of_Personnel_Management | HRS/USAJOBS_
+> USAJOBS is planning to use natural language processing to provide better matches between posted job opportunities in order to help users identify opportunities of interest.
+
+**Skills matching on Open Opportunities**, _U.S._Office_of_Personnel_Management | HRS/USAJOBS_
+> The website uses Skills engine, a third party vendor, to provide personalized recommendations to users based on user input text and opportunity descriptions
+
+**Retirement Services (RS) Chat Bot**, _U.S._Office_of_Personnel_Management | RS/RO_
+> A chatbot is a computer program that uses artificial intelligence (AI) and natural language processing to understand customer questions and automate responses to them, simulating human conversation. Retirement Services uses the chatbot to answer user questions related to Survivor Benefits. The bot initially started with a set of 13 questions and continues to grow based on reviews of user interaction.
+
+## Department_of_Justice
+
+**Drug Signature Program Algorithms**, _Department_of_Justice | Drug Enforcement Administration_
 > DEA's Special Testing and Research Laboratory utilizes AI/ML techniques and has developed a robust statistical methodology including multi-variate statistical analysis tools to automatically classify the geographical region of origin of samples selected for DEA's Heroin and Cocaine signature programs. The system provides for detection of anomalies and low confidence results.
 
-**Complaint Lead Value Probability**, _Justice | Federal Bureau of Investigation_
+**Complaint Lead Value Probability**, _Department_of_Justice | Federal Bureau of Investigation_
 > Threat Intake Processing System (TIPS) database uses artificial intelligence (AI) algorithms to accurately identify, prioritize, and process actionable tips in a timely manner. The AI used in this case helps to triage immediate threats in order to help FBI field offices and law enforcement respond to the most serious threats first. Based on the algorithm score, highest priority tips are first in the queue for human review.
 
-**Intelligent Records Consolidation Tool**, _Justice | Justice Management Division_
+**Intelligent Records Consolidation Tool**, _Department_of_Justice | Justice Management Division_
 > The Office of Records Management Policy uses an AI and Natural Language Processing (NLP) tool to assess the similarity of records schedules across all Department records schedules. The tool provides clusters of similar items to significantly reduce the time that the Records Manager spends manually reviewing schedules for possible consolidation. An AI powered dashboard provides recommendations for schedule consolidation and review, while also providing the Records Manager with the ability to review by cluster or by individual record. The solution's technical approach has applicability with other domains that require text similarity analysis.
 
-**Privileged Material Identification**, _Justice | Tax Division_
+**Privileged Material Identification**, _Department_of_Justice | Tax Division_
 > The application scans documents and looks for attorney/client privileged information. It does this based on keyword input by the system operator.
 
-## EPA
+## U.S._Environmental_Protection_Agency
 
-**Enforcement Targeting**, _EPA_
-> EPA’s Office of Compliance, in partnership with the University of Chicago, built a proof-of-concept to improve enforcement of environmental regulations through facility inspections by the EPA and state partners. The resulting predictive analytics showed a 47% improvement of identifying violations of the Resource Conservation and Recovery Act.
+**Use of random forest model to predict exposure pathways**, _U.S._Environmental_Protection_Agency_
+> Prioritizing the potential risk posed to human health by chemicals requires tools that can estimate exposure from limited information. In this study, chemical structure and physicochemical properties were used to predict the probability that a chemical might be associated with any of four exposure pathways leading from sources-consumer (near-field), dietary, far-field industrial, and far-field pesticide-to the general population. The balanced accuracies of these source-based exposure pathway models range from 73 to 81%, with the error rate for identifying positive chemicals ranging from 17 to 36%. We then used exposure pathways to organize predictions from 13 different exposure models as well as other predictors of human intake rates. We created a consensus, meta-model using the Systematic Empirical Evaluation of Models framework in which the predictors of exposure were combined by pathway and weighted according to predictive ability for chemical intake rates inferred from human biomonitoring data for 114 chemicals. The consensus model yields an R2 of ∼0.8. We extrapolate to predict relevant pathway(s), median intake rate, and credible interval for 479 926 chemicals, mostly with minimal exposure information. This approach identifies 1880 chemicals for which the median population intake rates may exceed 0.1 mg/kg bodyweight/day, while there is 95% confidence that the median intake rate is below 1 μg/kg BW/day for 474572 compounds. Consensus Modeling of Median Chemical Intake for the U.S. Population Based on Predictions of Exposure Pathways
 
-**Use of random forest model to predict exposure pathways**, _EPA_
-> Prioritizing the potential risk posed to human health by chemicals requires tools that can estimate exposure from limited information. In this study, chemical structure and physicochemical properties were used to predict the probability that a chemical might be associated with any of four exposure pathways leading from sources-consumer (near-field), dietary, far-field industrial, and far-field pesticide-to the general population. The balanced accuracies of these source-based exposure pathway models range from 73 to 81%, with the error rate for identifying positive chemicals ranging from 17 to 36%. We then used exposure pathways to organize predictions from 13 different exposure models as well as other predictors of human intake rates. We created a consensus, meta-model using the Systematic Empirical Evaluation of Models framework in which the predictors of exposure were combined by pathway and weighted according to predictive ability for chemical intake rates inferred from human biomonitoring data for 114 chemicals. The consensus model yields an R2 of ∼0.8. We extrapolate to predict relevant pathway(s), median intake rate, and credible interval for 479 926 chemicals, mostly with minimal exposure information. This approach identifies 1880 chemicals for which the median population intake rates may exceed 0.1 mg/kg bodyweight/day, while there is 95% confidence that the median intake rate is below 1 μg/kg BW/day for 474572 compounds. https://pubmed.ncbi.nlm.nih.gov/30516957/
-
-**Records Categorization**, _EPA_
+**Records Categorization**, _U.S._Environmental_Protection_Agency_
 > The records management technology team is using machine learning to predict the retention schedule for records. The machine learning model will be incorporated into a records management application to help users apply retention schedules when they submit new records.
 
-## Education
+**Enforcement Targeting**, _U.S._Environmental_Protection_Agency_
+> EPA’s Office of Compliance, in partnership with the University of Chicago, built a proof-of-concept to improve enforcement of environmental regulations through facility inspections by the EPA and state partners. The resulting predictive analytics showed a 47% improvement of identifying violations of the Resource Conservation and Recovery Act.
 
-**Aidan**, _Education | Education | Office of Federal Student Aid (FSA)_
-> FSA’s virtual assistant uses natural language processing to answer common financial aid questions and help customers get information about their federal aid on StudentAid.gov. In just over two years, Aidan has interacted with over 2.6 million unique customers, resulting in more than 11 million user messages.
+## Department_of_Housing_and_Urban_Development
+
+**Consolidated Plan Pilot Analysis**, _Department_of_Housing_and_Urban_Development_
+> In March 2023, PD&R began a pilot project to analyze aspects of HUD's Consolidated Plans. HUD requires grantees of its formula block grant programs to submit Consolidated Plans, which are meant to identify and assess affordable housing and community development needs and market conditions. These plans are publicly available via HUD's website. HUD staff currently review these plans for compliance, but HUD lacks the capacity to do in-depth analysis of commonalities or trends contained within plans. This pilot project will explore creating a database and chat-bot that will enable HUD staff to query features of the nearly 1,000 active Consolidated Plans. This pilot exercise has the potential to inform grantees, technical assistance, and other programmatic tweaks, as well as inform how advanced data science tools can benefit our programs and operations.
+
+## Department_of_Education
+
+**Aidan Chat-bot**, _Department_of_Education | Federal Student Aid_
+> FSA's virtual assistant uses natural language processing to answer common financial aid questions and help customers get information about their federal aid on StudentAid.gov. In just over two years, Aidan has interacted with over 2.6 million unique customers, resulting in more than 11 million user messages.

@@ -1,0 +1,102 @@
+Title,Summary,Development Stage
+"Account Management 
+Chatbot","The Accounts Management Chatbot leverages a natural language 
+understanding model within the eGain intent engine. This NLU maps 
+utterances to a specific intents, and returns the appropriate knowledge 
+article.",Operation and Maintenance
+"Appeals Case 
+Memorandum","The Appeals Case Memorandum (ACM) leverages natural language 
+processing capabilities to assist with extraction, consolidation, and labeling 
+of unstructured text from IRS ACM documents, automatic identification of 
+key information, and processing results into a structured format. The 
+outcome of this processes is for IRS staff to review appeals information for 
+insights, which can be used upstream to enhance case quality, consistency, 
+and performance. Summary of results involve detailed analysis on text 
+relationships, issues, and citation narrative text paragraphs to provide 
+insight on issues commonly adjusted during the appeals process.",Implementation
+"Coin quality inspection 
+system","Automated coin visual inspection tools to search for defects on production 
+lines. Currently each coining press operator manually inspects coins for 
+quality. Improve quality and eliminate waste.  Researching feasibility and 
+tools.",Initiation
+Collection Chat Bot,"The Natural Language Understanding (NLU) model will be located inside 
+the eGain intent engine. This NLU will take customer typed text input aka 
+– Utterances.  It will map the utterance to a specific intent and return the 
+appropriate knowledge article.",In production: less than six months
+Collection Voice Bot,"The Nuance Natural Language Understanding (NLU) model will be located 
+inside the Automated Collections IVR (ACI) main menu. This NLU will take 
+customer speech input aka – Utterances.  It will map the utterance to a 
+specific intent and direct the taxpayer down to a certain call path.",In production: less than six months
+CX Analytics,"IRS' Customer Experience (CX) Analytics is a capability that uses multiple, 
+customer service-related data sources to identify 
+issues/anomalies/improvement opportunities across the customer service 
+channel modes.",Implementation
+DATA Act,"The Digital Accountability and Transparency Act (DATA) Act Bot automates 
+verifying that IRS Federal Procurement Data System (FPDS) reporting 
+matches the information in contract documents (e.g. dollar amounts, 
+dates, location of work). Natural language processing is used to extract 
+unstructured information from contract documents. F1 scores are used to 
+measure performance of validation models for each specific data element.",Planned (not in production)
+"Inventory Item 
+Replenishment MLR 
+Modeling Pilot - Phase 1b","The Bureau of Engraving and Printing wanted to establish a proof of 
+concept (POC) for Predictive Analytics at the BEP. This POC consisted of 
+developing a Logistic Regression model for the Office of Supply Chain 
+Management (OSCM), to predict whether an item would be delivered by 
+the specified ""Need by Date"". This is the date that the BEP needs the 
+material in its facility and is set automatically to 128 days when a purchase 
+order (PO) is approved in the system. The model utilizes historical 
+requisition, vendor, and item specific data to come up with binary (0 or 1) 
+predictions, which are then used to determine whether an item will be 
+delivered on-time or if the OSCM should expect a delay. If the model 
+outputs a 1, we expect that the item will be delayed and the OSCM can be 
+proactive in their decision making to prepare for a potential inventory 
+shortage.",Development and Acquisition
+"Inventory Item 
+Replenishment MLR 
+Modeling POC - Phase 1a","The Bureau of Engraving and Printing wanted to establish a proof of 
+concept (POC) for Predictive Analytics at the BEP. This POC consisted of 
+developing a Multiple Linear Regression (MLR) model to predict Processing 
+Lead Times for the Office of Supply Chain Management (OSCM). 
+Processing Lead Times are the numbers of days it takes an item to be 
+delivered to the target facility from the time the purchase order (PO) was 
+approved. The model utilizes historical requisition, vendor, and item 
+specific data to come up with numerical predictions, which are then used 
+to determine whether an item will be delivered on-time or if the OSCM 
+should expect a delay. If a delay is expected, the OSCM can be proactive in 
+their decision making to prepare for a potential inventory shortage.",Development and Acquisition
+"Inventory Item 
+Replenishment MLR 
+Modeling POC - Phase 2","The Bureau of Engraving and Printing wanted to operationalize a model 
+using their newly deployed Cloudera Data Science Workbench (CDSW) 
+application to predict whether an item would be delivered by the vendor 
+Promised Date. This date is the date the vendor promises an item to be 
+delivered to BEP. The model utilizes historical requisition, vendor, and 
+item specific data to come up with binary (0 or 1) predictions, which are 
+then used to determine whether an item will be delivered on-time or if the 
+OSCM should expect a delay. If the model outputs a 1, we expect that the 
+item will be delayed and the OSCM can be proactive in their decision 
+making to prepare for a potential inventory shortage.",Development and Acquisition
+NRP Redesign,"Deploy state-of-the-art AI machine learning methods to provide a lower 
+opportunity cost method of estimating a compliance baseline to support 
+tax gap estimation, improper payments reporting, development and 
+validation of workload identification and selection models, and inform 
+policy analysis.  System inputs require existing NRP data which provide an 
+acceptable level of precision and quality for an acceptable level of data 
+quality output.",In production: less than one year
+"Predictive equipment 
+maintenance system","Predictive maintenance to increase equipment uptime, improve safety, 
+lower maintenance cost. Researching feasibility and tools.",Initiation
+TAS Virtual Assistant,"The TAS Virtual Assistant Chatbot will capture utterances from 
+taxpayers/end-users to direct them to helpful resources on IRS and TAS 
+public websites.",Initiation
+"Taxpayer Accessibility - 
+Machine Translation (MT)","Taxpayer Accessibility Machine Translation (MT) is a SaaS based 
+Commercial Off-the-Shelf (COTS) product that uses Amazon Translate, a 
+neural machine translation (NMT) service. The MT solution implements 
+customization features in the product which will have capabilities to 
+integrate existing Linguistics Policies Tools and Services (LPTS) translations 
+and workflows through a centralized repository formed by a collection of 
+existing and customized IRS glossaries to return translations from English 
+to Spanish (and Spanish to English) that more accurately reflect native-
+tongue verbiage.",Implementation

@@ -1,0 +1,28 @@
+Department,Downloaded,Format,Dept Code,Entries,Duplicated
+Department of Agriculture,Yes,CSV,USDA,39,0
+Department of Commerce,Yes,PDF,DOC,49,0
+National Institute of Standards and Technology,Yes,None,NIST,0,0
+Department of Education,Yes,https://www2.ed.gov/about/offices/list/ocio/technology/ai-inventory/index.html,ED,1,0
+Department of Energy,Yes,PDF,DOE,183,5
+Department of Health and Human Services,Yes,CSV,HHS,163,6
+Department of Homeland Security,Yes,XLSX,DHS,41,0
+Department of Housing and Urban Development,Yes,https://www.hud.gov/data/AI_inventory,HUD,1,0
+Department of Interior,Yes,XLSX,DOI,38,0
+Department of Justice,Yes,PDF,DOJ,4,0
+Department of Labor,Yes,https://www.dol.gov/agencies/odg/ai-inventory,DOL,18,0
+Department of State,Yes,https://www.state.gov/data-strategy/ai_inventory/,DOS,37,6
+Department of Transportation,Yes,CSV,DOT,14,0
+Department of Treasury,Yes,PDF,TREAS,14,0
+Department of Veterans Affairs,Yes,https://www.research.va.gov/naii/ai-inventory.cfm,VA,40,0
+National Archives and Records Administration,Yes,XLSX,NARA,5,0
+National Aeronautics and Space Administration,Yes,PDF,NASA,33,0
+National Science Foundation,Yes,None,NSF,0,0
+National Transportation Safety Board,Yes,None,NTSB,0,0
+Peace Corps,Yes,None,Peace Corps,0,0
+Small Business Administration,Yes,None,SBA,0,0
+Social Security Administration,Yes,CSV,SSA,14,0
+The Export-Import Bank of the United States (EXIM),Yes,None,EXIM,0,0
+U.S. Agency for International Development,Yes,XLSX,USAID,14,0
+U.S. Environmental Protection Agency,Yes,https://www.epa.gov/data/epa-artificial-intelligence-inventory,EPA,3,0
+U.S. General Services Administration,Yes,https://tech.gsa.gov/ai-inventory/,GSA,12,0
+U.S. Office of Personnel Management,Yes,XLSX,OPM,4,0

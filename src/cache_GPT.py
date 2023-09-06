@@ -17,7 +17,6 @@ def flatten_func(nested_list):
 
 class ChatGPT:
     def __init__(self, cache, max_tokens, parallel_threads=1, verbose=False):
-
         if isinstance(cache, str):
             cache = Cache(cache)
 
@@ -67,7 +66,6 @@ class ChatGPT:
         output=None,
         force=False,
     ):
-
         valid_outputs = ["text", "raw", "json", "list"]
         try:
             assert output in valid_outputs
@@ -168,7 +166,6 @@ class ChatGPT:
         exit()
 
     def multiASK(self, prompt, output="text", force=False, flatten=False, **kwargs):
-
         """
         Calls self.__call__ in parallel.
         Output is one of [text, raw, list, json]

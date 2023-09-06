@@ -1,0 +1,1969 @@
+Title,Agency,Summary,Development Stage,Techniques
+"Adaptive Cyber-Physical Resilience 
+for Building Control Systems","Pacific Northwest National 
+Laboratory","Deep learning models are used for predicting the operation of building 
+energy systems, and detecting and diagnosing the health state or cyber 
+attack presence, and for optimizing the building energy system 
+response to provide resilient operation and sustained energy efficiency.",,
+"Advanced energy, batteries, and 
+industrial efficiency","Lawrence Livermore National 
+Laboratory","Leveraging data science to navigate design space for better batteries 
+and energy storage as well as scale up of various technologies",,
+Advanced Image Segmentation,"National Energy Technology 
+Laboratory","U-Net CNN segmentation to isolate pore and fluid from computed 
+tomography scans of multiphase transport in cores.",,"Neural Networks, 
+Other"
+"Advanced materials science, 
+engineering, and exploration relevant 
+to the other key technology focus 
+areas","Lawrence Livermore National 
+Laboratory","Enabling machine learning based technology to specialized materials for 
+superior performance for scientific research and manufacturing systems",,
+"Advanced model to forecast 
+offshore landslide risks and marine 
+geohazards","National Energy Technology 
+Laboratory","This research will use data and models from the Offshore Risk Modeling 
+(ORM) with intelligent databases, artificial intelligence (AI)/ML, big data, 
+and other advanced computing technologies to address offshore 
+subsurface natural-engineered system challenges, such as 
+characterization and mapping of geologic hazards, safe operations, 
+equipment reliability, and environmental assessments.",,"Big Data, Natural 
+Language 
+Processing, Other"
+"Advanced subsurface imaging, 
+lower energy cost, impacts, and 
+improved resolution","National Energy Technology 
+Laboratory","More detailed analysis and simulation of a closed cycle pulsed MHD 
+generator will be performed in this subtask. The numerical code will be 
+used to produce an optimized system which achieves a 10 MWe power 
+output over a 10s duration with a total duty cycle of 2 minutes. The 
+expected output of this task is an optimized concept as a function of the 
+various input and design parameters for the system (e.g., magnet size, 
+pebble bed heater size).",,"Big Data, Neural 
+Networks, Other"
+"Advanced subsurface imaging, 
+lower energy cost, impacts, and 
+improved resolution","National Energy Technology 
+Laboratory","More detailed analysis and simulation of a closed cycle pulsed MHD 
+generator will be performed in this subtask. The numerical code will be 
+used to produce an optimized system which achieves a 10 MWe power 
+output over a 10s duration with a total duty cycle of 2 minutes. The 
+expected output of this task is an optimized concept as a function of the 
+various input and design parameters for the system (e.g., magnet size, 
+pebble bed heater size).",,"Artificial 
+Intelligence, Other"
+"Advanced subsurface imaging, 
+lower energy cost, impacts, and 
+improved resolution","National Energy Technology 
+Laboratory","More detailed analysis and simulation of a closed cycle pulsed MHD 
+generator will be performed in this subtask. The numerical code will be 
+used to produce an optimized system which achieves a 10 MWe power 
+output over a 10s duration with a total duty cycle of 2 minutes. The 
+expected output of this task is an optimized concept as a function of the 
+various input and design parameters for the system (e.g., magnet size, 
+pebble bed heater size).",,"Neural Networks, 
+Other"
+"Advancing Market-Ready Building 
+Energy Management by Cost-
+Effective Differentiable Predictive 
+Control","Pacific Northwest National 
+Laboratory","An AI based differentiable programming framework for domain aware 
+data efficient predictive modeling and AI based control policy synthesis 
+as well as methods for safety verification and online learning. Domain 
+aware deep learning models are used for learning and predicting the 
+response of building systems and components and for optimizing the 
+building energy system response to provide resilient operation and 
+sustained energy efficiency.",,
+AI Denoising,Fermi National Accelerator,"This program aims to develop generative models for quickly simulating 
+showers of particles in calorimeters for LHC experiments",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks, 
+Hierarchical 
+Generative Model"
+"AI techniques for identification of 
+suitable delivery parking spaces in 
+an urban scenario","Pacific Northwest National 
+Laboratory","We are using AI (Graph Neural Network) to determine importance of 
+parking spaces in a city network for curb management to promote 
+adoption of electric vehicles for freight delivery",,
+"AI used for predictive modeling and 
+real time control of traffic systems","Pacific Northwest National 
+Laboratory","Domain aware deep learning models are used for predictive modeling of 
+traffic. Deep learning based predictive controllers are trained from 
+simulated data to optimize the traffic signaling and coordination for 
+improved traffic flow and reduced energy consumption and GHG 
+emissions",,
+AI used to interpret sensor data.,"National Energy Technology 
+Laboratory","AI is being used to classify sensor data.  An AI algorithm was written 
+and trained with a wide range of known sensor conditions to enable 
+automatic classification of sensor data into likely constituent gas 
+concentrations.",,Other
+AI-Based Chat Bot,"Office of the Chief Information 
+Officer","The OCIO EITS Service Desk is exploring the ability to use AI chat bots 
+to interact with end-users. We are looking to have a single bot 
+architecture that is highly tuned to IT system languages to properly 
+handle the terms that may be used in an enterprise environment. The 
+primary benefit would be to make knowledge more available to the end-
+users in a consumable manner. Additionally, it would connect to ITSM 
+workflows that could automate basic functions such as request an 
+account, provide permissions, or create an MS Teams site as 
+examples. Additionally, the technology needs to provide a significant 
+amount of feedback to the EITS Service Desk on unanswered 
+questions, questions dropped, ineffective responses, incorrect 
+responses, etc.",,
+AI/ML and other software advances,"Lawrence Livermore National 
+Laboratory","Model architecture development research, including workflows, 
+algorithm and performance optimization",,
+"AI/ML may be needed to extract 
+data from text, image and tabular-
+based resources. NEWTS is 
+partnering with university teams to 
+use ML to fill in data gaps using 
+predictive models.","National Energy Technology 
+Laboratory","NEWTS data requirements and database structure needs will be 
+established by reviewing datasets and literature on energy-water 
+streams. Data sources will be identified from regulatory agencies, 
+government monitoring programs, as well as open-source literature. 
+Metadata of each source will be compiled into a data catalog for 
+tracking and reference. Datasets, including high-quality composition 
+data for relevant streams, will be collected and downloaded. Acquired 
+data will be processed into a structured format based on the 
+prioritization of datasets to be included in NEWTS. Data acquisition and 
+processing might entail the application of ML (e.g., natural language 
+processing) to efficiently resurrect data trapped in historical reports 
+(e.g., PDFs) or other unstructured formats. One research product of this 
+subtask will be a release of the data catalog, which will be made 
+available on",,"Natural Language 
+Processing, Other"
+"AI/ML methodology for rapid design 
+of sorbents tuned to specific ash 
+impoundment and/or landfill 
+requirements.","National Energy Technology 
+Laboratory","Computation of the descriptors (atomic property-weighted radial 
+distribution functions) that will be used for the ML portion of the task; 
+Fitting of a machine-learned model for the prediction of B sorption; 
+Optimization and computational design of a sorbent for maximum 
+sorption of B as a function of B concentration in the aqueous solution; 
+Force field generation for an additional pollutant (if needed); Sorption 
+calculations and ML fitting for the second pollutant (TBD); Optimization 
+and computational design of a sorbent for maximum sorption of the 
+second pollutant as a function of pollutant concentration in the aqueous 
+solution.",,Other
+"Analysis to Assess Offshore CCS 
+Trends and Gaps","National Energy Technology 
+Laboratory","Providing expertise, input, and support for the development of a DOE 
+(NETL/FECM) carbon storage technical resources catalog that 
+facilitates searching for information about datasets, models and tools, 
+publications and reports, and competencies resulting from DOE-
+FECM/NETL’s offshore and CSP activities.  this project will complete a 
+review and analysis of knowledge and data resources resulting from 
+international offshore CCS projects. Outcomes of this analysis are 
+expected to include the integration of key data and tools into the EDX-
+hosted Open Carbon Storage Database and DisCO2ver platform (in 
+development via the EDX4CCS FWP), as well as geo-data science 
+based analysis and recommendations on geologic and metocean 
+insights from international studies and their alignment or relevance to 
+U.S. Federal offshore settings.",,Other
+"ANN Submodels of Reaction 
+Physics","National Energy Technology 
+Laboratory",ANN development of flow physics for code acceleration,,Other
+"Applications of Natural Language 
+Processing and Similarity Measures 
+for Similarity Ranking","Office of Environment, Health, 
+Safety & Security","""EHSS has been developing applications of natural language 
+processing (NLP) and similarity measures for advanced information 
+retrieval and searching of datasets (e.g., SQL databases, CSV files, 
+reports) as well as estimating similarities between records within a 
+dataset or records between different datasets.  Similarity search has 
+been successfully applied to efficiently search DOE COVID-19 Hotline 
+questions and answer database, searching DOE annual site 
+environmental reports, similarity between DOE occurrence reporting and 
+processing system and lessons learned, and AIX data.  Similarity 
+measures can also be used to identify opportunities for resource 
+prioritization and prediction.
+As of October 2021, the tool runs locally by the principal investigator on 
+project based, as requested or as a desktop application.  Initial 
+developments were initiated to move to a web-based application but not 
+completed due to lack of user need and resources.""",,
+APT Analytics,"Pacific Northwest National 
+Laboratory",Development of AI/ML for automated analysis of APT data.,,
+"Automated sorting of high repetition 
+rate coherent diffraction data from 
+XFELS","Brookhaven National 
+Laboratory","""Coherent X-rays are routinely provided today by the latest Synchrotron 
+and X-ray Free-electron Laser Sources. When these diffract from a 
+crystal containing defects, interference leads to the formation of a 
+modulated diffraction pattern called """"speckle"""". When the defects move 
+around, they can be quantified by a correlation analysis technique called 
+X-ray Photon Correlation Spectroscopy. But the speckles also change 
+when the beam moves on the sample. By scanning the beam in a 
+controlled way, the overlap between the adjacent regions gives 
+redundancy to the data, which allows a solution of the inherent phase 
+problem. This is the basis of the coherent X-ray ptychography method 
+which can achieve image resolutions of 10nm, but only if the probe 
+positions are known.
+The goal of this proposal will be to separate """"genuine"""" fluctuations of a 
+material sample from the inherent beam fluctuations at the high data 
+rates of XFELs. Algorithms will be developed to calculate the 
+correlations between all the coherent diffraction patterns arriving in a 
+time series, then used to separate the two sources of fluctuation using 
+the criterion that the """"natural"""" thermal fluctuations do not repeat, while 
+beam ones do.  We separate the data stream into image and beam 
+""""modes"""" automatically.""",,
+"Biology, genomics, and synthetic 
+biology","Lawrence Livermore National 
+Laboratory","Combining experimental and computational methods to perform 
+fundamental and applied research in genomics, molecular toxicology, 
+nanotechnology, host–pathogen biology, structural biology, genetics, 
+microbial systems, and medical countermeasures",,
+"Computational capabilities to 
+support experimental efforts","National Energy Technology 
+Laboratory","This subtask will leverage NETL’s in-house computational capabilities 
+and existing university collaborators to support experimental efforts by 
+providing atomic-level DFT and microkinetic modeling calculations for 
+catalyst systems. This work provides atomic-level details on reaction 
+energetics and establishes key structure-property relationships used to 
+optimize catalyst structure and formulation.",,
+"Computational methods for the 
+characterization of CO2 
+chemisorption in amine-
+functionalized MOFs.","National Energy Technology 
+Laboratory","Databases of MOFs will be screened using computational methods to 
+identify promising MOFs. Software will be further developed to allow for 
+the addition of desirable functional groups (amines) to metal centers 
+and/or ligands of MOFs. The team will calculate the reaction enthalpy for 
+CO2 sorption in amine functionalized MOFs and further computational 
+methods for the characterization of CO2 chemisorption in amine-
+functionalized MOFs will be developed.",,Other
+"Creation of polymer datasets and 
+inverse design of polymers with 
+targeted backbones having 
+High CO2 permeability and high 
+CO2/N2 selectivity.","National Energy Technology 
+Laboratory","Machine learning models were developed to predict CO2 permeability 
+and CO2/N2 selectivity of polymers. Novel methods were developed to 
+generate polymer datasets. Furthermore, a novel machine learning 
+technique is being developed to inverse design the polymers that will 
+have targeted properties.",,Other
+"Cyber security, data storage, and 
+data management technologies","Lawrence Livermore National 
+Laboratory","Data-processing pipelines and user interfaces to process and 
+aggregate large, bulk, and possibly unstructured datasets allowing for 
+search and export of data for further analysis in secure way",,
+"Data Analytics and Machine 
+Learning (DAMaL) Tools for Analysis 
+of Environment, Safety and Health 
+(ES&H) data:  Similarity Based 
+Information Retrieval","Office of Environment, Health, 
+Safety & Security","""The EHSS Data Analytics Machine Learning (DAMaL) tools, similarity-
+based information retrieval tool, uses natural language processing 
+(NLP) and cosine similarity to leverage artificial intelligence (AI) to 
+increase the efficiency of a user to find important records in the DOE 
+environment, safety, and health (ES&H) datasets (e.g., occurrence 
+reporting and processing system, fire protection, lessons learned, 
+accident and injury reporting system, contractor assurance system 
+CAS).  The tool has no restriction on the text query, provides NLP 
+options to the user (e.g., stemming or lemmatization) and could be used 
+to improve decision-making in job planning activities, identifying hazards, 
+and obtaining insights from operating experience and lessons learned 
+data discovery and analysis, accident investigations among other areas.
+As of October 2021, Tool developed and deployed in the DAMaL tools 
+website.  Expected to continue to maintain, develop documentation 
+(e.g., users analysis guides), improve and enhance, and increase data 
+sources.",,
+"Data Analytics and Machine 
+Learning (DAMaL) Tools to enhance 
+the analysis of Environment, Safety 
+and Health (ES&H) data:  
+Classification, Robotic Process 
+Automation and Data Visualization","Office of Environment, Health, 
+Safety & Security","""The EHSS Data Analytics Machine Learning (DAMaL) tools, 
+classification, robotic process automation and data visualization tool, 
+uses natural language processing (NLP) and classification algorithms 
+(i.e., random forests) to automate the classification of records, visually 
+provide insights in the trends and provide an indication of importance 
+and risk.   The tool leverages artificial intelligence (AI) to analyze the text 
+of the DOE environment, safety, and health (ES&H) and operating 
+experience dataset records (e.g., occurrence reporting and processing 
+system, fire protection, lessons learned, accident and injury reporting 
+system, contractor assurance system CAS) and identifies important 
+topics that can be used by an analyst to drill down and further explore 
+potential safety issues in the DOE operations.
+As of October 2021, the tool has been deployed in the DAMaL tools 
+website.  Expected to continue to maintain, develop documentation 
+(e.g., users analysis guides), improve and enhance, and increase data 
+sources.",,
+"Data Analytics and Machine 
+Learning (DAMaL) Tools to enhance 
+the analysis of Environment, Safety 
+and Health (ES&H) data:  
+Unsupervised Machine Learning 
+Text Clustering","Office of Environment, Health, 
+Safety & Security","""The EHSS Data Analytics Machine Learning (DAMaL) tools, 
+unsupervised machine learning clustering tool, uses natural language 
+processing (NLP) and clustering algorithms (i.e., k means, DBSCAN 
+and dimensionality reduction approaches) to leverage AI to analyze the 
+text of the DOE environment, safety, and health (ES&H) and operating 
+experience dataset records (e.g., occurrence reporting and processing 
+system, fire protection, lessons learned, and accident and injury 
+reporting system, contractor assurance system CAS).  The tool 
+identifies recurrent and important topics that can be used by an analyst 
+to drill down and further explore potential recurrent safety issues in the 
+DOE operations.
+As of October 2021, the tool has been partially deployed in the DAMaL 
+tools website.  Development is mostly complete with use case in Fire 
+Protection Trending and Analysis completed and undergoing review of 
+report.  Expected to continue to maintain, develop documentation (e.g., 
+users analysis guides), improve and enhance, and increase data 
+sources.",,
+"Data discovery, processing, and 
+generation using machine learning 
+for a range of CCS data and 
+information","National Energy Technology 
+Laboratory","The team will focus on supporting ongoing geospatial data collection 
+and publishing efforts leveraging the new EDX++ cloud computer 
+capabilities through ArcGIS Enterprise Portal. The use of Arc Enterprise 
+Portal will support the development of the Carbon Matchmaker tool, as 
+well as support the release of a new version of GeoCube, which will be 
+host to the updated Carbon Storage Open Database and NATCARB 
+completed in EY21. NETL is supporting DOE-FECM in developing and 
+releasing a survey and map for the Carbon Matchmaker, a tool 
+developed to enable stakeholders to self-identify carbon dioxide related 
+activities (production, utilization, storage, direct air capture, and 
+infrastructure/transportation) to identify and connect stakeholders and 
+support national collaborative opportunities. The ArcGIS Enterprise 
+Portal will be leveraged to build out a new version of GeoCube with the 
+migration of hundreds of spatial data layers into the new platform. The 
+migration of data to an Arc Enterprise based GeoCube will enable 
+easier version control for data integration and curation.",,"Big Data, Natural 
+Language 
+Processing, Other"
+"Data platform to expedite access 
+and reuse of carbon ore data for 
+materials, manufacturing and 
+research","National Energy Technology 
+Laboratory","Data platform to expedite access and reuse of carbon ore data for 
+materials, manufacturing and research.  Assembled using data science, 
+NLP methods, and hosted in virtual, multi-cloud platform for online 
+analytics.",,"Natural Language 
+Processing, Other"
+"Database will be utilized to 
+demonstrate targeted biocide 
+strategies using AI to assess large 
+DNA datasets.","National Energy Technology 
+Laboratory","The team will develop a public DNA database that will advance 
+knowledge in produced water management. This project consists of two 
+phases: (1) the development and launching of the database, and (2) the 
+demonstration of applicability of the database by conducting a network 
+analysis. The work will be pursued as defined in the phases below. The 
+fully characterized streams will be used by other FWPs to estimate 
+overall resource recovery and will be used by other FWPs as training 
+set for machine learning (ML) models to predict compositions when only 
+limited measurements can or have been completed for the produced 
+water.",,"Big Data, Other"
+"Deep Learning Malware Analysis for 
+reusable cyber defenses.",Idaho National Laboratory,"The INL uses machine learning (feed forward neural network) on a large 
+data set of translated malware binaries in graph structures to identify 
+commonality between malware.",,
+"Demonstrate how ML-based 
+approaches can help operators 
+during active injection and post-
+injection monitoring","National Energy Technology 
+Laboratory","To demonstrate how ML-based approaches can help operators during 
+active injection and post-injection monitoring, it is necessary to 
+understand their needs and identify how ML-based approaches can 
+potentially meet or support those needs. Task 4 will establish data-
+sharing protocols between SMART and the operator to create an 
+exchange mechanism that is not intrusive to the operator and provides 
+updates from ML results designed to enhance the operator decision 
+process. Demonstrate application of ML-based approaches to improve 
+site-monitoring and operations efforts performed during injection and 
+post-injection phases, e.g., using IL-ICCS data, and developing value of 
+information guidelines.",,Other
+"Demonstrate the robust 
+performance of our ML method in a 
+commercial-scale synthetic data and 
+integrate image-to-image mapping 
+with convolutional neural networks","National Energy Technology 
+Laboratory","Our method quickly incorporates streaming observations for accurate 
+and timely forecasts with uncertainty quantification, taking reservoir 
+simulation data as inputs and incorporating real-time observation 
+streams for accurate, timely geological carbon storage forecasts.
+Computation effort is distributed over many machines, facilitates 
+coupled inversions using many ML models, and allows for ML-Driven 
+optimization and sensitivity analysis",,"Neural Networks, 
+Other"
+"Develop and demonstrate 
+reinforcement learning approach for 
+time-varying control for flexible 
+hydrogen and power production.","National Energy Technology 
+Laboratory","Efforts on IES control will include the development of a dynamic 
+optimization-based nonlinear model predictive control (NMPC) 
+framework. NMPC approaches for optimizing cell thermal management 
+and maximizing IES efficiency under set-point transition will be 
+developed for flexible operation. Reinforcement learning (RL) 
+approaches will also be developed for optimal control policy selection 
+and learning-based adaptive control. There are opportunities for 
+improved learning through interaction with the electrolyzer in addition to 
+learning from the MPC action. Multi-policy approaches will be developed 
+for control, independently by RL or in concert with MPC, or even for 
+scheduling the operating policy.  The ultimate goal is to develop 
+operational strategies and an NMPC and RL control framework for 
+optimizing IES performance under flexible hydrogen and power 
+production scenarios, while minimizing physical and chemical 
+degradation over long-term operation.",,Other
+"Develop fast predictive models using 
+novel machine-learning based 
+methods.","National Energy Technology 
+Laboratory","Accurate, fast predictive ML models form the foundation for the virtual 
+learning platform. Generating training data then developing ML based 
+models enables a Virtual Learning Environment (VLE) for exploring and 
+testing strategies to optimize reservoir development, management & 
+monitoring prior to field activities.",,Other
+"Develop, integrate, and automate 
+the reduction of CFD models while 
+preserving acceptable levels of 
+accuracy.  In general for CCSI2, this 
+work intends to focuse on CFD 
+applications.","National Energy Technology 
+Laboratory","Will leverage state-of-the-art, physics-based deep learning (DL) models 
+to learn generalizable surrogates that may be used in place of CFD 
+models to predict quantities required for downstream optimization. The 
+products from this subtask can be immediately leveraged by other 
+subtasks that are seeking to speed up their CFD simulation models to 
+streamline their downstream analyses. Addtionally, improvements to the 
+ML/AI interface in FOQUS. Includes support for vector variables in the 
+ML/AI plugin and support for additional surrogate model tools (e.g., 
+PyTorch, Sci-kit Learn) and additional normalization function forms in 
+the ML/AI plugin.",,"Neural Networks, 
+Other"
+Development of AI/ML methods,"National Energy Technology 
+Laboratory","Develop quality, reliability, and version control standards for SMART 
+software. Continue development of AI/ML methods for use by the 2A 
+and 2C activities, including Modeling anomalies due to local 
+heterogeneity coupled with an enhanced capacitance-resistance model 
+(CRM) and Bayesian Belief Network (BBN) modeling integrated with 
+geochemistry. Continue development of advanced computational 
+approaches with modeling using the most advanced general purpose 
+PDE/ODE physics-informed neural network (PINN) tool developed by 
+NVIDIA and accelerate training PINNs using Wafer Scale Engine (WSE) 
+by Cerebras Systems Inc.",,Other
+"Development of new machine 
+learning-based process modeling 
+capabilities that assess the viability 
+and efficiency, with uncertainty 
+quantification, of the chemical 
+processes involved in the carbon 
+fiber production and its output quality","National Energy Technology 
+Laboratory","Provide sub-pilot-scale verification of lab-scale developments on the 
+production of isotropic and mesophase coal-tar pitch (CTP) for carbon 
+fiber production, using coals from several U.S. coal-producing regions. 
+An extensive database and suite of tools for data analysis and economic 
+modeling, with an associated web-based community portal, will be 
+developed to relate process conditions to product quality, and to assess 
+the economic viability of coals from different regions for producing 
+specific high-value products.",,Artificial Intelligence Unknown
+DOE AI Data Infrastructure System,"National Energy Technology 
+Laboratory","Leveraging generative AI and cloud enabled data infrastructure to 
+improve CCS user experience and connectivity producing an adaptive 
+user interface that streamlines connection of CCS stakeholders to what 
+matters to them.",,"Artificial 
+Intelligence, Big 
+Data, Other"
+"Elucidating Genetic and 
+Environmental Risk Factors for 
+Antipsychotic-induced Metabolic 
+Adverse Effects Using AI","Pacific Northwest National 
+Laboratory","Develop AI methids to  find phenotypes that capture complex interation 
+between human genome, chronic diseases and a drug's chemical 
+signature to predict adverse side-effects of a mental health drug on 
+human population",,
+Extreme data reduction for the edge,Fermi National Accelerator,"This projects develops AI algorithms and tools for near-sensor data 
+reduction in custom hardware.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks, Novel 
+Spectroscopic 
+Technology"
+"FIMS - Invoice BOT - Employee 
+Reimbursements
+FIMS - Invoice BOT - Purchase 
+Power","Western Area Power 
+Administration","PROCESS - Invoices are sent to the RPA Invoice Intake email box 
+(RPAInvoiceIntake@WAPA.GOV). Once a day, unattended bot will 
+extract information from PDF invoices. The invoice is classified to 
+determine whether the invoice is an Employee Reimbursement or a 
+Purchase Power Invoice.  The information extracted from the invoice is 
+then review/validated by the Accounts Payable Technician. After 
+validation, the bot will load the information into the WAPA Financial 
+Management System.","Operation and 
+Maintenance","Artificial 
+Intelligence, 
+Document 
+Understanding"
+"Fluid migration from well-to-well 
+communication will be inputted in AI 
+to determine a costs-benefit analysis","National Energy Technology 
+Laboratory","This project will develop an ML algorithm to predict the time when a 
+growing fracture will reach the monitored well. The ML workflow will be 
+trained on the distinctive tensile strain signature that precedes the 
+growing fracture. The new workflow will be designed to work in 
+conjunction with the fracture warning ML workflow developed in EY21. 
+Together, these workflows will: (1) provide an early warning of well-to-
+well communication, (2) predict the measured depths where the 
+communication will happen, and (3) provide an estimated time until the 
+beginning of well-to-well communication.",,"Artificial 
+Intelligence, Big 
+Data, Other"
+"Geo Threat Observable for structure 
+cyber threat related to the energy 
+sector",Idaho National Laboratory,"Collection of open source threat inforamtion related to cyber issues in 
+the energy sector, collected stored in graphdb and used in machine 
+learning for similarities of threat enabling better reuse of cyber 
+protections.",,
+"Geochemically Informed Leak 
+Detection (GILD)","National Energy Technology 
+Laboratory","A Bayesian Belief Network has been developed to interogate the altered 
+geochemistry around a potential CO2 leakage site. The use of the BNN 
+and site specific parameters will reduce the percentage of false 
+positives with this method.",,"Artificial 
+Intelligence, Other"
+Groundwater Modeling,Office of Legacy Management,Groundwater modeling includes parameter estimation,,
+"High-performance computing, 
+semiconductors, and advanced 
+computer hardware","Lawrence Livermore National 
+Laboratory","Novel computer hardware architecture/configurations that can perform 
+at the edge and/or in harsh environments",,
+High-Velocity AI: Generative Models,Fermi National Accelerator,"This project has two parts: 1. generating adversarial examples and then 
+using domain adaptation and other techniques to improve the 
+robustness of AI classification algorithms against those attacks 
+(focusing on astrophysics/cosmology applications); 2. using AI 
+algorithms to improve the output of low-quality classical simulation 
+engines to deliver a high-quality result at high speed.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks, 
+Hierarchical 
+Generative Model"
+hls4ml,Fermi National Accelerator,"This project develops hardware-software AI codesign tools for FPGAs 
+and ASICs for algorithms running at the extreme edge.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+"In-pixel AI for future tracking 
+detectors",Fermi National Accelerator,"This project explores novel  AI-on-chip technology for intelligent 
+detectors embedded with sensing technology",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+"In-storage computing for multi-
+messenger astronomy in neutrino 
+experiments and cosmological 
+surveys",Fermi National Accelerator,"This project aims to address the big-data challenges and stringent time 
+constraints facing multi-messenger astronomy (MMA) in neutrino 
+experiments and cosomological surveys. Instead of following the 
+traditional computing paradigm of moving data to the compute 
+elements, it does the opposite to embed computation in the data where 
+processing is performed in situ. This will be achieved through emerging 
+computational storage accelerators on which ML algorithms may be 
+deployed to execute MMA tasks quickly so alerts can be disseminated 
+promptly.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+"Initial case study using regulatory 
+compliance (well integrity testing, 
+fluid compositionali data, 
+geographic, and geologic 
+information from oil and gas wells in 
+the Wattenberg Field, Denver Basin, 
+central  Colorado, USA","National Energy Technology 
+Laboratory","Researchers will apply artificial intelligence/machine learning (AI/ML) 
+techniques to national-scale well characterization and integrity test 
+datasets to yield new insights into leakage potential.",,Other
+"Innovation methods, processes and 
+promising practices that can affect 
+the speed and effectiveness of 
+innovation processes at scale.","Lawrence Livermore National 
+Laboratory","Computational approaches that lead to faster insights into the 
+development and deployment of large scale operations",,
+Laboratory Automation,"Pacific Northwest National 
+Laboratory","Employing machine learning to identify regions of interest in SEM and 
+TEM data. Automating data acquisition to improve efficiencies.",,
+"Machine learning based  
+identification of current hazardous 
+offshore metocean and bathymetric 
+conditions that can impact safe 
+offshore energy operations","National Energy Technology 
+Laboratory","Build off user testing and further refine analytical logic to develop 
+Version 2 of the OGA smart tool for release on EDX. Continue 
+refinements to offshore hazard models, including wave and turbidity 
+current models. Draft manuscripts detailing the OGA Tool models and 
+algorithms. Assemble a metocean and seafloor database for release 
+with the OGA Tool Version 2 online; strategize web-hosted versions of 
+the OGA Tool and database.",,"Big Data, Neural 
+Networks, Other"
+"Machine Learning for Accelerator 
+Operations Using Big Data Analytics 
+/ L-CAPE",Fermi National Accelerator,"Big data analytics for anomaly prediction and classification, enabling 
+automatic mitigation, operational savings, and predictive maintenance of 
+the Fermilab LINAC",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+"Machine Learning for Autonomous 
+Control of Scientific User Facilities","Brookhaven National 
+Laboratory","BNL will work alongside SLAC, to implement ML algorithm(s) into NSLS-
+II Operations to interpret accelerator data more intelligently.  We intend 
+to train said algorithms with 5+ years of archived device-data from 
+accelerator components, records of previous fault causes (to connect to 
+data-symptoms) and stored beam current.",,
+"Machine Learning for geophysical 
+data inversion","National Energy Technology 
+Laboratory","Use machine learning to generate synthetic seismic and gravity data, 
+and data driven inversion for leak detection",,Other
+"Machine learning for legacy well 
+evaluation","National Energy Technology 
+Laboratory","Use machine learning to identify common attributes that correlated to 
+well integrity issues to prioritize for monitoring and remediation.",,Other
+"Machine Learning for Linac 
+Improved Performance",Fermi National Accelerator,"In Linacs at FNAL and J-PARC, the current emittance optimization 
+procedure is limited to manual adjustments of a few parameters; using 
+a larger number is not practically feasible for a human operator. Using 
+machine learning (ML) techniques allows lifting this restriction and 
+expanding this set. Our goal is to integrate ML into linac operation - and 
+in particular RF control to achieve a more optimal longitudinal emittance 
+and lower overall losses.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+"Machine learning to process multi-
+model data and information to aid in 
+the identification of undocumented 
+orphaned wells","National Energy Technology 
+Laboratory","Use of machine learning to process and analyze trends and patterns in 
+known well data to predict undocuemnted orphaned wells, as well as 
+machine learning approached to process different imagery based data 
+to further classify and characterize additional undocuemented orphaned 
+wells within the Appalachain Basin",,"Big Data, Other"
+"Machine learning to refine and 
+analyze data for CCS needs","National Energy Technology 
+Laboratory","Utilze and apply different machine learning approaches to process data 
+and generate new derivative data products that help address CCS 
+stakeholder data-needs for resource evaluation, risk assessment, 
+supply chain, social and environmental justice evaluations, regulatory 
+compliance, and more.",,"Big Data, Other"
+"Machine learning to tool and model 
+applications for CCS needs","National Energy Technology 
+Laboratory","Utilze and apply different machine learning approaches to help model 
+and analyze Class VI well regulatation data, CCS infrastructure 
+optimization, CCS data visualization, and interaction with “really big” 
+(petabyte-scale) datasets used for CCS resource characterization and 
+risk reduction (e.g., reflection seismic surveys) within the EDX multi-
+cloud ecosystem.",,"Big Data, Other"
+Managing curb allocation in cities,"Pacific Northwest National 
+Laboratory","This project's goal is to develop a city-scale dynamic curb use 
+simulation tool and an open-source curb management platform that 
+address the challenge of increased demand for curb-side parking.",,
+"Memorandum of Understanding 
+Between the US DOE and US NRC 
+on Cooperation in the Area of 
+Operating Experience and 
+Applications of Data Analytics 
+(Signed June 2021)","Office of Environment, Health, 
+Safety & Security","The purpose of the Memorandum of Understanding (MOU) between the 
+US DOE and US NRC on cooperation in the area of operating 
+experience and applications of data analytics (Signed June 2021) is to 
+efficiently use resources and to avoid needless duplication of effort by 
+sharing data, technical information, lessons learned, and, in some 
+cases, the costs related to the development of approaches and tools, 
+whenever such cooperation and cost sharing may be done in a mutually 
+beneficial fashion.  The technical areas for collaboration include, those 
+related to operating experience and safety data collection and analysis, 
+including operational events, occupational injuries, hazardous substance 
+releases, nuclear safety, radiation protection, equipment failure, 
+accidents and accident precursors, trending analysis, and risk-informed 
+decision-making.  Applications of data analytics in the analysis of 
+operating experience and safety data, including data visualization and 
+analysis, artificial intelligence, machine learning, natural language 
+processing, predictive analytics, and other advanced analysis 
+techniques, user interface design, and deployment, and decision-
+making using data analytics tools.",,
+"ML-based approaches to improve 
+site characterization efforts","National Energy Technology 
+Laboratory","Demonstrate application of ML-based approaches to improve site-
+characterization efforts performed during the pre-injection phase using 
+data from either IBDP (for which data are currently available) or other 
+opportunistic field demonstration or commercial projects (for which data 
+may become available) and develop value of information guidelines. 
+Demonstrate how ML-based rapid forecasting can be used to help with 
+pre-injection reservoir management decisions under data uncertainties. 
+Demonstrate how a visualization platform with ML-based models can",,Other
+"ML-based proxy models and multi-
+level data driven fracture network 
+imaging to support rapid decision 
+making.","National Energy Technology 
+Laboratory","ML-based proxy-models of fracture network, HF geometry, HF 
+properties, bottomhole pressure and drainage volume contribute to 
+fracture network, production forecast and well drainage volume 
+visualizations.",,Other
+"ML-based reduced order models of 
+reservoir response to Co2 injection 
+into saline and/or hydrocarbon-
+bearing formations - as the basis for 
+integrated assessment modeling of 
+leakage risk (e.g., SACROC)","National Energy Technology 
+Laboratory","Generally, the approach used by NRAP researchers to address these 
+questions is to develop a robust, science-based integrated assessment 
+framework that links fast forecasting models of CO2 storage system 
+components (e.g., storage reservoir; leakage pathways including wells, 
+faults, and fractured caprock; intermediate formations; and receptors of 
+concern, including groundwater aquifers and the atmosphere). 
+Superimposed on this system model are various fit-for-purpose 
+analytical capabilities that support analyses in support of stakeholder 
+decision making for questions related to site-specific risk evolution, risk-
+based area of review delineation, conformance assessment, and post-
+injection site monitoring
+In Task 2.0, researchers will augment and expand this functionality to 
+demonstrate relevance to industry-standard site risk management 
+methods (i.e., bowtie analysis framework) and to understand 
+containment performance and leakage risk for scenarios where a site 
+transitions from CO2 utilization for EOR to dedicated CO2 storage. To 
+ensure that risk assessment efforts are informative to real geologic 
+storage deployment scenarios, NRAP researchers will engage with a 
+diverse set of stakeholders to establish an appropriate modeling and 
+risk assessment design basis.",,Other
+"Natural and anthropogenic disaster 
+prevention and mitigation","Lawrence Livermore National 
+Laboratory","Leveraging a broad, multimodal data stream to predict and understand 
+natural disaster scenarios for the purposes of prevention and mitigation",,
+Natural Language Processing,"National Energy Technology 
+Laboratory","Information and articles on energy storage will be gathered and 
+reviewed. Developed natural language processing (NLP) algorithms will 
+be used to help categorize and understand various energy storage 
+efforts in the R&D communities. Additionally, trends within the 
+discovered and selected topical focus areas in energy storage will be 
+examined. This will provide a view of energy storage R&D, which is not 
+biased or limited to known search terms.",,"Big Data, Natural 
+Language 
+Processing, Other"
+"Neural networks used to 
+compensate a drone-mounted 
+magnetic sensor for maneuvering of 
+the drone.","National Energy Technology 
+Laboratory","Electromagnetic technology development and optimization for cased 
+wells. Scalable solutions—getting to 100,000 wells/year through drone 
+technology and ML technology. NETL will develop ML algorithms to 
+compensate magnetic data for the maneuvering of drone aircraft. 
+Magnetic noise can limit sensitivity of detection and resolution of 
+anomalies in the magnetic data. The ML algorithms will reduce attitude- 
+and heading-induced noise in drone magnetic surveys.",,"Neural Networks, 
+Other"
+"Next-Generation Beam Cooling and 
+Control with Optical Stochastic 
+Cooling",Fermi National Accelerator,"This program leverages the physics and technology of optical stochastic 
+cooling (OSC) to explore new possibilities in beam control and sensing.  
+The planned architecture and performance of a new OSC system at 
+IOTA should enable turn-by-turn programmability of the high-gain OSC.  
+This capability can then be used in conjunction with other hardware 
+systems as the basis of an action space for reinforcement learning (RL) 
+methods.  The program aims to establish a new state of the art in beam 
+cooling and a flexible set of tools for beam control and sensing at 
+colliders and other accelerator facilities.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+Online real time system Identification,"National Energy Technology 
+Laboratory","Work will focus on using SI to monitor the condition of a power plant 
+boiler at different process states. SI algorithms will be implemented 
+within an MPC to provide continuous adaptability as the power plant 
+ramps through the entire range of operating loads. Once the control 
+algorithm has been developed to be effective on representative models, 
+it will be tested on a high-fidelity commercial power plant simulator or on 
+a real power plant facility. The online SI techniques will be tested on 
+historical power plant data, dynamic models (including a power plant 
+simulator), power generating equipment including laboratory pilot-scale 
+power systems, and on power plants where feasible.",,"Artificial 
+Intelligence, Big 
+Data, Other"
+"Physics-Informed Learning 
+Machines for Multiscale and 
+Multiphysics Problems (PhILMs)","Pacific Northwest National 
+Laboratory","PhILMs investigators are developing physics-informed learning 
+machines by encoding physics knowledge into deep learning networks",,
+"Prediction of gasification gas yield 
+and compositions using machine 
+learning","National Energy Technology 
+Laboratory","A machine learning (ML) model will be developed to aid in investigating 
+and optimizing of gasification with various feedstocks like waste plastic, 
+waste coal, biomass and MSW. Database on the gasification will be 
+built from main resources of literature, prior experiments in NETL, and 
+new generating experiments in NETL. Al/ML will be a part of the project. 
+It combines with experimental study to accelerate development of 
+gasification applying to variour feedstocks including waste plastics, 
+waste coal, MSW and its mixture. The ML will have more impact as the 
+big database will be built.",,"Big Data, Other"
+"Quantum computing and information 
+systems","Lawrence Livermore National 
+Laboratory","Machine learning and quantum computing applied towards optimization, 
+quantum chemistry, material science, and cryptography",,
+"READS: Real-time Edge AI for 
+Distributed Systems",Fermi National Accelerator,"This project will develop and deploy low-latency controls and prediction 
+algorithms at the Fermilab accelerator complex",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+"Reduce computational cost of CFD 
+simulations that screen for more 
+efficient intensified solvent contactor 
+geometries.","National Energy Technology 
+Laboratory","Collaborate with Subtask 4.3 Machine Learning Support to reduce the 
+computational complexity of validated CFD calculations using Deeper 
+Fluids (DF), graph neural networks (GNNs), or similar ML approaches. 
+Further development of ongoing process modeling/optimization 
+ultimately informed by the CFD reduced order models (ROM) will also 
+be a focus.",,"Neural Networks, 
+Other"
+"Regional waste feedstock 
+conversion to biofuels","Pacific Northwest National 
+Laboratory","Unsupervised ML is used sequentially to group waste sources into 
+different regions.  Calibrated game theoretic models are used to assess 
+the behavior and economic viability of different waste-to-energy 
+pathways within a region.",,
+"Robotics, automation, and advanced 
+manufacturing","Lawrence Livermore National 
+Laboratory","AI is being used for accelerating hardware development and 
+interpretation of sensor data to improve process reliability",,
+Rokbase Geologic Core Data Tool,"National Energy Technology 
+Laboratory","This project will develop the platform through which the DOE OGFL data 
+are easily accessible, searchable, and described, enabling future R&D, 
+sustainable resource planning, and responsible stewardship of the 
+team’s national resources. NETL’s expertise in developing geo-data 
+science, ML, visualization, online data mining and integration, and 
+advanced analytics through scientific computing (including high 
+performance computing and big data computing methods) and 
+virtualized environments can be leveraged to support further intelligent 
+analytics for offshore systems.",,"Neural Networks, 
+Other"
+"Scalable, Efficient and Accelerated 
+Causal Reasoning Operators, 
+Graphs and Spikes for Earth and 
+Embedded Systems (SEA-CROGS)","Pacific Northwest National 
+Laboratory","Establish a center for scalable and efficient physics-informed machine 
+learning for science and engineering that will accelerate modeling, 
+inference, causal reasoning, etiology and pathway discovery for earth 
+systems and embedded systems. Advances will lead to a higher level of 
+abstraction of operator regression to be implemented in next generation 
+neuromorphic computers.",,
+"Simulation-based inference for 
+cosmology",Fermi National Accelerator,"This project will develop and use simulation-based inference to estimate 
+cosmological parameters related to cosmic acceleration in the early and 
+late universe — via the cosmic microwave background and strong 
+gravitational lensing, respectively. This will produce an analysis pipeline 
+that can be deployed for next-generation cosmic surveys.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+SMMM,"Brookhaven National 
+Laboratory","AI/ML is being used to evaluate measurements in real-time during 
+simultaneous experiments on two beamlines and then drive subsequent 
+data collection on both of the beamlines to maximize the scientific value 
+generated per time.",,
+Soil Moisture Modeling,Office of Legacy Management,"Use multisource machine learning to model soil moisture within the 
+lysimeter embedded within a disposal cell",,
+"Solving Field Equations on the 
+Wafer Scale Engine","National Energy Technology 
+Laboratory","The intent is to develop a collocated, finite volume code to allow 
+maximum mesh flexibility and support advanced CFD capabilities found 
+in modern CFD codes like Fluent, OpenFOAM, and MFiX.
+NETL will take a metered approach to development towards a fully 
+reacting CFD capability on the WSE. EY22 will be filled with API 
+capability expansions needed to support general purpose CFD 
+applications, such as general purpose finite volume formulations, 
+collocated grid capabilities (Rhie & Chow Interpolation), bit stuffing to 
+save memory when dealing with cell types, general purpose boundary 
+conditions, etc. In addition, the code will be benchmarked in a series of 
+tests towards a fully reacting CFD capability that will support problems 
+of interest to FECM.",,"Big Data, Other"
+SONIC: AI acceleration as a service,Fermi National Accelerator,"This project focuses on integration of AI hardware for at-scale inference 
+acceleration for particle physics experiments.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+"Streamining intelligent detectors for 
+sPHENIX/EIC",Fermi National Accelerator,"This project develops real-time algorithms for event filtering with tracking 
+detectors for nuclear physics collider experiments.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+"Surrogate models for probabilistic 
+Bayesian inference","Pacific Northwest National 
+Laboratory","We are using AI/ML to build surrogate models of the observable 
+response of complex physical systems. These surrogate models will be 
+used for probabilistic model inversion of these systems with the goal of 
+estimating unknown model parameters from indirect observations.",,
+"To  drive insights on the 
+dependencies between the natural 
+gas and electricity sectors to 
+increase reliability of the NG system","National Energy Technology 
+Laboratory","Commercially available models will be used to generate predictive 
+scenarios",,Big Data
+"To  drive insights on the power 
+system reliability, cost, and 
+operations during the energy 
+transition with and without FECM 
+technologies","National Energy Technology 
+Laboratory","Commercially available models will be used to generate predictive 
+scenarios",,Big Data
+"To accelerate discovery of 
+protection system and laser 
+processing of protective coatings on 
+CMC for hydrogen turbines.","National Energy Technology 
+Laboratory","The objectives of this project are to design, process, and validate a 
+laser-manufactured, integrated, and graded bond coat-environmental 
+barrier coat-thermal barrier coat (BC-EBC-TBC) system that can 
+effectively protect and lead to the use of Silicon Carbide fiber/Silicon 
+Carbide (SiCf/SiC) matrix CMCs in next-generation hydrogen-fueled 
+turbines.",,Artificial Intelligence Unknown
+"To accurately predict alloy & 
+component  performance  
+extrapolated to  conditions where 
+experimental results to do not exist.","National Energy Technology 
+Laboratory","AI/ML will be used to  interrogate databases comprised of  experimental 
+data,  literature data,  and  synthetic data generated improved physics 
+based models  to generate reduced order models to accurate predict 
+materials the performance of materials and components under extreme 
+environments (temperature, atmosphere) and complex loading (cyclical, 
+triaxial) for long service life durations.",,"Big Data, Other"
+"To analyze data and derive insights 
+and improve predictions to forecast 
+wellbore kick events to reduce loss 
+of control events.","National Energy Technology 
+Laboratory","Use of neural networks and/or AI cluster data analysis methods to 
+improve detection and forecasting of wellbore and drilling related loss of 
+control events, known as kicks, to imrpove real-time detection and 
+prediction of these conditions.",,"Neural Networks, 
+Other"
+"To apply machine learning 
+applications to map carbon ore, rare 
+earth element, and critical mineral 
+resources","National Energy Technology 
+Laboratory","To identify information gaps, GIS and machine learning applications will 
+be used to map carbon ore, rare earth element, and critical mineral 
+resource infrastructure, and market data in consultation with NETL 
+geospatial modeling activities. Research needs and technology gaps will 
+be assessed, and resources targeted for sampling and characterization. 
+This effort will provide a complete Northern Appalachian carbon ore, 
+rare earth element, and critical mineral value chain basinal assessment 
+to enable quick development of commercial projects.",,Artificial Intelligence Unknown
+"To apply machine learning and data 
+analytics techniques to integrated 
+subsurface datasets to predict key 
+reservoir properties and compare 
+various fields across the area of 
+study and to correlate vintage data 
+with new data and address the 
+distribution of fractures and vugs.","National Energy Technology 
+Laboratory","Laboratory experiments will be used to optimize a CO2 flood 
+composition specific to HTD rock properties, and subsequently design 
+and simulate injection scenarios that offer wettability alteration, foaming, 
+and reduced surface tension. This work will improve oil recovery from 
+matrix porosity and mitigate the impact of fracture zones. The optimized 
+design will be implemented and tested in a Trenton/Black River field. 
+The results will provide strategies to improve oil recovery in complex 
+carbonate formations in the Michigan Basin as well as in other 
+carbonate plays.",,"Artificial 
+Intelligence, Big 
+Data"
+"To apply machine learning methods 
+to explore the inter-well uncertainty 
+in the Goldsmith Landreth San 
+Andres Unit and to update reservoir 
+models.","National Energy Technology 
+Laboratory","Engineered water can lower interfacial tension and minimize capillary 
+forces that gravity can push the oil up and out of the matrix. This 
+proposal is to test this technology in the field scale, in Goldsmith 
+Landreth San Andres Unit. Apply history matching of flexible interface-
+based reservoir models and ML methods such as generative 
+adversarial networks that provide new methods to explore the inter-well 
+uncertainty and to update the reservoir models.",,Artificial Intelligence Unknown
+"To automate development of proxy 
+models for power generation 
+combustion systems.","National Energy Technology 
+Laboratory","Detailed CFD of large combustion systems will be performed.   From 
+the results, machine learning will be used to develop fast proxy models 
+which can will provide results close to the CFD results, but in a small 
+fraction of the time.   These fast models will then be used in real-time 
+digital twin models of the power plant, which can be used to help the 
+power plant operator to spot instrumentation failures or cyberattacks on 
+the plant.",,Other
+"To automate RDE image analysis, 
+machine learning for RDE image 
+analysis is being employed.","National Energy Technology 
+Laboratory","The expected outcome of this project will be extensive experimental 
+data that can provide valuable insight in RDC design, coupling RDC with 
+turbomachinery, model validation, and next generation combustion 
+sensors that use artificial intelligence and computer vision.         Design 
+of an optimized inlet to maximize pressure gain in an RDE relies on an 
+understanding of the coupling between the inlet plenums (fuel and air), 
+the combustor annular channel, and the exhaust diffusor. This creates a 
+challenge for CFD as the models are significant and computationally 
+expensive. NETL is continuing a collaboration with the University of 
+Michigan to accelerate reacting flow CFD modeling using machine 
+learning (ML).",,Other
+"To build the first data analytics and 
+artificial intelligence field laboratory 
+for unconventional resources in the 
+Powder River Basin, focusing on 
+optimization of hydraulic fracture 
+stimulations through the use of 
+multiple diagnostic technologies.","National Energy Technology 
+Laboratory","To establish a tight oil Field Laboratory in the Powder River Basin and 
+accelerate the development of three major unconventional oil resources 
+through detailed geologic characterization and improved geologic 
+models leading to significant advances in well completion and fracture 
+stimulation designs specific to these three formations. Utilize multi-
+variate analysis to understand the interrelationship between completion 
+and stimulation controls on well productivity.",,"Artificial 
+Intelligence, Big 
+Data"
+"To create a data-driven multiscale 
+phytotechnology framework for 
+identification and remediation of 
+leached-metals-contaminated soil.","National Energy Technology 
+Laboratory","The project objectives are to integrate satellite remote sensing, machine 
+learning and image processing, geological engineering models, and soil 
+science and plant pathology to: 1) identify potential leaching of metals 
+from coal ash impoundments (Phase I), and 2) propose locally 
+adaptable phytoextraction approaches to remediate contaminated 
+regions (Phase II).",,Artificial Intelligence Unknown
+"To create and apply machine 
+learning algorithms to predict carbon 
+dioxide enhanced oil revoery 
+improvements with rich gas in the 
+Bell Creek Field and other selected 
+fields.","National Energy Technology 
+Laboratory","Create models with ML algorithms to predict CO2 EOR improvements 
+with rich gas in the Bell Creek Field and other selected fields. The 
+results of these models will be compared with the predictions of CMG’s 
+reservoir simulations models.",,Artificial Intelligence Unknown
+"To create reduced order models for 
+predicting long term performance 
+degradation behavior of fuel cells 
+and electrolyzers.","National Energy Technology 
+Laboratory","Machine learning algorithms are being used to analyze large datasets of 
+microstructural and perfromance degradation simulations of various 
+electrode microstructres to develop reduced order models that can be 
+used for long-term perfromance degradation predictions of large area 
+fuel cell/electrolysis cells and cell stacks. The reduced order models can 
+be used for dynamic simulations that can more accurately mimic the 
+changing loading conditions of the modern grid.",,"Big Data, Other"
+"To demonstrate multi-gamma based 
+sensor technology for as-fired coal 
+property measurement","National Energy Technology 
+Laboratory","Applying an advanced multigamma attenuation (MGA) sensor to 
+accurately and precisely measure coal properties at the point of 
+injection into burners.  
+One research objective is to perform MGA testing and databases 
+development for neural network developed fingerprinting of coal 
+properties. This will include neural network refinement with MGA data 
+and to upgrade Microbeam’s Combustion System Performance Indices 
+(CSPI) – CoalTracker (CT) program with MGA-based neural network 
+algorithms.",,"Artificial 
+Intelligence, Neural 
+Networks"
+"To deploy dynamic neural network 
+optimization to minimize heat rate 
+during ramping for coal.","National Energy Technology 
+Laboratory","The primary objective of the proposed work is to 1) deploy dynamic 
+neural network optimization (D-NNO) to minimize heat rate during all 
+phases of operation (ramping, low load, and high load) at a coal power 
+plant. The project will build a high-fidelity, systems-level, dynamic model 
+of the plant for a rapid prototyping environment for the D-NNO and to 
+allow researchers to better understand the dynamic phenomena that 
+occur during ramping and at various plant loads, and  Commercialize D-
+NNO as a readily-available software application by working with an 
+industry-proven software platform. The plant will be perturbed over time 
+to allow machine learning (ML) models to be fitted to the plant’s 
+response data.",,"Artificial 
+Intelligence, Neural 
+Networks"
+"To design, develop, and 
+demonstrate an AI-integrated 
+physics-based attack resilient 
+proactive system.","National Energy Technology 
+Laboratory","Enable ""defense-in-depth"" cyber-physical system (CPS) security and 
+resiliency for the distribution grid. The recipient will design, develop, and 
+demonstrate a vendor-agonistic scalable Artificial Intelligence Integrated 
+Attack-Resilient Proactive System (AI-ARPS) for utility distribution grid 
+systems including advanced distribution management system (ADMS) 
+and DER management system (DERMS) applications.",,Artificial Intelligence Unknown
+"To design, proto-type and 
+demonstrate a miniaturized 
+implementation of a multi-process, 
+high-spatial-resolution monitoring 
+system for boiler condition 
+management.","National Energy Technology 
+Laboratory","Project will develop control logic for automated control of bituminous 
+coal-fired boiler. Plant operational data will be compared against 
+monitoring data to determine when different sensor output from a 
+miniaturized high temperature multi-process, high-spatial-resolution 
+monitoring system signifies damaging conditions in that region of the 
+boiler, and what operational changes can be made to eliminate the 
+damaging condition. The control logic will be developed for automated 
+control of soot-blowing and other boiler operations",,
+To detect leaks and creaks.,"National Energy Technology 
+Laboratory","The relevant research has been focused on demonstrating applicability 
+of novel machine learning based approaches to two major challenges 
+associated with safe management of large-scale geologic CO2 storage 
+operations, early detection of leaks (i.e., by detecting small leaks) and 
+early detection of induced seismicity (i.e. by detecting small seismic 
+signals).",,Artificial Intelligence Unknown
+"To develop 5G integrated edge 
+computing platform for efficient 
+component monitoring in coal-fired 
+power plants","National Energy Technology 
+Laboratory","Develop an on-demand distributed edge computing platform to gather, 
+process, and efficiently analyze the component health data in coal-fired 
+power plants. Given that edge computing servers are closer to the field 
+devices in modernized power plants, the efficiency of edge computing 
+service with respect to dynamic orchestration, resource data collection, 
+and health information monitoring will be investigated for timely detection 
+of remote faults and to perform diagnosis.",,Big Data
+"To develop a deep-learning Artificial 
+Intelligence model for analysis of 
+fundamental combustion 
+characteristics","National Energy Technology 
+Laboratory","A deep-learning Artificial Intelligence model will be pursued for rapid 
+analysis of detailed fundamental combustion characteristics that support 
+the design and troubleshooting process of H2-containing fuel combustor 
+development.",,"Artificial 
+Intelligence, Neural 
+Networks"
+"To develop a general drag model for 
+assemblies of non-spherical 
+particles created with artificial neural 
+networks","National Energy Technology 
+Laboratory","The project plans to develop a more accurate artificial neural network 
+(ANN)-based method for modeling the momentum exchange in fluid-
+solid multiphase mixtures to significantly improve the accuracy and 
+reduce the uncertainty of multiphase numerical codes and, in particular, 
+of MFiX, by developing and providing a general and accurate method for 
+determining the drag coefficients of assemblies of non-spherical 
+particles for wide ranges of Reynolds numbers, Stokes numbers, and 
+fluid-solid properties and characteristics. The research team will achieve 
+this goal by conducting numerical computations with a validated in-
+house CFD code and using artificial intelligence methods to develop an 
+ANN that will be implemented in TensorFlow and linked with the MFiX 
+code.",,"Artificial 
+Intelligence, Neural 
+Networks"
+"To develop a novel platform for 
+secure data logging and processing 
+in fossil fuel power generation 
+systems using blockchain and 
+machine learning to reduce down 
+time for fossil energy power plants, 
+limit reductions of power and reduce 
+cost for repairs.","National Energy Technology 
+Laboratory","Machine learning model development will consist of traditional machine 
+learning and deep learning algorithms implementation for anomaly 
+detection.  Machine learning server will be used to develop the 
+traditional models using One-Class Support Vector Machine (SVM) and 
+K-Mean Clustering and deep learning models using Recurrent Neural 
+Network (RNN) and its various implementations like Long Short-Term 
+Memory (LSTM), Gated Recurrent Unit (GRU), Generative Adversarial 
+Network (GAN), and Autoencoders using the sensor data collected from 
+secure sensor network.",,"Artificial 
+Intelligence, Neural 
+Networks"
+"To develop a wireless, distributed 
+data acquisition and interpretation 
+system foe seismic monitoring and 
+carbon storage characterization.","National Energy Technology 
+Laboratory","Resensys plans to develop a wireless, distributed data acquisition and 
+interpretation system tailored for monitoring and characterization of 
+seismic activity at carbon storage sites.  The seismicity data collected in 
+real time during the CO2 storage site characterization and sequestration 
+processes combined with advanced signal processing and Artificial 
+Intelligence and Machine Learning (AI/ML) methodologies provide an 
+understanding of natural seismicity risks prior to any CO2 injection, prior 
+to making large investments in developing the storage project.",,Artificial Intelligence Unknown
+"To develop an AI-driven integrated 
+autonomous robotic visual 
+inspection (RVI) platform.","National Energy Technology 
+Laboratory","The overall objective of the research is to develop an AI-driven 
+integrated autonomous robotic visual inspection (RVI) platform that can 
+perform real-time defect identification, dynamic path planning, and safe 
+navigation in a closed-loop manner. The",,"Artificial 
+Intelligence, 
+Robotic Processing 
+Automation (RPA)"
+"To develop an Artificial intelligence-
+based model for rotating detonation 
+engine designs","National Energy Technology 
+Laboratory","An artificial intelligence-based model will be used to develop low-loss 
+rotating detonation engine (RDE) designs for use in power generation 
+using natural gas/syngas mixtures. The model formulation will enable full-
+scale RDE calculations over 100-1000 detonation cycles.",,Artificial Intelligence Unknown
+"To develop and create an 
+autonomous robotic inspection 
+system.","National Energy Technology 
+Laboratory","The goal of the project is to prevent negative environmental and 
+socioeconomic impacts of coal waste (coal ash and tailings) by 
+developing an aerial robot-enabled inspection and monitoring system of 
+active and abandoned coal ash and tailings storage facilities. The first 
+objective of this project is the development of a programmable drone, 
+equipped with several complementary sensors, that will autonomously 
+inspect several structures of a storage facility. The second objective of 
+this project is to create artificial intelligence-based hazard detection 
+algorithms that will use multispectral and georeferenced images (i.e., 
+thermal and visual) and 3D Point Clouds data collected by an 
+autonomous drone to detect hazards in the storage facility structure that 
+would indicate uncontrolled leakage to the environment or lead to the 
+potential failure of the structure.",,"Artificial 
+Intelligence, 
+Robotic Processing 
+Automation (RPA)"
+"To develop and demonstrate drone-
+based geophysical and remote-
+sensing technologies to quantify 
+critical minerals (CM).","National Energy Technology 
+Laboratory","To develop and demonstrate drone-based geophysical and remote-
+sensing technologies to quantify critical minerals (CM) in coal, coal 
+related, unconventional and secondary sources or energy related waste 
+streams. Drone-based geophysical surveys and remote sensing 
+combined with artificial intelligence/machine learning (AI/ML) analytics 
+for real-time integration and analytics has potential to transform 
+characterization and monitoring for CM from conventional and 
+secondary resources.",,"Artificial 
+Intelligence, 
+Robotic Processing 
+Automation (RPA)"
+"To develop and evaluate a general 
+drag model for gas-solid flows via 
+physics-informed deep machine 
+learning","National Energy Technology 
+Laboratory","The project will evaluate the performance of several ANN algorithms for 
+machine learning, pertinent to the deep neural network (DNN) 
+algorithms. The DNN candidates will include random forest (RF), BPNN, 
+XGBoost, and other supervised deep neural network algorithms. The 
+best DNN algorithm will be identified by ranking of these algorithms’ 
+performance. The Recipient will integrate the deep learning ANN model 
+(DNN model) into the multiphase flow simulation software MFiX-DEM, 
+which is part of the NETL’s open source CFD suite of software MFiX. 
+The DNN based drag model developed on TensorFlow will be 
+implemented using NETL’s existing software links between MFiX and 
+TensorFlow.",,"Artificial 
+Intelligence, Neural 
+Networks"
+"To develop and validate sensor 
+hardware and analytical algorithms 
+to lower plant operating expenses 
+for the pulverized coal utility boiler 
+fleet","National Energy Technology 
+Laboratory","The objective is to develop and validate sensor hardware and analytical 
+algorithms to lower plant operating expenses for the pulverized coal 
+utility boiler fleet. The focus is on relatively inexpensive new “Internet of 
+Things” technologies to minimize capital investment. Three technologies 
+will be explored for demonstration and full-scale testing in a coal-fired 
+power plant. The first focuses on gas and steam temperature control 
+issues at low load. The second uses sensors and analytic algorithms for 
+monitoring coal pulverizer operation at lower loads to reduce the 
+minimum firing capability of coal burners. The third investigates new 
+sensors and advanced controls to better balance air and fuel at each 
+burner enabling reduction in the minimum firing capability of coal 
+burners.",,
+"To develop artificial intelligence-
+enabled tools (ArtIT) for cyber 
+hardening of power grids.","National Energy Technology 
+Laboratory","To develop a novel resiliency framework for power grids by integrating 
+different theories, such as closed-loop controls, security, agility, formal 
+reasoning and synthesis, machine learning, and laboratory setup 
+demonstration. The framework will provide enhanced resiliency to wide-
+area control operations in cyberattacks.",,Artificial Intelligence Unknown
+"To develop drag models for non-
+spherical particles through machine 
+learning","National Energy Technology 
+Laboratory","Produce comprehensive experimental and numerical datasets for gas-
+solid flows in well-controlled settings to understand the aerodynamic 
+drag of non-spherical particles in the dense regime. The datasets and 
+the gained knowledge will train deep neural networks to formulate a 
+general drag model for use directly in NETL MFiX-DEM module. This will 
+help to advance the accuracy and prediction fidelity of the computational 
+tools that will be used in designing and optimizing fluidized beds and 
+chemical looping reactors",,"Artificial 
+Intelligence, Neural 
+Networks"
+"To develop high fidelity tools which 
+run in near real time not only help in 
+the field to guide and optimize 
+complex operations but can be used 
+as digital twins","National Energy Technology 
+Laboratory","To develop high fidelity tools which run in near real time not only help in 
+the field to guide and optimize complex operations but can be used as 
+digital twins for cyber security and cyber-physical modeling.",,Big Data
+"To develop innovative biomonitoring 
+and remediation of heavy metals 
+using phytotechnologies.","National Energy Technology 
+Laboratory","The objective of the work is to utilize algal- and cyanobacterial-based 
+phycotechnologies to address pervasive heavy metal contamination 
+from coal combustion product (CCP) impoundments at the Savannah 
+River Site. Novel bioindicators will be developed to gauge the potential 
+for phytoremediation to restore legacy impoundment sites.",,Artificial Intelligence Unknown
+"To develop low cost conversion of 
+coal to graphene","National Energy Technology 
+Laboratory","Demonstrate the techno-economical feasibility of a 250 ton/day 
+manufacturing facility to convert coal to high-quality graphene. The core 
+technology is based on flash joule heating (FJH) to convert various 
+coals to graphene. Machine learning algorithms will map out the 
+correlation of processing parameters with the final product (graphene 
+yield, quality, dimensions).",,"Natural Language 
+Processing, Neural 
+Networks"
+"To drive insights into solid oxide cell 
+performance and degradation 
+through big data analysis and 
+computer vision","National Energy Technology 
+Laboratory","The team uses deep learning models to analyze large banks of high-
+dimensional simulation results, determine the most impactful input 
+parameters, produce tailored recommendations for industrial 
+manufacturers, and ultimately generate a reduced-order model for 
+predicting long-term performance of solid oxide cells. The team is also 
+developing computer vision models to extract critical high-resolution 
+information from easily obtained low-resolution or 2D microstructural 
+data, and also using computer vision to super-resolve that low-resolution 
+data, producing full sets of high-resolution 3D data from low-resolution 
+3D tomography or even from 2D micrographs. The team has recently 
+developed and published a generative adversarial network model for 
+generating high-fidelity synthetic microstructural data of solid oxide cells. 
+Machine learning is also used in the team's reduced order phase field 
+simulations of microstructural changes.",,"Big Data, 
+Hierarchical 
+Generative Model, 
+Neural Networks, 
+Other"
+"To drive insights into solid oxide cell 
+performance and degradation 
+through big data analysis and 
+computer vision","National Energy Technology 
+Laboratory","The team uses deep learning models to analyze large banks of high-
+dimensional simulation results, determine the most impactful input 
+parameters, produce tailored recommendations for industrial 
+manufacturers, and ultimately generate a reduced-order model for 
+predicting long-term performance of solid oxide cells. The team is also 
+developing computer vision models to extract critical high-resolution 
+information from easily obtained low-resolution or 2D microstructural 
+data, and also using computer vision to super-resolve that low-resolution 
+data, producing full sets of high-resolution 3D data from low-resolution 
+3D tomography or even from 2D micrographs. The team has recently 
+developed and published a generative adversarial network model for 
+generating high-fidelity synthetic microstructural data of solid oxide cells. 
+Machine learning is also used in the team's reduced order phase field 
+simulations of microstructural changes.",,"Neural Networks, 
+Spatio-temporal 
+Graph Neural 
+Networks, Other"
+"To drive insights on  emissions from 
+natural gas production, storage, and 
+transmission  to determine how best 
+to reduce emissions","National Energy Technology 
+Laboratory","AI/ML will be used to recognice patterns in well integrity records that 
+could predict failure events",,"Big Data, Other"
+"To drive insights on environmental 
+performance of the natural gas 
+system to inform effective mitigation 
+strategies","National Energy Technology 
+Laboratory","Life Cycle Analysis models will be used to define and estimate 
+environmental parameters/performance",,"Big Data, Other"
+"To drive insights on pipeline 
+maintenance and repair strategies to 
+reduce incidents of pipeline leakage; 
+support evaluation of use and reuse 
+strategies","National Energy Technology 
+Laboratory","ML will be used to develop a pipeline risk assessment geospatial model 
+and support evaluation of use and reuse opportunities.",,"Big Data, Other"
+"To drive insights on water recovery 
+from cooling tower plumes","National Energy Technology 
+Laboratory","Study of plume formation and collection on mechanical (induced) draft 
+cooling towers, partly in a high-fidelity controlled environment and partly 
+on a full-scale industrial cooling tower. It will start by building the needed 
+laboratory setup and installing various sensors on the lab cooling tower. 
+At the same time a computational fluid dynamics (CFD) model will be 
+implemented to get precise full-scale plume models. Using the insights 
+into power-plant plume characteristics the project will iterate on and 
+experimentally test electrodes and collectors, which make up modular 
+panels, on the lab cooling tower. What has been learned from the full-
+scale plume modeling and sensor data analysis will then be applied to 
+develop a design model to build the optimal collection apparatus for 
+given working conditions",,
+"To drive insights through data-driven 
+predictive modeling to forecast the 
+remaining lifespan and future risk of 
+offshore production platforms.","National Energy Technology 
+Laboratory","An Artificial Neural Network and Gradient Boosted Regression Tree 
+were developed and applied to predict the remaining lifespan of 
+production platforms. These big data-driven models resulted in 
+predictions with scored accuracies of 95–97%.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks, Other"
+"To drive insights using machine 
+learning-based dynamics, control, 
+and health models and tools 
+developed by NETL to gain valuable 
+operational data, insights, and","National Energy Technology 
+Laboratory","ML will be used to develop dynamics, controls, and health models for 
+operating power generation facilities",,Other
+"To employ machine learning to study 
+the dependence of electrochemical 
+performance on microstructural 
+details","National Energy Technology 
+Laboratory","With a significant number of images. The Recipient will build deep 
+learning methods at the object detection stage using the Region Based 
+Convolutional Neural Network (RCNN) or You Only Look Once (YOLO) 
+class of algorithms, the heart of which is a deep learning image 
+classifier. Deep learning algorithms will also be built using convolutional 
+layers followed by residual layers to extract feature vector descriptors in 
+the second stage. In the third and fourth stages of affinity and 
+association, a recurrent neural network approach can be used to build a 
+tracker. All of these approaches require a large training set that will 
+enable sophisticated models to be built to handle the complexity of the 
+application.
+With a limited number of images. In the case that there is are a limited 
+number of images, the Recipient will still be able to follow the processing 
+pipeline. The recipient will determine a suitable approach, with 
+concurrence from the project manager. Two potential approaches 
+include:
+• Transfer learning: training the image classifier in the object detector on 
+images of similar quality and appearance, and 
+• Match filtering: detection, feature extraction, and matching based on 
+traditional image processing and computer vision techniques.",,"Artificial 
+Intelligence, Neural 
+Networks"
+"To enhance the SimCCS toolset to 
+better account for existent 
+infrastructure and to more broadly 
+engage other user bases to improve 
+toolset performance and 
+applicability.","National Energy Technology 
+Laboratory","Continue development of the SimCCS toolset, which is utilized to 
+determine optimal placement for CO2 pipeline rights of way (ROW) and 
+infrastructure in a machine-learning driven methodology that that 
+considers environmentally sensitive areas, Justice40 considerations, 
+and utilization of existent infrastructure.",,Artificial Intelligence Unknown
+"To evaluate current infrastructure 
+throughout a study area and 
+evaluating future infrastructure 
+needs to accelerate the deployment 
+of CCUS","National Energy Technology 
+Laboratory","One key task focuses on evaluating current infrastructure throughout the 
+Initiative study area and evaluating future infrastructure needs to 
+accelerate the deployment of CCUS. LANL will utilize its unique 
+technologies for this project focusing on SimCCS, with a minor 
+consulting role using NRAP and machine learning algorithms.",,Artificial Intelligence Unknown
+"To expore and analtze hydrogen-
+fueled rotating detonation engines 
+using advanced turbulent 
+combustion modeling and high-
+fidelity simultion tools.","National Energy Technology 
+Laboratory","(1) analysis of injector design effects on RDE parasitic combustion; (2) 
+understanding the impact of RDE ignition mechanism and initial 
+transients on the ensuing detonation wave behavior; (3) deployment and 
+assessment of machine learning assisted turbulent combustion models 
+for predictive and computationally-efficient RDE CFD simulations; and 
+(4) development of a highly scalable high-order CFD modeling 
+framework for scale-resolving simulations of full-scale RDEs and 
+investigation of TCI and wall boundary layer effects.(1) analysis of 
+injector design effects on RDE parasitic combustion; (2) understanding 
+the impact of RDE ignition mechanism and initial transients on the 
+ensuing detonation wave behavior; (3) deployment and assessment of 
+machine learning assisted turbulent combustion models for predictive 
+and computationally-efficient RDE CFD simulations; and (4) 
+development of a highly scalable high-order CFD modeling framework 
+for scale-resolving simulations of full-scale RDEs and investigation of 
+TCI and wall boundary layer effects.",,Artificial Intelligence Unknown
+"To fill critical data gaps in big data 
+analytics and machine learning 
+applications to inform decision 
+making and improve the ultimate 
+recovery of unconventional oil and 
+natural gas resources.","National Energy Technology 
+Laboratory","Project will conduct numerical analysis of all-digital pressure sensing 
+technology will be used to create a synthetic dataset with downhole 
+pressure sensor readings for each stage and will be analyzed 
+statistically with DA to integrate with software.",,"Artificial 
+Intelligence, Big 
+Data"
+"To help automate data discovery 
+and preparations to support a range 
+of CS models, tools, and products","National Energy Technology 
+Laboratory","AI & ML are used to help collect and process data from multipel sources 
+to further integrate and characterize infromation to provide additional 
+data and infromation to support a range of carbon storage work",,"Big Data, Natural 
+Language 
+Processing, Other"
+"To help automate data integration 
+and exploration for geologic core 
+properties related information.","National Energy Technology 
+Laboratory","Using natural language processing, deep learning neural networks, and 
+possibly tensor flow for image analytics.",,"Big Data, Natural 
+Language 
+Processing, Other"
+"To identify and characterization REE-
+CM hot zones using machine 
+learning-aided multi-physics.","National Energy Technology 
+Laboratory","Develop and field demonstrate a machine learning (ML)-aided multi-
+physics approach for rapid identification and characterization of REE-
+CM hot zones in mine tailings with a focus on coal and sulfide mine 
+tailings or other processing or utilization byproducts, such as fly ash and 
+refuse deposits.",,Artificial Intelligence Unknown
+"To implement boiler health 
+monitoring using a hybrid first 
+principles-artificial intelligence model","National Energy Technology 
+Laboratory","Develop methodologies and algorithms to yield (1) a hybrid first-
+principles artificial intelligence (AI) model of a PC boiler, (2) a physics-
+based approach to material damage informed by ex-service component 
+evaluation, and (3) an online health-monitoring framework that 
+synergistically leverages the hybrid models and plant measurements to 
+provide the spatial and temporal profile of key transport variables and 
+characteristic measures for plant health.",,Artificial Intelligence Unknown
+"To implement machine learning to 
+predict aerodynamic and 
+combustion characteristics in 
+hydrogen turbine","National Energy Technology 
+Laboratory","Design rules and reduced models will be formulated by combining high 
+fidelity simulations of chemically reacting flow, stochastic modeling 
+techniques, reduced modeling through machine learning and testing of 
+injector configurations. These can be used in an industrial setting to 
+predict the aerodynamic and combustion characteristics in hydrogen 
+turbine combustors based upon which design decisions are made.",,Artificial Intelligence Unknown
+"To implement novel SSC-CCS 
+sensing technology and associated 
+condition-based monitoring (CBM) 
+software for improved understanding 
+of the boiler tube failure 
+mechanisms","National Energy Technology 
+Laboratory","A preliminary condition-based monitoring (CBM) package with graphic 
+user interface (GUI) will be developed. This CUI will allow the operators 
+to view the current and historical signals of temperature profiles of the 
+boiler tube at specific sensor locations. Combining the pre-existing 
+conditions and the opinions from designers/operators/experts’ 
+experiences, the system will be integrated with EPRI’s Boiler Failure 
+Reduction Program to provide assessments on the health conditions of 
+the boiler tubes, warnings/diagnoses on potential failures and locations, 
+and suggestions on maintenance locations and schedules.",,
+"To implement sensor-driven deep 
+learning/artificial intelligence for 
+power plant monitoring","National Energy Technology 
+Laboratory","Sensor-driven deep learning/artificial intelligence for intelligent health 
+monitoring capabilities that occur at the sensor (embedded computing) 
+or base station (edge computing). Will give power plant operators more 
+prediction tools about scheduling maintenance. Focus is on a high-
+priority in-situ boiler temperature measurement system that relies on 
+chipless RFID technology and much-needed temperature, pressure, 
+environmental, and water quality industrial sensors.",,"Artificial 
+Intelligence, Neural 
+Networks"
+"To implement unsupervised learning 
+based interaction force model for 
+nonspherical particles in 
+incompressible flows","National Energy Technology 
+Laboratory","Develop a neural network-based interaction (drag and lifting) force 
+model. A database will be constructed of the interaction force between 
+the non-spherical particles and the fluid phase based on the particle-
+resolved direct numerical simulation (PR-DNS) with immersed boundary-
+based lattice Boltzmann method (IB-LBM). An unsupervised learning 
+method, i.e., variational auto-encoder (VAE), will be used to improve the 
+diversity of the non-spherical particle library and to extract the primitive 
+shape factors determining the drag and lifting forces. The interaction 
+force model will be trained and validated with a simple but effective multi-
+layer feed-forward neural network: multi-layer perceptron (MLP), which 
+will be concatenated after the encoder of the previously trained VAE for 
+geometry feature extraction.",,"Artificial 
+Intelligence, Neural 
+Networks"
+"To improve control of hybrid SOFC-
+gas turbine power systems.","National Energy Technology 
+Laboratory","Machine learning algorithms are being developed and compared to 
+other control methods for SOFC-gas turbine hybrid  power generation 
+systems.",,Other
+"To leverage disparate data to 
+update assessments, analytics, and 
+infromation for NATCARB and CS 
+Atlas","National Energy Technology 
+Laboratory","ML Is utilized to parse and generate additional data and information that 
+can be parsed and labeled to provide additional inputs for geologic 
+carbon storgae assessments from multiple sources.",,Other
+"To leverage machine learning and 
+predictive analytics to advance the 
+state of the art in pipline 
+infrastructure integrity management.","National Energy Technology 
+Laboratory","The purpose of this project is to leverage advances in machine learning 
+and predictive analytics to advance the state of the art in pipeline 
+infrastructure integrity management using forecasted (predicted) 
+pipeline condition, using large sets of pipeline integrity data (periodic 
+nondestructive inspection, NDI) and continuous operational data (e.g., 
+sensor data used to monitor flow rate and temperature) generated by oil 
+and gas (O&G) transmission pipeline operators.",,Artificial Intelligence Unknown
+"To leverage ML models to increase 
+the size and complexity of problems 
+that can be optimized within IDAES.","National Energy Technology 
+Laboratory","The objective is to leverage ML models as surrogates for complex unit 
+operations or to bridge between scales to increase the size and 
+complexity of models that can be optimized within IDAES.",,Other
+"To perform reconstruction of the 3D 
+temperature field using Neural 
+Networks with measured and known 
+propagation paths.","National Energy Technology 
+Laboratory","The sensor will first be tested up to 300 C. For high-temperature tests, 
+the Recipient will use Alstom’s Industrial Size Burner Test Facility (ISBF) 
+or another appropriate facility. The high-temperature sensor will be first 
+tested from room temperature to 1,800 C. The results will be 
+compared with data obtained using other methods such as surface 
+acoustic wave (SAW), thermocouples, and optical fiber sensors. A 3D 
+temperature mapping will be created by fusing the high-temperature 
+sensor data. The Recipient will test the system’s survivability in a boiler 
+environment. A high-temperature sensing array will be tested to map the 
+temperature distribution within an exhaust pipe. The sensor array will be 
+tested at one 6’’ port or a similar location. The Recipient will also 
+perform reconstruction of the 3D temperature field using Neural 
+Networks with measured and known propagation paths.",,Artificial Intelligence Unknown
+"To provide an effective quality 
+assurance method for additively 
+manufactured gas","National Energy Technology 
+Laboratory","The primary goal of this project is to develop a cost-effective quality 
+assurance (QA) method that can rapidly qualify laser powder bed fusion 
+(LPBF) processed hot gas path turbine components (HGPTCs) through 
+a machine learning framework which would assimilate in-situ monitoring 
+and measurement, ex-situ characterization, and simulation data.  The 
+project technical deliverable will be a rapid QA tool capable of: i) building 
+a metadata package of process-structure-property data and models 
+intended for LPBF-processed HGPTCs by mining both simulation and in-
+situ/ex-situ characterization data; and ii) qualifying online/offline a 
+manufactured component by inputting simulation with/without in-situ 
+monitoring data to the developed algorithms to predict porosity and 
+fatigue properties. The target application of this QA tool will be 
+advanced HGPTC produced by LPBF in Inconel 718. Data mining 
+techniques will be developed to consolidate and analyze the 
+heterogeneous big data stemmed from the aforementioned methods of 
+upfront simulation, online monitoring and post-build characterization, and 
+thus enabling a collaborative learning about the process-microstructure-
+properties relationship. The resultant QA package includes a process-
+structure-property database and machine learning tools for using LPBF 
+metal AM to fabricate HGPTC. The developed metadata package 
+enables online/offline qualification of additively manufactured turbine 
+components by inputting simulation with/without in-situ monitoring data 
+to the developed machine learning algorithms to predict porosity and 
+fatigue properties.",,Artificial Intelligence Unknown
+"To provide combustion performance 
+and emissions optimization through 
+integration of a miniaturized high-
+temperature multi process 
+monitoring system","National Energy Technology 
+Laboratory","Project will develop control logic for automated control of lignite coal-
+fired boiler. Plant operational data will be compared against monitoring 
+data to determine when different sensor output from a miniaturized high 
+temperature multi-process, high-spatial-resolution monitoring system 
+signifies damaging conditions in that region of the boiler, and what 
+operational changes can be made to eliminate the damaging condition. 
+The control logic will be developed for automated control of soot-blowing 
+and other boiler operations",,
+"To provide insights into opportunities 
+to beneficiate and use hydrocarbon 
+infrastructure for alternative uses 
+such as offshore carbon storage.","National Energy Technology 
+Laboratory","Multiple big data-driven AI/ML models will be used to evaluate geologic, 
+geospatial, and infrastructure related information to inform predictions 
+using natural language processing, Artificial Neural Networks, and 
+possibly bayesian networks as well.",,"Big Data, Other"
+"To provide integrated boiler 
+management through advanced 
+condition monitoring and component 
+assessment.","National Energy Technology 
+Laboratory","The Integrated Creep-Fatigue Management System represents an 
+online boiler damage monitoring system applicable to creep and fatigue.  
+The system will be configured to allow connectivity to the plant data 
+historian (e.g., OSISoft:PI) and to commercial finite element software 
+(e.g., ANSYS and Abaqus). In addition to configuring interaction with 
+finite element software, existing damage mechanism monitoring 
+modules will also be deployed using online analytical calculations. This 
+functionality will be applied to terminal tubes entering the boiler header 
+for which the combined mechanisms of creep and oxidation can be 
+calculated without the need for a finite element analysis.",,
+"To provide natural gas leak 
+detection and quality control","National Energy Technology 
+Laboratory","Employing machine learning techniques to train sensing systems to 
+quantify the concentration of natural gas species, distinguish between 
+natural gas at different parts of the processing pipeline, and distinguish 
+natural gas from natural and man-made interfering sources such as 
+wetlands and agriculture.",,Artificial Intelligence Unknown
+"To realize next generation solid-state 
+power substation.","National Energy Technology 
+Laboratory","The objective of the proposed project is to realize next generation solid-
+state power substation (SSPS) incorporating machine learning, cyber-
+physical anomaly detection, and multi-agent distributed networked 
+control. The project will have the following capabilities: distributed control 
+and coordination coupled with localized intelligence and sensing, 
+autonomous control for plug-and-play, automatic reconfiguration, 
+recovery, and restoration enabling decoupled, asynchronous, and fractal 
+systems.",,Artificial Intelligence Unknown
+"To research and develop physics-
+aware and AI-enabled cyber-
+physical intrusion response for the 
+power grid.","National Energy Technology 
+Laboratory","Responding to anomalous cyber and physical events in a timely manner 
+requires fusing data from both cyber and physical sensors into 
+actionable information. Thus, cyber-physical intrusion response research 
+will be conducted that leverages cyber and physical side data and 
+models with artificial intelligence (AI) as a scalable approach to maintain 
+or regain power system resilience under anomalous incidents such as 
+cyber threats.",,Artificial Intelligence Unknown
+"To use advanced machine learning 
+techniques to analyze static and 
+dynamic measurements of proppant 
+distribution and fracture geometry 
+data.","National Energy Technology 
+Laboratory","The project will use advanced ML techniques to analyze static and 
+dynamic measurements of proppant distribution and fracture geometry 
+data from thousands of microchips injected with proppant near the 
+wellbore.",,Artificial Intelligence Unknown
+"To use AI to calibrate the simulation 
+model by matching simulation data 
+with production history data.","National Energy Technology 
+Laboratory","Task 2 - Together with GEM, CMG’s intelligent optimization and analysis 
+tool, CMOST Artificial Intelligence (AI), will be used to calibrate the 
+simulation model by matching simulation results with production history 
+data. . Based on the data sets, a series of simulation cases will be 
+generated to perform parameter estimation using a systematic 
+approach. As simulation jobs complete, the results will be analyzed 
+using CMOST AI to determine how well they match production history. 
+An optimizer will then determine parameter values for new simulation 
+jobs.",,Artificial Intelligence Unknown
+"To use computational tools to 
+optimize the design of solid CO2 
+sorbents.","National Energy Technology 
+Laboratory","The objective of this project is to use computational tools to optimize the 
+design of solid CO2 sorbents based on functionalized PIM-1 (or other 
+porous, glassy polymers) impregnated with molecular primary amines. 
+The expected outcome of this project is to inform, via computational 
+methods, which polymer structure and which molecular amines can lead 
+to a solid sorbent in which CO2 loading capacity, CO2 heat of 
+adsorption, and overall CO2 mass transfer rate are optimal at extremely 
+low CO2 partial pressures while amine leaching has been minimized.",,Other
+"To use data analytics and machine 
+learning techniques to advance 
+understanding of the characteristics 
+of the Emerging Paradox Oil Play","National Energy Technology 
+Laboratory","Using data analytics and machine learning techniques to advance 
+understanding of the characteristics of the entire Parardox oil play 
+through integration of geologic and log-derived “electrofacies” models 
+and upscaling to 3D seismic data and propagation through the seismic 
+volume.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+"To use ML to help identify promising 
+oxygen carrier materials.","National Energy Technology 
+Laboratory","A combination of experimental data and computational results  will be 
+used both to understand O2 production and to develop a machine 
+learning model that can be used to identify promising carrier 
+compositions. These compositions will be evaluated on two primary 
+criteria, performance and ability to be synthesized. Once the model has 
+identified promising candidates, these materials will be synthesized and 
+compared to existing carriers. This new data will then be used to refine 
+the models.",,Other
+"To verify and validate testing of 
+advanced power generation 
+technologies","National Energy Technology 
+Laboratory","Verification and validation testing with direct support and collaboration 
+from operating power plants with advanced power generation 
+technologies and prime mover and downstream systems using near-
+real-time data, resulting in better informed plant operators, and reduced 
+disruptions, while meeting changing service demands based on 
+enhanced operating flexibility",,"Artificial 
+Intelligence, Big 
+Data"
+"Transform reservoir management 
+decisions through rapid analysis of 
+real time data to visualize forecasted 
+behavior in an advanced control 
+room ""human-in-the-loop"" format.","National Energy Technology 
+Laboratory","Improve low-fidelity model performance by transfer-learning with high-
+fidelity data, and reduce uncertainty by combining high-fidelity and lower-
+fidelity models for improved UQ performance.",,Other
+"Uncertainty Quantification and 
+Instrument Automation to enable 
+next generation cosmological 
+discoveries",Fermi National Accelerator,"This project will develop AI-based tools to enable critical sectors for near-
+future cosmic applications. Uncertainty quantification is essential for 
+performing discovery science now, and simulation-based inference 
+offers a new approach. The automated design and control of 
+instrumentation will be important for improving the efficiency of planning 
+and executing cosmic experiments.",,"Artificial 
+Intelligence, Big 
+Data, Neural 
+Networks"
+"UNET and other approaches for ML-
+based inversion","National Energy Technology 
+Laboratory","Researchers will develop a design basis for risk-based monitoring 
+considering data dimensionality, uncertainty, and inter-tool/module 
+connectivity, and define the components of the monitoring design 
+optimization tool (DREAM) to be incorporated into NRAP-Open-IAM and 
+the SMART platform.",,"Artificial 
+Intelligence, Other"
+Universal MCEG,Thomas Jefferson Laboratory,"R&D on ML based MC event generator that serves as data 
+compatification utility.",,
+"Use AI to process large sensor 
+datasets for identification and 
+classification of NG pipeline 
+conditions and methane leaks","National Energy Technology 
+Laboratory","Focused on development of advanced data analytic techniques and 
+methods for distributed OFS technology, including AI and ML, for 
+identification of signatures and patterns representative of hazards, 
+defects, and operational parameters of the natural gas pipeline network.",,"Big Data, Other"
+"Use ML to analyze the existing H2 
+and natural gas pipelines to identify 
+the key parameters that can enable 
+the H2 transport and storage at a 
+large scale","National Energy Technology 
+Laboratory","This task aims to use geo-data science methods and geospatial 
+information science to analyze the existing H2 and natural gas pipelines 
+to identify the key parameters that can enable the H2 transport and 
+storage at a large scale. The results can help to justify the importance of 
+real-time pipeline monitoring and recommend optimized sensor 
+deployment strategies to support smart maintenance and methane 
+emissions reduction goals.",,"Big Data, Other"
+"Use ML to enable a geophysical 
+monitoring toolkit, and assimilate 
+real-time modeling and data.","National Energy Technology 
+Laboratory","ML-enabled rapid and autonomous geophysical monitoring and real-
+time modeling and data assimilation tools (along with visualization and 
+decision-support frameworks), work together to radically improve 
+pressure and stress imaging.",,Other
+"Use ML to reduce high-fidelity 
+physical models to a fast calculation 
+that requires minimal effort to 
+initiate.","National Energy Technology 
+Laboratory","The platform will combine an intuitive user interface and visualization 
+capabilities from gaming software with the speed and enhanced detail in 
+evaluating reservoir dynamics and processes through ML /reduced 
+order model approaches. Advancements made with ML will alleviate the 
+need for both the expert user and the computational infrastructure and 
+make understanding subsurface fluid flow accessible to the everyday 
+user with a moderate level of understanding of the physics of the 
+system. ML will allow the experts to reduce the high-fidelity physical 
+models to a fast calculation that requires a minimal amount of effort to 
+initiate, but allows a user to investigate their own scenarios without the 
+need for predetermined models. Application of the platform will rapidly 
+enhance the experience base required for deploying and managing 
+commercial-scale projects, particularly for CO2 storage projects where 
+field experience is limited, because of the anticipated intuitive translation 
+of subsurface dynamics in real-time.",,Other
+"Use of machine learning models to 
+produce surrogates for efficient 
+optimization","National Energy Technology 
+Laboratory","We consider the use of machine learning models to produce surrogates 
+for efficient optimization. The IDAES implementation will be 
+demonstrated on a real-scale design problem focused on carbon 
+capture (e.g., rigorous MEA model), or an integrated energy system.",,Other
+"Using AI to improve predcitions of 
+subsurface properties, analyze multi-
+variate inputs, address knowledge 
+and information gaps to improve 
+predictions and modeli","National Energy Technology 
+Laboratory","Use of AI methods such as fuzzy logic, neural networks, tensor flow, 
+and natural language processing to assist with knowledge and data 
+exploration, transformation and integration, as well as modeling and 
+analysis of multi-variate data used in the resource assessment method 
+to improve outputs and predictions.",,"Artificial 
+Intelligence, Big 
+Data, Other"
+"Using AI/ML to replace conventional 
+geophysics inversion - does the 
+process quicker than the typical 
+method. Make geophysical results 
+more user-friendly.","National Energy Technology 
+Laboratory","The project will deploy a high sensitivity atomic magnetometer 
+(potassium magnetometer or helium 4 magnetometer) on a sUAS 
+platform. Baseline surveys using the sUAS platform with the magnetic 
+receiver payload will be flown at the same CarbonSAFE site that 
+baseline ground surveys were performed in EY21. Results of the 
+forward modeling performed in EY20 will determine whether MT or 
+CSEM (or both) methods will be tested. Using AI/ML to replace 
+conventional geophysics inversion - does the process quicker than the 
+typical method. Make geophysical results more user-friendly.",,Neural Networks
+"Using ML to build predictive models 
+of branching processes and develop 
+novel algorithms for automated MIP 
+solver tuning","National Energy Technology 
+Laboratory","We will collect dual gaps obtained as a result of using different 
+branching strategies and feed them into ALAMO, Pysmo, and other 
+machine learning approaches to build predictive models of branching 
+processes as a function of carefully chosen instance features. These 
+models will then be deployed as part of the IDAES platform to facilitate 
+optimization of advanced integrated energy systems.  o Currently, tuning 
+MIP solvers for a particular application is approached by ad-hoc trial-and-
+error methods that are tedious and often ineffective, limiting design 
+engineers to solution of small problems. To address this challenge and 
+facilitate the solution of energy systems currently intractable, we 
+propose to develop novel algorithms for automated MIP solver tuning 
+through the use of machine learning.",,Other
+"Using ML to design sensing 
+materials which can work under 
+harsh environments.","National Energy Technology 
+Laboratory","The team proposes to develop an ML approach that relies upon 
+established experimental and theoretical evidence to gain a 
+comprehensive ML model and boost the gas sensing material design. 
+The essence of this approach will be to assess materials’ optimal 
+performance at a specific condition, such as temperature, pressure, and 
+radiation levels. The development of the package will occur in several 
+steps: (1) building a materials database from various sources; (2) using 
+ML techniques to build, evaluate, and optimize an ML model; (3) 
+predicting the temperature dependence of sensing properties, such as 
+gas selectivity, for FECM relevant gas species to screen the materials in 
+the material bank, or proposing new sensing materials; and (4) exploring 
+the gas sensing mechanisms suited for high-temperature application for 
+those predicted most promising gas sensing materials.",,Other
+"Using natural language processing 
+to explore and extract information 
+from historical literature/pdfs","National Energy Technology 
+Laboratory","Training and adaptation of natural lanaguage processing algorithms to 
+improve exploration and extraction of information from old, historical 
+scientific literature.  Extraction of knowledge and data, as well as 
+preservation of key information.",,"Big Data, Natural 
+Language 
+Processing, Other"
+"Using recursive neural networks and 
+using fiber optic cables to recognize 
+strain patterns and warn operators a 
+fracture is coming.","National Energy Technology 
+Laboratory","This project will develop an ML algorithm to predict the time when a 
+growing fracture will reach the monitored well. The ML workflow will be 
+trained on the distinctive tensile strain signature that precedes the 
+growing fracture. The new workflow will be designed to work in 
+conjunction with the fracture warning ML workflow developed in EY21. 
+Together, these workflows will: (1) provide an early warning of well-to-
+well communication, (2) predict the measured depths where the 
+communication will happen, and (3) provide an estimated time until the 
+beginning of well-to-well communication.",,"Neural Networks, 
+Other"
+"Using time-series classification to 
+assist in automated analysis of 
+sensor data taken during 
+experiments on the MHD test 
+channel.","National Energy Technology 
+Laboratory","The measurements of chemical composition will be combined with 
+resistance measurements to validate CFD models of the MHD channel 
+system. Specifically, validated CFD models will be able to separate the 
+contribution of the bulk and boundary layer resistance to the overall 
+resistance of the MHD channel.",,Other
+"With sensor technologies and 
+network developed, in the future, 
+AI/ML may be used to accelerate 
+data processing of sensor data from 
+the sensor network.","National Energy Technology 
+Laboratory","With sensor technologies and network developed, in the future, AI/ML 
+may be used to accelerate data processing of sensor data from the 
+sensor network to identify and predict risks and failures in plugged wells.",,
