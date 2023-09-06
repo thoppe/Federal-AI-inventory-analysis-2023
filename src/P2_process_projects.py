@@ -108,12 +108,13 @@ def chunked_list_response(text, major_query, minor_query):
 
     # Repeat the theme reduction until we get a single list
     while len(tokenized_sampler(themes, query_tokens)) > 1:
-        #raise ValueError("Untested!")
+        # raise ValueError("Untested!")
         print(f"Untested reducing theme count {len(themes)}")
-        theme_chunks = tokenized_sampler(themes, query_tokens-800)
-        themes = GPT.multiASK(major_query, "list", multi_response_chunk=theme_chunks, flatten=True)
+        theme_chunks = tokenized_sampler(themes, query_tokens - 800)
+        themes = GPT.multiASK(
+            major_query, "list", multi_response_chunk=theme_chunks, flatten=True
+        )
         themes = [x for x in themes if x.strip()]
-
 
         # Combine the themes if we have more than one text chunk
     if len(text_chunks) > 1:
@@ -164,17 +165,16 @@ print(dept_df)
 
 # Determine the specific AI modalities
 modalities = chunked_list_response(
-    text,
-    schema["major_modality"],
-    schema["group_themes"])
+    text, schema["major_modality"], schema["group_themes"]
+)
 
 modalities = list(set(modalities))
 
 ################################################################################
 
 
-#themes = chunked_list_response(text, schema["major_themes"], schema["group_themes_12"])
-#print(themes)
+# themes = chunked_list_response(text, schema["major_themes"], schema["group_themes_12"])
+# print(themes)
 
 human_themes = [
     "healthcare",

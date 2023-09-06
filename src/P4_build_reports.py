@@ -1,3 +1,4 @@
+from pathlib import Path
 import pandas as pd
 import json
 
@@ -27,7 +28,10 @@ def preload(f_json, key, sort_key="Department"):
 
 ###########################################################################
 
-f_markdown = "results/AI_highlights_by_Department.md"
+save_dest = Path("results")
+save_dest.mkdir(exist_ok=True)
+
+f_markdown = save_dest / "AI_highlights_by_Department.md"
 df = preload(f_json, "department_content")
 
 doc = []
@@ -54,7 +58,7 @@ print(f"Output written to {f_markdown}")
 
 ###########################################################################
 
-f_markdown = "results/AI_projects_full_text_by_Department.md"
+f_markdown = save_dest / "AI_projects_full_text_by_Department.md"
 
 df = preload(f_json, "record_content")
 
@@ -90,7 +94,7 @@ with open(f_markdown, "w") as FOUT:
 
 ###########################################################################
 
-f_markdown = "results/AI_projects_summary_text_by_Department.md"
+f_markdown = save_dest / "AI_projects_summary_text_by_Department.md"
 
 df = preload(f_json, "record_content")
 
@@ -126,7 +130,7 @@ with open(f_markdown, "w") as FOUT:
 
 ###########################################################################
 
-f_markdown = "results/AI_themes.md"
+f_markdown = save_dest / "AI_themes.md"
 
 df = preload(f_json, "theme_content", None)
 
