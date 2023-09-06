@@ -1,4 +1,4 @@
-Title,Agency,Department,Summary,Development Stage,Techniques,Source Code
+Title,Agency,Office,Summary,Development Stage,Techniques,Source Code
 4% Repair Dashboard,USDA,ARS,"The model reviews the descriptions of expenses tagged to repairs and maintenance and classifies expenses as ""repair"" or ""not repair"" based on keywords in context.",Operation and Management,Natural Language Processing,
 ARS Project Mapping,USDA,ARS,NLP of research project plans including term analysis and clustering enables national program leaders to work with an interactive dashboard to find synergies and patterns within and across the various ARS research program portfolios.,Operation and Management,Natural Language Processing,
 NAL Automated indexing,USDA,ARS,"Cogito (vendor) software, uses AI for automated subject indexing to annotate peer reviewed journal articles (~500,000 annually) using the National Ag Library Thesaurus concept space (NALT). Only NALT concepts are annotated as metadata to content in the Library's bibliographic citation database, AGRICOLA, PubAg, and Ag Data Commons.",Operation and Management,Natural Language Processing,
