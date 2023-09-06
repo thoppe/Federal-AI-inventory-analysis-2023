@@ -7,11 +7,8 @@ from cache_GPT import ChatGPT
 from schema import Schema
 from utils import tokenized_sampler
 
-f_schema = "schema.yaml"
-f_csv = "data/record_level_information_FedAI_2022.csv"
-
-# f_csv = project["f_csv"]
-# f_json = project["f_json"]
+f_schema = "src/schema.yaml"
+f_csv = "data/record_level_information_FedAI_2023.csv"
 
 f_json = "data/GPT_automated_analysis.json"
 is_verbose = True
@@ -22,7 +19,7 @@ random_seed = 43
 query_tokens = 2500
 n_sample = None
 NUM_QUERY_THREADS = 4
-max_string_length = 2500
+max_string_length = 2600
 
 cache = "cache"
 
@@ -38,11 +35,13 @@ schema = Schema(f_schema)
 # Load and preprocess the data
 
 df = pd.read_csv(f_csv)
-df["project_title_text"] = df["Title"] + "\n" + df["Summary"]
+titles = df["Title"].str.strip().str.strip(".")
+df["project_title_text"] = df["Title"] + ": \n" + df["Summary"]
 text_col_key = "project_title_text"
 
 # Shuffle the dataset for max diversity of topics
 df = df.sample(frac=1.0, random_state=random_seed)
+
 
 # Keep only unique entries
 duplicated_idx = df.duplicated(subset=text_col_key, keep="first")
@@ -52,6 +51,8 @@ df = df[~duplicated_idx]
 org_text = df[text_col_key].str.strip().dropna()
 org_text = org_text.str.replace("\n", " ").unique()
 
+assert len(df) == len(org_text)
+
 
 # For now, keep only a limited subset if requested
 # if n_sample is not None:
@@ -60,7 +61,6 @@ org_text = org_text.str.replace("\n", " ").unique()
 line_lengths = sorted(list(map(len, org_text)))
 print("Five longest responses", line_lengths[-5:])
 print(f"Max response length set {max_string_length}")
-
 
 """
 # Truncate long strings
@@ -91,7 +91,7 @@ text = org_text
 # Shorten the text by summary if needed
 text = GPT.multiASK(schema["summarize_response"], response=text)
 
-assert len(df) == len(org_text)
+
 df["summary_text"] = text
 
 ################################################################################
@@ -99,7 +99,6 @@ df["summary_text"] = text
 
 
 def chunked_list_response(text, major_query, minor_query):
-
     # Block the text into chunks and figure out themes for each one
     text_chunks = tokenized_sampler(text, query_tokens)
 
@@ -129,7 +128,6 @@ def chunked_list_response(text, major_query, minor_query):
 dept_df = []
 
 for dept, dx in df.groupby("Department"):
-
     subset = dx["summary_text"].values
 
     # This doesn't work as well, better if we mush them all together!
@@ -159,6 +157,8 @@ for dept, dx in df.groupby("Department"):
         dept_df.append({"Department": dept, "highlight": bullet})
 dept_df = pd.DataFrame(dept_df)
 
+print(dept_df)
+exit()
 
 ################################################################################
 
@@ -256,7 +256,6 @@ top_themes = top_themes.index.values
 text = np.array(text)
 samples = []
 for theme in themes:
-
     # Get a random sample of the text
     tx = text[sf[theme] == True]
     tx = tokenized_sampler(tx, query_tokens)[0]  # Keep only one chunk

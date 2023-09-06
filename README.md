@@ -28,7 +28,7 @@ Basic stats, information, and links can be found [here](data/data_ingestion_stat
 
 ### Data preparation
 
-Most Departments provided some form of machine readable table or easily parsed web version. Some only provided PDFs (Commerce, Energy, Treasury, Justice, NASA) and these required considerable human parsing along with a [custom script](src/P0_parse_pdf2table.py) using [Camelot](https://github.com/camelot-dev/camelot).
+Most Departments provided some form of machine readable table or easily parsed web version. Some only provided PDFs (Commerce, Energy, Treasury, Justice, NASA) and these required considerable human parsing along with a [custom script](src/P0_parse_pdf2table.py) using [Camelot](https://github.com/camelot-dev/camelot). Entries that were exact duplicates in the Title and Summary were removed HHS (6), DOS (6), DOE (5).
 
 After manual parsing and cleanup the record level data was saved to [data/record_level_information_FedAI_2023.csv](data/record_level_information_FedAI_2023.csv)
 

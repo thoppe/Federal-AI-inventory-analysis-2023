@@ -50,7 +50,6 @@ def cluster_data(embedding, num_text_labels=25):
 
 @st.cache_data
 def compute_keywords(df, num_text_labels=25):
-
     clusters = df.cluster.unique()
 
     output = {}
@@ -150,7 +149,6 @@ plot_placeholder = st.empty()
 
 
 if n_text_show > 0:
-
     clusters = df.cluster.unique()
 
     for col in clusters:

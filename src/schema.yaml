@@ -1,3 +1,8 @@
+key : summarize_response
+prompt : 'Summarize the following text below into two or three sentences. Use declarative language: \n{response}'
+
+---
+
 key : clean_typos
 prompt : 'Fix typos, punctuation, and other mistakes in the text below. Only return the cleaned text: \n{response}'
 
@@ -6,11 +11,7 @@ key : clean_boilerplate
 prompt : 'Given the following RFI response, remove any boilerplate, page numbers, headers, or salutations, closing statements,  or professional closing. Keep only the body of the message. \n{response}'
 
 ---
-key : summarize_response
-prompt : 'Given the following response, summarize the main ideas in two or three sentences: \n{response}.'
 
-
----
 key: major_modality
 prompt : Determine modalities used in the projects. Possible answer could include text, audio, satellite, etc. Return the results in a markdown list only with the name of the each modality and no description. Do not use any special punctuation. \n{multi_response_chunk}
 

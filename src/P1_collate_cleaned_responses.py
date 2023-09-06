@@ -19,12 +19,14 @@ optional_cols = [
     "Source Code",
 ]
 
+f_info = "data/data_ingestion_statistics_AI_inv.csv"
+
 
 data = []
-info = pd.read_csv("data_ingestion_statistics_AI_inv.csv")
+info = pd.read_csv(f_info)
 info = info.set_index("Dept Code")
 
-for f0 in Path("cleaned_responses/").glob("*.csv"):
+for f0 in Path("data/cleaned_responses/").glob("*.csv"):
     df = pd.read_csv(f0)
     cols = df.columns
 
@@ -43,10 +45,18 @@ for f0 in Path("cleaned_responses/").glob("*.csv"):
     df["Department Code"] = department_code
     df["Department"] = department_name
 
-    # Add Office and Agency if not present
-    for key in ["Agency", "Office"]:
+    # Add additional columns if not present
+    for key in optional_cols:
         if key not in df:
             df[key] = None
+
+    # Remove exact duplicates
+    dup_remove_cols = expected_cols
+    dupe_idx = df.duplicated(subset=dup_remove_cols, keep=False)
+    if dupe_idx.sum():
+        print(f"Removing duplicates {department_name} ({dupe_idx.sum()})")
+        # print(df[dupe_idx])
+        df = df[~dupe_idx]
 
     # Internally sort by Agency then Office
     df = df.sort_values(["Agency", "Office"])
@@ -83,11 +93,12 @@ column_order = [
 df = df[column_order]
 
 # Check the expected counts
-diff = df.groupby("Department_Code").size() - info["Entries"]
-diff = diff[~(info["Entries"] == 0)]
+diff = df.groupby("Department_Code").size() - info["Entries"] + info["Duplicated"]
+counts = info["Entries"]
+diff = diff[~(counts == 0)]
 diff = diff[diff != 0]
 assert len(diff) == 0
 
 # Save the collated dataset
-f_save = f"record_level_information_FedAI_{year}.csv"
+f_save = f"data/record_level_information_FedAI_{year}.csv"
 df.to_csv(f_save)

@@ -4,7 +4,6 @@ import json
 
 class Schema:
     def __init__(self, f_yaml):
-
         # Load in a multistream YAML file, there must be a "key" entry
         stream = open(f_yaml, "r")
         self.data = {}

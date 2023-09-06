@@ -5,7 +5,7 @@ streamlit:
 	streamlit run src/streamlit_demo.py 
 
 lint:
-	black *.py src
+	black . src
 
 record_website_hash:
 	@python src/md5_webpage.py $(target_url) >> $(output_md5file)
