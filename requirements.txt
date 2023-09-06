@@ -3,4 +3,5 @@ scikit-learn
 bokeh
 yake
 pandas
-numpy
+numpy==1.21.4
+streamlit
