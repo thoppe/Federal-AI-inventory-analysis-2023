@@ -1,0 +1,6 @@
+umap
+sklearn
+bokeh
+yake
+pandas
+numpy

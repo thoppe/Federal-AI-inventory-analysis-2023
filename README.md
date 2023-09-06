@@ -9,7 +9,6 @@ The analysis includes data collection from published AI use case inventories, da
 
 **Reports**: The methodology documented below has been utilized to create the following reports:
 
-+ **WORK IN PROGESS FIX ME**
 + [AI Themes throughout the Federal Government](results/AI_themes.md)
 + [Complete Text of AI Projects by Agencies](results/AI_projects_full_text_by_Department.md)
 + [Summarized GPT Text for Project Descriptions](results/AI_projects_summary_text_by_Department.md)
@@ -41,7 +40,6 @@ After manual parsing and cleanup the record level data was saved to [data/record
 + `Development_Stage` (if provided)
 + `Techniques` (methodologies, models, or AI techniques if provided)
 + `Source_Code` (link to source code if provided)
-+ `Department` (or independent agency name)
 
 ### Natural Language Processing
 
