@@ -9,6 +9,7 @@ The analysis includes data collection from published AI use case inventories, da
 
 **Reports**: The methodology documented below has been utilized to create the following reports:
 
++ [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://federal-ai-inventory-analysis-2023.streamlit.app/)
 + [AI Themes throughout the Federal Government](results/AI_themes.md)
 + [Complete Text of AI Projects by Agencies](results/AI_projects_full_text_by_Department.md)
 + [Summarized GPT Text for Project Descriptions](results/AI_projects_summary_text_by_Department.md)
@@ -43,46 +44,35 @@ After manual parsing and cleanup the record level data was saved to [data/record
 
 ### Natural Language Processing
 
-A high powered LLM (in this case Chat GPT: gpt-3.5-turbo) is used to summarize each response as the quality of the summaries provided by the agencies is variable. For example, consider the response from the IRS and the associated summary:
+A high powered LLM (in this case Chat GPT: gpt-3.5-turbo) was used to summarize each response as the quality of the summaries provided by the agencies is variable. For example, consider the response from the IRS and the associated summary:
 
 > **Projected Contract Award Date Web App** Projected contract award dates are generated with a machine learning  model that statistically predicts when procurement requests will become  signed contracts. Input data includes funding information, date / time of  year, and individual Contract Specialist workload. The model outputs  projected contract award timeframes for specific procurement requests.   'When will a contract be signed?' is a key question for the IRS and  generally for the federal government. This tool gives insight about when  each request is likely to turn into a contract. The tool provides a technique  other federal agencies can implement, potentially affecting $600 billion in  government contracts. Weblink: https://www.irs.gov/newsroom/irs- announces-use-of-projected-contract-award-date-web-app-that-predicts- when-contracts-will-be-signed.
 
 > The IRS has developed a web app that uses a machine learning model to predict when procurement requests will become signed contracts. The tool provides valuable insight for the IRS and other federal agencies on when contracts are likely to be signed, potentially impacting $600 billion in government contracts.
 
-Using the summarized response, we iteratively ask for a set of high level topics. The topics are human refined (human edits in parenthesis)
+Using the summarized response, we iteratively asked for a set of high level topics. Each project was scored across the themes holistically by asking the LLM to return a JSON object. Observationally, this is a high recall medium precision task, so we further refined each positive response with an explanation of why the theme matched the project. By taking the final refinement step, about 25% of the projects were removed from their original theme. Project could belong to any number of themes, including none.
 
-+ Artificial Intelligence in Healthcare (healthcare)
-+ Data-driven approach using regional data and machine learning models (spatial)
-+ Autonomous Maritime Awareness system (maritime)
-+ Cyber Threat Intelligence Feed Correlation (cyber intelligence)
-+ Security Operations with AI (security)
-+ Environmental Monitoring with AI (environmental)
-+ Prototype System for Global Audience Segmentation (customer service or engagement)
-+ Power system resilience and grid operation (power systems)
-+ Predictive maintenance and infrastructure monitoring (infrastructure)
-+ Machine learning in various domains (dropped, generic)
-+ Fraud Prevention System Prioritization (fraud)
-+ Machine learning for wildfire damage assessment (dropped, small)
-
-Each project was scored across the themes holistically by asking the LLM to return a JSON object. Observationally, this is a high recall medium precision task, so we further refined each positive response with an explanation of why the theme matched the project. By taking the final refinement step, about 25% of the projects were removed from their original theme.
-
-|       | Theme                           | Projects |
-|------------|---------------------------------|-------|
-| 🔒         | security                        | 90    |
-| 🏗️         | infrastructure                  | 72    |
-| 🌍         | environmental                   | 66    |
-| 🌍         | spatial                         | 63    |
-| 🏥         | healthcare                      | 55    |
-| 🔍         | cyber intelligence              | 25    |
-| 🔌         | power systems                   | 24    |
-| 🤝         | customer service or engagement  | 18    |
-| 🌊         | maritime                        | 13    |
-| 🕵️‍♂️       | fraud                           | 11    |
-| 🔥         | wildfire                        | 1     |
+|                  | Theme                             | Projects |
+|------------------|----------------------------------|-------|
+| 🔬               | Scientific Research              | 417   |
+| 🔧               | Infrastructure                   | 149   |
+| 🌍               | Environmental                    | 117   |
+| 🌍               | Geospatial                       | 111   |
+| 🏥               | Healthcare                       | 110   |
+| 🔍               | Cyber Intelligence               | 34    |
+| 🤝               | Customer Service Or Engagement  | 31    |
+| 💡               | Threat Intelligence              | 30    |
+| 🌐               | Language Services                | 23    |
+| 🕵️‍♂️           | Fraud                            | 13    |
+| 📱               | Wearables                        | 2     |
 
 ## Visualization
 
-To get a sense of the general clustering, each of the summarized projects were embedded through the latest OpenAI model (text-embedding-ada-002) and projected onto two dimensions using UMAP. A numpy array containing the embeddings is saved [here](data/GPT_embedding.npy). To interactively visualize the embeddings run `make streamlit`
+To interactively explore the dataset visit:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://federal-ai-inventory-analysis-2023.streamlit.app/)
+
+To get a sense of the general clustering, each of the summarized projects were embedded through the latest OpenAI model (text-embedding-ada-002) and projected onto two dimensions using UMAP. A numpy array containing the embeddings is saved [here](data/GPT_embedding.npy). Topics were loosely clusted in the reduced space and labels were assigned to the clusters via [KeyBERT](https://github.com/MaartenGr/KeyBERT).
 
 ![Visualization of Federal AI Projects](results/streamlit_demo.jpg)
 
@@ -91,12 +81,12 @@ To get a sense of the general clustering, each of the summarized projects were e
 Costs were calculated from a final run of the program, intermediate API calls during the exploration phase were not recorded.
 
 ```
-Cost   : $0.79
-Tokens : 393,474
-Calls  : 1658
+Cost   : $1.51
+Tokens : 755,928
+Calls  : 2860
 ```
 
-Each day, a github action is called to check the hash of the ai.gov source website. If the latest hash has not changed from `ac4984917f9a2195c37c6cd008d56ab1` then the data is up-to-date. If the hash has changed, some aspect of the website has been updated though it may not reflect a change in the data.
+Each day, a github action is called to check the hash of the ai.gov source website. If the latest hash has not changed from `ee6b92b6c6514b4a4f855b7c83b9c52f` then the data is up-to-date. If the hash has changed, some aspect of the website has been updated though it may not reflect a change in the data.
 
 + [Log of the daily hash](data/ai_gov_md5hash.csv)
 + [Github action](.github/workflows/md5_website_check.yml)
