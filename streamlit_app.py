@@ -1,119 +1,47 @@
-import json
 import streamlit as st
 import pandas as pd
 import numpy as np
+
+import datetime
+import json
 from pathlib import Path
-import umap
-from sklearn.cluster import DBSCAN, MiniBatchKMeans
+
 import src.viz_interface as interface
 from bokeh.models import Label
-import yake
-import datetime
-from sklearn.decomposition import PCA, IncrementalPCA
+
+
+app_text = {
+    "title": "Federal AI inventory analysis 2023",
+    "footer": "Built with 💜 by [@metasemantic](https://github.com/thoppe/Federal-AI-inventory-analysis-2023).",
+}
+
 
 start_time = datetime.datetime.now()
 
-threshold_cutoff = 0.30
-
 st.set_page_config(layout="wide")
-st.title("Federal AI inventory analysis 2022")
-
-
-@st.cache_data
-def load_vectors(f_npy, n_dim=40):
-    # Loads in the vectors and highly compress them via SVD
-    ipca = IncrementalPCA(n_components=n_dim)
-    V = np.load(f_npy)
-
-    Vt = ipca.fit_transform(V)
-    return Vt
-
+st.title(app_text["title"])
 
 @st.cache_data
-def umap_vectors(V):
-    # Compress data down to two dimensions for visualization
-    clf = umap.UMAP(n_neighbors=5, random_state=44, min_dist=0.055)
-    X = clf.fit(V)
+def load_data():
+    embedding = np.load("data/GPT_umap.npy")
+    df_keywords = pd.read_csv("data/GPT_cluster_keywords.csv")
+    clusters = np.load("data/GPT_clusters.npy")
 
-    embedding = clf.embedding_.copy()
-    embedding -= embedding.mean(axis=0)
-    embedding /= embedding.std(axis=0)
+    f_json = "data/GPT_automated_analysis.json"
 
-    return embedding
+    with open(f_json) as FIN:
+        js = json.load(FIN)
+    df = pd.DataFrame(js["record_content"])
+    df["ux"], df["uy"] = embedding.T
 
+    return df, df_keywords, clusters
+    
+df, df_keywords, clusters = load_data()
 
-@st.cache_data
-def cluster_data(embedding, num_text_labels=25):
-    clf = MiniBatchKMeans(n_clusters=num_text_labels, batch_size=1000)
-    return clf.fit_predict(embedding)
-
-
-@st.cache_data
-def compute_keywords(df, num_text_labels=25):
-    clusters = df.cluster.unique()
-
-    output = {}
-
-    for col in clusters:
-        dx = df[df.cluster == col]
-        dx = dx.reset_index()
-
-        custom_kw_extractor = yake.KeywordExtractor(
-            lan="en", n=3, dedupLim=0.9, top=5, features=None
-        )
-
-        text = "\n".join([title for title in dx["Summary"].tolist()])
-
-        keywords = [kw[0] for kw in custom_kw_extractor.extract_keywords(text)]
-        keywords = [
-            kw
-            for kw in keywords
-            if "machine" not in kw.lower()
-            and "main idea" not in kw.lower()
-            and "data" not in kw.lower()
-            and "learning" not in kw.lower()
-            and "model" not in kw.lower()
-            and "system" not in kw.lower()
-            and "intelligence" not in kw.lower()
-            and "artificial" not in kw.lower()
-        ]
-
-        if not keywords:
-            top_phrase = ""
-        else:
-            top_phrase = keywords[0]
-
-        output[col] = top_phrase
-    return output
-
-
-f_npy = "data/GPT_embedding.npy"
-V = load_vectors(f_npy)
-
-embedding = umap_vectors(V)
-
-f_json = "data/GPT_automated_analysis.json"
-
-with open(f_json) as FIN:
-    js = json.load(FIN)
-df = pd.DataFrame(js["record_content"])
-
-# df = load_csv(f_csv)
-df = df.copy()
-
-df["ux"], df["uy"] = embedding.T
-
-bool_overlay_text = st.sidebar.checkbox("Overlay text", True)
-n_text_show = st.sidebar.slider("Number of overlay text", 0, 50, 10)
-# bool_show_citations = st.sidebar.checkbox("Show citations", True)
-
-if n_text_show > 0:
-    df["cluster"] = cluster_data(embedding, n_text_show)
-    keywords = compute_keywords(df, n_text_show)
-
+n_text_show = st.sidebar.slider("Number of text labels", 0, 50, 30)
 
 dept_opt = df.groupby("Department").size().sort_values(ascending=False).index.tolist()
-dept_opt = ["None"] + dept_opt
+dept_opt = ["None"] + sorted(dept_opt)
 highlight_department = st.sidebar.selectbox("Highlight Dept/Agency", dept_opt)
 
 highlight_text = st.sidebar.text_input("Word search")
@@ -121,83 +49,74 @@ if highlight_text:
     highlight_text = highlight_text.lower()
 else:
     highlight_text = "DO NOT MATCH TO ANYTHING"
-text_highlight_idx = df["project_title_text"].str.lower().str.find(highlight_text) > -1
-
-
-viz_text_column = st.sidebar.selectbox(
-    "Summary or full text on overlay",
-    [
-        "summary_text",
-        "project_title_text",
-    ],
+textword_highlight_idx = (
+    df["project_title_text"].str.lower().str.find(highlight_text) > -1
 )
 
+## Basic coloring
 
 df["line_width"] = 0
 df["color"] = "#3288bd"
 df["fill_color"] = df["color"]
 df["no_focus"] = 1
 
-colors = ["#05baae", "#b4ef86", "#e47474", "#e4749c"] * 1000
+colors = ["#05baae", "black", "#e47474", "#e4749c"] * 1000
 expand = 1.25
-point_size = 0.025
+point_size = 5
 
 df["size"] = point_size
 df["alpha"] = 0.4
 
-
 # Custom coloring
-idx = df["Department"] == highlight_department
-if text_highlight_idx.sum():
-    st.write(f"Highlighting {text_highlight_idx.sum()} projects from {highlight_text}")
+text_highlight_idx = df["Department"] == highlight_department
 
-df.loc[text_highlight_idx, "fill_color"] = colors[4]
+if textword_highlight_idx.sum():
+    st.sidebar.write(
+        f"Highlighting {textword_highlight_idx.sum()} projects using {highlight_text}"
+    )
+
+df.loc[textword_highlight_idx, "fill_color"] = colors[1]
+df.loc[textword_highlight_idx, "size"] = point_size * expand
+df.loc[textword_highlight_idx, "line_width"] = 2
+df.loc[textword_highlight_idx, "alpha"] = 0.8
+
+if text_highlight_idx.sum():
+    st.sidebar.write(
+        f"Highlighting {text_highlight_idx.sum()} projects from {highlight_department}"
+    )
+
+df.loc[text_highlight_idx, "fill_color"] = colors[2]
 df.loc[text_highlight_idx, "size"] = point_size * expand
 df.loc[text_highlight_idx, "line_width"] = 2
 df.loc[text_highlight_idx, "alpha"] = 0.8
 
-dual_highlight = idx & text_highlight_idx
-df.loc[dual_highlight, "fill_color"] = colors[3]
-
 viz_cols = [
     "Title",
     "Department",
-    viz_text_column,
+    "project_title_text",
 ]
 
-p = interface.plot_data_bokeh(df, hover_columns=viz_cols, tooltips=True)
-plot_placeholder = st.empty()
+df["line_width"] = 0.1
+df["radius_units"] = "screen"
 
+p = interface.plot_data_bokeh(
+    df, hover_columns=viz_cols, tooltips=True, height=600, width=800
+)
 
-if n_text_show > 0:
-    clusters = df.cluster.unique()
+## Add the text labels
 
-    for col in clusters:
-        dx = df[df.cluster == col]
-        dx = dx.reset_index()
+df_keywords = df_keywords[df_keywords.n_clusters == n_text_show]
 
-        cmx, cmy = dx.ux.mean(), dx.uy.mean()
-
-        if not len(dx):
-            continue
-
-        dx["dist"] = (dx["ux"] - cmx) ** 2 + (dx["uy"] - cmy) ** 2
-        dx = dx.sort_values("dist")
-
-        top_phrase = keywords[col]
-
-        label_args = {
-            "x": cmx,
-            "y": cmy,
-            "text": top_phrase,
-            "text_color": "black",
-            "background_fill_color": "white",
-            "background_fill_alpha": 0.25,
-        }
-
-        if bool_overlay_text:
-            p.add_layout(Label(**label_args))
-
+for _, row in df_keywords.iterrows():
+    label_args = {
+        "x": row["cluster_x"],
+        "y": row["cluster_y"],
+        "text": row["label_text"],
+        "text_color": "black",
+        "background_fill_color": "white",
+        "background_fill_alpha": 0.25,
+    }
+    p.add_layout(Label(**label_args))
 
 end_time = datetime.datetime.now()
 dt = (end_time - start_time).total_seconds()
@@ -205,17 +124,16 @@ st.sidebar.write(f"Compute time {dt:0.3f}")
 
 save_btn = st.sidebar.button("Export HTML Plot")
 
-f_save = Path(f"results/vizmap.html")
-f_save.parent.mkdir(exist_ok=True)
-
 if save_btn:
     import bokeh
-    from bokeh.plotting import figure, output_file, show
+    from bokeh.plotting import show
+
+    f_save = Path("results/vizmap.html")
+    f_save.parent.mkdir(exist_ok=True)
 
     bokeh.io.output_file(f_save, "Fed_AI_2022")
     show(p)
     st.write(f_save)
 
-else:
-    st.bokeh_chart(p)
-    st.write(f_save)
+st.bokeh_chart(p, use_container_width=True)
+st.write(app_text["footer"])

@@ -1,11 +1,8 @@
-import pandas as pd
-import numpy as np
-
 from bokeh.plotting import figure, ColumnDataSource
 from bokeh.models.tools import HoverTool
 
 
-def plot_data_bokeh(df, hover_columns=None, tooltips=None):
+def plot_data_bokeh(df, hover_columns=None, tooltips=None, height=600, width=1600):
     """
     Returns a Bokeh plot at coordinates df.ux and df.uy
     """
@@ -15,8 +12,9 @@ def plot_data_bokeh(df, hover_columns=None, tooltips=None):
         active_scroll="wheel_zoom",
         output_backend="webgl",
         toolbar_location="below",
-        height=700,
-        width=1600,
+        height=height,
+        width=width,
+        # sizing_mode="scale_height",
         sizing_mode="stretch_both",
     )
 
@@ -32,6 +30,7 @@ def plot_data_bokeh(df, hover_columns=None, tooltips=None):
         fill_color="fill_color",
         line_color="black",
         alpha="alpha",
+        radius_units="screen",
     )
 
     # Add the hovering options
