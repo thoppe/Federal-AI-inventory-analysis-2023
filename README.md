@@ -10,6 +10,7 @@ The analysis includes data collection from published AI use case inventories, da
 **Reports**: The methodology documented below has been utilized to create the following reports:
 
 + [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://federal-ai-inventory-analysis-2023.streamlit.app/)
++ [Machine-readable consolidated dataset](data/record_level_information_FedAI_2023.csv)
 + [AI Themes throughout the Federal Government](results/AI_themes.md)
 + [Complete Text of AI Projects by Agencies](results/AI_projects_full_text_by_Department.md)
 + [Summarized GPT Text for Project Descriptions](results/AI_projects_summary_text_by_Department.md)
@@ -22,7 +23,7 @@ Projects were downloaded from [AGENCY INVENTORIES OF AI USE CASES](https://www.a
 
 > Consistent with this principle of transparency, EO 13960 directed agencies to conduct an annual inventory of their AI use cases, and to publish them to the extent possible. As specified by EO 13960, agencies' inventories are not required to include AI use cases that are classified, sensitive, used in defense or national security systems, used by the Department of Defense or Intelligence Community, embedded within common commercial products, or used for AI research and development activities.
 
-Each inventory was downloaded and [saved](data/department_org_src).
+Each inventory was downloaded and [saved](data/raw_dept_responses/) and cleaned to a [common format](data/cleaned_responses/).
 All data were collected on September 1st, 2023 and may not reflect any updates on ai.gov or linked reports.
 Basic stats, information, and links can be found [here](data/data_ingestion_statistics_AI_inv.csv).
 
