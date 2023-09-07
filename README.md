@@ -56,7 +56,7 @@ Using the summarized response, we iteratively asked for a set of high level topi
 |------------------|----------------------------------|-------|
 | 🔬               | Scientific Research              | 417   |
 | 🔧               | Infrastructure                   | 149   |
-| 🌍               | Environmental                    | 117   |
+| 🌳               | Environmental                    | 117   |
 | 🌍               | Geospatial                       | 111   |
 | 🏥               | Healthcare                       | 110   |
 | 🔍               | Cyber Intelligence               | 34    |
