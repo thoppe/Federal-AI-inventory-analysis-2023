@@ -42,6 +42,32 @@ After manual parsing and cleanup the record level data was saved to [data/record
 + `Techniques` (methodologies, models, or AI techniques if provided)
 + `Source_Code` (link to source code if provided)
 
+Counts per Department / Independent agency are
+
+| Department/Agency                                        | Count |
+|----------------------------------------------------------|-------|
+| Department of Energy                                     | 178   |
+| Department of Health and Human Services                  | 157   |
+| Department of Commerce                                   | 49    |
+| Department of Homeland Security                          | 41    |
+| Department of Veterans Affairs                           | 40    |
+| Department of Agriculture                                | 39    |
+| Department of Interior                                   | 38    |
+| National Aeronautics and Space Administration            | 33    |
+| Department of State                                      | 31    |
+| Department of Labor                                      | 18    |
+| Department of Transportation                             | 14    |
+| Department of Treasury                                   | 14    |
+| Social Security Administration                           | 14    |
+| U.S. Agency for International Development                | 14    |
+| U.S. General Services Administration                     | 12    |
+| National Archives and Records Administration             | 5     |
+| Department of Justice                                    | 4     |
+| U.S. Office of Personnel Management                      | 4     |
+| U.S. Environmental Protection Agency                     | 3     |
+| Department of Housing and Urban Development              | 1     |
+| Department of Education                                  | 1     |
+
 ### Natural Language Processing
 
 A high powered LLM (in this case Chat GPT: gpt-3.5-turbo) was used to summarize each response as the quality of the summaries provided by the agencies is variable. For example, consider the response from the IRS and the associated summary:
@@ -65,6 +91,7 @@ Using the summarized response, we iteratively asked for a set of high level topi
 | 🌐               | Language Services                | 23    |
 | 🕵️‍♂️           | Fraud                            | 13    |
 | 📱               | Wearables                        | 2     |
+
 
 ## Visualization
 
