@@ -12,7 +12,7 @@ from bokeh.models import Label
 
 app_text = {
     "title": "Federal AI inventory analysis 2023",
-    "footer": "Built with 💜 by [@metasemantic](https://github.com/thoppe/Federal-AI-inventory-analysis-2023).",
+    "footer": "Built by [Travis Hoppe](https://github.com/thoppe/Federal-AI-inventory-analysis-2023).",
 }
 
 
