@@ -212,14 +212,24 @@ while not successful_run:
                 print(key, themes)
                 assert key in themes
 
+
+print(scores)
+sf = pd.json_normalize(scores, meta=themes, errors="raise")
+
 # Convert to a dataframe and sort by most popular themes
 sf = pd.json_normalize(scores, meta=themes, errors="raise")
 top_themes = sf.describe().T["mean"].sort_values(ascending=False)
 print(top_themes)
 
-
 ms = sf.copy()
 ms = ms.replace(to_replace=ms.values, value="")
+
+# Map the Use Case IDs to the theme scores
+ms["Use_Case_ID"] = df["Use_Case_ID"].values
+ms = ms.set_index("Use_Case_ID")
+sf["Use_Case_ID"] = df["Use_Case_ID"].values
+sf = sf.set_index("Use_Case_ID")
+
 
 for theme in sf.columns:
     # Gather the subset that match the theme
@@ -246,9 +256,9 @@ idx = (
 
 # Revise the scores so we only keep those that have been found "relevant"
 sf[:] = (~idx).astype(int)
+ms[idx] = None
+
 top_themes = sf.describe().T["mean"].sort_values(ascending=False)
-
-
 top_themes = top_themes.index.values
 
 # Get a description for each theme
@@ -308,12 +318,13 @@ dx["actionable_steps"] = actionable_steps
 dx["total_observations"] = len(df)
 dx["positive_observations"] = sf.sum(axis=0).values
 dx = dx.sort_values("positive_observations", ascending=False)
+
 data = dx.to_json(orient="records", indent=2)
 
 # Add record level data
 df["LLM_summary_text"] = text.tolist()
 
-# print(data)
+
 print(dx.set_index("emoji")[["theme", "positive_observations"]])
 
 # Save the usage statistics
@@ -321,6 +332,8 @@ js = {
     "theme_content": json.loads(data),
     "record_content": json.loads(df.to_json()),
     "department_content": json.loads(dept_df.to_json()),
+    "theme_records": json.loads(sf.to_json()),
+    "theme_explain": json.loads(ms.to_json()),
 }
 
 js["meta"] = {

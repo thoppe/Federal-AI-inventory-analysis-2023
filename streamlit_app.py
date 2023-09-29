@@ -21,6 +21,7 @@ start_time = datetime.datetime.now()
 st.set_page_config(layout="wide")
 st.title(app_text["title"])
 
+
 @st.cache_data
 def load_data():
     embedding = np.load("data/GPT_umap.npy")
@@ -35,7 +36,8 @@ def load_data():
     df["ux"], df["uy"] = embedding.T
 
     return df, df_keywords, clusters
-    
+
+
 df, df_keywords, clusters = load_data()
 
 n_text_show = st.sidebar.slider("Number of text labels", 0, 50, 30)

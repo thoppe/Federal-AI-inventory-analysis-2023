@@ -26,10 +26,22 @@ def preload(f_json, key, sort_key="Department"):
     return df
 
 
-###########################################################################
-
 save_dest = Path("results")
 save_dest.mkdir(exist_ok=True)
+
+###########################################################################
+# Save the specific records
+
+df = preload(f_json, "theme_records", None)
+df.index.name = "Use_Case_ID"
+df.to_csv("results/record_level_theme_score.csv")
+
+df = preload(f_json, "theme_explain", None)
+df.index.name = "Use_Case_ID"
+df.to_csv("results/record_level_theme_explain.csv")
+
+###########################################################################
+
 
 f_markdown = save_dest / "AI_highlights_by_Department.md"
 df = preload(f_json, "department_content")
