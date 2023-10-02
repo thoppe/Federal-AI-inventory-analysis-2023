@@ -1,0 +1,17 @@
+Benefit Programs; Social Security, Medicare (and Medicare fraud), SNAP
+Diplomacy and Trade; International Development and Humanitarian Assistance, Conduct of Foreign Affairs, International commerce
+Finance, Economy; Business Development, Intellectual Property Protection, Statistics, Oversight, Taxation Management
+Education and Workforce; Disability Compensation, Labor Rights, Safety, Training
+Emergency Management; Planning, preparation, Drought, Fire, Flood, Hurricanes, Tropical Cyclones, and Extreme Events, Landslide (including prediction), Climate Adaptation and Mitigation
+Energy; Nuclear, Offshore Energy, Research, Securit, Technology/Supply
+Environment and Natural Resources; Agriculture, Air Quality/Pollution, Weather/Climate, Atmospheric Research and Monitoring, Coast Land Management, Forests/Vegetation, Land Cover, Fishing (as a resource), General Ecology, Marine Botany (underwater plant-life), Oceans (excludes marine life), Soil/Minerals, Water Resource Management & Research
+General Admin; HR, Acquisitions, Travel, Records Management
+Grants; Processing, awarding, information
+Health and Medical; Research, Data, Records, Healthcare (includes medicines), Nutrition (includes diet), Safety, Toxic Substances, Public Health, International Support
+Law and Justice; Investigations (includes forensics), Immigration, Border Control
+Science and Technology; Computer Science, Mathematics & Statistics, Remote sensing, Mapping, Quantum, Cybersecurity, Materials Science, Physics & Engineering, Earth Science (includes geomagnetic fields, geology, earthquake science), Electromagnetic Spectrum, Biology
+Space; Spacecraft, Space Flight, Space Exploration, Celestial Objects and Planetary Analysis, Satellites (including ISS), Cosmology, Space Matter & Astrophysics, Solar Dynamics, Astrobiology
+Transportation; Air, Ground, Sea, Infrastructure Monitoring & Improvement, Unmanned Aircraft
+Veteran Care and Services; Healthcare, Research
+Zoological; Aquatic (includes fish, marine reptiles, coral), Biodiversity, Birds (includes marine birds), Insects, Land Animals, Marine Mammals
+Mission-enabling; Acquisition & Finance, Administrative (records, travel, FOIA), Communications, Facilities/Property Management, HR Management, Information and Communications Technology (ICT), Project Management, Safety & Security
