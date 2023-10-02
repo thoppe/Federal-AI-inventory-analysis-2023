@@ -94,6 +94,28 @@ Using the summarized response, we iteratively asked for a set of high level topi
 | 📱               | Wearables                        | 2     |
 
 
+The projects were also analyzed with respect to a set of [GSA categories](data/GSA_taxonomy.txt).
+
+| Icon | Category                               | Count |
+|------|-----------------------------------------|-------|
+| 🔬   | Science and Technology                 | 522   |
+| 💊   | Health and Medical                      | 158   |
+| ⚡    | Energy                                  | 75    |
+| 🌍   | Environment and Natural Resources       | 68    |
+| 🔧   | Mission-enabling                        | 55    |
+| 🚀   | Transportation                          | 23    |
+| 🏥   | Veteran Care and Services               | 22    |
+| 📊   | Finance, Economy                        | 15    |
+| 🔍   | Law and Justice                         | 14    |
+| 🚀   | Space                                   | 12    |
+| 📚   | Grants                                  | 12    |
+| 🌍   | Emergency Management                    | 12    |
+| 🌊   | Zoological                              | 8     |
+| 📂   | General Admin                           | 7     |
+| 🌍   | Diplomacy and Trade                     | 5     |
+| 🌱   | Education and Workforce                 | 4     |
+| 📑   | Benefit Programs                        | 2     |
+
 ## Visualization
 
 To interactively explore the dataset visit:
