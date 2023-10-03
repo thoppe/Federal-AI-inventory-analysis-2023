@@ -274,11 +274,14 @@ idx = (
     ms.applymap(lambda x: "None" in x)
     | ms.applymap(lambda x: "not relevant" in x.lower())
     | ms.applymap(lambda x: "not mention" in x.lower())
+    | ms.applymap(lambda x: "not directly relevant" in x.lower())
 )
 
 # Revise the scores so we only keep those that have been found "relevant"
 sf_org = sf.copy()
 sf[:] = (~idx).astype(int)
+
+# Do not NULL out the invalid answers.
 ms[idx] = None
 
 top_themes = sf.describe().T["mean"].sort_values(ascending=False)

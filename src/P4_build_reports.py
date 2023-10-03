@@ -40,14 +40,14 @@ df.index.name = "Use_Case_ID"
 df["total_categories"] = df.sum(axis=1)
 for key in record_keys:
     df[key] = records[key]
-df.to_csv("results/record_level_theme_score.csv")
+df.to_csv("results/GSA_record_level_theme_score.csv")
 
 df = preload(f_json, "theme_explain", None)
 df.index.name = "Use_Case_ID"
 df["total_categories"] = df.sum(axis=1)
 for key in record_keys:
     df[key] = records[key]
-df.to_csv("results/record_level_theme_explain.csv")
+df.to_csv("results/GSA_record_level_theme_explain.csv")
 
 
 ###########################################################################

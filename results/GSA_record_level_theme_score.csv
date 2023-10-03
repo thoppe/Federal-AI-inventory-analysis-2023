@@ -54,7 +54,7 @@ HHS-0002-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,HHS,Chatbot
 HHS-0030-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,HHS,Use of Natural Language Processing for Topic Modeling to Automate Review of Public Comments to Notice of Proposed Rulemaking
 VA-0031-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,2,VA,Reinforcement learning evaluation of treatment policies for patients with hepatitis C virus
 DOE-0118-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,To implement boiler health monitoring using a hybrid first principles-artificial intelligence model
-TREAS-0005-2023,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,TREAS,CX Analytics
+TREAS-0005-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,TREAS,CX Analytics
 USDA-0034-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,USDA,Artificial Intelligence SPAM Mitigation Project
 DOC-0016-2023,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,2,DOC,Coastal Change Analysis Program (C-CAP)
 DOL-0008-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOL,DOL Intranet Website Chatbot Assistant
@@ -80,20 +80,20 @@ TREAS-0003-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,TREAS,Collection Chat Bot
 DOE-0030-2023,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,3,DOE,Advanced model to forecast offshore landslide risks and marine geohazards
 SSA-0011-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,SSA,Handwriting recognition from forms
 DOE-0099-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,To develop artificial intelligence- enabled tools (ArtIT) for cyber hardening of power grids.
-DHS-0009-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,DHS,Integrated Digital Environment
+DHS-0009-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DHS,Integrated Digital Environment
 HHS-0072-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,Centers of Excellence in Regulatory Science and Innovation (CERSI) project - Leveraging AI for improving remote interactions.
 VA-0032-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,3,VA,Predicting hepatocellular carcinoma in patients with hepatitis C
 USAID-0012-2023,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,2,USAID,"NASA SERVIR - Using artificial intelligence to forecast harmful algae blooms in Lake Atitlán, Guatemala"
 DOE-0106-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,To drive insights on pipeline maintenance and repair strategies to reduce incidents of pipeline leakage; support evaluation of use and reuse strategies
 DOE-0029-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,Advanced Image Segmentation
 DOL-0015-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOL,OEWS Occupation Autocoder
-SSA-0010-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,SSA,Duplicate Identification Process (DIP)
+SSA-0010-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,SSA,Duplicate Identification Process (DIP)
 HHS-0058-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,HHS,Risk Adjustment Payment Integrity Determination System (RAPIDS)
 HHS-0108-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,HHS,individual Functional Activity Composite Tool (inFACT)
 DOE-0112-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,To evaluate current infrastructure throughout a study area and evaluating future infrastructure needs to accelerate the deployment of CCUS
 DOC-0041-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOC,Picky
 HHS-0017-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,HHS,Community Access to Testing
-NARA-0000-2023,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,1,3,NARA,AI Pilot Project to Screen and Flag for Personally Identifiable Information (PII) in Digitized Archival Records
+NARA-0000-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,NARA,AI Pilot Project to Screen and Flag for Personally Identifiable Information (PII) in Digitized Archival Records
 DOC-0020-2023,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,3,DOC,Coral Reef Watch
 HHS-0032-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,Sequential Coverage Algorithm (SCA) and partial Expectation-Maximization (EM) estimation in Record Linkage
 DHS-0024-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DHS,Security Information and Event Management (SIEM) Alerting Models
@@ -106,7 +106,7 @@ DOE-0004-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,Extreme data reduction for
 VA-0003-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,VA,Acute kidney injury (AKI)
 USDA-0011-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,USDA,NAL Automated indexing
 HHS-0131-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,HHS,SingleCite: Improving single citation search in PubMed
-USAID-0005-2023,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,3,USAID,Project Vikela
+USAID-0005-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,USAID,Project Vikela
 DOE-0012-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,READS: Real-time Edge AI for Distributed Systems
 NASA-0003-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,2,NASA,High-Performance Quantum-Classical Hybrid Deep Generative Modeling Parameterized by Energy-based Models for Flight-Operations Anomaly Detection
 DOT-0010-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,2,DOT,Development of Predictive Analytics Using Autonomous Track Geometry Measurement System (ATGMS) Data
@@ -119,7 +119,7 @@ VA-0013-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,VA,Nediser reports QA
 DOS-0014-2023,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,2,DOS,eRecords M/L Metadata Enrichment
 USDA-0016-2023,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,2,USDA,Land Change Analysis Tool (LCAT)
 DOI-0029-2023,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,2,DOI,Vegetation and Water Dynamics
-DOT-0006-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,2,DOT,Course Deviation Identification for Multiple Airport Route Separation (MARS)
+DOT-0006-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOT,Course Deviation Identification for Multiple Airport Route Separation (MARS)
 DOT-0004-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,DOT,Regulatory Compliance Mapping Tool
 VA-0010-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,VA,Machine learning (ML) for enhanced diagnostic error detection and ML classification of protein electrophoresis text
 DOE-0013-2023,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,2,DOE,Simulation-based inference for cosmology
@@ -139,8 +139,8 @@ DOE-0053-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,Machine learning based ide
 HHS-0057-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,HHS,"Relationships, Events, Contacts, and Outreach Network (RECON)"
 DOE-0098-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,To develop and validate sensor hardware and analytical algorithms to lower plant operating expenses for the pulverized coal utility boiler fleet
 HHS-0073-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,Opioid Data Warehouse Term Identification and Novel Synthetic Opioid Detection and Evaluation Analytics
-DOE-0140-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,To verify and validate testing of advanced power generation technologies
-DOE-0159-2023,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,0,3,DOE,"Data Analytics and Machine Learning (DAMaL) Tools to enhance the analysis of Environment, Safety and Health (ES&H) data: Unsupervised Machine Learning Text Clustering"
+DOE-0140-2023,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,DOE,To verify and validate testing of advanced power generation technologies
+DOE-0159-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,"Data Analytics and Machine Learning (DAMaL) Tools to enhance the analysis of Environment, Safety and Health (ES&H) data: Unsupervised Machine Learning Text Clustering"
 DOC-0022-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOC,Edge AI survey payload development
 HHS-0082-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,Empirical evaluation of EHR-based signal detection approaches
 SSA-0008-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,SSA,Insight
@@ -156,7 +156,7 @@ HHS-0016-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,emPOWER
 VA-0001-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,VA,Artificial intelligence coach in cardiac surgery
 DOE-0160-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,Memorandum of Understanding Between the US DOE and US NRC on Cooperation in the Area of Operating Experience and Applications of Data Analytics (Signed June 2021)
 HHS-0046-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,HHS,Priority Score Model - ranks providers within the Fraud Prevention System using logistic regression based on program integrity guidelines.
-DOT-0000-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,DOT,Remote Oceanic Meteorological Information Operations (ROMIO)
+DOT-0000-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOT,Remote Oceanic Meteorological Information Operations (ROMIO)
 DOE-0031-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,AI used to interpret sensor data.
 USDA-0030-2023,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,2,USDA,Operational water supply forecasting for western US rivers
 VA-0023-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,VA,Medication Safety (MedSafe) Clinical Decision Support (CDS)
@@ -171,13 +171,13 @@ DOC-0030-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOC,SUVI Thematic Maps
 DHS-0035-2023,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,DHS,Identity Match Option (IMO) Process with DBIS Data Marts
 DOS-0030-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOS,Louvain Community Detection
 HHS-0007-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,3,HHS,Burn & Blast MCMs: Philips
-DOL-0009-2023,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,DOL,Official Document Validation
+DOL-0009-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOL,Official Document Validation
 DOI-0037-2023,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,2,DOI,TMDL and Data Mining Investigations
 HHS-0071-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,Application of Statistical Modeling and Natural Language Processing for Adverse Event Analysis
 VA-0008-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,VA,Digital command center
 DOL-0003-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOL,Text to Speech Conversion
 DOE-0084-2023,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,DOE,To deploy dynamic neural network optimization to minimize heat rate during ramping for coal.
-DOE-0171-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,DOE,Managing curb allocation in cities
+DOE-0171-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOE,Managing curb allocation in cities
 USDA-0001-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,USDA,Detection of pre-symptomatic HLB infected citrus
 HHS-0091-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,Emerging Chemical Hazard Intelligence Platform (ECHIP - completed)
 DOE-0155-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,"With sensor technologies and network developed, in the future, AI/ML may be used to accelerate data processing of sensor data from the sensor network."
@@ -205,11 +205,11 @@ DOE-0075-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,To apply machine learning 
 HHS-0042-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,HHS,Feedback Analysis Solution (FAS)
 DOE-0060-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,ML-based proxy models and multi- level data driven fracture network imaging to support rapid decision making.
 HHS-0130-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,Best Match: New relevance search for PubMed
-DOS-0003-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,3,DOS,Supply Chain Fraud and Risk Models
+DOS-0003-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,DOS,Supply Chain Fraud and Risk Models
 DOE-0170-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,Laboratory Automation
 DOE-0055-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,Machine learning for legacy well evaluation
 HHS-0097-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,Assessing and mitigating bias in applying Artificial Intelligence (AI) based natural language processing (NLP) of drug labeling documents
-DOE-0138-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,To use data analytics and machine learning techniques to advance understanding of the characteristics of the Emerging Paradox Oil Play
+DOE-0138-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,To use data analytics and machine learning techniques to advance understanding of the characteristics of the Emerging Paradox Oil Play
 HHS-0156-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,HHS,Text Analytics Portal
 DOE-0130-2023,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,3,DOE,To provide insights into opportunities to beneficiate and use hydrocarbon infrastructure for alternative uses such as offshore carbon storage.
 SSA-0004-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,2,SSA,CDR Model
@@ -221,7 +221,7 @@ DHS-0003-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,2,DHS,Autonomous Aerostat
 HHS-0117-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,HHS,NIDCR Digital Transformation Initiative (DTI)
 DOE-0088-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1,3,DOE,To develop 5G integrated edge computing platform for efficient component monitoring in coal-fired power plants
 DOE-0166-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,2,DOE,AI techniques for identification of suitable delivery parking spaces in an urban scenario
-DOC-0001-2023,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,DOC,Chatbot Pilot
+DOC-0001-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,DOC,Chatbot Pilot
 DOL-0001-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOL,Language Translation
 DOE-0000-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,Automated sorting of high repetition rate coherent diffraction data from XFELS
 VA-0033-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,VA,Computer-aided detection and classification of colorectal polyps
@@ -259,7 +259,7 @@ ED-0000-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,ED,Aidan Chat-bot
 DOS-0020-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOS,NLP to pull key information from unstructured text
 USAID-0003-2023,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,USAID,Long-term impacts of land-use/land-cover dynamics on surface water quality in Botswana’s reservoirs using satellite data and artificial intelligence methods: Case study of the Botswana’s Limpopo River Basin (1984-2019)
 HHS-0148-2023,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,2,HHS,Internal Referral Module (IRM)
-DOE-0049-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,DOE AI Data Infrastructure System
+DOE-0049-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,DOE AI Data Infrastructure System
 DOE-0145-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,"Use ML to enable a geophysical monitoring toolkit, and assimilate real-time modeling and data."
 NASA-0016-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,NASA,"SensorWeb: Volcano, Flood, Wildfire, and Others."
 NASA-0014-2023,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,2,NASA,Mexec Onboard Planning and Execution
@@ -306,7 +306,7 @@ DOE-0058-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,Machine learning to tool a
 HHS-0084-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,HHS,Artificial Intelligence (AI) Supported Annotation of FAERS Reports
 USDA-0012-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,USDA,Democratizing Data
 SSA-0000-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,SSA,Modernized Development Worksheet (MDW)
-DOC-0018-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOC,NN Radiation
+DOC-0018-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOC,NN Radiation
 DOC-0019-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOC,NN training software for the new generation of NCEP models
 DOI-0026-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOI,WRA.NWC.IWAA Model Application for the National IWAAs and NWC
 DOE-0080-2023,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,2,DOE,To create a data-driven multiscale phytotechnology framework for identification and remediation of leached-metals-contaminated soil.
@@ -372,10 +372,10 @@ NASA-0027-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,NASA,GCMD Keyword Recommender
 DHS-0018-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DHS,Critical Infrastructure Anomaly Alerting
 DOE-0089-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,To develop a deep-learning Artificial Intelligence model for analysis of fundamental combustion characteristics
 NASA-0008-2023,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,2,NASA,Europa Ice Floe Detection (GSFC Planetary Sciences Lab)
-DOE-0157-2023,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,1,3,DOE,"Data Analytics and Machine Learning (DAMaL) Tools for Analysis of Environment, Safety and Health (ES&H) data: Similarity Based Information Retrieval"
+DOE-0157-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,DOE,"Data Analytics and Machine Learning (DAMaL) Tools for Analysis of Environment, Safety and Health (ES&H) data: Similarity Based Information Retrieval"
 DOE-0014-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,SONIC: AI acceleration as a service
 DOE-0036-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,Computational capabilities to support experimental efforts
-GSA-0009-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,GSA,Solicitation Review Tool (SRT)
+GSA-0009-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,GSA,Solicitation Review Tool (SRT)
 HHS-0114-2023,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,2,HHS,Scientific Research Data Management System Natural Language Processing Conflict of Interest Tool
 USAID-0001-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,USAID,Gender differentiated credit scoring
 DOC-0008-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,2,DOC,AI-based automation of acoustic detection of marine mammals
@@ -475,7 +475,7 @@ DOE-0024-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,"High-performance computin
 DOE-0136-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,To use AI to calibrate the simulation model by matching simulation data with production history data.
 DOI-0030-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,DOI,DOMESTIC WELL VULNERABILITY SES INDICATORS NEW HAMPSHIRE
 SSA-0006-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,SSA,Medicare Part D Subsidy Model
-DHS-0013-2023,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,2,DHS,Advanced Analytic Enabled Forensic Investigation
+DHS-0013-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DHS,Advanced Analytic Enabled Forensic Investigation
 USDA-0008-2023,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,USDA,Artificial Intelligence for correlative statistical analysis
 DOE-0041-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,Database will be utilized to demonstrate targeted biocide strategies using AI to assess large DNA datasets.
 DOT-0013-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,DOT,PHMSA Rule Making
@@ -518,7 +518,7 @@ HHS-0104-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,Informing selection of dru
 DOE-0168-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,APT Analytics
 DOE-0025-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,"Innovation methods, processes and promising practices that can affect the speed and effectiveness of innovation processes at scale."
 DOE-0175-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,Surrogate models for probabilistic Bayesian inference
-DHS-0025-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,DHS,Text Analytics for Survey Responses (TASR)
+DHS-0025-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DHS,Text Analytics for Survey Responses (TASR)
 DOC-0012-2023,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,2,DOC,FathomNet
 HHS-0152-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,HHS,NIH Campus Steam Demand Forecaster
 DOE-0020-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,"Advanced materials science, engineering, and exploration relevant to the other key technology focus areas"
@@ -571,9 +571,9 @@ DOC-0039-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOC,Replacing unstructured WW3
 DOC-0002-2023,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,DOC,Consolidated Screening List
 HHS-0092-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,HHS,OSCAR
 VA-0005-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,3,VA,Automated eye movement analysis and diagnostic prediction of neurological disease
-DOE-0026-2023,0,0,0,0,1,0,0,0,0,1,0,1,0,0,0,0,0,3,DOE,Natural and anthropogenic disaster prevention and mitigation
+DOE-0026-2023,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,2,DOE,Natural and anthropogenic disaster prevention and mitigation
 DOI-0031-2023,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,3,DOI,Two-Dimensional Detailed Hydraulic Analysis
-HHS-0018-2023,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,2,HHS,Modeling & Simulation
+HHS-0018-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,HHS,Modeling & Simulation
 DOE-0158-2023,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,1,4,DOE,"Data Analytics and Machine Learning (DAMaL) Tools to enhance the analysis of Environment, Safety and Health (ES&H) data: Classification, Robotic Process Automation and Data Visualization"
 DOE-0064-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,Online real time system Identification
 VA-0014-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,3,VA,Precision medicine PTSD and suicidality diagnostic and predictive tool
@@ -601,7 +601,7 @@ TREAS-0002-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,TREAS,Coin quality inspectio
 VA-0035-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,2,VA,Extraction of family medical history from patient records
 USDA-0004-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,USDA,Automated Detection & Mapping of Host Plants from Ground Level Imagery
 VA-0007-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,VA,CuraPatient
-DHS-0033-2023,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,DHS,I-485 Family Matching
+DHS-0033-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DHS,I-485 Family Matching
 HHS-0047-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,HHS,"Priority Score Timeliness - forecast the time needed to work on an alert produced by Fraud Prevention System (Random Forest, Decision Tree, Gradient Boost, Generalized Linear Regression)"
 DOC-0040-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOC,Using k-means clustering to identify spatially and temporally consistent wave systems
 DOS-0027-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOS,TOPIQ
@@ -627,11 +627,11 @@ DOE-0061-2023,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,2,DOE,"ML-based reduced order mo
 DOE-0066-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,Reduce computational cost of CFD simulations that screen for more efficient intensified solvent contactor geometries.
 HHS-0095-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,Using XGBoost Machine Learning Method to Predict Antimicrobial Resistance from WGS data
 DOI-0012-2023,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,3,DOI,Autonomous Drone Inspections
-DOS-0013-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,DOS,NLP for Foreign Assistance Appropriations Analysis
+DOS-0013-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DOS,NLP for Foreign Assistance Appropriations Analysis
 DOC-0046-2023,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,DOC,AI retrieval for TM design coding and Image search
 DOE-0081-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,To create and apply machine learning algorithms to predict carbon dioxide enhanced oil revoery improvements with rich gas in the Bell Creek Field and other selected fields.
 VA-0038-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,VA,Screening for esophageal adenocarcinoma
-DOT-0005-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,3,DOT,JASC Code classification in Safety Difficulty Reports (SDR)
+DOT-0005-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOT,JASC Code classification in Safety Difficulty Reports (SDR)
 HHS-0127-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,HHS,CylanceProtect
 OPM-0000-2023,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,2,OPM,Human Resource Apprentice (HRA)
 DHS-0005-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DHS,Autonomous Surveillance Towers (Anduril)
@@ -660,9 +660,9 @@ VA-0034-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,VA,GI Genius (Medtronic)
 NASA-0030-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,NASA,Predicting streamflow with deep learning
 GSA-0010-2023,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,GSA,Classifying Qualitative Data
 DOE-0056-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,Machine learning to process multi- model data and information to aid in the identification of undocumented orphaned wells
-DOC-0011-2023,0,0,0,0,1,0,1,0,0,0,0,1,0,0,0,0,0,3,DOC,A Hybrid Statistical-Dynamical System for the Seamless Prediction of Daily Extremes and Subseasonal to Seasonal Climate Variability
+DOC-0011-2023,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,2,DOC,A Hybrid Statistical-Dynamical System for the Seamless Prediction of Daily Extremes and Subseasonal to Seasonal Climate Variability
 DOE-0016-2023,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,2,DOE,Uncertainty Quantification and Instrument Automation to enable next generation cosmological discoveries
-HHS-0041-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,2,HHS,Amazon Lex and Amazon Polly for the Marketplace Appeals Call Center
+HHS-0041-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,HHS,Amazon Lex and Amazon Polly for the Marketplace Appeals Call Center
 USAID-0013-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,USAID,NASA SERVIR - Mapping urban vulnerability using AI techniques
 DOE-0009-2023,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,2,DOE,Machine Learning for Accelerator Operations Using Big Data Analytics / L-CAPE
 NASA-0021-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,2,NASA,Pedestrian Safety Corridors for Drone Test Range
@@ -699,7 +699,7 @@ DOC-0048-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOC,Inventor Search Assistant 
 HHS-0070-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,BEAM (Bioequivalence Assessment Mate) - a Data/Text Analytics Tool to Enhance Quality and Efficiency of Bioequivalence Assessment
 GSA-0002-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,GSA,Category Taxonomy Refinement Using NLP
 HHS-0045-2023,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,HHS,"Center for Program Integrity (CPI) Fraud Prevention System Models (e.g. DMEMBITheftML, HHAProviderML)"
-VA-0039-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,2,VA,Social determinants of health extractor
+VA-0039-2023,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,VA,Social determinants of health extractor
 HHS-0025-2023,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,2,HHS,Validation Study of Deep Learning Algorithms to Explore the Potential Use of Artificial Intelligence for Public Health Surveillance of Eye Diseases
 DOE-0097-2023,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,DOE,To develop and evaluate a general drag model for gas-solid flows via physics-informed deep machine learning
 USDA-0026-2023,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,2,USDA,Cropland Data Layer
