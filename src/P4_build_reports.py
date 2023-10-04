@@ -31,14 +31,24 @@ save_dest.mkdir(exist_ok=True)
 
 ###########################################################################
 # Save the specific records
+records = pd.read_csv("data/record_level_information_FedAI_2023.csv")
+records = records.set_index("Use_Case_ID")
+record_keys = ["Department_Code", "Title"]
 
 df = preload(f_json, "theme_records", None)
 df.index.name = "Use_Case_ID"
-df.to_csv("results/record_level_theme_score.csv")
+df["total_categories"] = df.sum(axis=1)
+for key in record_keys:
+    df[key] = records[key]
+df.to_csv("results/GSA_record_level_theme_score.csv")
 
 df = preload(f_json, "theme_explain", None)
 df.index.name = "Use_Case_ID"
-df.to_csv("results/record_level_theme_explain.csv")
+df["total_categories"] = df.sum(axis=1)
+for key in record_keys:
+    df[key] = records[key]
+df.to_csv("results/GSA_record_level_theme_explain.csv")
+
 
 ###########################################################################
 

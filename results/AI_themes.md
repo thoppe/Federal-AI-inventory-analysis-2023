@@ -1,45 +1,86 @@
 # AI Themes throughout the Federal Government
 
-## 🔬 Scientific Research (417)
+## 🔬 Science And Technology; Computer Science, Mathematics & Statistics, Remote Sensing, Mapping, Quantum, Cybersecurity, Materials Science, Physics & Engineering, Earth Science (Includes Geomagnetic Fields, Geology, Earthquake Science), Electromagnetic Spectrum, Biology
+ (520)
 
-AI is used to classify projects as climate change related or not, improve numerical codes by determining drag coefficients, detect potential problems with commodities, interpret accelerator data, assess and predict post-wildfire water availability, predict suicide death trends, analyze metal-organic frameworks, design gas sensing materials, identify veterans at risk of suicide, inspect and identify defects autonomously, optimize complex models, quantify material microstructure, analyze spacecraft data, advance biomimicry research, detect invasive pests, diagnose eye conditions, monitor boiler health, classify benthic photos, detect CO2 leakage, and store electronic monitoring data on marine life.
+Artificial intelligence (AI) is used to improve accuracy and decision-making in various fields, such as photogrammetry, energy development, post-market surveillance, patient data analysis, grant application review, reservoir evaluation, drag modeling, sidewalk identification, healthcare diagnosis, public comment review, spam mitigation, and image classification.
 
-## 🔧 Infrastructure (149)
+## 🔬 Health And Medical; Research, Data, Records, Healthcare (Includes Medicines), Nutrition (Includes Diet), Safety, Toxic Substances, Public Health, International Support
+ (156)
 
-Artificial intelligence and machine learning are utilized to enhance data accuracy and analysis for various applications such as photogrammetry, patient-level clinical investigations, water availability prediction, suicide death trend prediction, drag model development, sidewalk network extraction, conflict identification in planning documents, boiler health monitoring, fisheries monitoring, power grid protection, regulatory science and innovation, infrastructure evaluation, track change detection, predictive analytics for track maintenance, temperature data collection and analysis, data storage and analysis with metadata, carbon ore data platform, offshore hazard identification, and smart tool development for offshore energy operations.
+AI is used in various projects to identify medical conditions in images, integrate patient-level EHR data for in-depth investigations, predict suicide death trends, aid in AIDS-related research, analyze grants data, forecast DSH payments, triage and interpret eye images, detect COVID-19 through cough sounds, enhance the analysis of individual case safety reports, detect data anomalies in ANDA, predict the risk of developing hepatocellular carcinoma, predict an increase in the pandemic, automate medical record review, predict clinical trials, improve diagnostic error detection, identify illicit substance use, detect new references to drug products in social media, assist vulnerable populations during the pandemic, provide clinical recommendations for chronic diseases, assist with gene indexing in PubMed articles, and detect traumatic injuries caused by burns and blasts.
 
-## 🌍 Environmental (117)
+## 🔬 Energy; Nuclear, Offshore Energy, Research, Securit, Technology/Supply
+ (73)
 
-AI is used to classify projects as climate change related or not based on natural language processing techniques, predict post-wildfire water availability, design gas sensing materials, streamline biomimicry research, monitor coal waste storage facilities, detect CO2 leakage, store electronic monitoring data, forecast algal blooms, monitor coral reef ecosystem changes, detect illegal rhino horn, map wildfire damage, analyze oil and gas well data, analyze pipeline parameters, decrease operating expenses for coal utility boilers, improve sub-seasonal forecasting of temperature and precipitation, generate water supply forecasts, analyze hydrologic data in TMDL investigations, and predict groundwater quality and its impact on surface water.
+AI is used to enhance big data analytics and machine learning applications, improve suicide risk identification for veterans, optimize energy usage and sustainability, monitor boiler health for potential failures, strengthen power grids against cyberattacks, improve measurement of critical minerals, analyze pipeline parameters for efficient maintenance, decrease operating expenses for coal utility boilers, analyze safety issues in DOE operations, collaborate on data analytics and predictive analytics, predict reservoir properties and optimize oil recovery, analyze hydrocarbon infrastructure for alternative uses, monitor component health in power plants, improve battery design and energy storage, forecast streamflow using AI/ML, analyze energy storage research and development, predict potential failure events in natural gas processes, measure coal properties accurately using sensor technology, and analyze combustion characteristics for H2-containing fuel combustors.
 
-## 🌍 Geospatial (111)
+## 🌍 Environment And Natural Resources; Agriculture, Air Quality/Pollution, Weather/Climate, Atmospheric Research And Monitoring, Coast Land Management, Forests/Vegetation, Land Cover, Fishing (As A Resource), General Ecology, Marine Botany (Underwater Plant-Life), Oceans (Excludes Marine Life), Soil/Minerals, Water Resource Management & Research
+ (67)
 
-Artificial intelligence and machine learning are used to improve data accuracy and analysis in various fields, such as photogrammetry, water availability prediction, space missions, land use planning, coastal land cover classification, streamflow correction, cloud detection, algal bloom prediction, coral reef monitoring, track maintenance, land cover mapping, product redistribution optimization, severe weather prediction, offshore hazard identification, airplane detection, convective weather assessment, disease detection in citrus trees, aquatic weed detection, and hurricane intensity estimation.
+AI is used to classify projects as climate change related or not, enhance the accuracy of pest detection at ports of entry, uncover patterns and conflicts in land use planning documents, improve the mapping of wetlands using remote sensing data, predict offshore landslide risks, operate a global early-warning system for coral reef ecosystem changes, measure critical minerals in energy sources and waste streams, track vegetation and water dynamics for drought monitoring, analyze hydrogen and natural gas pipelines, generate operational water supply forecasts, deliver predictions of groundwater quality and its impact on surface water, assess water quality effects in flooded rice production, analyze sensor datasets to identify conditions and methane leaks in natural gas pipelines, predict groundwater quality nationwide, generate drought outlooks, forecast the benefits of conservation at the field level, simulate groundwater flow and contaminant transport, and expand the ARIES modeling framework for ecosystem service economics.
 
-## 🏥 Healthcare (110)
+## 🔧 Mission-Enabling; Acquisition & Finance, Administrative (Records, Travel, Foia), Communications, Facilities/Property Management, Hr Management, Information And Communications Technology (Ict), Project Management, Safety & Security
+ (47)
 
-AI is used in various projects to improve healthcare outcomes, such as integrating patient-level EHR data for medication investigations, aiding in AIDS-related research grant prioritization, tracking veterans' mental health, optimizing COVID-19 vaccine distribution, forecasting disease progression in hepatitis C patients, ensuring privacy in tuberculosis data, predicting hepatocellular carcinoma risk, automating medical record review, analyzing X-ray properties, detecting illicit substance use, assisting vulnerable populations during COVID-19, providing clinical decision support for primary care, monitoring drug safety, transcribing clinical study data, assessing mortality in observational data, evaluating lung function, addressing bias in AI systems, improving colorectal polyp management, deduplicating reports in the FAERS database, finding colon polyps with AI, and answering public healthcare questions through conversational ChatBots.
+AI is used in various projects to verify user identity, analyze grant applications, access grants data, manage data within organizations, redact personally identifiable information, identify compliance with regulations, improve document workflows, enhance FOIA responses, detect suspicious activity, monitor power plant components, analyze cracks on facilities, secure photos, normalize and validate data, retrieve important records, improve IT interactions, automate handling of comments, consolidate immigration records, predict delivery outcomes, and analyze previously inaccessible data to enhance facility readiness.
 
-## 🔍 Cyber Intelligence (34)
+## 🏥 Veteran Care And Services; Healthcare, Research
+ (21)
 
-AI is used to improve cyber incident handling by automating data processing, enhancing threat detection, and providing tailored analytics and workflow suggestions. It also aids in detecting and redacting potential personally identifiable information, monitoring illegal cross-border traffic, optimizing power distribution systems, enhancing the security of cyber-physical systems, improving IT service interactions, countering malicious narratives on social media, and processing and analyzing large datasets for cyber defense and energy system optimization.
+Artificial intelligence (AI) is used to enhance the VA's capability to identify veterans at risk of suicide, forecast disease progression, detect traumatic injuries, predict health outcomes, and diagnose conditions early and accurately, among other applications.
 
-## 🤝 Customer Service Or Engagement (31)
+## 🚀 Transportation; Air, Ground, Sea, Infrastructure Monitoring & Improvement, Unmanned Aircraft
+ (17)
 
-AI is used to predict naturalization eligibility, provide prompt responses to inquiries, match customer input with relevant intents, assist in locating grant-related information, connect callers to appropriate hotlines, improve process efficiency, provide financial aid information, analyze free text questions and provide accurate answers, comprehend customer requirements and deliver suitable responses, collect information and guide taxpayers to useful resources, respond to customer questions about Survivor Benefits, improve interactions with end-users, analyze recorded calls for insights, automate user responses on websites, understand user queries and provide relevant knowledge articles, and enhance customer service with self-service options and speech-enabled applications.
+AI is being used to develop computer vision models that automatically extract sidewalk networks, detect dangerous low clouds, predict anomalies in flight operations, identify airplanes in satellite imagery, launch and recover aerostats autonomously, detect and track items of interest in maritime environments, optimize traffic systems, detect pedestrian traffic in real-time, and predict the likelihood of encountering icy conditions while driving.
 
-## 💡 Threat Intelligence (30)
+## 📊 Finance, Economy; Business Development, Intellectual Property Protection, Statistics, Oversight, Taxation Management
+ (13)
 
-AI is used to enhance cyber incident handling, automate threat detection and alert generation, improve system monitoring and analysis, detect and monitor illegal cross-border traffic, secure remote monitoring of foreign assistance, enhance the security of cyber-physical systems, autonomously detect and track items of interest in a maritime environment, analyze critical infrastructure networks for anomalies, identify and address malicious narratives on social media, automate the analysis of advanced persistent threat data, respond to cyber and physical threats in the power grid, predict and analyze biothreat events, protect endpoints against cyberthreats, improve cyber protections in the energy sector, and quickly process actionable tips for law enforcement.
+AI is used in various projects such as labeling cost data, estimating compliance baselines, identifying potential export markets, validating contract information, processing invoices, classifying patent applications, and aiding patent search by suggesting relevant documents.
 
-## 🌐 Language Services (23)
+## 🔍 Law And Justice; Investigations (Includes Forensics), Immigration, Border Control
+ (12)
 
-AI is used in claims document processing to identify causal language, in analyzing electronic health record data to identify outcomes, in converting written text to spoken words for more lifelike applications, in language translation for accurate translations, in developing conversational ChatBots for accurate answers, in analyzing energy storage research, in classifying spam messages and extracting entities in email analytics, in transcribing speech for cognitive decline analysis, in improving interactions with end-users through AI chat bots, in analyzing open text data for operational efficiency, in providing accurate English-Spanish translations for taxpayer accessibility, and in electronic records management for identifying and classifying data.
+AI is used in various government projects to verify user identity, create single identities across multiple systems, analyze photos for human subjects, analyze data from mobile devices for evidence and relationships, identify privileged information in documents, and enhance agency investigations by analyzing trade data.
 
-## 🕵️‍♂️ Fraud (13)
+## 🚀 Space; Spacecraft, Space Flight, Space Exploration, Celestial Objects And Planetary Analysis, Satellites (Including Iss), Cosmology, Space Matter & Astrophysics, Solar Dynamics, Astrobiology
+ (12)
 
-AI is used in various projects to verify user identity, rank providers based on program integrity guidelines, detect suspicious activity and potential fraud, predict the probability of investigation outcomes, validate data and reduce investigation resources, and predict the likelihood of misuse of resources, in order to detect fraud, waste, and abuse in different domains such as healthcare and law enforcement.
+AI is used in future space missions to process and analyze large amounts of science data, enhance the autonomy and efficiency of robotic explorers, identify and categorize ice blocks on Jupiter's moon Europa, optimize scheduling for space-based instruments, enhance the robustness of AI classification algorithms in astrophysics applications, and analyze images to identify methane clouds on Saturn's moon Titan.
 
-## 📱 Wearables (2)
+## 📚 Grants; Processing, Awarding, Information
+ (12)
 
-The AI physical therapy app utilizes wearable sensors to collect data and employs AI to analyze and provide explainable feedback, enhancing the support for physical therapy.
+AI is used in various ways such as classifying climate change related projects, predicting priority levels for grant applications, detecting non-NIH grants, automatically classifying grants, disambiguating authors, and identifying conflicts of interest in grant applications.
+
+## 🌍 Emergency Management; Planning, Preparation, Drought, Fire, Flood, Hurricanes, Tropical Cyclones, And Extreme Events, Landslide (Including Prediction), Climate Adaptation And Mitigation
+ (10)
+
+AI is used to assess and predict post-wildfire water availability, operate a global early-warning system for coral reef ecosystem changes, enhance severe weather warnings, detect anomalies through satellite imagery analysis, and predict and comprehend natural and human-caused disasters for prevention and reduction.
+
+## 🌊 Zoological; Aquatic (Includes Fish, Marine Reptiles, Coral), Biodiversity, Birds (Includes Marine Birds), Insects, Land Animals, Marine Mammals
+ (8)
+
+AI is used to automate the detection and identification of branded steller sea lions, marine mammals, green sea turtles, and individual fish, simplifying photo processing, processing acoustic data, determining population size and residency patterns, and recognizing individual fish and their respiration rate.
+
+## 🤖 General Admin; Hr, Acquisitions, Travel, Records Management
+ (6)
+
+AI is used to extract information from payroll forms, verify data with existing reports, and generate formatted files for approval and processing, saving time and improving accuracy in payroll actions. Additionally, AI is used to compare records schedules, suggest consolidation, and provide a dashboard for easy review, saving time for the Records Manager. Furthermore, AI is being evaluated to provide AI-supported assistance to HR Specialists in reviewing applicants, aiming to deliver quicker and more accurate evaluations of qualifications in the hiring process.
+
+## 🌍 Diplomacy And Trade; International Development And Humanitarian Assistance, Conduct Of Foreign Affairs, International Commerce
+ (5)
+
+AI is used in various ways, such as utilizing blockchain encryption and image analysis to enhance remote monitoring of foreign assistance, proactively monitoring trade patterns and initiating investigations, and analyzing trade flows and risks to enhance agency investigations and contribute to a knowledge graph.
+
+## 🌱 Education And Workforce; Disability Compensation, Labor Rights, Safety, Training
+ (3)
+
+AI is used to establish a social innovation lab in Morogoro, Tanzania, to provide machine vision training to young people, addressing agricultural problems and improving farming practices in the region. Additionally, AI is utilized in geospatial and remote sensing training courses that teach software and scripting techniques for machine learning, enabling change detection and utilizing earth observation tools.
+
+## 🔍 Benefit Programs; Social Security, Medicare (And Medicare Fraud), Snap
+ (1)
+
+The Center for Program Integrity (CPI) utilizes AI data models to detect potential cases of fraud, waste, and abuse in Medicare by analyzing administrative and claims data, enabling investigators to conduct further investigations.

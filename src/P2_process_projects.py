@@ -34,6 +34,9 @@ schema = Schema(f_schema)
 ##################################################################
 # Load and preprocess the data
 
+# Load the GSA taxonomy
+GSA_themes = [line for line in open("data/GSA_taxonomy.txt")]
+
 df = pd.read_csv(f_csv)
 titles = df["Title"].str.strip().str.strip(".")
 df["project_title_text"] = df["Title"] + ": \n" + df["Summary"]
@@ -172,7 +175,6 @@ modalities = list(set(modalities))
 
 ################################################################################
 
-
 # themes = chunked_list_response(text, schema["major_themes"], schema["group_themes_12"])
 # print(themes)
 
@@ -190,8 +192,13 @@ human_themes = [
     "threat intelligence",
 ]
 
-themes = human_themes
-print(themes)
+# themes = human_themes
+themes = GSA_themes
+
+GSA_dict = {}
+for theme in GSA_themes:
+    k, v = [x.strip() for x in theme.split(";")]
+    GSA_dict[k] = v
 
 # Measure each response across the themes
 theme_str = "\n".join(f"- {x}" for x in themes)
@@ -205,15 +212,27 @@ while not successful_run:
     # Run the score function
     scores = GPT.multiASK(prompt, "json", response=text)
 
+    # GSA specific, adjust the keys
+    for score in scores:
+        for key in list(score.keys()):
+            if key in GSA_dict:
+                continue
+            adjusted_key = key.split(";")[0]
+
+            assert adjusted_key in GSA_dict
+
+            val = score[key]
+            del score[key]
+            score[adjusted_key] = val
+
     # Check if all keys in themes, if not need to write code to rerun/invalidate
     for item in scores:
         for key in item:
-            if key not in themes:
-                print(key, themes)
-                assert key in themes
+            # if key not in themes:
+            if key not in GSA_dict:
+                raise (KeyError)
+                # assert key in themes
 
-
-print(scores)
 sf = pd.json_normalize(scores, meta=themes, errors="raise")
 
 # Convert to a dataframe and sort by most popular themes
@@ -236,9 +255,12 @@ for theme in sf.columns:
     idx = sf[theme] == True
 
     text_subset = np.array(text)[idx]
+
+    expanded_theme = f"{theme}. Examples: {GSA_dict[theme]}"
+
     matching_text = GPT.multiASK(
         schema["explain_score"],
-        theme=[theme] * len(text_subset),
+        theme=[expanded_theme] * len(text_subset),
         response=text_subset,
     )
 
@@ -252,19 +274,24 @@ idx = (
     ms.applymap(lambda x: "None" in x)
     | ms.applymap(lambda x: "not relevant" in x.lower())
     | ms.applymap(lambda x: "not mention" in x.lower())
+    | ms.applymap(lambda x: "not directly relevant" in x.lower())
 )
 
 # Revise the scores so we only keep those that have been found "relevant"
+sf_org = sf.copy()
 sf[:] = (~idx).astype(int)
+
+# Do not NULL out the invalid answers.
 ms[idx] = None
 
 top_themes = sf.describe().T["mean"].sort_values(ascending=False)
 top_themes = top_themes.index.values
 
+
 # Get a description for each theme
 text = np.array(text)
 samples = []
-for theme in themes:
+for theme in GSA_dict:
     # Get a random sample of the text
     tx = text[sf[theme] == True]
     tx = tokenized_sampler(tx, query_tokens)[0]  # Keep only one chunk
@@ -324,8 +351,10 @@ data = dx.to_json(orient="records", indent=2)
 # Add record level data
 df["LLM_summary_text"] = text.tolist()
 
-
 print(dx.set_index("emoji")[["theme", "positive_observations"]])
+
+# print((sf_org.sum(axis=1)==0).sum())
+# print((sf.sum(axis=1)==0).sum())
 
 # Save the usage statistics
 js = {
@@ -333,6 +362,7 @@ js = {
     "record_content": json.loads(df.to_json()),
     "department_content": json.loads(dept_df.to_json()),
     "theme_records": json.loads(sf.to_json()),
+    "theme_records_loose": json.loads(sf_org.to_json()),
     "theme_explain": json.loads(ms.to_json()),
 }
 
@@ -355,5 +385,3 @@ js["executive_summary"] = exec_sum
 
 with open(f_json, "w") as FOUT:
     FOUT.write(json.dumps(js, indent=2))
-
-print(GPT)
