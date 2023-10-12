@@ -163,6 +163,14 @@ dept_df = pd.DataFrame(dept_df)
 
 print(dept_df)
 
+
+################################################################################
+
+# Determine the safety impacts
+safety_impacts = GPT.multiASK(schema["safety_impacting"], "text", response=text)
+rights_impacts = GPT.multiASK(schema["rights_impacting"], "text", response=text)
+print(rights_impacts)
+
 ################################################################################
 
 
@@ -364,6 +372,8 @@ js = {
     "theme_records": json.loads(sf.to_json()),
     "theme_records_loose": json.loads(sf_org.to_json()),
     "theme_explain": json.loads(ms.to_json()),
+    "risk_assessment_safety" : safety_impacts,
+    "risk_assessment_rights" : rights_impacts,
 }
 
 js["meta"] = {
