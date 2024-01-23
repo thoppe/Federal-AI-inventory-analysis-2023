@@ -133,7 +133,7 @@ if save_btn:
     f_save = Path("results/vizmap.html")
     f_save.parent.mkdir(exist_ok=True)
 
-    bokeh.io.output_file(f_save, "Fed_AI_2022")
+    bokeh.io.output_file(f_save, "Fed_AI_2023")
     show(p)
     st.write(f_save)
 
