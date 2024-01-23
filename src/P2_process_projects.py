@@ -372,8 +372,8 @@ js = {
     "theme_records": json.loads(sf.to_json()),
     "theme_records_loose": json.loads(sf_org.to_json()),
     "theme_explain": json.loads(ms.to_json()),
-    "risk_assessment_safety" : safety_impacts,
-    "risk_assessment_rights" : rights_impacts,
+    "risk_assessment_safety": safety_impacts,
+    "risk_assessment_rights": rights_impacts,
 }
 
 js["meta"] = {
