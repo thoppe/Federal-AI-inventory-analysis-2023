@@ -135,7 +135,7 @@ if save_btn:
 
     bokeh.io.output_file(f_save, "Fed_AI_2022")
     show(p)
-    st.write(f_save)
+    st.write(f"Saved to {f_save}")
 
 st.bokeh_chart(p, use_container_width=True)
 st.write(app_text["footer"])
